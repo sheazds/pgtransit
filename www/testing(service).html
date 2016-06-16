@@ -1,0 +1,34 @@
+<head>
+  <title>Testing retrieving Json file</title>
+
+  <script src="lib/ionic/js/ionic.bundle.js"></script>
+  <script src="js/service.js"></script>
+</head>
+
+
+<body>
+
+<div class="mainContainer" data-ng-app="NameApp">
+  <h1>FullName</h1>
+
+  <input type="text" data-ng-model="search.$">
+
+  <div data-ng-controller="nameCtrl">
+    <table border=1>
+      <thead>
+      <tr>
+        <th>FirstName</th>
+        <th>LastName</th>
+      </tr>
+      </thead>
+      <tbody>
+      <tr data-ng-repeat="sample in names | filter:search">
+        <td>{{sample.first}}</td>
+        <td>{{sample.last}}</td>
+      </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+</body>
