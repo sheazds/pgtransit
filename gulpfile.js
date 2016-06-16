@@ -1,4 +1,5 @@
 var gulp = require('gulp');
+var inject = require('gulp-inject');
 var gutil = require('gulp-util');
 var bower = require('bower');
 var concat = require('gulp-concat');
@@ -13,6 +14,11 @@ var paths = {
 
 gulp.task('default', ['sass']);
 
+gulp.task('index', function () {
+  gulp.src('./www/index.html')
+    .pipe(inject(gulp.src('./www/css/*.css', {read: false}), {relative: true}))
+    .pipe(gulp.dest('./www'))
+});
 gulp.task('sass', function(done) {
   gulp.src('./scss/ionic.app.scss')
     .pipe(sass())
