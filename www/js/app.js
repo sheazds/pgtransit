@@ -75,7 +75,16 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             controller: 'PlaylistCtrl'
           }
         }
+      })
+
+      .state('app.schedule', {
+        url: '/schedule',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/schedule.html'
+          }
+        }
       });
-    // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/playlists');
-  });
+  // if none of the above states are matched, use this as the fallback
+  $urlRouterProvider.otherwise('/app/playlists');
+});
