@@ -49,6 +49,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+      .state('app.MapPage', {
+        url: '/MapPage',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/MapPage.html'
+          }
+        }
+      })
       .state('app.playlists', {
         url: '/playlists',
         views: {
@@ -85,7 +93,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
-      
+
       .state('app.schedule', {
         url: '/schedule',
         views: {
