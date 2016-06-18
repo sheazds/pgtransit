@@ -1,0 +1,17 @@
+[
+  {
+    "service_id": "aaAPR16-APR16-Weekday-02",
+    "date": 20160523,
+    "exception_type": 2
+  },
+  {
+    "service_id": "abJUN16-JUN16-Weekday-03",
+    "date": 20160701,
+    "exception_type": 2
+  },
+  {
+    "service_id": "abJUN16-JUN16-Weekday-03",
+    "date": 20160801,
+    "exception_type": 2
+  }
+]
