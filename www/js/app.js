@@ -6,94 +6,120 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers'])
 
-  .run(function($ionicPlatform) {
-    $ionicPlatform.ready(function() {
+  .run(function ($ionicPlatform)
+  {
+    $ionicPlatform.ready(function ()
+    {
       // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
       // for form inputs)
-      if (window.cordova && window.cordova.plugins.Keyboard) {
+      if (window.cordova && window.cordova.plugins.Keyboard)
+      {
         cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         cordova.plugins.Keyboard.disableScroll(true);
 
       }
-      if (window.StatusBar) {
+      if (window.StatusBar)
+      {
         // org.apache.cordova.statusbar required
         StatusBar.styleDefault();
       }
     });
   })
 
-  .config(function($stateProvider, $urlRouterProvider) {
+  .config(function ($stateProvider, $urlRouterProvider)
+  {
     $stateProvider
 
-      .state('app', {
-        url: '/app',
-        abstract: true,
-        templateUrl: 'templates/menu.html',
-        controller: 'AppCtrl'
-      })
+      .state('app',
+        {
+          url: '/app',
+          abstract: true,
+          templateUrl: 'templates/menu.html',
+          controller: 'AppCtrl'
+        })
 
-      .state('app.search', {
-        url: '/search',
-        views: {
-          'menuContent': {
-            templateUrl: 'templates/search.html'
+      .state('app.search',
+        {
+          url: '/search',
+          views: {
+            'menuContent':
+            {
+              templateUrl: 'templates/search.html'
+            }
           }
-        }
-      })
+        })
 
-      .state('app.browse', {
-        url: '/browse',
-        views: {
-          'menuContent': {
-            templateUrl: 'templates/browse.html'
+      .state('app.browse',
+        {
+          url: '/browse',
+          views:
+          {
+            'menuContent':
+            {
+              templateUrl: 'templates/browse.html'
+            }
           }
-        }
-      })
-      .state('app.playlists', {
+        })
+      .state('app.playlists',
+        {
         url: '/playlists',
-        views: {
-          'menuContent': {
+        views:
+        {
+          'menuContent':
+          {
             templateUrl: 'templates/playlists.html',
             controller: 'PlaylistsCtrl'
           }
         }
       })
-      .state('app.contact', {
+      .state('app.contact',
+        {
         url: '/contact',
-        views: {
-          'menuContent': {
+        views:
+        {
+          'menuContent':
+          {
             templateUrl: 'templates/contact.html'
           }
         }
       })
 
-      .state('app.single', {
+      .state('app.single',
+        {
         url: '/playlists/:playlistId',
-        views: {
-          'menuContent': {
+        views:
+        {
+          'menuContent':
+          {
             templateUrl: 'templates/playlist.html',
             controller: 'PlaylistCtrl'
           }
         }
       })
 
-      .state('app.aboutUs', {
+      .state('app.aboutUs',
+        {
         url: '/aboutUs',
-        views: {
-          'menuContent': {
+        views:
+        {
+          'menuContent':
+          {
             templateUrl: 'templates/aboutUs.html'
           }
         }
       })
-      
-      .state('app.schedule', {
+
+      .state('app.schedule',
+        {
         url: '/schedule',
-        views: {
-          'menuContent': {
+        views:
+        {
+          'menuContent':
+          {
             templateUrl: 'templates/schedule.html'
           }
         }
       });
-  // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/playlists');
-});
+    // if none of the above states are matched, use this as the fallback
+    $urlRouterProvider.otherwise('/app/playlists');
+  });
