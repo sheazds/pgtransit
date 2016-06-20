@@ -1,0 +1,106 @@
+[
+  {
+    "agency_id": 9,
+    "route_id": "1-PrinceGeorge",
+    "route_short_name": 1,
+    "route_long_name": "Heritage/10th",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "5-PrinceGeorge",
+    "route_short_name": 5,
+    "route_long_name": "Victoria/5th",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "11-PrinceGeorge",
+    "route_short_name": 11,
+    "route_long_name": "Heritage/10th",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "15-PrinceGeorge",
+    "route_short_name": 15,
+    "route_long_name": "UNBC/15th",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "16-PrinceGeorge",
+    "route_short_name": 16,
+    "route_long_name": "UNBC/College Heights",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "46-PrinceGeorge",
+    "route_short_name": 46,
+    "route_long_name": "Queensway",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "47-PrinceGeorge",
+    "route_short_name": 47,
+    "route_long_name": "Reverse Queensway",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "55-PrinceGeorge",
+    "route_short_name": 55,
+    "route_long_name": "5th/Victoria",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "88-PrinceGeorge",
+    "route_short_name": 88,
+    "route_long_name": "Westgate",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "89-PrinceGeorge",
+    "route_short_name": 89,
+    "route_long_name": "Hart",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "91-PrinceGeorge",
+    "route_short_name": 91,
+    "route_long_name": "Spruceland/Hart",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "96-PrinceGeorge",
+    "route_short_name": 96,
+    "route_long_name": "Kelly via N. Nechako",
+    "route_type": 3,
+    "route_desc": 0
+  },
+  {
+    "agency_id": 9,
+    "route_id": "97-PrinceGeorge",
+    "route_short_name": 97,
+    "route_long_name": "Kelly via John Hart Hwy",
+    "route_type": 3,
+    "route_desc": 0
+  }
+]
