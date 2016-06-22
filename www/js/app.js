@@ -119,7 +119,19 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/schedule.html'
           }
         }
-      });
+      })
+      .state('app.welcome',
+        {
+          url: '/welcome',
+          views:
+          {
+            'menuContent':
+            {
+              templateUrl: 'templates/welcome.html'
+            }
+          }
+        })
+    ;
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/playlists');
+    $urlRouterProvider.otherwise('/app/welcome');
   });
