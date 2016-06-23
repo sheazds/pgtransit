@@ -15,17 +15,21 @@ var paths = {
 
 gulp.task('default', ['sass']);
 
-gulp.task('index', function () {
+gulp.task('index', function ()
+{
   gulp.src('./www/index.html')
     .pipe(inject(gulp.src('./www/css/*.css', {read: false}), {relative: true}))
     .pipe(gulp.dest('./www'))
 });
-gulp.task('sass', function(done) {
+
+gulp.task('sass', function(done)
+{
   gulp.src('./scss/ionic.app.scss')
     .pipe(sass())
     .on('error', sass.logError)
     .pipe(gulp.dest('./www/css/'))
-    .pipe(minifyCss({
+    .pipe(minifyCss
+    ({
       keepSpecialComments: 0
     }))
     .pipe(rename({ extname: '.min.css' }))
@@ -33,19 +37,24 @@ gulp.task('sass', function(done) {
     .on('end', done);
 });
 
-gulp.task('watch', function() {
+gulp.task('watch', function()
+{
   gulp.watch(paths.sass, ['sass']);
 });
 
-gulp.task('install', ['git-check'], function() {
+gulp.task('install', ['git-check'], function()
+{
   return bower.commands.install()
-    .on('log', function(data) {
+    .on('log', function(data)
+    {
       gutil.log('bower', gutil.colors.cyan(data.id), data.message);
     });
 });
 
-gulp.task('git-check', function(done) {
-  if (!sh.which('git')) {
+gulp.task('git-check', function(done)
+{
+  if (!sh.which('git'))
+  {
     console.log(
       '  ' + gutil.colors.red('Git is not installed.'),
       '\n  Git, the version control system, is required to download Ionic.',
@@ -58,7 +67,8 @@ gulp.task('git-check', function(done) {
 });
 
 // Task to inject JavaScript files into index.html
-gulp.task('index', function() {
+gulp.task('index', function()
+{
   var target = gulp.src('./www/index.html');
   var sources = gulp.src(['./www/js/**/*.js'], {read: false} );
 
