@@ -60,6 +60,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             }
           }
         })
+      .state('app.settings', {
+        url: '/settings',
+        views: {
+          'menuContent': {
+            templateUrl: 'templates/settings.html'
+          }
+        }
+      })
       .state('app.playlists',
         {
         url: '/playlists',
