@@ -109,6 +109,18 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
+      .state('app.nextBus',
+        {
+        url: '/nextBus',
+        views:
+        {
+          'menuContent':
+          {
+            templateUrl: 'templates/nextBus.html'
+          }
+        }
+      })
+
       .state('app.schedule',
         {
         url: '/schedule',
