@@ -109,14 +109,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
-      .state('app.nextBus',
+      .state('app.currentLocation',
         {
-        url: '/nextBus',
+        url: '/currentLocation',
         views:
         {
           'menuContent':
           {
-            templateUrl: 'templates/nextBus.html'
+            templateUrl: 'templates/currentLocation.html',
+            controller: 'CurrentLocationCtrl'
           }
         }
       })

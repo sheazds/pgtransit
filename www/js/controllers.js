@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['ionic', 'ngCordova'])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
@@ -50,6 +50,24 @@ angular.module('starter.controllers', [])
     { title: 'Rap', id: 5 },
     { title: 'Cowbell', id: 6 }
   ];
+})
+
+.controller('CurrentLocationCtrl', function($scope, $cordovaGeolocation, $ionicPlatform)
+{
+    $ionicPlatform.ready(function()
+    {
+    var posOptions = {timeout: 10000, enableHighAccuracy: false};
+        $cordovaGeolocation.getCurrentPosition(posOptions)
+            .then(function(position)
+            {
+            $scope.coords = position.coords;
+            },
+            function(err)
+            {
+            console.log('getCurrentPosition error: ' + angular.toJson(err))
+            });
+    });
+
 })
 
 .controller('PlaylistCtrl', function($scope, $stateParams) {
