@@ -70,5 +70,17 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 
 })
 
+
+
+.controller("stopCtrl", function ($scope, stopService)
+{
+	var promise = stopService.getCo();
+	promise.then(function (data)
+	{
+		$scope.co = data.data;
+		console.log($scope.co);
+	});
+})
+
 .controller('PlaylistCtrl', function($scope, $stateParams) {
 });

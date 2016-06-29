@@ -4,7 +4,7 @@ var app = angular.module("NameApp", []);
 app.service("nameService", function ($http, $q)
 {
 	var deferred = $q.defer();
-	$http.get('resource/sample.json').then(function (data)
+	$http.get('resource/Sample.json').then(function (data)
 	{
 		deferred.resolve(data);
 	});
