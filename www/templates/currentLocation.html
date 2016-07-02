@@ -2,18 +2,16 @@
   <ion-content class="has-header">
     My current coordinates should be listed under:
     <div ng-controller="CurrentLocationCtrl">
-      <td>{{coords.latitude}}</td>
-      <td>{{coords.longitude}}</td>
+      <td>{{lat}}</td>
+      <td>{{long}}</td>
 
-      <p>new latitude : {{ coords.latitude + 0.02}}</p>
-      <p>new longitude : {{ coords.longitude - 0.03 }}</p>
     </div>
     <p>And your close bus stops are:</p>
 
     <div data-ng-controller="stopCtrl">
-        <div data-ng-repeat="s in co" ng-if="s.stop_lat >= (coords.latitude + 0.05) &&
-        s.stop_lat >= (coords.latitude - 0.05) && s.stop_lon <= (coords.longitude + 0.05)
-        && s.stop_lon <= (coords.longitude - 0.05)">
+        <div data-ng-repeat="s in co" ng-if="s.stop_lat >= (lat + 0.05) &&
+        s.stop_lat >= (lat - 0.05) && s.stop_lon <= (long + 0.05)
+        && s.stop_lon <= (long - 0.05)">
 
           <td>{{s.stop_name}}</td>
 
@@ -21,4 +19,4 @@
 
     </div>
   </ion-content>
-<  on-view>
+</ion-view>

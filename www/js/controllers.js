@@ -56,11 +56,12 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 {
     $ionicPlatform.ready(function()
     {
-    var posOptions = {timeout: 10000, enableHighAccuracy: false};
+    var posOptions = {timeout: 10000, enableHighAccuracy: true};
         $cordovaGeolocation.getCurrentPosition(posOptions)
             .then(function(position)
             {
-            $scope.coords = position.coords;
+            $scope.lat  = position.coords.latitude
+            $scope.long = position.coords.longitude
             },
             function(err)
             {
