@@ -8,7 +8,18 @@ angular.module('starter.controllers', [])
   // listen for the $ionicView.enter event:
   //$scope.$on('$ionicView.enter', function(e) {
   //});
-
+	$scope.storageAvailable = function(type) {
+		try {
+			var storage = window[type],
+				x = '__storage_test__';
+			storage.setItem(x, x);
+			storage.removeItem(x);
+			return true;
+		}
+		catch(e) {
+			return false;
+		}
+	}
 })
 
 .controller('MapCtrl', function($scope)
@@ -43,6 +54,13 @@ angular.module('starter.controllers', [])
 
 .controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
 {
+	$scope.firstLoad = function()
+	{
+		if(localStorage.getItem('loadToken')!==null)
+		{
+			$scope.startApp();
+		}
+	}
 
 	$ionicSideMenuDelegate.canDragContent(false);
 
@@ -54,6 +72,7 @@ angular.module('starter.controllers', [])
 
     $scope.startApp = function()
     {
+    	localStorage.setItem('loadToken', 'Loaded')
     	$ionicSideMenuDelegate.canDragContent(true);
     	$ionicHistory.nextViewOptions(
         	{
