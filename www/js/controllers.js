@@ -39,4 +39,42 @@ angular.module('starter.controllers', [])
       fullscreenControl: true
     });
   }
+})
+
+.controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
+{
+
+	$ionicSideMenuDelegate.canDragContent(false);
+
+	$scope.options = {
+      loop: false,
+      effect: 'scroll',
+      speed: 500,
+    };
+
+    $scope.startApp = function()
+    {
+    	$ionicSideMenuDelegate.canDragContent(true);
+    	$ionicHistory.nextViewOptions(
+        	{
+        		disableBack: true
+        	});
+    	$state.go('app.schedule');
+    };
+
+    $scope.next = function()
+    {
+    	$ionicSlideBoxDelegate.next();
+    };
+
+    $scope.previous = function()
+    {
+    	$ionicSlideBoxDelegate.previous();
+    };
+
+    $scope.slideChanged = function(index)
+    {
+    	$scope.slideIndex = index;
+    };
+
 });

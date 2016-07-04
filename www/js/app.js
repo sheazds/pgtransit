@@ -103,7 +103,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         {
           'menuContent':
           {
-            templateUrl: 'templates/welcome.html'
+            templateUrl: 'templates/welcome.html',
+            controller: 'WelcomeCtrl'
           }
         }
       })
