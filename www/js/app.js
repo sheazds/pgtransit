@@ -6,6 +6,20 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova'])
 
+  .service("stopService", function ($http, $q)
+  {
+    var deferred = $q.defer();
+    $http.get('resource/Stops.json').then(function (data)
+    {
+      deferred.resolve(data);
+    });
+
+    this.getCo = function ()
+    {
+      return deferred.promise;
+    }
+  })
+
   .run(function ($ionicPlatform)
   {
     $ionicPlatform.ready(function ()
@@ -81,6 +95,19 @@ angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova'])
           'menuContent':
           {
             templateUrl: 'templates/about.html'
+          }
+        }
+      })
+
+      .state('app.currentLocation',
+        {
+        url: '/currentLocation',
+        views:
+        {
+          'menuContent':
+          {
+            templateUrl: 'templates/currentLocation.html',
+            controller: 'CurrentLocationCtrl'
           }
         }
       })

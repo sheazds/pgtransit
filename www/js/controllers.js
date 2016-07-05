@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['ionic', 'ngCordova'])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout)
 {
@@ -11,6 +11,33 @@ angular.module('starter.controllers', [])
 
 })
 
+  .controller('CurrentLocationCtrl', function($scope, $cordovaGeolocation, $ionicPlatform)
+  {
+    $ionicPlatform.ready(function()
+    {
+      var posOptions = {timeout: 10000, enableHighAccuracy: true};
+      $cordovaGeolocation.getCurrentPosition(posOptions)
+          .then(function(position)
+              {
+                $scope.lat  = position.coords.latitude
+                $scope.long = position.coords.longitude
+              },
+              function(err)
+              {
+                console.log('getCurrentPosition error: ' + angular.toJson(err))
+              });
+    });
+  
+  })
+  .controller("stopCtrl", function ($scope, stopService)
+  {
+    var promise = stopService.getCo();
+    promise.then(function (data)
+    {
+      $scope.co = data.data;
+      console.log($scope.co);
+    });
+  })
 .controller('MapCtrl', function($scope)
 {
   function initMap()
