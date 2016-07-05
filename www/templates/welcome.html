@@ -1,0 +1,17 @@
+<ion-view view-title="Welcome">
+  <ion-content scroll="false">
+    <!--May be replaced by ion-slides as slide-box is being deprecated -->
+    <ion-slide-box on-slide-changed="slideHasChanged($index)">
+      <!-- each slide holds a div which holds the content to be slid-->
+      <ion-slide>
+        <div class="box 1"><img src="img/welcomeImage1.jpg"></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="box 2"><img src="img/welcomeImage2.jpg"></div>
+      </ion-slide>
+      <ion-slide>
+        <div class="box 3"><img src="img/welcomeImage3.jpg"></div>
+      </ion-slide>
+    </ion-slide-box>
+  </ion-content>
+</ion-view>

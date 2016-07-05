@@ -30,7 +30,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       {
         cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         cordova.plugins.Keyboard.disableScroll(true);
-
       }
       if (window.StatusBar)
       {
@@ -52,42 +51,31 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           controller: 'AppCtrl'
         })
 
-      .state('app.search',
-        {
-          url: '/search',
-          views: {
-            'menuContent':
-            {
-              templateUrl: 'templates/search.html'
-            }
-          }
-        })
-
-      .state('app.browse',
-        {
-          url: '/browse',
-          views:
-          {
-            'menuContent':
-            {
-              templateUrl: 'templates/browse.html'
-            }
-          }
-        })
-      .state('app.playlists',
-        {
-        url: '/playlists',
-        views:
-        {
+      .state('app.map',
+      {
+        url: '/map',
+        views: {
           'menuContent':
           {
-            templateUrl: 'templates/playlists.html',
-            controller: 'PlaylistsCtrl'
+            templateUrl: 'templates/map.html',
+            controller: 'MapCtrl'
           }
         }
       })
+
+      .state('app.settings',
+      {
+        url: '/settings',
+        views: {
+          'menuContent':
+          {
+            templateUrl: 'templates/settings.html'
+          }
+        }
+      })
+
       .state('app.contact',
-        {
+      {
         url: '/contact',
         views:
         {
@@ -98,27 +86,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
 
-      .state('app.single',
-        {
-        url: '/playlists/:playlistId',
+      .state('app.about',
+      {
+        url: '/about',
         views:
         {
           'menuContent':
           {
-            templateUrl: 'templates/playlist.html',
-            controller: 'PlaylistCtrl'
-          }
-        }
-      })
-
-      .state('app.aboutUs',
-        {
-        url: '/aboutUs',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/aboutUs.html'
+            templateUrl: 'templates/about.html'
           }
         }
       })
@@ -137,7 +112,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       })
 
       .state('app.schedule',
-        {
+      {
         url: '/schedule',
         views:
         {
@@ -146,7 +121,22 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/schedule.html'
           }
         }
-      });
+      })
+
+      .state('app.welcome',
+      {
+        url: '/welcome',
+        views:
+        {
+          'menuContent':
+          {
+            templateUrl: 'templates/welcome.html'
+          }
+        }
+      })
+    ;
+
     // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/playlists');
-  });
+    $urlRouterProvider.otherwise('/app/welcome');
+  })
+;
