@@ -4,7 +4,21 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers'])
+angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova'])
+
+  .service("stopService", function ($http, $q)
+  {
+    var deferred = $q.defer();
+    $http.get('resource/Stops.json').then(function (data)
+    {
+      deferred.resolve(data);
+    });
+
+    this.getCo = function ()
+    {
+      return deferred.promise;
+    }
+  })
 
   .run(function ($ionicPlatform)
   {
@@ -16,7 +30,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       {
         cordova.plugins.Keyboard.hideKeyboardAccessoryBar(true);
         cordova.plugins.Keyboard.disableScroll(true);
-
       }
       if (window.StatusBar)
       {
@@ -38,87 +51,69 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           controller: 'AppCtrl'
         })
 
-      .state('app.search',
-        {
-          url: '/search',
-          views: {
-            'menuContent':
-            {
-              templateUrl: 'templates/search.html'
-            }
-          }
-        })
-
-      .state('app.browse',
-        {
-          url: '/browse',
-          views:
+      .state('app.map',
+      {
+        url: '/map',
+        views: {
+          'menuContent':
           {
-            'menuContent':
-            {
-              templateUrl: 'templates/browse.html'
-            }
+            templateUrl: 'templates/map.html',
+            controller: 'MapCtrl'
           }
-        })
-      .state('app.settings', {
+        }
+      })
+
+      .state('app.settings',
+      {
         url: '/settings',
         views: {
-          'menuContent': {
+          'menuContent':
+          {
             templateUrl: 'templates/settings.html'
           }
         }
       })
-      .state('app.playlists',
-        {
-        url: '/playlists',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/playlists.html',
-            controller: 'PlaylistsCtrl'
-          }
-        }
-      })
+
       .state('app.contact',
-        {
+      {
         url: '/contact',
         views:
         {
           'menuContent':
           {
-            templateUrl: 'templates/contact.html'
+            templateUrl: 'templates/contact.html',
+            controller: 'ContactCtrl'
           }
         }
       })
 
-      .state('app.single',
-        {
-        url: '/playlists/:playlistId',
+      .state('app.about',
+      {
+        url: '/about',
         views:
         {
           'menuContent':
           {
-            templateUrl: 'templates/playlist.html',
-            controller: 'PlaylistCtrl'
+            templateUrl: 'templates/about.html'
           }
         }
       })
 
-      .state('app.aboutUs',
+      .state('app.currentLocation',
         {
-        url: '/aboutUs',
+        url: '/currentLocation',
         views:
         {
           'menuContent':
           {
-            templateUrl: 'templates/aboutUs.html'
+            templateUrl: 'templates/currentLocation.html',
+            controller: 'CurrentLocationCtrl'
           }
         }
       })
 
       .state('app.schedule',
-        {
+      {
         url: '/schedule',
         views:
         {
@@ -128,18 +123,21 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
+
       .state('app.welcome',
+      {
+        url: '/welcome',
+        views:
         {
-          url: '/welcome',
-          views:
+          'menuContent':
           {
-            'menuContent':
-            {
-              templateUrl: 'templates/welcome.html'
-            }
+            templateUrl: 'templates/welcome.html'
           }
-        })
+        }
+      })
     ;
+
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/welcome');
-  });
+  })
+;
