@@ -4,9 +4,9 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers'])
+angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova'])
 
-  .run(function ($ionicPlatform)
+  .run(function ($ionicPlatform, $cordovaSQLite)
   {
     $ionicPlatform.ready(function ()
     {
@@ -23,6 +23,9 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         // org.apache.cordova.statusbar required
         StatusBar.styleDefault();
       }
+      // creating DB here
+      db = $cordovaSQLite.openDB("my.db");
+      $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS people (id integer primary key, firstname text, lastname text)");
     });
   })
 
