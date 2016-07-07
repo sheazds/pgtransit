@@ -68,7 +68,7 @@ angular.module('starter.controllers', [])
   }
 })
 
-DB.controller("DBController", function($scope, $cordovaSQLite)
+.controller("DBController", function($scope, $cordovaSQLite)
 {
 
     $scope.insert = function(firstname, lastname)
@@ -101,7 +101,7 @@ DB.controller("DBController", function($scope, $cordovaSQLite)
         });
     }
 
-});
+})
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.playlists = [
@@ -141,4 +141,26 @@ DB.controller("DBController", function($scope, $cordovaSQLite)
             + "Version: "       + $scope.version      + "\r\n"
         ));
   }
+})
+
+.controller('NotificationCtrl', function($scope, $cordovaLocalNotification, $ionicPlatform) {
+
+    $ionicPlatform.ready(function ()
+    {
+
+        $scope.scheduleSingleNotification = function ()
+        {
+        console.log('shit worked');
+          $cordovaLocalNotification.schedule({
+            id: 1,
+            title: 'Notification 1',
+            text: 'test notification',
+            data: {
+              customProperty: 'custom value'
+            }
+          }).then(function (result) {
+            console.log('Notification 1 triggered');
+          });
+        };
+    });
 });

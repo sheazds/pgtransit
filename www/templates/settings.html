@@ -1,7 +1,10 @@
 <ion-view view-title="Settings">
-    <ion-content>
+
+  <ion-content>
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src 'self' 'unsafe-inline' 'unsafe-eval' *; style-src  'self' 'unsafe-inline' *">
       <h1>Settings</h1>
         <div class="settings">
+
           <style media="screen" type="text/css">
 
             .onoffswitch
@@ -66,11 +69,13 @@
             Name: <input type="text" name="name" id="username" value="" />
           </form>
 
-
+          <button class="button button-full button-positive" data-ng-controller="NotificationCtrl" data-ng-click="scheduleSingleNotification()">
+            Show Local Notification (1)
+          </button>
           <h2>Enable Notifictions</h2>
 
           <div class="onoffswitch">
-            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch-1" checked>
+            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox " data-ng-controller="NotificationCtrl" data-ng-click="scheduleSingleNotification()" id="myonoffswitch-1" checked>
             <label class="onoffswitch-label" for="myonoffswitch-1">
               <span class="onoffswitch-inner"></span>
               <span class="onoffswitch-switch"></span>
@@ -88,6 +93,6 @@
 
         </div>
     </ion-content>
-  </ion-view>
+</ion-view>
 
 

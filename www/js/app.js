@@ -4,7 +4,7 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers'])
+angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 
   .run(function ($ionicPlatform, $cordovaSQLite)
   {
@@ -24,7 +24,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         StatusBar.styleDefault();
       }
       // creating DB here
-      db = $cordovaSQLite.openDB("my.db");
+      db = $cordovaSQLite.openDB("name.db");
       $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS people (id integer primary key, firstname text, lastname text)");
     });
   })
@@ -59,6 +59,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         views: {
           'menuContent': {
             templateUrl: 'templates/settings.html'
+
           }
         }
       })
@@ -123,7 +124,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           }
         }
       })
-
       .state('app.welcome',
       {
         url: '/welcome',
@@ -136,6 +136,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       })
     ;
+
 
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/app/welcome');
