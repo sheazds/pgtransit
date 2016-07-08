@@ -4,7 +4,21 @@
 // 'starter' is the name of this angular module example (also set in a <body> attribute in index.html)
 // the 2nd parameter is an array of 'requires'
 // 'starter.controllers' is found in controllers.js
-angular.module('starter', ['ionic', 'starter.controllers'])
+angular.module('starter', ['ionic', 'starter.controllers', 'ngCordova'])
+
+  .service("stopService", function ($http, $q)
+  {
+    var deferred = $q.defer();
+    $http.get('resource/Stops.json').then(function (data)
+    {
+      deferred.resolve(data);
+    });
+
+    this.getCo = function ()
+    {
+      return deferred.promise;
+    }
+  })
 
   .run(function ($ionicPlatform)
   {
@@ -67,7 +81,8 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         {
           'menuContent':
           {
-            templateUrl: 'templates/contact.html'
+            templateUrl: 'templates/contact.html',
+            controller: 'ContactCtrl'
           }
         }
       })
@@ -80,6 +95,19 @@ angular.module('starter', ['ionic', 'starter.controllers'])
           'menuContent':
           {
             templateUrl: 'templates/about.html'
+          }
+        }
+      })
+
+      .state('app.currentLocation',
+        {
+        url: '/currentLocation',
+        views:
+        {
+          'menuContent':
+          {
+            templateUrl: 'templates/currentLocation.html',
+            controller: 'CurrentLocationCtrl'
           }
         }
       })
