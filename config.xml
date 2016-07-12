@@ -13,6 +13,8 @@
     </author>
     <content src="index.html" />
     <access launch-external="true" origin="mailto:*" />
+    <access origin="tel:*" launch-external="true" />
+    <allow-intent href="tel:*" />
     <allow-intent href="mailto:*" />
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
@@ -45,5 +47,7 @@
         <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
+    <plugin name="cordova-plugin-device" spec="~1.1.2" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
+    <plugin name="cordova-plugin-geolocation" spec="~2.2.0" />
 </widget>
