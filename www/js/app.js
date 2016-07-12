@@ -88,6 +88,18 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         }
       })
 
+      .state('app.weather',
+      {
+        url: '/weather',
+        views: {
+          'menuContent':
+          {
+            templateUrl: 'templates/weather.html',
+            controller: 'WeatherCtrl'
+          }
+        }
+      })
+
       .state('app.about',
       {
         url: '/about',
@@ -131,7 +143,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         {
           'menuContent':
           {
-            templateUrl: 'templates/welcome.html'
+            templateUrl: 'templates/welcome.html',
+            controller: 'WelcomeCtrl'
           }
         }
       })
