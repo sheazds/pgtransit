@@ -22,24 +22,154 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 	}
 })
 
-  .controller('CurrentLocationCtrl', function($scope, $cordovaGeolocation, $ionicPlatform)
-  {
-    $ionicPlatform.ready(function()
-    {
-      var posOptions = {timeout: 10000, enableHighAccuracy: true};
-      $cordovaGeolocation.getCurrentPosition(posOptions)
-          .then(function(position)
-              {
-                $scope.lat  = position.coords.latitude
-                $scope.long = position.coords.longitude
-              },
-              function(err)
-              {
-                console.log('getCurrentPosition error: ' + angular.toJson(err))
-              });
-    });
+	.controller('NearMeLoadCtrl', function($scope, $state, $cordovaGeolocation, $ionicPlatform, $ionicHistory, $ionicLoading, locationService)
+	{
+		$ionicLoading.show();
 
-  })
+		$ionicPlatform.ready(function()
+		{
+		  if(locationService.getLat() == null)
+		  {
+			console.log("Location Null, Getting Location");
+			var posOptions = {timeout: 10000, enableHighAccuracy: true};
+			$cordovaGeolocation.getCurrentPosition(posOptions).then(function(position)
+			{
+			  locationService.setLat(position.coords.latitude)
+			  locationService.setLong(position.coords.longitude)
+			  $ionicHistory.nextViewOptions({disableBack: true});
+			  $ionicLoading.hide();
+			  $state.go('app.nearMe');
+			},
+			function(err)
+			{
+			  $ionicLoading.hide();
+			  $ionicLoading.show(
+			  {
+				template: 'Could not find location. Please try again later.',
+				duration: 2000
+			  });
+			  $ionicHistory.nextViewOptions({disableBack: true});
+			  $state.go('app.schedule');
+			});
+		  }
+		  else
+		  {
+			console.log("Location allready set, redirecting");
+			$ionicLoading.hide();
+			$ionicHistory.nextViewOptions({disableBack: true});
+			$state.go('app.nearMe');
+		  }
+	  });
+	})
+
+	.controller("NearMeCtrl", function ($scope, $state, $ionicHistory, stopService, locationService)
+	{
+	  $scope.loadMap = function()
+	  {
+		$state.go('app.nearMeMap');
+	  };
+
+	  if(locationService.getLat() == null)
+	  {
+		console.log("Location not set, Ridirecting")
+		$ionicHistory.nextViewOptions({disableBack: true});
+		$state.go('app.nearMeLoad');
+	  }
+	  else
+	  {
+		console.log("Location set")
+		$scope.lat = locationService.getLat();
+		$scope.long = locationService.getLong();
+	  }
+
+		var promise = stopService.getCo();
+		promise.then(function (data)
+		{
+			$scope.co = data.data;
+		});
+	})
+
+	.controller("NearMeMapCtrl", function ($scope, $state, $ionicHistory, $ionicPlatform, stopService, locationService)
+	{
+	  //Check if location is set, if not redirect to get it
+	  if(locationService.getLat() == null)
+	  {
+		console.log("Location not set, Ridirecting")
+		$ionicHistory.nextViewOptions({disableBack: true});
+		$state.go('app.nearMeLoad');
+	  }
+	  //If location is set generate map
+	  else
+	  {
+		$ionicPlatform.ready(function()
+		{
+		  $scope.lat = locationService.getLat();
+		  $scope.long = locationService.getLong();
+
+		  var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+
+		  var mapOptions =
+		  {
+			center: latLng,
+			zoom: 16,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		  };
+
+		  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+		  //add users current location as a marker
+		  //NOTE Bounce animation must be used or else marker disappears on android
+		  var myLocation = new google.maps.Marker(
+		  {
+			position: new google.maps.LatLng($scope.lat, $scope.long),
+			map: map,
+			animation: google.maps.Animation.BOUNCE,
+			title: "My Location"
+		  });
+
+
+		  //Add other Bus Stop Markers
+		  var infoWindow = new google.maps.InfoWindow();
+
+		  //NOTE Bounce animation must be used or else marker disappears on android
+		  var createMarker = function (info)
+		  {
+			var marker = new google.maps.Marker(
+			{
+			  position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
+			  map: map,
+			  animation: google.maps.Animation.BOUNCE,
+			  title: info.stop_name,
+			  icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png'
+			});
+			google.maps.event.addListener(marker, 'click', function()
+			{
+			  infoWindow.setContent(marker.title);
+			  infoWindow.open($scope.map, marker)
+			});
+		  }
+
+		  //Get stops from Json
+		  var promise = stopService.getCo();
+		  promise.then(function (data)
+		  {
+			$scope.co = data.data;
+			//Check if nearby
+			for (i=0; i<$scope.co.length; i++)
+			{
+			  if( $scope.co[i].stop_lat < $scope.lat + 0.005 &&
+				  $scope.co[i].stop_lat > $scope.lat - 0.005 &&
+				  $scope.co[i].stop_lon < $scope.long + 0.005 &&
+				  $scope.co[i].stop_lon > $scope.long - 0.005)
+			  {
+				createMarker($scope.co[i]);
+			  }
+			}
+		  });
+		})
+	  }
+	})
+
 	.controller('WeatherCtrl', function($scope, $http, $ionicLoading)
 	{
 		var directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
@@ -140,35 +270,85 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
       console.log($scope.co);
     });
   })
-.controller('MapCtrl', function($scope)
-{
-  function initMap()
-  {
-    var map = new google.maps.Map(document.getElementById('map'),
-    {
-      zoom: 13,
-      center: {lat: 53.91706409999999, lng: -122.7496693},
-      mapTypeControl: true,
-      mapTypeControlOptions:
-      {
-        style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-        position: google.maps.ControlPosition.TOP_CENTER
-      },
-      zoomControl: true,
-      zoomControlOptions:
-      {
-        position: google.maps.ControlPosition.LEFT_CENTER
-      },
-      scaleControl: true,
-      streetViewControl: true,
-      streetViewControlOptions:
-      {
-        position: google.maps.ControlPosition.LEFT_TOP
-      },
-      fullscreenControl: true
-    });
-  }
-})
+  .controller('MapLoadCtrl', function($scope, $state, $cordovaGeolocation, $ionicPlatform, $ionicHistory, $ionicLoading, locationService)
+  	{
+  		$ionicLoading.show();
+
+  		$ionicPlatform.ready(function()
+  		{
+  		  if(locationService.getLat() == null)
+  		  {
+  			console.log("Location Null, Getting Location");
+  			var posOptions = {timeout: 10000, enableHighAccuracy: true};
+  			$cordovaGeolocation.getCurrentPosition(posOptions).then(function(position)
+  			{
+  			  locationService.setLat(position.coords.latitude)
+  			  locationService.setLong(position.coords.longitude)
+  			  $ionicHistory.nextViewOptions({disableBack: true});
+  			  $ionicLoading.hide();
+  			  $state.go('app.map');
+  			},
+  			function(err)
+  			{
+  			  $ionicLoading.hide();
+  			  $ionicLoading.show(
+  			  {
+  				template: 'Could not find location. Please try again later.',
+  				duration: 2000
+  			  });
+  			  $ionicHistory.nextViewOptions({disableBack: true});
+  			  $state.go('app.schedule');
+  			});
+  		  }
+  		  else
+  		  {
+  			console.log("Location allready set, redirecting");
+  			$ionicLoading.hide();
+  			$ionicHistory.nextViewOptions({disableBack: true});
+  			$state.go('app.map');
+  		  }
+  	  });
+  	})
+	.controller('MapCtrl', function($scope, $state, $ionicHistory, $ionicPlatform, locationService)
+	{
+	  //Check if location is set, if not redirect to get it
+	  if(locationService.getLat() == null)
+	  {
+		console.log("Location not set, Ridirecting")
+		$ionicHistory.nextViewOptions({disableBack: true});
+		$state.go('app.mapLoad');
+	  }
+	  //If location is set generate map
+	  else
+	  {
+		$ionicPlatform.ready(function()
+		{
+		  $scope.lat = locationService.getLat();
+		  $scope.long = locationService.getLong();
+
+		  var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+
+		  var mapOptions =
+		  {
+			center: latLng,
+			zoom: 16,
+			mapTypeId: google.maps.MapTypeId.ROADMAP
+		  };
+
+		  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+
+		  //add users current location as a marker
+		  //NOTE Bounce animation must be used or else marker disappears on android
+		  var myLocation = new google.maps.Marker(
+		  {
+			position: new google.maps.LatLng($scope.lat, $scope.long),
+			map: map,
+			animation: google.maps.Animation.BOUNCE,
+			title: "My Location"
+		  });
+		})
+	  }
+	})
 
     .controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
     {
