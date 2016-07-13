@@ -118,29 +118,29 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 		  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
 		  //add users current location as a marker
-		  //NOTE Bounce animation must be used or else marker disappears on android
 		  var myLocation = new google.maps.Marker(
 		  {
 			position: new google.maps.LatLng($scope.lat, $scope.long),
 			map: map,
-			animation: google.maps.Animation.BOUNCE,
-			title: "My Location"
+			animation: google.maps.Animation.DROP,
+			title: "My Location",
+			optimized: false
 		  });
 
 
 		  //Add other Bus Stop Markers
 		  var infoWindow = new google.maps.InfoWindow();
 
-		  //NOTE Bounce animation must be used or else marker disappears on android
 		  var createMarker = function (info)
 		  {
 			var marker = new google.maps.Marker(
 			{
 			  position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
 			  map: map,
-			  animation: google.maps.Animation.BOUNCE,
+			  animation: google.maps.Animation.DROP,
 			  title: info.stop_name,
-			  icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png'
+			  icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
+			  optimized: false
 			});
 			google.maps.event.addListener(marker, 'click', function()
 			{
@@ -338,13 +338,13 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 		  var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
 		  //add users current location as a marker
-		  //NOTE Bounce animation must be used or else marker disappears on android
 		  var myLocation = new google.maps.Marker(
 		  {
 			position: new google.maps.LatLng($scope.lat, $scope.long),
 			map: map,
-			animation: google.maps.Animation.BOUNCE,
-			title: "My Location"
+			animation: google.maps.Animation.DROP,
+			title: "My Location",
+			optimized: false
 		  });
 		})
 	  }
