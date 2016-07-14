@@ -49,7 +49,7 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
           duration: 2000
           });
           $ionicHistory.nextViewOptions({disableBack: true});
-          $state.go('app.schedule');
+          $state.go('app.route');
         });
 		  }
 		  else
@@ -289,7 +289,7 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
             duration: 2000
           });
           $ionicHistory.nextViewOptions({disableBack: true});
-          $state.go('app.schedule');
+          $state.go('app.route');
         });
       }
       else
@@ -370,7 +370,7 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
           {
               disableBack: true
           });
-          $state.go('app.schedule');
+          $state.go('app.route');
       };
 
       $scope.next = function()
