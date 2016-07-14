@@ -6,6 +6,40 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 
+  .service("stopService", function ($http, $q)
+    {
+      var deferred = $q.defer();
+      $http.get('resource/Stops.json').then(function (data)
+      {
+        deferred.resolve(data);
+      });
+
+      this.getCo = function ()
+      {
+        return deferred.promise;
+      }
+  })
+
+  .service('locationService', function()
+      {
+        this.getLat = function()
+        {
+          return this.lat;
+        }
+        this.getLong = function()
+        {
+          return this.long;
+        }
+        this.setLat = function(lat)
+        {
+          this.lat = lat;
+        }
+        this.setLong = function(long)
+        {
+          this.long = long;
+        }
+  })
+
   .run(function ($ionicPlatform, $cordovaSQLite)
   {
     $ionicPlatform.ready(function ()
@@ -41,6 +75,17 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
           controller: 'AppCtrl'
         })
 
+	.state('app.mapLoad',
+	{
+	  url: '/mapLoad',
+	  views: {
+		'menuContent':
+		{
+		  templateUrl: 'templates/mapLoad.html',
+		  controller: 'MapLoadCtrl'
+		}
+	  }
+	})
       .state('app.map',
       {
         url: '/map',
@@ -112,18 +157,42 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         }
       })
 
-      .state('app.currentLocation',
+	  .state('app.nearMeLoad',
         {
-        url: '/currentLocation',
+        url: '/nearMeLoad',
         views:
         {
           'menuContent':
           {
-            templateUrl: 'templates/currentLocation.html',
-            controller: 'CurrentLocationCtrl'
+            templateUrl: 'templates/nearMeLoad.html',
+            controller: 'NearMeLoadCtrl'
           }
         }
       })
+      .state('app.nearMe',
+        {
+        url: '/nearMe',
+        views:
+        {
+          'menuContent':
+          {
+            templateUrl: 'templates/nearMe.html',
+            controller: 'NearMeCtrl'
+          }
+        }
+      })
+      .state('app.nearMeMap',
+      {
+		url: '/nearMeMap',
+		views:
+		{
+		  'menuContent':
+		  {
+		    templateUrl: 'templates/nearMeMap.html',
+		    controller: 'NearMeMapCtrl'
+		  }
+		}
+	  })
 
       .state('app.schedule',
       {

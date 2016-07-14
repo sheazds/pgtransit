@@ -16,6 +16,11 @@
     <access origin="tel:*" launch-external="true" />
     <allow-intent href="tel:*" />
     <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*"/>
+    <access origin="*://*.googleapis.com/*" subdomains="true"/>
+    <access origin="*://*.gstatic.com/*" subdomains="true"/>
+    <access origin="*://*.google.com/*" subdomains="true"/>
+    <access origin="*://*.googleusercontent.com/*" subdomains="true"/>
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
