@@ -6,38 +6,96 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 
-  .service("stopService", function ($http, $q)
+  .service("stopNearMeService", function ($http, $q)
+  {
+    var deferred = $q.defer();
+    $http.get('resource/Stops.json').then(function (data)
     {
-      var deferred = $q.defer();
-      $http.get('resource/Stops.json').then(function (data)
-      {
-        deferred.resolve(data);
-      });
+      deferred.resolve(data);
+    });
 
-      this.getCo = function ()
-      {
-        return deferred.promise;
-      }
+    this.getCo = function ()
+    {
+      return deferred.promise;
+    }
   })
 
   .service('locationService', function()
+  {
+    this.getLat = function()
+    {
+      return this.lat;
+    }
+    this.getLong = function()
+    {
+      return this.long;
+    }
+    this.setLat = function(lat)
+    {
+      this.lat = lat;
+    }
+    this.setLong = function(long)
+    {
+      this.long = long;
+    }
+  })
+
+  .service("routeService", function ($http, $q)
+  {
+    var deferred = $q.defer();
+    $http.get('resource/Routes.json').then(function (data)
+    {
+      deferred.resolve(data);
+    });
+
+    this.getRoutes = function ()
+    {
+      return deferred.promise;
+    }
+  })
+
+  .service("stopService", function ($http, $q)
+  {
+    var deferred = $q.defer();
+    $http.get('resource/newStop.json').then(function (data)
+    {
+      deferred.resolve(data);
+    });
+
+    this.getNewstop = function ()
+    {
+      return deferred.promise;
+    }
+  })
+
+  .service("stopService1", function ($http, $q)
+  {
+    var deferred = $q.defer();
+    $http.get('resource/Stops.json').then(function (data)
+    {
+      deferred.resolve(data);
+    });
+
+    this.getCo = function ()
+    {
+      return deferred.promise;
+    }
+  })
+
+  .service("shareService", function () {
+  var _routeID;
+
+  // moving { to newline breaks app
+  return {
+      getRouteName: function ()
       {
-        this.getLat = function()
-        {
-          return this.lat;
-        }
-        this.getLong = function()
-        {
-          return this.long;
-        }
-        this.setLat = function(lat)
-        {
-          this.lat = lat;
-        }
-        this.setLong = function(long)
-        {
-          this.long = long;
-        }
+        return _routeID;
+      },
+      setRouteName: function (id)
+      {
+        _routeID = id;
+      }
+    };
   })
 
   .run(function ($ionicPlatform, $cordovaSQLite)
@@ -78,149 +136,183 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 	.state('app.mapLoad',
 	{
 	  url: '/mapLoad',
-	  views: {
-		'menuContent':
-		{
-		  templateUrl: 'templates/mapLoad.html',
-		  controller: 'MapLoadCtrl'
-		}
+	  views:
+	  {
+      'menuContent':
+      {
+        templateUrl: 'templates/mapLoad.html',
+        controller: 'MapLoadCtrl'
+      }
 	  }
 	})
-      .state('app.map',
+
+  .state('app.map',
+  {
+    url: '/map',
+    views:
+    {
+      'menuContent':
       {
-        url: '/map',
-        views: {
-          'menuContent':
-          {
-            templateUrl: 'templates/map.html',
-            controller: 'MapCtrl'
-          }
-        }
-      })
-
-      .state('app.settings',
-      {
-        url: '/settings',
-        views: {
-          'menuContent': {
-            templateUrl: 'templates/settings.html'
-
-          }
-        }
-      })
-      .state('app.playlists',
-        {
-        url: '/playlists',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/settings.html'
-          }
-        }
-      })
-
-      .state('app.contact',
-      {
-        url: '/contact',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/contact.html',
-            controller: 'ContactCtrl'
-          }
-        }
-      })
-
-      .state('app.weather',
-      {
-        url: '/weather',
-        views: {
-          'menuContent':
-          {
-            templateUrl: 'templates/weather.html',
-            controller: 'WeatherCtrl'
-          }
-        }
-      })
-
-      .state('app.about',
-      {
-        url: '/about',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/about.html'
-          }
-        }
-      })
-
-	  .state('app.nearMeLoad',
-        {
-        url: '/nearMeLoad',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/nearMeLoad.html',
-            controller: 'NearMeLoadCtrl'
-          }
-        }
-      })
-      .state('app.nearMe',
-        {
-        url: '/nearMe',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/nearMe.html',
-            controller: 'NearMeCtrl'
-          }
-        }
-      })
-      .state('app.nearMeMap',
-      {
-		url: '/nearMeMap',
-		views:
-		{
-		  'menuContent':
-		  {
-		    templateUrl: 'templates/nearMeMap.html',
-		    controller: 'NearMeMapCtrl'
-		  }
-		}
-	  })
-
-      .state('app.schedule',
-      {
-        url: '/schedule',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/schedule.html'
-          }
-        }
-      })
-      .state('app.welcome',
-      {
-        url: '/welcome',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/welcome.html',
-            controller: 'WelcomeCtrl'
-          }
-        }
-      })
-    ;
-
-
-    // if none of the above states are matched, use this as the fallback
-    $urlRouterProvider.otherwise('/app/welcome');
+        templateUrl: 'templates/map.html',
+        controller: 'MapCtrl'
+      }
+    }
   })
+
+  .state('app.settings',
+  {
+    url: '/settings',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/settings.html'
+      }
+    }
+  })
+
+  .state('app.contact',
+  {
+    url: '/contact',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/contact.html',
+        controller: 'ContactCtrl'
+      }
+    }
+  })
+
+  .state('app.weather',
+  {
+    url: '/weather',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/weather.html',
+        controller: 'WeatherCtrl'
+      }
+    }
+  })
+
+  .state('app.about',
+  {
+    url: '/about',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/about.html'
+      }
+    }
+  })
+
+  .state('app.nearMeLoad',
+  {
+    url: '/nearMeLoad',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/nearMeLoad.html',
+        controller: 'NearMeLoadCtrl'
+      }
+    }
+  })
+
+  .state('app.nearMe',
+  {
+    url: '/nearMe',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/nearMe.html',
+        controller: 'NearMeCtrl'
+      }
+    }
+  })
+  .state('app.nearMeMap',
+  {
+    url: '/nearMeMap',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/nearMeMap.html',
+        controller: 'NearMeMapCtrl'
+      }
+    }
+  })
+
+  .state('app.schedule',
+  {
+    url: '/schedule',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/schedule.html'
+      }
+    }
+  })
+
+  .state('app.welcome',
+  {
+    url: '/welcome',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/welcome.html',
+        controller: 'WelcomeCtrl'
+      }
+    }
+  })
+
+  .state('app.route',
+  {
+    url: '/route',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/route.html',
+        controller: 'routeCtrl'
+      }
+    }
+  })
+
+  .state('app.route1',
+  {
+    url: '/route1',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/route1.html',
+        controller: 'stopListCtrl'
+      }
+    }
+  })
+
+  .state('app.routeMap',
+  {
+    url: '/routeMap',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/routeMap.html',
+        controller: 'RouteMapCtrl'
+      }
+    }
+  });
+
+
+  // if none of the above states are matched, use this as the fallback
+  $urlRouterProvider.otherwise('/app/welcome');
+})
 ;

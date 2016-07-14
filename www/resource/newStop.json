@@ -1,0 +1,155 @@
+[
+
+  {"name": "Westbound 7th Ave at Dominion", "lat": 53.91367, "lng": -122.7474, "route_id": "1-PrinceGeorge"},
+  {"name": "Westbound 15th Ave at Spruce", "lat": 53.90985, "lng": -122.758781, "route_id": "1-PrinceGeorge"},
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "1-PrinceGeorge"},
+  {"name": "15th Ave at Foothills", "lat": 53.910211, "lng": -122.810735, "route_id": "1-PrinceGeorge"},
+  {"name": "1st Ave at Van Somer", "lat": 53.931105, "lng": -122.817876, "route_id": "1-PrinceGeorge"},
+  {"name": "Southbound N Ospika at McRae", "lat": 53.926992, "lng": -122.794249, "route_id": "1-PrinceGeorge"},
+
+
+  {"name": "Westbound 7th Ave at Dominion", "lat": 53.91367, "lng": -122.7474, "route_id": "5-PrinceGeorge"},
+  {"name": "Lansdowne at Sinclair", "lat": 53.884038, "lng": -122.765556, "route_id": "5-PrinceGeorge"},
+  {"name": "Pine Centre Exchange", "lat": 53.898481, "lng": -122.779584, "route_id": "5-PrinceGeorge"},
+  {"name": "15th Ave at Foothills", "lat": 53.910211, "lng": -122.810735, "route_id": "5-PrinceGeorge"},
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "5-PrinceGeorge"},
+
+
+  {"name": "Westbound 7th Ave at Dominion", "lat": 53.91367, "lng": -122.7474, "route_id": "11-PrinceGeorge"},
+  {"name": "Westbound 15th Ave at Spruce", "lat": 53.90985, "lng": -122.758781, "route_id": "11-PrinceGeorge"},
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "11-PrinceGeorge"},
+  {"name": "Northbound N Ospika at McDermid", "lat": 53.930319, "lng": -122.794036, "route_id": "11-PrinceGeorge"},
+  {"name": "1st Ave at Van Somer", "lat": 53.931105, "lng": -122.817876, "route_id": "11-PrinceGeorge"},
+  {"name": "15th Ave at Foothills", "lat": 53.910211, "lng": -122.810735, "route_id": "11-PrinceGeorge"},
+
+
+  {"name": "UNBC Exchange Bay A", "lat": 53.891281, "lng": -122.813641, "route_id": "15-PrinceGeorge"},
+  {"name": "15th Ave at Foothills", "lat": 53.910211, "lng": -122.810735, "route_id": "15-PrinceGeorge"},
+  {"name":"Nicholson Exchange Bay B", "lat": 53.910145, "lng":-122.785976, "route_id": "15-PrinceGeorge"},
+  {"name": "Westbound 7th Ave at Dominion", "lat": 53.91367, "lng": -122.7474, "route_id": "15-PrinceGeorge"},
+
+
+  {"name": "Westbound 7th Ave at Dominion", "lat":53.91367, "lng":-122.7474, "route_id": "15-PrinceGeorge"},
+  {"name": "Nicholson Exchange Bay B", "lat":53.910145, "lng":-122.785976, "route_id": "15-PrinceGeorge"},
+  {"name": "15th Ave at Foothills", "lat":53.910211, "lng":-122.810735, "route_id": "15-PrinceGeorge"},
+  {"name": "UNBC Exchange Bay A", "lat":53.891281, "lng":-122.813641, "route_id": "15-PrinceGeorge"},
+
+
+  {"name": "UNBC Exchange Bay A", "lat": 53.891281, "lng": -122.813641, "route_id": "16-PrinceGeorge"},
+  {"name": "Eastbound Tyner at Gannett", "lat" : 53.869674, "lng": -122.785012, "route_id": "16-PrinceGeorge"},
+  {"name": "Eastbound Domano at Moriarty", "lat": 53.868189, "lng" : -122.774446, "route_id": "16-PrinceGeorge"},
+  {"name": "Southbound 6430 block Domano", "lat" : 53.862208, "lng" : -122.766502, "route_id": "16-PrinceGeorge"},
+  {"name": "Southbound Domano at Bernard", "lat": 53.860233, "lng": -122.766481, "route_id": "16-PrinceGeorge"},
+  {"name": "Southbound Domano at Gladstone", "lat" : 53.85419, "lng" : -122.770541, "route_id": "16-PrinceGeorge"},
+  {"name": "Southbound Domano at Gladstone", "lat" : 53.858155, "lng" : -122.767377, "route_id": "16-PrinceGeorge"},
+  {"name": "Southbound 7980 block Domano", "lat": 53.85254, "lng": -122.77087, "route_id": "16-PrinceGeorge"},
+  {"name": "Southbound McGill at Eton", "lat": 53.87207, "lng": -122.777349, "route_id": "16-PrinceGeorge"},
+  {"name": "Southbound Domano at St Patrick", "lat": 53.850002, "lng": -122.770579, "route_id": "16-PrinceGeorge"},
+  {"name": "Eastbound Malaspina at Rochester", "lat": 53.848877, "lng": -122.768744, "route_id": "16-PrinceGeorge"},
+  {"name": "Eastbound Malaspina at Princeton", "lat": 53.849102, "lng": -122.765798, "route_id": "16-PrinceGeorge"},
+  {"name": "Eastbound Malaspina at Loyola", "lat": 53.849698, "lng": -122.761939, "route_id": "16-PrinceGeorge"},
+  {"name": "Northbound Loyola at Rochester", "lat": 53.851765, "lng": -122.762083, "route_id": "16-PrinceGeorge"},
+  {"name": "Eastbound Gladstone at Loyola", "lat": 53.854789, "lng": -122.759804, "route_id": "16-PrinceGeorge"},
+  {"name": "Northbound Gladstone at Jean De Brebeuf", "lat": 53.855387, "lng": -122.75773, "route_id": "16-PrinceGeorge"},
+  {"name": "Westbound Gladstone at Hartford", "lat": 53.858103, "lng": -122.760019, "route_id": "16-PrinceGeorge"},
+  {"name": "Northbound Simon Fraser at Fairmont", "lat": 53.860511, "lng": -122.761769, "route_id": "16-PrinceGeorge"},
+  {"name": "Northbound Simon Fraser at Delhi", "lat": 53.862875, "lng": -122.762093, "route_id": "16-PrinceGeorge"},
+  {"name": "Northbound Simon Fraser at Acadia", "lat": 53.86459, "lng": -122.762361, "route_id": "16-PrinceGeorge"},
+  {"name": "Northbound Simon Fraser at Rideau", "lat": 53.868186, "lng": -122.764696, "route_id": "16-PrinceGeorge"},
+  {"name": "Northbound Simon Fraser at Brock", "lat": 53.870655, "lng": -122.764382, "route_id": "16-PrinceGeorge"},
+  {"name": "Westbound Eton at Cambridge", "lat": 53.87217, "lng": -122.773038, "route_id": "16-PrinceGeorge"},
+  {"name": "Southbound McGill at Eton", "lat": 53.87207, "lng": -122.777349, "route_id": "16-PrinceGeorge"},
+  {"name": "Southbound McGill at Monahan", "lat": 53.870226, "lng": -122.776149, "route_id": "16-PrinceGeorge"},
+  {"name": "Westbound Domano at O Grady", "lat": 53.868989, "lng" : -122.77786, "route_id": "16-PrinceGeorge"},
+  {"name": "Westbound Tyner at Baker", "lat" : 53.870002, "lng" : -122.785972, "route_id": "16-PrinceGeorge"},
+
+
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "17-PrinceGeorge"},
+  {"name": "Pilot at 5th Ave", "lat": 53.920287, "lng": -122.810769, "route_id": "17-PrinceGeorge"},
+  {"name": "15th Ave at Foothills", "lat": 53.910211, "lng": -122.810735, "route_id": "17-PrinceGeorge"},
+  {"name": "UNBC Exchange Bay A", "lat": 53.891281, "lng": -122.813641, "route_id": "17-PrinceGeorge"},
+
+
+  {"name": "UNBC Exchange Bay A", "lat" : 53.891281, "lng" : -122.813641, "route_id": "18-PrinceGeorge"},
+  {"name": "15th Ave at Foothills", "lat": 53.910211, "lng": -122.810735, "route_id": "18-PrinceGeorge"},
+  {"name": "Pilot at 5th Ave", "lat": 53.920287, "lng": -122.810769, "route_id": "18-PrinceGeorge"},
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "18-PrinceGeorge"},
+
+
+  {"name": "Westbound 7th Ave at Dominion", "lat": 53.91367, "lng": -122.7474, "route_id": "46-PrinceGeorge"},
+  {"name": "3880 block Wiebe", "lat": 53.881748, "lng": -122.773523, "route_id": "46-PrinceGeorge"},
+  {"name": "Pine Centre Exchange", "lat": 53.898481, "lng": -122.779584, "route_id": "46-PrinceGeorge"},
+  {"name": "Nicholson at 18th Ave", "lat": 53.905122, "lng": -122.785722, "route_id": "46-PrinceGeorge"},
+  {"name":"Nicholson Exchange Bay B", "lat": 53.910145, "lng": -122.785976, "route_id": "46-PrinceGeorge"},
+  {"name": "Eastbound 15th Ave at Spruce", "lat": 53.909839, "lng": -122.757467, "route_id": "46-PrinceGeorge"},
+
+
+  {"name": "Westbound 7th Ave at Dominion", "lat": 53.91367, "lng": -122.7474, "route_id": "47-PrinceGeorge"},
+  {"name": "Westbound 15th Ave at 13th Ave", "lat": 53.910322, "lng": -122.756507, "route_id": "47-PrinceGeorge"},
+  {"name": "Nicholson Exchange Bay B", "lat": 53.910145, "lng": -122.785976, "route_id": "47-PrinceGeorge"},
+  {"name": "Nicholson at 18th Ave", "lat": 53.905122, "lng": -122.785722, "route_id": "47-PrinceGeorge"},
+  {"name": "Pine Centre Exchange", "lat": 53.898481, "lng": -122.779584, "route_id": "47-PrinceGeorge"},
+  {"name": "3880 block Wiebe", "lat": 53.881748, "lng": -122.773523, "route_id": "47-PrinceGeorge"},
+
+
+  {"name": "Westbound 7th Ave at Dominion", "lat": 53.91367, "lng": -122.7474, "route_id": "55-PrinceGeorge"},
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "55-PrinceGeorge"},
+  {"name": "15th Ave at Foothills", "lat": 53.910211, "lng": -122.810735, "route_id": "55-PrinceGeorge"},
+  { "name": "Pine Centre Exchange", "lat": 53.898481, "lng": -122.779584, "route_id": "55-PrinceGeorge"},
+  {"name": "Lansdowne at Sinclair", "lat": 53.884038, "lng": -122.765556, "route_id": "55-PrinceGeorge"},
+
+
+  {"name": "Eastbound Austin Road at Madill", "lat": 53.988882, "lng": -122.789089, "route_id": "88-PrinceGeorge"},
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "88-PrinceGeorge"},
+  {"name": "Nicholson Exchange Bay B", "lat": 53.910145, "lng": -122.785976, "route_id": "88-PrinceGeorge"},
+  {"name": "Nicholson at 18th Ave", "lat": 53.905122, "lng": -122.785722, "route_id": "88-PrinceGeorge"},
+  {"name": "Pine Centre Exchange", "lat": 53.898481, "lng": -122.779584, "route_id": "88-PrinceGeorge"},
+  {"name": "Eastbound Domano at Moriarty", "lat": 53.868189, "lng": -122.774446, "route_id": "88-PrinceGeorge"},
+  {"name": "Westbound 4270 block Bear", "lat": 53.858089,  "lng": -122.814829, "route_id": "88-PrinceGeorge"},
+  {"name": "Westgate Exchange Bay A", "lat": 53.86517, "lng": -122.786144, "route_id": "88-PrinceGeorge"},
+
+
+  {"name": "Westgate Exchange Bay A", "lat": 53.86517, "lng": -122.786144, "route_id": "89-PrinceGeorge"},
+  {"name": "Westbound Domano at O Grady", "lat": 53.868989, "lng": -122.77786, "route_id": "89-PrinceGeorge"},
+  {"name": "Pine Centre Exchange", "lat": 53.898481, "lng": -122.779584, "route_id": "89-PrinceGeorge"},
+  {"name": "Nicholson at 18th Ave", "lat": 53.905122, "lng": -122.785722, "route_id": "89-PrinceGeorge"},
+  {"name": "Nicholson Exchange Bay B", "lat": 53.910145, "lng": -122.785976, "route_id": "89-PrinceGeorge"},
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "89-PrinceGeorge"},
+  {"name": "Westbound 5740 block Cook", "lat": 53.981021, "lng": -122.778981, "route_id": "89-PrinceGeorge"},
+  {"name": "Eastbound Austin Road at Madill", "lat": 53.988882, "lng": -122.789089, "route_id": "89-PrinceGeorge"},
+
+
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "91-PrinceGeorge"},
+  {"name": "Eastbound North Nechako at Highway 97",  "lat": 53.931127, "lng": -122.782244, "route_id": "91-PrinceGeorge"},
+  {"name": "Westbound  North Nechako at Meadowbrook", "lat": 53.961008, "lng": -122.821317, "route_id": "91-PrinceGeorge"},
+  {"name": "Eastbound  Highland at Berwick", "lat": 53.977951, "lng": -122.799089, "route_id": "91-PrinceGeorge"},
+  {"name": "Northbound Wildwood at Sussex", "lat": 53.975142, "lng": -122.78971, "route_id": "91-PrinceGeorge"},
+  {"name": "Eastbound Austin Road at Madill", "lat": 53.988882, "lng": -122.789089, "route_id": "91-PrinceGeorge"},
+
+
+  {"name": "Eastbound Austin Road at Madill", "lat": 53.988882, "lng": -122.789089, "route_id": "91-PrinceGeorge"},
+  {"name": "Northbound Hart Highway at Estavilla", "lat": 54.00706, "lng": -122.800621, "route_id": "91-PrinceGeorge"},
+  {"name": "Eastbound  Highland at Berwick", "lat": 53.977951, "lng": -122.799089, "route_id": "91-PrinceGeorge"},
+  {"name": "Westbound  North Nechako at Meadowbrook", "lat": 53.961008, "lng": -122.821317, "route_id": "91-PrinceGeorge"},
+  {"name": "Westbound  North Nechako at Highway 97", "lat": 53.931187, "lng": -122.781173, "route_id": "91-PrinceGeorge"},
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "91-PrinceGeorge"},
+
+
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "96-PrinceGeorge"},
+  {"name": "Westbound  North Nechako at Meadowbrook", "lat": 53.961008, "lng": -122.821317, "route_id": "96-PrinceGeorge"},
+  {"name": "Southbound Kelly at Handlen", "lat": 53.995642, "lng": -122.801282, "route_id": "96-PrinceGeorge"},
+  {"name": "Southbound  Heather Park at Gray", "lat": 53.994148, "lng": -122.807547, "route_id": "96-PrinceGeorge"},
+  {"name": "Westbound Vellencher at Tasa", "lat": 53.985117, "lng": -122.804927, "route_id": "96-PrinceGeorge"},
+  {"name": "Eastbound Berwick at Langley", "lat": 53.975994, "lng": -122.796675, "route_id": "96-PrinceGeorge"},
+  {"name": "Northbound Wildwood at Carlisle", "lat": 53.972789, "lng": -122.790618, "route_id": "96-PrinceGeorge"},
+  {"name": "Southbound  Panorama at Sadler", "lat": 53.963522, "lng": -122.786363, "route_id": "96-PrinceGeorge"},
+
+
+  {"name": "Spruceland Exchange Bay C", "lat": 53.917911, "lng": -122.782291, "route_id": "97-PrinceGeorge"},
+  {"name": "Eastbound Winslow at Poplar", "lat": 53.984585, "lng": -122.78553, "route_id": "97-PrinceGeorge"},
+  {"name": "Westbound 5740 block Cook", "lat": 53.981021, "lng": -122.778981, "route_id": "97-PrinceGeorge"},
+  {"name": "Westbound Dagg at Eden", "lat": 53.992465, "lng": -122.788614, "route_id": "97-PrinceGeorge"},
+  {"name": "Southbound Kelly at Handlen", "lat": 53.995642, "lng": -122.801282, "route_id": "97-PrinceGeorge"},
+  {"name": "Southbound  Heather Park at Gray", "lat": 53.994148, "lng": -122.807547, "route_id": "97-PrinceGeorge"}
+
+]
