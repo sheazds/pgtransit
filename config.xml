@@ -17,6 +17,7 @@
     <allow-intent href="tel:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*"/>
+    <allow-navigation href="http://*" />
     <access origin="*://*.googleapis.com/*" subdomains="true"/>
     <access origin="*://*.gstatic.com/*" subdomains="true"/>
     <access origin="*://*.google.com/*" subdomains="true"/>
