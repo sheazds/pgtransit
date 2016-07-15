@@ -389,39 +389,7 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
       };
 
   })
-  .controller("DBController", function($scope, $cordovaSQLite)
-  {
 
-      $scope.insert = function(firstname, lastname)
-      {
-          var query = "INSERT INTO people (firstname, lastname) VALUES (?,?)";
-          $cordovaSQLite.execute(db, query, [firstname, lastname]).then(function(res)
-          {
-              console.log("INSERT ID -> " + res.insertId);
-          }, function (err)
-          {
-              console.error(err);
-          });
-      }
-
-      $scope.select = function(lastname)
-      {
-          var query = "SELECT firstname, lastname FROM people WHERE lastname = ?";
-          $cordovaSQLite.execute(db, query, [lastname]).then(function(res)
-          {
-              if(res.rows.length > 0)
-              {
-                  console.log("SELECTED -> " + res.rows.item(0).firstname + " " + res.rows.item(0).lastname);
-              } else
-              {
-                  console.log("No results found");
-              }
-          }, function (err)
-          {
-              console.error(err);
-          });
-      }
-  })
 
   .controller('ContactCtrl', function($scope, $ionicPlatform, $cordovaDevice)
   {
@@ -453,27 +421,80 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
     }
   })
 
-  .controller('NotificationCtrl', function($scope, $cordovaLocalNotification, $ionicPlatform)
-  {
-      $ionicPlatform.ready(function ()
-      {
-          $scope.scheduleSingleNotification = function ()
-          {
-            console.log('shit worked');
-            $cordovaLocalNotification.schedule(
-            {
-              id: 1,
-              title: 'Notification 1',
-              text: 'test notification',
-              data: {
-                customProperty: 'custom value'
-              }
-            }).then(function (result) {
-              console.log('Notification 1 triggered');
-            });
-          };
-      });
-  })
+ .controller('LocationSettings', function($scope, $cordovaGeolocation, $ionicPlatform)
+ {
+     $scope.checkLocation = function()
+     {
+       if (window.cordova)
+       {
+       cordova.plugins.diagnostic.isLocationEnabled(
+                     function(e) {
+                         if (e){
+                            alert("Location already turned on");
+                         }
+                         else {
+                           alert("Location Not Turned ON");
+                           cordova.plugins.diagnostic.switchToLocationSettings();
+                         }
+                     },
+                     function(e) {
+                         alert('Error ' + e);
+                     }
+                 );
+             }
+     }
+     $scope.getLocation = function(){
+         $scope.checkLocation();
+         $scope.supportsGeo = $window.navigator;
+         $scope.position = null;
+         $window.navigator.geolocation.getCurrentPosition(function(position) {
+                     $scope.$apply(function() {
+                         $scope.position = position;
+                         var link = "http://maps.google.com/maps?saddr="+$scope.position.coords.latitude+","+$scope.position.coords.longitude+"&daddr="+$scope.address;
+
+                         $window.open(encodeURI(link), '_blank', 'location=no');
+                     });
+                   }, function(error) {
+                       alert(error);
+                   },{enableHighAccuracy: true});
+
+         }
+
+ })
+
+
+ .controller('NotificationCtrl', function($scope, $cordovaLocalNotification, $ionicPlatform)
+   {
+       $ionicPlatform.ready(function ()
+       {
+           $scope.scheduleSingleNotification = function ()
+           {
+
+             $cordovaLocalNotification.schedule(
+             {
+               id: 1,
+               title: 'PG Transit',
+               text: 'You have enabled Notifications',
+               data: {
+                 customProperty: 'custom value'
+               }
+             }).then(function (result) {
+               console.log('Notification 1 triggered');
+             });
+           };
+       });
+   })
+
+
+ .controller('settingsName', function($scope)
+ {
+   $scope.userName = localStorage.getItem('username');
+   $scope.saveName = function()
+   {
+     localStorage.setItem('username', document.getElementById('userNameBox').value);
+   };
+ })
+
 
   .controller("stopCtrl2", function ($scope, stopService1)
   {

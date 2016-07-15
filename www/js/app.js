@@ -160,16 +160,17 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
   })
 
   .state('app.settings',
-  {
-    url: '/settings',
-    views:
     {
-      'menuContent':
+      url: '/settings',
+      views:
       {
-        templateUrl: 'templates/settings.html'
+        'menuContent':
+        {
+          templateUrl: 'templates/settings.html',
+          controller: 'settingsName'
+        }
       }
-    }
-  })
+    })
 
   .state('app.contact',
   {
