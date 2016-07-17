@@ -482,6 +482,21 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
                console.log('Notification 1 triggered');
              });
            };
+            $scope.scheduleLocationNotification = function ()
+                      {
+
+                        $cordovaLocalNotification.schedule(
+                        {
+                          id: 2,
+                          title: 'PG Transit',
+                          text: 'You have enabled Locations',
+                          data: {
+                            customProperty: 'custom value'
+                          }
+                        }).then(function (result) {
+                          console.log('Notification 2 triggered');
+                        });
+                      };
        });
    })
 

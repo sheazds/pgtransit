@@ -4,92 +4,156 @@
 
 
     <div class="settings">
+      <style>
+        p.loc
+        {
+        padding: 0mm 48px 0mm 0mm;
+        text-align: center;
+        }
+        p.notif
+        {
+        padding: 0mm 90px 0mm 0mm;
+        text-align: center;
+        }
+        p.center
+        {
+        text-align: center;
+        }
+
+      </style>
+      <style type="text/css">
+        div.inline { float:left; }
+        .clearBoth { clear:both; }
+      </style>
 
       <style media="screen" type="text/css">
+        .myButton {
+        -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+        box-shadow:inset 0px 1px 0px 0px #54a3f7;
+        background-color:#387df5;
+        -moz-border-radius:3px;
+        -webkit-border-radius:3px;
+        border-radius:3px;
+        border:1px solid #387df5;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:18px;
+        padding:14px 55px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #154682;
+        }
+        .myButton:hover {
+        background-color:#0061a7;
+        }
+        .myButton:active {
+        position:relative;
+        top:1px;
+        }
 
-        .onoffswitch
-        {
-        position: relative; width: 90px;
+
+      .mySaveButton {
+        text-align: right;
+      -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+      -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+      box-shadow:inset 0px 1px 0px 0px #54a3f7;
+      background-color:#387df5;
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+      border-radius:3px;
+      border:1px solid #387df5;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:8px;
+      padding:6px 12px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #154682;
+      }
+      .mySaveButton:hover {
+      background-color:#0061a7;
+      }
+      .mySaveButton:active {
+      position:relative;
+      top:1px;
+      }
+
+        .onoffswitch {
+        position: relative; width: 58px;
         -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
         }
-        .onoffswitch-checkbox
-        {
+        .onoffswitch-checkbox {
         display: none;
         }
-        .onoffswitch-label
-        {
+        .onoffswitch-label {
         display: block; overflow: hidden; cursor: pointer;
-        border: 2px solid #999999; border-radius: 20px;
+        height: 24px; padding: 0; line-height: 24px;
+        border: 0px solid #999999; border-radius: 18px;
+        background-color: #EEEEEE;
         }
-        .onoffswitch-inner
-        {
-        display: block; width: 200%; margin-left: -100%;
-        transition: margin 0.3s ease-in 0s;
-        }
-        .onoffswitch-inner:before, .onoffswitch-inner:after
-        {
-        display: block; float: left; width: 50%; height: 30px; padding: 0; line-height: 30px;
-        font-size: 14px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
-        box-sizing: border-box;
-        }
-        .onoffswitch-inner:before
-        {
-        content: "ON";
-        padding-left: 10px;
-        background-color: #34A7C1; color: #FFFFFF;
-        }
-        .onoffswitch-inner:after
-        {
-        content: "OFF";
-        padding-right: 10px;
-        background-color: #EEEEEE; color: #999999;
-        text-align: right;
-        }
-        .onoffswitch-switch
-        {
-        display: block; width: 18px; margin: 6px;
-        background: #FFFFFF;
+        .onoffswitch-label:before {
+        content: "";
+        display: block; width: 18px; margin: 3px;
+        background: #A1A1A1;
         position: absolute; top: 0; bottom: 0;
-        right: 56px;
-        border: 2px solid #999999; border-radius: 20px;
-        transition: all 0.3s ease-in 0s;
+        right: 30px;
+        border-radius: 18px;
+        box-shadow: 0 6px 12px 0px #757575;
         }
-        .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner
-        {
+        .onoffswitch-checkbox:checked + .onoffswitch-label {
+        background-color: #387ef5;
+        }
+        .onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
+        border-color: #387ef5;
+        }
+        .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
         margin-left: 0;
         }
-        .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch
-        {
+        .onoffswitch-checkbox:checked + .onoffswitch-label:before {
         right: 0px;
+        background-color: #F0F0F0;
+        box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
         }
 
       </style>
 
+      <div class="inline">
       <input type="text" id="userNameBox" value={{userName}}>
-      <button ng-click="saveName()">Save</button>
+        <p class="center"> <a href="#" class="mySaveButton" ng-click="saveName()">Save</a></div></p>
 
 
+      <br class="clearBoth" />
+      <h2> </h2>
+      <br class="clearBoth" />
 
 
-      <h2>Enable Notifictions</h2>
+      <div class="inline"><h3><p class="notif">Enable Notifictions  </p></h3></div>
 
-      <div class="onoffswitch">
-        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox " data-ng-controller="NotificationCtrl" data-ng-click="scheduleSingleNotification()" id="myonoffswitch-1" checked>
-        <label class="onoffswitch-label" for="myonoffswitch-1">
+      <div class="onoffswitch inline">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox "  id="myonoffswitch-1" checked>
+        <label class="onoffswitch-label" for="myonoffswitch-1" data-ng-controller="NotificationCtrl" data-ng-click="scheduleSingleNotification()">
           <span class="onoffswitch-inner"></span>
           <span class="onoffswitch-switch"></span>
         </label>
       </div>
+      <br class="clearBoth" />
 
+      <div class="inline"><h3><p class="loc">Enable Location Access</p></h3></div>
 
-      <h2>Enable Location</h2>
-      <div class="onoffswitch">
-        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" data-ng-controller="LocationSettings" data-ng-click="getLocation()" id="myonoffswitch-2" checked>
+      <div class="onoffswitch inline">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" data-ng-controller="NotificationCtrl" data-ng-click="scheduleLocationNotification()"  id="myonoffswitch-2" checked>
         <label class="onoffswitch-label" for="myonoffswitch-2">
           <span class="onoffswitch-inner"></span>
           <span class="onoffswitch-switch"></span>
         </label>
-      </div>
+      </div></center>
+
+      <br class="clearBoth" />
+
+    <p class="center"> <a href="#" class="myButton inline" data-ng-controller="LocationSettings" data-ng-click="getLocation()">Open Location Settings</a></p>
 
     </div>
   </ion-content>
