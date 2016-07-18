@@ -500,6 +500,17 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
        });
    })
 
+   .controller('settingsTestctrl', function($scope, $cordovaLocalNotification, $ionicPlatform)
+   {
+
+     $scope.pushNotificationChange = function() {
+       console.log('Push Notification Change', $scope.pushNotification.checked);
+     };
+
+     $scope.pushNotification = { checked: true };
+
+   })
+
 
  .controller('settingsName', function($scope)
  {

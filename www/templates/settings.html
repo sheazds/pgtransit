@@ -118,7 +118,8 @@
         box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
         }
 
-        .switch {
+        .switch
+        {
         position: relative;
         display: inline-block;
         width: 60px;
@@ -127,19 +128,21 @@
 
         .switch input {display:none;}
 
-        .slider {
+        .slider
+        {
         position: absolute;
         cursor: pointer;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        background-color: #ccc;
+        background-color: #cccccc;
         -webkit-transition: .4s;
         transition: .4s;
         }
 
-        .slider:before {
+        .slider:before
+        {
         position: absolute;
         content: "";
         height: 26px;
@@ -151,15 +154,18 @@
         transition: .4s;
         }
 
-        input:checked + .slider {
+        input:checked + .slider
+        {
         background-color: #2196F3;
         }
 
-        input:focus + .slider {
+        input:focus + .slider
+        {
         box-shadow: 0 0 1px #2196F3;
         }
 
-        input:checked + .slider:before {
+        input:checked + .slider:before
+        {
         -webkit-transform: translateX(26px);
         -ms-transform: translateX(26px);
         transform: translateX(26px);
@@ -175,14 +181,12 @@
         }
 
       </style>
+      <div class="list">
 
       <div style="display: flex; vertical-align:center; justify-content: space-between; margin:10px;">
         <input type="text" id="userNameBox" value={{userName}} style="background-color:#EEEEEE;">
         <a href="#" class="mySaveButton" ng-click="saveName()">Save</a>
       </div>
-
-
-
 
 
 
@@ -193,14 +197,27 @@
       </label></div>
 
 
-
-      <div style="display: flex; vertical-align:center; justify-content: space-between; margin:10px;"><h3>Enable Location Access</h3>
+      <div style="display: flex; vertical-align:c888888enter; justify-content: space-between; margin:10px;"><h3>Enable Location Access</h3>
         <label class="switch" for="locationSwitch">
         <input type="checkbox" data-ng-controller="NotificationCtrl" data-ng-click="scheduleLocationNotification()" id="locationSwitch">
         <div class="slider round"></div>
       </label></div>
 
 
+      <div ng-controller="settingsTestctrl">
+
+
+      <ion-toggle ng-model="pushNotification.checked"
+                  ng-change="pushNotificationChange()"
+                  data-ng-controller="NotificationCtrl"
+                  data-ng-click="scheduleSingleNotification()">
+        Enable Notifications
+      </ion-toggle>
+      <ion-toggle>Enable Location Access</ion-toggle>
+
+
+
+      </div>
     <p class="center"> <a href="#" class="myButton inline" data-ng-controller="LocationSettings" data-ng-click="getLocation()">Open Location Settings</a></p>
 
     </div>
