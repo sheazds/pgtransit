@@ -13,7 +13,15 @@
     </author>
     <content src="index.html" />
     <access launch-external="true" origin="mailto:*" />
+    <access origin="tel:*" launch-external="true" />
+    <allow-intent href="tel:*" />
     <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*"/>
+    <allow-navigation href="http://*" />
+    <access origin="*://*.googleapis.com/*" subdomains="true"/>
+    <access origin="*://*.gstatic.com/*" subdomains="true"/>
+    <access origin="*://*.google.com/*" subdomains="true"/>
+    <access origin="*://*.googleusercontent.com/*" subdomains="true"/>
     <preference name="webviewbounce" value="false" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
@@ -45,5 +53,8 @@
         <splash density="port-xxhdpi" src="resources/android/splash/drawable-port-xxhdpi-screen.png" />
         <splash density="port-xxxhdpi" src="resources/android/splash/drawable-port-xxxhdpi-screen.png" />
     </platform>
+    <plugin name="cordova-plugin-device" spec="~1.1.2" />
     <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
+    <plugin name="cordova-plugin-geolocation" spec="~2.2.0" />
+    <plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications" />
 </widget>

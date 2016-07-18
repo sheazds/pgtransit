@@ -1,0 +1,9 @@
+<ion-view view-title="Home Page">
+  <ion-content class="has-header">
+    <ion-list ng-repeat="route in routes">
+      <ion-item href="#app/route1" ng-click="setRoute(route.route_id)">
+        <div class="routeEntry"><div class="routeNumberCircle">{{route.route_short_name}}</div> {{route.route_long_name}}</div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
