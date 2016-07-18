@@ -511,7 +511,7 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
      $scope.enableLocationChange = function()
      {
         console.log('Enable Location Change', $scope.pushLocationNotification.checked);
-        if($scope.pushLocationNotification.checked == true)
+        if($scope.pushLocationNotification.checked == true && $scope.pushNotification.checked == true)
         {
             $scope.scheduleLocationNotification();
             console.log('Location enabled taking action')
