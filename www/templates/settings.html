@@ -5,25 +5,11 @@
 
     <div class="settings">
       <style>
-        p.loc
-        {
-        padding: 0mm 48px 0mm 0mm;
-        text-align: center;
-        }
-        p.notif
-        {
-        padding: 0mm 90px 0mm 0mm;
-        text-align: center;
-        }
         p.center
         {
         text-align: center;
         }
 
-      </style>
-      <style type="text/css">
-        div.inline { float:left; }
-        .clearBoth { clear:both; }
       </style>
 
       <style media="screen" type="text/css">
@@ -81,105 +67,6 @@
       top:1px;
       }
 
-        .onoffswitch {
-        position: relative; width: 58px;
-        -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
-        }
-        .onoffswitch-checkbox {
-        display: none;
-        }
-        .onoffswitch-label {
-        display: block; overflow: hidden; cursor: pointer;
-        height: 24px; padding: 0; line-height: 24px;
-        border: 0px solid #999999; border-radius: 18px;
-        background-color: #EEEEEE;
-        }
-        .onoffswitch-label:before {
-        content: "";
-        display: block; width: 18px; margin: 3px;
-        background: #A1A1A1;
-        position: absolute; top: 0; bottom: 0;
-        right: 30px;
-        border-radius: 18px;
-        box-shadow: 0 6px 12px 0px #757575;
-        }
-        .onoffswitch-checkbox:checked + .onoffswitch-label {
-        background-color: #387ef5;
-        }
-        .onoffswitch-checkbox:checked + .onoffswitch-label, .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-        border-color: #387ef5;
-        }
-        .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
-        margin-left: 0;
-        }
-        .onoffswitch-checkbox:checked + .onoffswitch-label:before {
-        right: 0px;
-        background-color: #F0F0F0;
-        box-shadow: 3px 6px 18px 0px rgba(0, 0, 0, 0.2);
-        }
-
-        .switch
-        {
-        position: relative;
-        display: inline-block;
-        width: 60px;
-        height: 34px;
-        }
-
-        .switch input {display:none;}
-
-        .slider
-        {
-        position: absolute;
-        cursor: pointer;
-        top: 0;
-        left: 0;
-        right: 0;
-        bottom: 0;
-        background-color: #cccccc;
-        -webkit-transition: .4s;
-        transition: .4s;
-        }
-
-        .slider:before
-        {
-        position: absolute;
-        content: "";
-        height: 26px;
-        width: 26px;
-        left: 4px;
-        bottom: 4px;
-        background-color: white;
-        -webkit-transition: .4s;
-        transition: .4s;
-        }
-
-        input:checked + .slider
-        {
-        background-color: #2196F3;
-        }
-
-        input:focus + .slider
-        {
-        box-shadow: 0 0 1px #2196F3;
-        }
-
-        input:checked + .slider:before
-        {
-        -webkit-transform: translateX(26px);
-        -ms-transform: translateX(26px);
-        transform: translateX(26px);
-        }
-
-        /* Rounded sliders */
-        .slider.round {
-        border-radius: 34px;
-        }
-
-        .slider.round:before {
-        border-radius: 50%;
-        }
-
       </style>
       <div class="list">
 
@@ -190,31 +77,18 @@
 
 
 
-      <div style="display: flex; vertical-align:center; justify-content: space-between; margin:10px;"><h3>Enable Notifications</h3>
-      <label class="switch" for="notificationSwitch">
-        <input type="checkbox" data-ng-controller="NotificationCtrl" data-ng-click="scheduleSingleNotification()" id="notificationSwitch">
-        <div class="slider round"></div>
-      </label></div>
-
-
-      <div style="display: flex; vertical-align:c888888enter; justify-content: space-between; margin:10px;"><h3>Enable Location Access</h3>
-        <label class="switch" for="locationSwitch">
-        <input type="checkbox" data-ng-controller="NotificationCtrl" data-ng-click="scheduleLocationNotification()" id="locationSwitch">
-        <div class="slider round"></div>
-      </label></div>
-
-
-      <div ng-controller="settingsTestctrl">
-
-
-      <ion-toggle ng-model="pushNotification.checked"
-                  ng-change="pushNotificationChange()"
-                  data-ng-controller="NotificationCtrl"
-                  data-ng-click="scheduleSingleNotification()">
-        Enable Notifications
-      </ion-toggle>
-      <ion-toggle>Enable Location Access</ion-toggle>
-
+        <div ng-controller="settingsCtrl">
+          <ion-toggle ng-model="pushNotification.checked"
+                      ng-change="pushNotificationChange()"
+                      toggle-class="toggle-positive">
+            Enable Notifications
+          </ion-toggle>
+          <ion-toggle
+                  ng-model="pushLocationNotification.checked"
+                  ng-change="enableLocationChange()"
+                  toggle-class="toggle-positive">
+            Enable Location Access</ion-toggle>
+        </div>
 
 
       </div>
