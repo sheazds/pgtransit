@@ -98,6 +98,26 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     };
   })
 
+  .service("favouritesService", function() {
+    var favRoutes = [];
+
+    var getFavourites = function()
+    {
+        return favRoutes;
+    };
+
+    var setFavourite = function(value)
+    {
+        favRoutes.push(value);
+    };
+
+    return {
+     getFavourites: getFavourites,
+     setFavourite: setFavourite
+     };
+
+  })
+
   .run(function ($ionicPlatform, $cordovaSQLite)
   {
     $ionicPlatform.ready(function ()
@@ -167,7 +187,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         'menuContent':
         {
           templateUrl: 'templates/settings.html',
-          controller: 'settingsCtrl'
+          controller: 'settingsName'
         }
       }
     })
@@ -308,6 +328,19 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       {
         templateUrl: 'templates/routeMap.html',
         controller: 'RouteMapCtrl'
+      }
+    }
+  })
+
+  .state('app.favourites',
+  {
+    url: '/favourites',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/favourites.html',
+        controller: 'favouritesCtrl'
       }
     }
   });

@@ -540,11 +540,16 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
     });
   })
 
- .controller("stopListCtrl", function ($scope, $state, routeService, stopService, shareService)
+ .controller("stopListCtrl", function ($scope, $state, routeService, stopService, shareService, favouritesService)
   {
     $scope.gotoMap = function()
     {
       $state.go('app.routeMap');
+    }
+
+    $scope.addFavourite = function(c)
+    {
+        favouritesService.setFavourite(c.name);
     }
 
     $scope.newStopList = [];

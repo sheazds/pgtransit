@@ -11,10 +11,11 @@
   </ion-nav-buttons>
 
   <ion-content>
-    <ion-list ng-repeat="c in newStopList">
-      <ion-item>
+    <ion-list>
+      <ion-item ng-repeat="c in newStopList" item="c" ng-click="addFavourite(c)">
         {{c.name}}
       </ion-item>
+
     </ion-list>
   </ion-content>
 
