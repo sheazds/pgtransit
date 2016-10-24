@@ -231,7 +231,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       'menuContent':
       {
         templateUrl: 'templates/nearMe.html',
-        controller: 'NearMeCtrl'
+        controller: 'NearMeMapCtrl'
       }
     }
   })
