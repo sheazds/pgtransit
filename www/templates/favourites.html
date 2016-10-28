@@ -1,0 +1,10 @@
+<ion-view view-title="Favourites">
+	<ion-content>
+		<ion-list ng-controller='favouritesCtrl'>
+            <ion-item ng-repeat='item in favs'>
+                <button class="button icon-left ion-close-circled button-clear button-dark" ng-click="removeItem(item)"></button>
+                {{item.name}}
+            </ion-item>
+        </ion-list>
+	</ion-content>
+</ion-view>

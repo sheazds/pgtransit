@@ -343,10 +343,11 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 	  }
 	})
 
-  .controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
+  .controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate, favouritesService)
   {
       $scope.firstLoad = function()
       {
+          favouritesService.loadFavs();
           if(localStorage.getItem('loadToken')!==null)
           {
               $scope.startApp();
@@ -425,8 +426,6 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
  {
      $scope.checkLocation = function()
      {
-       if (window.cordova)
-       {
        cordova.plugins.diagnostic.isLocationEnabled(
                      function(e) {
                          if (e){
@@ -441,8 +440,8 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
                          alert('Error ' + e);
                      }
                  );
-             }
      }
+
      $scope.getLocation = function(){
          $scope.checkLocation();
          $scope.supportsGeo = $window.navigator;
@@ -462,78 +461,58 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 
  })
 
-.controller('settingsCtrl', function($scope, $cordovaLocalNotification, $ionicPlatform, $window)
+.controller('settingsCtrl', function($scope, $cordovaGeolocation, $ionicPlatform, $window)
    {
    $ionicPlatform.ready(function ()
           {
-              $scope.scheduleSingleNotification = function ()
-              {
-
-                $cordovaLocalNotification.schedule(
-                {
-                  id: 1,
-                  title: 'PG Transit',
-                  text: 'You have enabled Notifications',
-                  data: {
-                    customProperty: 'custom value'
-                  }
-                }).then(function (result) {
-                  console.log('Notification 1 triggered');
-                });
-              };
-               $scope.scheduleLocationNotification = function ()
-              {
-
-              $cordovaLocalNotification.schedule(
-              {
-                id: 2,
-                title: 'PG Transit',
-                text: 'You have enabled Locations',
-                data:
-                {
-                    customProperty: 'custom value'
-                }
-                }).then(function (result)
-                {
-                   console.log('Notification 2 triggered');
-                });
-                };
           });
-     $scope.pushNotificationChange = function()
-     {
-       console.log('Push Notification Change', $scope.pushNotification.checked);
-       if ($scope.pushNotification.checked == true)
-       {
-           $scope.scheduleSingleNotification();
-           console.log('Notifications enabled taking action');
-       }
-     };
+
+     $scope.pushNotificationChange = function() {
+         console.log('Push Notification Change', $scope.pushNotification.checked);
+         localStorage.setItem('notification', $scope.pushNotification.checked);
+       };
+
+     $scope.pushNotification = { checked: localStorage.getItem('notification') };
+
      $scope.enableLocationChange = function()
      {
-        console.log('Enable Location Change', $scope.pushLocationNotification.checked);
-        if($scope.pushLocationNotification.checked == true && $scope.pushNotification.checked == true)
+       //localStorage.setItem('locationAccess', $scope.GPS.checked);
+
+        //Fix plugin functionality so we can directly check if the user has enabled the GPS.
+       /*cordova.plugins.diagnostic.isLocationEnabled(
+         function(available) {
+                                      if (available){
+                                         //alert("Location already turned on");
+                                      }
+                                      else {
+                                        //alert("Location Not Turned ON");
+                                      }
+                                  },
+                                  function(error) {
+                                      console.error("The following error occurred: "+error);
+                                  }
+                              );*/
+       var posOptions = {timeout: 10000, enableHighAccuracy: true};
+       $cordovaGeolocation.getCurrentPosition(posOptions).then(function(position)
+       {
+       },
+       function(err)
+       {
+        $ionicLoading.show(
         {
-            $scope.scheduleLocationNotification();
-            console.log('Location enabled taking action')
-        }
+            template: 'Could not find location. Please try again later.',
+            duration: 2000
+            });
+        $scope.GPS.checked = false;
+       });
      }
-      $scope.userName = localStorage.getItem('username');
+
+/*$scope.userName = localStorage.getItem('username');
         $scope.saveName = function()
         {
           localStorage.setItem('username', document.getElementById('userNameBox').value);
-        };
+        };*/
    })
-
-
- .controller('settingsName', function($scope)
- {
-   $scope.userName = localStorage.getItem('username');
-   $scope.saveName = function()
-   {
-     localStorage.setItem('username', document.getElementById('userNameBox').value);
-   };
- })
-
 
   .controller("stopCtrl2", function ($scope, stopService1)
   {
@@ -562,11 +541,35 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
     });
   })
 
- .controller("stopListCtrl", function ($scope, $state, routeService, stopService, shareService)
+ .controller("stopListCtrl", function ($scope, $state, routeService, stopService, shareService, favouritesService, $ionicLoading)
   {
     $scope.gotoMap = function()
     {
       $state.go('app.routeMap');
+    }
+
+    $scope.editFavourite = function(c)//Adds/removes favourite route.
+    {
+        if (favouritesService.hasItem(c))
+        {
+            favouritesService.removeItem(c);
+            favouritesService.saveFavs();
+            $ionicLoading.show(
+            {
+            template: c.name + ' removed from favourites.',
+            duration: 1000
+            });
+        }
+        else
+        {
+        favouritesService.setFavourite(c);
+        favouritesService.saveFavs();
+        $ionicLoading.show(
+                  {
+                  template: c.name + ' added to favourites.',
+                  duration: 1000
+                  });
+        }
     }
 
     $scope.newStopList = [];
