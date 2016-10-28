@@ -99,22 +99,46 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
   })
 
   .service("favouritesService", function() {
-    var favRoutes = [];
-
-    var getFavourites = function()
-    {
-        return favRoutes;
-    };
-
-    var setFavourite = function(value)
-    {
-        favRoutes.push(value);
-    };
+    var favouritesService = this;
+    favouritesService.favRoutes = [];
 
     return {
-     getFavourites: getFavourites,
-     setFavourite: setFavourite
-     };
+        getFavourites: function()
+        {
+            return favouritesService.favRoutes;
+        },
+
+        setFavourite: function(value)
+        {
+            favouritesService.favRoutes.push(value);
+        },
+
+        removeItem: function(value)
+        {
+            favouritesService.favRoutes.splice(favouritesService.favRoutes.indexOf(value), 1);
+        },
+
+        hasItem: function(value)
+        {
+            if (favouritesService.favRoutes.indexOf(value) > -1)
+                return true;
+            else
+                return false;
+        },
+
+        saveFavs: function()
+        {
+            localStorage.setItem("favourites", JSON.stringify(favouritesService.favRoutes));
+        },
+
+        loadFavs: function()
+        {
+            if(localStorage.getItem("favourites")!==null)
+            {
+                favouritesService.favRoutes = JSON.parse(localStorage.getItem("favourites"));
+            }
+        }
+    };
 
   })
 
@@ -187,7 +211,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         'menuContent':
         {
           templateUrl: 'templates/settings.html',
-          controller: 'settingsName'
+          controller: 'settingsCtrl'
         }
       }
     })

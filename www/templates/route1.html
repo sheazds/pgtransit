@@ -11,8 +11,9 @@
   </ion-nav-buttons>
 
   <ion-content>
-    <ion-list>
-      <ion-item ng-repeat="c in newStopList" item="c" ng-click="addFavourite(c)">
+    <ion-list ng-repeat="c in newStopList">
+      <ion-item  on-hold="editFavourite(c)">
+        <button class="button icon-left ion-star button-clear button-dark" ng-click="editFavourite(c)"></button>
         {{c.name}}
       </ion-item>
 

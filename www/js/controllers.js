@@ -343,10 +343,11 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 	  }
 	})
 
-  .controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
+  .controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate, favouritesService)
   {
       $scope.firstLoad = function()
       {
+          favouritesService.loadFavs();
           if(localStorage.getItem('loadToken')!==null)
           {
               $scope.startApp();
@@ -540,16 +541,35 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
     });
   })
 
- .controller("stopListCtrl", function ($scope, $state, routeService, stopService, shareService, favouritesService)
+ .controller("stopListCtrl", function ($scope, $state, routeService, stopService, shareService, favouritesService, $ionicLoading)
   {
     $scope.gotoMap = function()
     {
       $state.go('app.routeMap');
     }
 
-    $scope.addFavourite = function(c)
+    $scope.editFavourite = function(c)//Adds/removes favourite route.
     {
-        favouritesService.setFavourite(c.name);
+        if (favouritesService.hasItem(c))
+        {
+            favouritesService.removeItem(c);
+            favouritesService.saveFavs();
+            $ionicLoading.show(
+            {
+            template: c.name + ' removed from favourites.',
+            duration: 1000
+            });
+        }
+        else
+        {
+        favouritesService.setFavourite(c);
+        favouritesService.saveFavs();
+        $ionicLoading.show(
+                  {
+                  template: c.name + ' added to favourites.',
+                  duration: 1000
+                  });
+        }
     }
 
     $scope.newStopList = [];

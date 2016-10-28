@@ -1,14 +1,33 @@
 angular.module('starter.controllers')
 
-.controller("favouritesCtrl", function($scope, $ionicPlatform, favouritesService)
+.controller("favouritesCtrl", function($scope, $state, $ionicPlatform, favouritesService, $ionicLoading)
 {
-    //$scope.favs = ["test"];
+    $scope.favs = favouritesService.getFavourites();
 
-    $scope.$on("$ionicView.enter", function(event, data)
+    $scope.$on("$ionicView.enter", function(event, data)//Check to see if the list is empty on form enter.
     {
-        $scope.favs = favouritesService.getFavourites();
+        $scope.isEmpty();
+    })
 
-        //if ($scope.favs.length < 1)
-        //$scope.favs = ["You have no favourite routes :("];
-    });
+    $scope.isEmpty = function()//Shows a message to the user when the list is empty.
+    {
+        if ($scope.favs.length < 1)
+        {
+            $ionicLoading.show(
+            {
+                template: "You have no favourite routes :(",
+                duration: 1000
+            });
+        }
+    }
+
+    $scope.removeItem = function(item)//Remove item from the list.
+    {
+        if (favouritesService.hasItem(item))
+        {
+            favouritesService.removeItem(item);
+            favouritesService.saveFavs();
+        }
+        $scope.isEmpty();
+    }
 });
