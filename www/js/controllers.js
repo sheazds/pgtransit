@@ -556,19 +556,21 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
             favouritesService.saveFavs();
             $ionicLoading.show(
             {
-            template: c.name + ' removed from favourites.',
-            duration: 1000
+                template: c.name + ' removed from favourites.',
+                duration: 1000
             });
         }
         else
         {
-        favouritesService.setFavourite(c);
-        favouritesService.saveFavs();
-        $ionicLoading.show(
-                  {
-                  template: c.name + ' added to favourites.',
-                  duration: 1000
-                  });
+            favouritesService.setFavourite(c);
+            favouritesService.saveFavs();
+            $ionicLoading.show(
+                {
+                template: c.name + ' added to favourites.',
+                duration: 1000
+                });
+
+            mixpanel.track("Favourite", {"Route ID": c.route_id, "Route Name": c.name});
         }
     }
 
