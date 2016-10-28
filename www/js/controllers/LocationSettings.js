@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller('LocationSettings', function($scope, $cordovaGeolocation, $ionicPlatform)
+angular.module('starter.controllers').controller('LocationSettings', function($scope, $cordovaGeolocation, $ionicPlatform)
  {
      $scope.checkLocation = function()
      {
@@ -39,4 +37,4 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 
          }
 
- })
+ });

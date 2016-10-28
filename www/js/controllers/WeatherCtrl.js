@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller('WeatherCtrl', function($scope, $http, $ionicLoading)
+angular.module('starter.controllers').controller('WeatherCtrl', function($scope, $http, $ionicLoading)
 	{
 		var directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 
@@ -90,4 +88,4 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 			var index = Math.floor((degree + 22) / 45);
 			return directions[index];
 		};
-	})
+	});

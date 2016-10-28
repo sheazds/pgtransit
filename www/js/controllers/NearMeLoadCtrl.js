@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller('NearMeLoadCtrl', function($scope, $state, $cordovaGeolocation, $ionicPlatform, $ionicHistory, $ionicLoading, locationService)
+angular.module('starter.controllers').controller('NearMeLoadCtrl', function($scope, $state, $cordovaGeolocation, $ionicPlatform, $ionicHistory, $ionicLoading, locationService)
 	{
 		$ionicLoading.show();
 
@@ -38,4 +36,4 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
         $state.go('app.nearMe');
 		  }
 	  });
-	})
+	});

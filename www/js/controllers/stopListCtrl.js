@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller("stopListCtrl", function ($scope, $state, routeService, stopService, shareService)
+angular.module('starter.controllers').controller("stopListCtrl", function ($scope, $state, routeService, stopService, shareService)
   {
     $scope.gotoMap = function()
     {
@@ -28,4 +26,4 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
          }
        }
     });
-  })
+  });

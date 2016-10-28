@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller("NearMeCtrl", function ($scope, $state, $ionicHistory, stopNearMeService, locationService)
+angular.module('starter.controllers').controller("NearMeCtrl", function ($scope, $state, $ionicHistory, stopNearMeService, locationService)
 	{
 	  $scope.loadMap = function()
 	  {
@@ -25,4 +23,4 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 		{
 			$scope.co = data.data;
 		});
-	})
+	});

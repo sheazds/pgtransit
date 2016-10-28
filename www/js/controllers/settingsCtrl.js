@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller('settingsCtrl', function($scope, $cordovaLocalNotification, $ionicPlatform, $window)
+angular.module('starter.controllers').controller('settingsCtrl', function($scope, $cordovaLocalNotification, $ionicPlatform, $window)
    {
    $ionicPlatform.ready(function ()
           {
@@ -60,4 +58,4 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
         {
           localStorage.setItem('username', document.getElementById('userNameBox').value);
         };
-   })
+   });

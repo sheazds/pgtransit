@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller('RouteMapCtrl', function($scope, routeService, stopService, shareService)
+angular.module('starter.controllers').controller('RouteMapCtrl', function($scope, routeService, stopService, shareService)
   {
     $scope.newStopList = [];
 

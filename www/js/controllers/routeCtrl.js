@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller("routeCtrl", function ($scope, routeService, shareService)
+angular.module('starter.controllers').controller("routeCtrl", function ($scope, routeService, shareService)
   {
     $scope.routes = [];
 
@@ -15,4 +13,4 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
         shareService.setRouteName($scope.routeID);
       };
     });
-  })
+  });

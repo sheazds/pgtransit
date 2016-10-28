@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller('ContactCtrl', function($scope, $ionicPlatform, $cordovaDevice)
+angular.module('starter.controllers').controller('ContactCtrl', function($scope, $ionicPlatform, $cordovaDevice)
   {
     $ionicPlatform.ready(function()
     {
@@ -28,4 +26,4 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
                 + "Version: "       + $scope.version      + "\r\n"
       ));
     }
-  })
+  });

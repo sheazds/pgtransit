@@ -1,6 +1,4 @@
-angular.module('starter.controllers', ['ionic', 'ngCordova'])
-
-.controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
+angular.module('starter.controllers').controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
   {
       $scope.firstLoad = function()
       {
@@ -45,4 +43,4 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
           $scope.slideIndex = index;
       };
 
-  })
+  });
