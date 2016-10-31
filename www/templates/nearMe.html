@@ -1,43 +1,5 @@
-<ion-view view-title="Near Me" cache-view="false">
-
-	<ion-nav-buttons side="right">
-		<button class="button button-light button-clear no-animation"
-				ng-click="loadMap()">
-			View Map
-		</button>
-
-	</ion-nav-buttons>
-	<ion-content class="has-header">
-
-		<button ng-click>
-			<a href="#app/aboutUs">to About Us</a>
-		</button>
-
-		<div class="item item-divider">
-			My current coordinates:
-		</div>
-
-		<div class="item item-divider">
-			<p>
-				Latitude: {{lat}}
-				<br>
-				Longitude: {{long}}
-			</p>
-		</div>
-		<br>
-
-		<div class="item item-divider">
-			Close bus stops are:
-		</div>
-
-		<div data-ng-repeat="s in co" ng-if=
-				"s.stop_lat < (lat + 0.005) &&
-      s.stop_lat > (lat - 0.005) &&
-      s.stop_lon < (long + 0.005) &&
-      s.stop_lon > (long - 0.005)">
-			<div class="item item-divider">
-				<p>{{s.stop_name}}</p>
-			</div>
-		</div>
+<ion-view view-title="Near Me Map View" cache-view="false">
+	<ion-content>
+		<div id="map" data-tap-disabled="true"></div>
 	</ion-content>
 </ion-view>
