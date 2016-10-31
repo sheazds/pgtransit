@@ -127,7 +127,6 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
           optimized: false
         });
 
-
         //Add other Bus Stop Markers
         var infoWindow = new google.maps.InfoWindow();
 
@@ -139,13 +138,14 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
             map: map,
             animation: google.maps.Animation.DROP,
             title: info.stop_name,
+            businfo: '  schedule goes here', //have to change it to schedule later
             icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
             optimized: false
           });
           google.maps.event.addListener(marker, 'click', function()
           {
-            infoWindow.setContent(marker.title);
-            infoWindow.open($scope.map, marker)
+            infoWindow.setContent(marker.title + marker.businfo); //have to add schedule later not just string
+            infoWindow.open($scope.map, marker);
           });
         }
 
@@ -157,10 +157,10 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
           //Check if nearby
           for (i=0; i<$scope.co.length; i++)
           {
-            if( $scope.co[i].stop_lat < $scope.lat + 0.005 &&
-                $scope.co[i].stop_lat > $scope.lat - 0.005 &&
-                $scope.co[i].stop_lon < $scope.long + 0.005 &&
-                $scope.co[i].stop_lon > $scope.long - 0.005)
+            if( $scope.co[i].stop_lat < $scope.lat + 0.007 &&
+                $scope.co[i].stop_lat > $scope.lat - 0.007 &&
+                $scope.co[i].stop_lon < $scope.long + 0.007 &&
+                $scope.co[i].stop_lon > $scope.long - 0.007)
             {
             createMarker($scope.co[i]);
             }
