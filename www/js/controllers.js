@@ -172,6 +172,7 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
 
 	.controller('WeatherCtrl', function($scope, $http, $ionicLoading)
 	{
+	    mixpanel.track("Weather", {"weather": 'WeatherCtrl'});
 		var directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 
 		$scope.getIconUrl = function(iconId)
@@ -537,6 +538,7 @@ angular.module('starter.controllers', ['ionic', 'ngCordova'])
       {
         $scope.routeID = id;
         shareService.setRouteName($scope.routeID);
+        mixpanel.track("Route", {"Route Id":$scope.routes});
       };
     });
   })
