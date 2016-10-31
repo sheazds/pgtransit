@@ -2,103 +2,28 @@
 
   <ion-content>
 
+    <div class="list">
+      <ion-toggle
+              ng-model="pushNotification.checked"
+              ng-change="pushNotificationChange()"
+              toggle-class="toggle-positive">
+        Enable Notifications
+      </ion-toggle>
 
-    <div class="settings">
-      <style>
-        p.center
-        {
-        text-align: center;
-        }
+      <ion-toggle
+              ng-model="GPS.checked"
+              ng-change="enableLocationChange()"
+              toggle-class="toggle-positive"
+              id = "locationAccess">
+        Enable Location Access
+      </ion-toggle>
+    </div>
 
-      </style>
-
-      <style media="screen" type="text/css">
-        .myButton {
-        -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
-        -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
-        box-shadow:inset 0px 1px 0px 0px #54a3f7;
-        background-color:#387df5;
-        -moz-border-radius:3px;
-        -webkit-border-radius:3px;
-        border-radius:3px;
-        border:1px solid #387df5;
-        display:inline-block;
-        cursor:pointer;
-        color:#ffffff;
-        font-family:Arial;
-        font-size:18px;
-        padding:14px 55px;
-        text-decoration:none;
-        text-shadow:0px 1px 0px #154682;
-        }
-        .myButton:hover {
-        background-color:#0061a7;
-        }
-        .myButton:active {
-        position:relative;
-        top:1px;
-        }
-
-
-      .mySaveButton {
-        text-align: right;
-      -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
-      -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
-      box-shadow:inset 0px 1px 0px 0px #54a3f7;
-      background-color:#387df5;
-      -moz-border-radius:3px;
-      -webkit-border-radius:3px;
-      border-radius:3px;
-      border:1px solid #387df5;
-      display:inline-block;
-      cursor:pointer;
-      color:#ffffff;
-      font-family:Arial;
-      font-size:8px;
-      padding:6px 12px;
-      text-decoration:none;
-      text-shadow:0px 1px 0px #154682;
-      }
-      .mySaveButton:hover {
-      background-color:#0061a7;
-      }
-      .mySaveButton:active {
-      position:relative;
-      top:1px;
-      }
-
-      </style>
-      <div class="list">
-
-        <div class="list list-inset">
-          <label class="item item-input">
-            <input type="text" placeholder="Name">
-          </label>
-        </div>
-      <!--
-      <div style="display: flex; vertical-align:center; justify-content: space-between; margin:10px;">
-        <input type="text" id="userNameBox" value={{userName}} style="background-color:#EEEEEE;">
-        <a href="#" class="mySaveButton" ng-click="saveName()">Save</a>
-      </div>-->
-
-
-
-        <div ng-controller="settingsCtrl">
-          <ion-toggle ng-model="pushNotification.checked"
-                      ng-change="pushNotificationChange()"
-                      toggle-class="toggle-positive">
-            Enable Notifications
-          </ion-toggle>
-          <ion-toggle
-                  ng-model="pushLocationNotification.checked"
-                  ng-change="enableLocationChange()"
-                  toggle-class="toggle-positive">
-            Enable Location Access</ion-toggle>
-        </div>
-
-
-      </div>
-    <p class="center"> <a href="#" class="myButton inline" data-ng-controller="LocationSettings" data-ng-click="getLocation()">Open Location Settings</a></p>
+    <div class="text-center" ng-controller="LocationSettings">
+      <button class="button button-positive" ng-click="getLocation()">
+        Open Location Settings
+      </button>
+    </div>
 
     </div>
   </ion-content>
