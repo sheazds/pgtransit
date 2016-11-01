@@ -1,0 +1,562 @@
+[
+    {
+        "stop_lat": 53.910459, 
+        "stop_code": 105088, 
+        "stop_lon": -122.769734, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at Carney", 
+        "stop_id": 105088, 
+        "stop_name": "Westbound 15th Ave at Carney", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910322, 
+        "stop_code": 105091, 
+        "stop_lon": -122.756507, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at 13th Ave", 
+        "stop_id": 105091, 
+        "stop_name": "Westbound 15th Ave at 13th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.911054, 
+        "stop_code": 105092, 
+        "stop_lon": -122.752575, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Patricia at 10th Ave", 
+        "stop_id": 105092, 
+        "stop_name": "Westbound Patricia at 10th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.91164, 
+        "stop_code": 105093, 
+        "stop_lon": -122.749658, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Patricia at 10th Ave", 
+        "stop_id": 105093, 
+        "stop_name": "Westbound Patricia at 10th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917637, 
+        "stop_code": 105098, 
+        "stop_lon": -122.74917, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at 3rd Ave", 
+        "stop_id": 105098, 
+        "stop_name": "Northbound Victoria at 3rd Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915948, 
+        "stop_code": 105095, 
+        "stop_lon": -122.745086, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Dominion at 4th Ave", 
+        "stop_id": 105095, 
+        "stop_name": "Southbound Dominion at 4th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.88872, 
+        "stop_code": 105224, 
+        "stop_lon": -122.761971, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Ferry at Lansdowne", 
+        "stop_id": 105224, 
+        "stop_name": "Eastbound Ferry at Lansdowne", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.918764, 
+        "stop_code": 105097, 
+        "stop_lon": -122.743813, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound 1st Ave at Quebec", 
+        "stop_id": 105097, 
+        "stop_name": "Eastbound 1st Ave at Quebec", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.888109, 
+        "stop_code": 105226, 
+        "stop_lon": -122.780318, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Ferry at Westwood", 
+        "stop_id": 105226, 
+        "stop_name": "Eastbound Ferry at Westwood", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.888123, 
+        "stop_code": 105227, 
+        "stop_lon": -122.784858, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Ferry at Melody", 
+        "stop_id": 105227, 
+        "stop_name": "Eastbound Ferry at Melody", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.889643, 
+        "stop_code": 105228, 
+        "stop_lon": -122.78781, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Sycamore", 
+        "stop_id": 105228, 
+        "stop_name": "Southbound Ospika at Sycamore", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.891572, 
+        "stop_code": 105229, 
+        "stop_lon": -122.789179, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Christopher", 
+        "stop_id": 105229, 
+        "stop_name": "Southbound Ospika at Christopher", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.893764, 
+        "stop_code": 105230, 
+        "stop_lon": -122.789153, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Gould", 
+        "stop_id": 105230, 
+        "stop_name": "Southbound Ospika at Gould", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.898113, 
+        "stop_code": 105231, 
+        "stop_lon": -122.789981, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Massey", 
+        "stop_id": 105231, 
+        "stop_name": "Southbound Ospika at Massey", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.895351, 
+        "stop_code": 105243, 
+        "stop_lon": -122.789164, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Gould", 
+        "stop_id": 105243, 
+        "stop_name": "Southbound Ospika at Gould", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.904325, 
+        "stop_code": 105282, 
+        "stop_lon": -122.773762, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Massey at Griffiths", 
+        "stop_id": 105282, 
+        "stop_name": "Southbound Massey at Griffiths", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.909832, 
+        "stop_code": 105005, 
+        "stop_lon": -122.787015, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Nicholson at 15th Ave", 
+        "stop_id": 105005, 
+        "stop_name": "Southbound Nicholson at 15th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.914406, 
+        "stop_code": 105094, 
+        "stop_lon": -122.746341, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Dominion at 6th Ave", 
+        "stop_id": 105094, 
+        "stop_name": "Southbound Dominion at 6th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.91367, 
+        "stop_code": 105000, 
+        "stop_lon": -122.7474, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 7th Ave at Dominion", 
+        "stop_id": 105000, 
+        "stop_name": "Westbound 7th Ave at Dominion", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913232, 
+        "stop_code": 105002, 
+        "stop_lon": -122.747274, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Dominion at 7th Ave", 
+        "stop_id": 105002, 
+        "stop_name": "Southbound Dominion at 7th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910518, 
+        "stop_code": 105266, 
+        "stop_lon": -122.74048, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at Ingledew", 
+        "stop_id": 105266, 
+        "stop_name": "Westbound 15th Ave at Ingledew", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915363, 
+        "stop_code": 105134, 
+        "stop_lon": -122.751021, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at 6th Ave", 
+        "stop_id": 105134, 
+        "stop_name": "Northbound Victoria at 6th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.908474, 
+        "stop_code": 105263, 
+        "stop_lon": -122.761879, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 17th Ave at Upland", 
+        "stop_id": 105263, 
+        "stop_name": "Westbound 17th Ave at Upland", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.909168, 
+        "stop_code": 105264, 
+        "stop_lon": -122.758059, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Spruce at 15th Ave", 
+        "stop_id": 105264, 
+        "stop_name": "Southbound Spruce at 15th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910914, 
+        "stop_code": 105265, 
+        "stop_lon": -122.742222, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Queensway at 15th Ave", 
+        "stop_id": 105265, 
+        "stop_name": "Northbound Queensway at 15th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.898626, 
+        "stop_code": 105010, 
+        "stop_lon": -122.77985, 
+        "parent_station": 0, 
+        "stop_short_name": "Pine Centre Exchange Bay B", 
+        "stop_id": 105010, 
+        "stop_name": "Pine Centre Exchange Bay B", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910525, 
+        "stop_code": 105267, 
+        "stop_lon": -122.737638, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at Gorse", 
+        "stop_id": 105267, 
+        "stop_name": "Westbound 15th Ave at Gorse", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.908434, 
+        "stop_code": 105268, 
+        "stop_lon": -122.735524, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound 17th Ave at Elm", 
+        "stop_id": 105268, 
+        "stop_name": "Eastbound 17th Ave at Elm", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.906601, 
+        "stop_code": 105269, 
+        "stop_lon": -122.73791, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Gorse at 20th Ave", 
+        "stop_id": 105269, 
+        "stop_name": "Northbound Gorse at 20th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.905414, 
+        "stop_code": 105270, 
+        "stop_lon": -122.738253, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound 20th Ave at Gorse", 
+        "stop_id": 105270, 
+        "stop_name": "Eastbound 20th Ave at Gorse", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.90541, 
+        "stop_code": 105271, 
+        "stop_lon": -122.744242, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound 20th Ave at Juniper", 
+        "stop_id": 105271, 
+        "stop_name": "Eastbound 20th Ave at Juniper", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.905831, 
+        "stop_code": 105272, 
+        "stop_lon": -122.748043, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Maple at 20th Ave", 
+        "stop_id": 105272, 
+        "stop_name": "Southbound Maple at 20th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.908499, 
+        "stop_code": 105273, 
+        "stop_lon": -122.747202, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 17th Ave at Larch", 
+        "stop_id": 105273, 
+        "stop_name": "Westbound 17th Ave at Larch", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.908501, 
+        "stop_code": 105274, 
+        "stop_lon": -122.742926, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 17th Ave at Queensway", 
+        "stop_id": 105274, 
+        "stop_name": "Westbound 17th Ave at Queensway", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.904832, 
+        "stop_code": 105275, 
+        "stop_lon": -122.742125, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Queensway at 20th Ave", 
+        "stop_id": 105275, 
+        "stop_name": "Northbound Queensway at 20th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.894159, 
+        "stop_code": 105276, 
+        "stop_lon": -122.743352, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Queensway at Jasper", 
+        "stop_id": 105276, 
+        "stop_name": "Eastbound Queensway at Jasper", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.897232, 
+        "stop_code": 105277, 
+        "stop_lon": -122.741221, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Queensway at La Salle", 
+        "stop_id": 105277, 
+        "stop_name": "Northbound Queensway at La Salle", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.900035, 
+        "stop_code": 105278, 
+        "stop_lon": -122.741257, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Queensway at Quadrant", 
+        "stop_id": 105278, 
+        "stop_name": "Northbound Queensway at Quadrant", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.888686, 
+        "stop_code": 105279, 
+        "stop_lon": -122.757134, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Ferry at Spruce", 
+        "stop_id": 105279, 
+        "stop_name": "Eastbound Ferry at Spruce", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.886188, 
+        "stop_code": 105280, 
+        "stop_lon": -122.779648, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Westwood at Andres", 
+        "stop_id": 105280, 
+        "stop_name": "Southbound Westwood at Andres", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.908209, 
+        "stop_code": 105410, 
+        "stop_lon": -122.769179, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Carney at Ellison", 
+        "stop_id": 105410, 
+        "stop_name": "Northbound Carney at Ellison", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.907258, 
+        "stop_code": 105411, 
+        "stop_lon": -122.766093, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound 17th Ave at Yew", 
+        "stop_id": 105411, 
+        "stop_name": "Southbound 17th Ave at Yew", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.916469, 
+        "stop_code": 105100, 
+        "stop_lon": -122.75012, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at 5th Ave", 
+        "stop_id": 105100, 
+        "stop_name": "Northbound Victoria at 5th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917566, 
+        "stop_code": 105096, 
+        "stop_lon": -122.743763, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Dominion at 2nd Ave", 
+        "stop_id": 105096, 
+        "stop_name": "Southbound Dominion at 2nd Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.907715, 
+        "stop_code": 105038, 
+        "stop_lon": -122.78602, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Nicholson at 18th Ave", 
+        "stop_id": 105038, 
+        "stop_name": "Southbound Nicholson at 18th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.901409, 
+        "stop_code": 105043, 
+        "stop_lon": -122.741262, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Royal at Queensway", 
+        "stop_id": 105043, 
+        "stop_name": "Westbound Royal at Queensway", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.881748, 
+        "stop_code": 105048, 
+        "stop_lon": -122.773523, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound 3880 block Wiebe", 
+        "stop_id": 105048, 
+        "stop_name": "Southbound 3880 block Wiebe", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.904277, 
+        "stop_code": 180027, 
+        "stop_lon": -122.778669, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound 2870 block Griffiths", 
+        "stop_id": 180027, 
+        "stop_name": "Northbound 2870 block Griffiths", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.899719, 
+        "stop_code": 105068, 
+        "stop_lon": -122.783255, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Massey at Westwood", 
+        "stop_id": 105068, 
+        "stop_name": "Westbound Massey at Westwood", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.899689, 
+        "stop_code": 105330, 
+        "stop_lon": -122.786243, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Massey at Opie", 
+        "stop_id": 105330, 
+        "stop_name": "Westbound Massey at Opie", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.899688, 
+        "stop_code": 105331, 
+        "stop_lon": -122.789537, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Massey at Nicholson", 
+        "stop_id": 105331, 
+        "stop_name": "Westbound Massey at Nicholson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.905276, 
+        "stop_code": 105022, 
+        "stop_lon": -122.785841, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Nicholson at 18th Ave", 
+        "stop_id": 105022, 
+        "stop_name": "Southbound Nicholson at 18th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910496, 
+        "stop_code": 105084, 
+        "stop_lon": -122.783184, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at Central", 
+        "stop_id": 105084, 
+        "stop_name": "Westbound 15th Ave at Central St W", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.91053, 
+        "stop_code": 105085, 
+        "stop_lon": -122.77921, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at Johnson", 
+        "stop_id": 105085, 
+        "stop_name": "Westbound 15th Ave at Johnson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910465, 
+        "stop_code": 105086, 
+        "stop_lon": -122.775621, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at Gillett", 
+        "stop_id": 105086, 
+        "stop_name": "Westbound 15th Ave at Gillett", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.91048, 
+        "stop_code": 105087, 
+        "stop_lon": -122.772699, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at Ewert", 
+        "stop_id": 105087, 
+        "stop_name": "Westbound 15th Ave at Ewert", 
+        "location_type": 0
+    }
+]

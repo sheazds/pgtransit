@@ -1,0 +1,53 @@
+[
+    {
+        "block_id": 327741, 
+        "direction_id": 1, 
+        "hierarchy": 1, 
+        "pattern_rank": 28, 
+        "pattern_id": 101, 
+        "route_id": "96-PrinceGeorge", 
+        "direction_code": 0, 
+        "trip_headsign": "Kelly Road Secondary & Heather Park School via N. Nechako", 
+        "trip_type": 0, 
+        "trip_sequence": 1, 
+        "shape_id": "9-96-14", 
+        "pattern_code": 101, 
+        "service_id": "aaAPR16-APR16-Weekday-02", 
+        "trip_id": "ab1889438", 
+        "pattern_count": 44
+    }, 
+    {
+        "block_id": 327745, 
+        "direction_id": 1, 
+        "hierarchy": 1, 
+        "pattern_rank": 29, 
+        "pattern_id": 102, 
+        "route_id": "96-PrinceGeorge", 
+        "direction_code": 0, 
+        "trip_headsign": "Kelly Road Secondary & Heather Park School via N. Nechako", 
+        "trip_type": 0, 
+        "trip_sequence": 1, 
+        "shape_id": "9-96-15", 
+        "pattern_code": 102, 
+        "service_id": "aaAPR16-APR16-Weekday-02", 
+        "trip_id": "ab1889439", 
+        "pattern_count": 44
+    }, 
+    {
+        "block_id": 327751, 
+        "direction_id": 1, 
+        "hierarchy": 1, 
+        "pattern_rank": 27, 
+        "pattern_id": 100, 
+        "route_id": "96-PrinceGeorge", 
+        "direction_code": 0, 
+        "trip_headsign": "Kelly Road Secondary & Heather Park School via N. Nechako", 
+        "trip_type": 0, 
+        "trip_sequence": 1, 
+        "shape_id": "9-96-16", 
+        "pattern_code": 100, 
+        "service_id": "aaAPR16-APR16-Weekday-02", 
+        "trip_id": "ab1889440", 
+        "pattern_count": 44
+    }
+]

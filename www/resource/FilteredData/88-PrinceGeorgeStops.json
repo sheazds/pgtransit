@@ -1,0 +1,472 @@
+[
+    {
+        "stop_lat": 53.862879, 
+        "stop_code": 105259, 
+        "stop_lon": -122.78888, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Marleau at Lalonde", 
+        "stop_id": 105259, 
+        "stop_name": "Westbound Marleau at Lalonde", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.860489, 
+        "stop_code": 105373, 
+        "stop_lon": -122.783006, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Southridge at St Frances", 
+        "stop_id": 105373, 
+        "stop_name": "Northbound Southridge at St Frances", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.85769, 
+        "stop_code": 105374, 
+        "stop_lon": -122.779653, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Southridge at St Anne", 
+        "stop_id": 105374, 
+        "stop_name": "Westbound Southridge at St Anne", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.855624, 
+        "stop_code": 105375, 
+        "stop_lon": -122.777939, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound St Lawrence at Southridge", 
+        "stop_id": 105375, 
+        "stop_name": "Westbound St Lawrence at Southridge", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.855662, 
+        "stop_code": 105376, 
+        "stop_lon": -122.773389, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound St Lawrence at St Patrick", 
+        "stop_id": 105376, 
+        "stop_name": "Westbound St Lawrence at St Patrick", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.858511, 
+        "stop_code": 105377, 
+        "stop_lon": -122.768759, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 7190 block St Lawrence", 
+        "stop_id": 105377, 
+        "stop_name": "Westbound 7190 block St Lawrence", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.869674, 
+        "stop_code": 180002, 
+        "stop_lon": -122.785012, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Tyner at Gannett", 
+        "stop_id": 180002, 
+        "stop_name": "Eastbound Tyner at Gannett", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.862208, 
+        "stop_code": 105379, 
+        "stop_lon": -122.766502, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound 6430 block Domano", 
+        "stop_id": 105379, 
+        "stop_name": "Southbound 6430 block Domano", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910473, 
+        "stop_code": 105003, 
+        "stop_lon": -122.787037, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at Endako", 
+        "stop_id": 105003, 
+        "stop_name": "Westbound 15th Ave at Endako", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.909832, 
+        "stop_code": 105005, 
+        "stop_lon": -122.787015, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Nicholson at 15th Ave", 
+        "stop_id": 105005, 
+        "stop_name": "Southbound Nicholson at 15th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.868189, 
+        "stop_code": 105006, 
+        "stop_lon": -122.774446, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Domano at Moriarty", 
+        "stop_id": 105006, 
+        "stop_name": "Eastbound Domano at Moriarty", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.988882, 
+        "stop_code": 105008, 
+        "stop_lon": -122.789089, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Austin Road at Madill", 
+        "stop_id": 105008, 
+        "stop_name": "Eastbound Austin Road at Madill", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.987527, 
+        "stop_code": 105521, 
+        "stop_lon": -122.782791, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Hart at Birchwood", 
+        "stop_id": 105521, 
+        "stop_name": "Eastbound Hart at Birchwood", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.98068, 
+        "stop_code": 105522, 
+        "stop_lon": -122.775611, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Hart at Lehman", 
+        "stop_id": 105522, 
+        "stop_name": "Southbound Hart at Lehman", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.978168, 
+        "stop_code": 105523, 
+        "stop_lon": -122.771584, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound 5470 block Hart", 
+        "stop_id": 105523, 
+        "stop_name": "Eastbound 5470 block Hart", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.974516, 
+        "stop_code": 105524, 
+        "stop_lon": -122.768196, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound 5200 block Hart", 
+        "stop_id": 105524, 
+        "stop_name": "Southbound 5200 block Hart", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.964855, 
+        "stop_code": 105525, 
+        "stop_lon": -122.767686, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Hart Highway at Noranda", 
+        "stop_id": 105525, 
+        "stop_name": "Southbound Hart Highway at Noranda", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.918698, 
+        "stop_code": 105015, 
+        "stop_lon": -122.782284, 
+        "parent_station": 0, 
+        "stop_short_name": "Spruceland Exchange Bay A", 
+        "stop_id": 105015, 
+        "stop_name": "Spruceland Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.904277, 
+        "stop_code": 180027, 
+        "stop_lon": -122.778669, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound 2870 block Griffiths", 
+        "stop_id": 180027, 
+        "stop_name": "Northbound 2870 block Griffiths", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.905276, 
+        "stop_code": 105022, 
+        "stop_lon": -122.785841, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Nicholson at 18th Ave", 
+        "stop_id": 105022, 
+        "stop_name": "Southbound Nicholson at 18th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.886188, 
+        "stop_code": 105280, 
+        "stop_lon": -122.779648, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Westwood at Andres", 
+        "stop_id": 105280, 
+        "stop_name": "Southbound Westwood at Andres", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.859186, 
+        "stop_code": 105281, 
+        "stop_lon": -122.806813, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Bear at Aldeen", 
+        "stop_id": 105281, 
+        "stop_name": "Westbound Bear at Aldeen", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.904325, 
+        "stop_code": 105282, 
+        "stop_lon": -122.773762, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Massey at Griffiths", 
+        "stop_id": 105282, 
+        "stop_name": "Southbound Massey at Griffiths", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.860459, 
+        "stop_code": 105290, 
+        "stop_lon": -122.802749, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Bear at Westgate", 
+        "stop_id": 105290, 
+        "stop_name": "Westbound Bear at Westgate", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.860233, 
+        "stop_code": 105378, 
+        "stop_lon": -122.766481, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Domano at Bernard", 
+        "stop_id": 105378, 
+        "stop_name": "Southbound Domano at Bernard", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.907715, 
+        "stop_code": 105038, 
+        "stop_lon": -122.78602, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Nicholson at 18th Ave", 
+        "stop_id": 105038, 
+        "stop_name": "Southbound Nicholson at 18th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.876306, 
+        "stop_code": 105424, 
+        "stop_lon": -122.784133, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Davis at Baker", 
+        "stop_id": 105424, 
+        "stop_name": "Eastbound Davis at Baker", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.960467, 
+        "stop_code": 105425, 
+        "stop_lon": -122.767774, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Hart Highway at Kenworth", 
+        "stop_id": 105425, 
+        "stop_name": "Southbound Hart Highway at Kenworth", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.956731, 
+        "stop_code": 105426, 
+        "stop_lon": -122.76596, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Hart Higway Frontage at Perrin", 
+        "stop_id": 105426, 
+        "stop_name": "Southbound Hart Higway Frontage at Perrin", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.95064, 
+        "stop_code": 105427, 
+        "stop_lon": -122.763288, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound 2800 Block Hart Highway Frontage", 
+        "stop_id": 105427, 
+        "stop_name": "Southbound  2800 Block Hart Highway Frontage", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.952579, 
+        "stop_code": 105428, 
+        "stop_lon": -122.764465, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound 3100 Block Hart Highway Frontage", 
+        "stop_id": 105428, 
+        "stop_name": "Southbound  3100 Block Hart Highway Frontage", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.938899, 
+        "stop_code": 105429, 
+        "stop_lon": -122.760467, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Hart Highway at Hoffercamp", 
+        "stop_id": 105429, 
+        "stop_name": "Southbound  Hart Highway at Hoffercamp", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.945982, 
+        "stop_code": 105430, 
+        "stop_lon": -122.762967, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Hart Highway Frontage at McIntosh", 
+        "stop_id": 105430, 
+        "stop_name": "Southbound  Hart Highway Frontage at McIntosh", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.943883, 
+        "stop_code": 105431, 
+        "stop_lon": -122.761993, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Hart Highway Frontage at Northwood Pulpmill", 
+        "stop_id": 105431, 
+        "stop_name": "Southbound  Hart Highway Frontage at Northwood Pulpmill", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.875587, 
+        "stop_code": 105432, 
+        "stop_lon": -122.784768, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Baker at Calhoun", 
+        "stop_id": 105432, 
+        "stop_name": "Westbound Baker at Calhoun", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.87275, 
+        "stop_code": 105433, 
+        "stop_lon": -122.785354, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Baker at Baker", 
+        "stop_id": 105433, 
+        "stop_name": "Southbound Baker at Baker", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.870785, 
+        "stop_code": 105435, 
+        "stop_lon": -122.784987, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Baker at Wheeler", 
+        "stop_id": 105435, 
+        "stop_name": "Southbound Baker at Wheeler", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.858089, 
+        "stop_code": 105820, 
+        "stop_lon": -122.814829, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 4270 block Bear", 
+        "stop_id": 105820, 
+        "stop_name": "Westbound 4270 block Bear", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.88407, 
+        "stop_code": 105441, 
+        "stop_lon": -122.784692, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Range", 
+        "stop_id": 105441, 
+        "stop_name": "Southbound Ospika at Range", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.86517, 
+        "stop_code": 105019, 
+        "stop_lon": -122.786144, 
+        "parent_station": 0, 
+        "stop_short_name": "Westgate Exchange Bay A", 
+        "stop_id": 105019, 
+        "stop_name": "Westgate Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.884597, 
+        "stop_code": 105444, 
+        "stop_lon": -122.781568, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Range at Romanin", 
+        "stop_id": 105444, 
+        "stop_name": "Westbound Range at Romanin", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.898626, 
+        "stop_code": 105010, 
+        "stop_lon": -122.77985, 
+        "parent_station": 0, 
+        "stop_short_name": "Pine Centre Exchange Bay B", 
+        "stop_id": 105010, 
+        "stop_name": "Pine Centre Exchange Bay B", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.894016, 
+        "stop_code": 105449, 
+        "stop_lon": -122.779617, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Westwood at Fairview", 
+        "stop_id": 105449, 
+        "stop_name": "Southbound Westwood at Fairview", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.891685, 
+        "stop_code": 105450, 
+        "stop_lon": -122.779645, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Westwood at Fern", 
+        "stop_id": 105450, 
+        "stop_name": "Southbound Westwood at Fern", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.889442, 
+        "stop_code": 105451, 
+        "stop_lon": -122.779605, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Westwood at Cherry", 
+        "stop_id": 105451, 
+        "stop_name": "Southbound Westwood at Cherry", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.989122, 
+        "stop_code": 105203, 
+        "stop_lon": -122.786472, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Hart at Austin", 
+        "stop_id": 105203, 
+        "stop_name": "Eastbound Hart at Austin Rd W", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917404, 
+        "stop_code": 105076, 
+        "stop_lon": -122.784545, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ahbau at 8th Ave", 
+        "stop_id": 105076, 
+        "stop_name": "Southbound Ahbau at 8th Ave", 
+        "location_type": 0
+    }
+]
