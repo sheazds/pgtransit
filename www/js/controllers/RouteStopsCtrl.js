@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, routeService, stopService, shareService, favouritesService, $ionicLoading)
+angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicLoading, routeService, stopService, shareService, favouritesService)
 {
 	$scope.gotoMap = function()
 	{
@@ -15,7 +15,7 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 			{
 				template: c.name + ' removed from favourites.',
 				duration: 1000
-			});
+			})
 		}
 		else
 		{
@@ -27,7 +27,7 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 				duration: 1000
 			});
 		}
-	}
+	};
 
 	 $scope.newStopList = [];
 	 $scope.routeName = shareService.getRouteName();
@@ -36,7 +36,7 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 	promise.then(function (data1)
 	{
 		$scope.routes = data1.data;
-	})
+	});
 
 	var newStop = stopService.getNewstop();
 	newStop.then(function (data2)
@@ -50,8 +50,7 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 			}
 		}
 		createMap();
-	})
-
+	});
 
 	var createMap = function()
 	{
@@ -89,13 +88,12 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 			{
 				infoWindow.setContent(marker.title);
 				infoWindow.open($scope.map, marker)
-			})
+			});
 		}
-
 		//Get stops from Json
 		for (i=0; i<$scope.newStopList.length; i++)
 		{
 		createMarker($scope.newStopList[i]);
 		}
 	}
-})
+});
