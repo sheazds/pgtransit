@@ -292,18 +292,6 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
 
-  .state('app.schedule',
-  {
-    url: '/schedule',
-    views:
-    {
-      'menuContent':
-      {
-        templateUrl: 'templates/schedule.html'
-      }
-    }
-  })
-
   .state('app.welcome',
   {
     url: '/welcome',
@@ -355,6 +343,45 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       }
     }
   })
+
+    .state('app.schedule',
+    {
+      url: '/schedule',
+      views:
+      {
+        'menuContent':
+        {
+          templateUrl: 'templates/schedule.html',
+          controller: 'ScheduleCtrl'
+        }
+      }
+    })
+
+    .state('app.scheduleStops',
+    {
+      url: '/scheduleStops',
+      views:
+      {
+        'menuContent':
+        {
+          templateUrl: 'templates/scheduleStops.html',
+          controller: 'ScheduleStopsCtrl'
+        }
+      }
+    })
+
+    .state('app.scheduleMap',
+    {
+      url: '/scheduleMap',
+      views:
+      {
+        'menuContent':
+        {
+          templateUrl: 'templates/scheduleMap.html',
+          controller: 'ScheduleMapCtrl'
+        }
+      }
+    })
 
   .state('app.favourites',
   {
