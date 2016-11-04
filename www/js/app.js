@@ -84,6 +84,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 
   .service("shareService", function () {
   var _routeID;
+  var _routeShort
+  var _routeLong
 
   // moving { to newline breaks app
   return {
@@ -94,6 +96,22 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       setRouteName: function (id)
       {
         _routeID = id;
+      },
+      getRouteShort: function ()
+      {
+        return _routeShort;
+      },
+      setRouteShort: function (shortName)
+      {
+        _routeShort = shortName;
+      },
+      getRouteLong: function ()
+      {
+        return _routeLong;
+      },
+      setRouteLong: function (longName)
+      {
+        _routeLong = longName;
       }
     };
   })

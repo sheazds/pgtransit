@@ -31,6 +31,8 @@ angular.module('starter.controllers').controller("ScheduleStopsCtrl", function (
 
 	 $scope.newStopList = [];
 	 $scope.routeName = shareService.getRouteName();
+	 $scope.routeShort = shareService.getRouteShort();
+	 $scope.routeLong = shareService.getRouteLong();
 
 	var promise = routeService.getRoutes();
 	promise.then(function (data1)

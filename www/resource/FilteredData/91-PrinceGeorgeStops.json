@@ -1,0 +1,562 @@
+[
+    {
+        "stop_lat": 53.954534, 
+        "stop_code": 105422, 
+        "stop_lon": -122.804043, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound North Nechako at Sturgeon", 
+        "stop_id": 105422, 
+        "stop_name": "Southbound North Nechako at Sturgeon", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.919898, 
+        "stop_code": 105101, 
+        "stop_lon": -122.784158, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Ahbau at 5th Ave", 
+        "stop_id": 105101, 
+        "stop_name": "Northbound Ahbau at 5th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.934748, 
+        "stop_code": 105139, 
+        "stop_lon": -122.787227, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound North Nechako at Aspen", 
+        "stop_id": 105139, 
+        "stop_name": "Southbound  North Nechako at Aspen", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.993417, 
+        "stop_code": 105198, 
+        "stop_lon": -122.784216, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Eden at Glenview", 
+        "stop_id": 105198, 
+        "stop_name": "Westbound Eden at Glenview", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.931127, 
+        "stop_code": 105397, 
+        "stop_lon": -122.782244, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound North Nechako at Highway 97", 
+        "stop_id": 105397, 
+        "stop_name": "Eastbound North Nechako at Highway 97", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.993321, 
+        "stop_code": 105500, 
+        "stop_lon": -122.80128, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Kelly at Heather", 
+        "stop_id": 105500, 
+        "stop_name": "Southbound Kelly at Heather", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.991922, 
+        "stop_code": 105501, 
+        "stop_lon": -122.801269, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Kelly at Richet", 
+        "stop_id": 105501, 
+        "stop_name": "Southbound Kelly Rd S at Richet", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.98956, 
+        "stop_code": 105502, 
+        "stop_lon": -122.801241, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Kelly at Austin", 
+        "stop_id": 105502, 
+        "stop_name": "Southbound Kelly Rd S at Austin Rd W", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.971682, 
+        "stop_code": 105157, 
+        "stop_lon": -122.792588, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Wildwood at Ridgeview", 
+        "stop_id": 105157, 
+        "stop_name": "Northbound  Wildwood at Ridgeview", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 54.00706, 
+        "stop_code": 105520, 
+        "stop_lon": -122.800621, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Hart Highway at Estavilla", 
+        "stop_id": 105520, 
+        "stop_name": "Northbound Hart Highway at Estavilla", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.983214, 
+        "stop_code": 105507, 
+        "stop_lon": -122.799373, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Highland at Montgomery", 
+        "stop_id": 105507, 
+        "stop_name": "Eastbound Highland at Montgomery", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.979439, 
+        "stop_code": 105509, 
+        "stop_lon": -122.795689, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Highland at Nixon", 
+        "stop_id": 105509, 
+        "stop_name": "Southbound Highland at Nixon", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.978407, 
+        "stop_code": 105510, 
+        "stop_lon": -122.798063, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Highland at Wallace", 
+        "stop_id": 105510, 
+        "stop_name": "Westbound Highland at Wallace", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 54.001479, 
+        "stop_code": 105517, 
+        "stop_lon": -122.800684, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Hart Highway at Brons", 
+        "stop_id": 105517, 
+        "stop_name": "Northbound Hart Highway at Brons", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.990012, 
+        "stop_code": 180014, 
+        "stop_lon": -122.77668, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Dawson at Austin", 
+        "stop_id": 180014, 
+        "stop_name": "Southbound Dawson at Austin Rd E", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 54.004329, 
+        "stop_code": 105519, 
+        "stop_lon": -122.800651, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Hart Highway at Chestnut", 
+        "stop_id": 105519, 
+        "stop_name": "Northbound Hart Highway at Chestnut", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.988882, 
+        "stop_code": 105008, 
+        "stop_lon": -122.789089, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Austin Road at Madill", 
+        "stop_id": 105008, 
+        "stop_name": "Eastbound Austin Road at Madill", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.983316, 
+        "stop_code": 105394, 
+        "stop_lon": -122.799289, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Highland at Montgomery", 
+        "stop_id": 105394, 
+        "stop_name": "Westbound Highland at Montgomery", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.946285, 
+        "stop_code": 105395, 
+        "stop_lon": -122.796004, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound North Nechako at Craig", 
+        "stop_id": 105395, 
+        "stop_name": "Southbound North Nechako at Craig", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.93943, 
+        "stop_code": 105396, 
+        "stop_lon": -122.789556, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound North Nechako at Rustad", 
+        "stop_id": 105396, 
+        "stop_name": "Eastbound  North Nechako at Rustad", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.918281, 
+        "stop_code": 105013, 
+        "stop_lon": -122.782284, 
+        "parent_station": 0, 
+        "stop_short_name": "Spruceland Exchange Bay B", 
+        "stop_id": 105013, 
+        "stop_name": "Spruceland Exchange Bay B", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.981407, 
+        "stop_code": 105398, 
+        "stop_lon": -122.795347, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Highland at Glengarry", 
+        "stop_id": 105398, 
+        "stop_name": "Northbound  Highland at Glengarry", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.982644, 
+        "stop_code": 105399, 
+        "stop_lon": -122.796737, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Highland at Teresa", 
+        "stop_id": 105399, 
+        "stop_name": "Westbound Highland at Teresa", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.985413, 
+        "stop_code": 105400, 
+        "stop_lon": -122.801049, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Kelly S at Vellencher", 
+        "stop_id": 105400, 
+        "stop_name": "Northbound  Kelly S at Vellencher", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.98748, 
+        "stop_code": 105401, 
+        "stop_lon": -122.801026, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Kelly S at Austin", 
+        "stop_id": 105401, 
+        "stop_name": "Northbound  Kelly S at Austin", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.987488, 
+        "stop_code": 105503, 
+        "stop_lon": -122.80126, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound 6440 block Kelly", 
+        "stop_id": 105503, 
+        "stop_name": "Southbound 6440 block Kelly Rd S", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.975994, 
+        "stop_code": 105148, 
+        "stop_lon": -122.796675, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Berwick at Langley", 
+        "stop_id": 105148, 
+        "stop_name": "Eastbound Berwick at Langley", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.977951, 
+        "stop_code": 105149, 
+        "stop_lon": -122.799089, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Highland at Berwick", 
+        "stop_id": 105149, 
+        "stop_name": "Eastbound  Highland at Berwick", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.975127, 
+        "stop_code": 105151, 
+        "stop_lon": -122.796612, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Nixon at Berwick", 
+        "stop_id": 105151, 
+        "stop_name": "Westbound Nixon at Berwick", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.931187, 
+        "stop_code": 105412, 
+        "stop_lon": -122.781173, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound North Nechako at Highway 97", 
+        "stop_id": 105412, 
+        "stop_name": "Westbound  North Nechako at Highway 97", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.934432, 
+        "stop_code": 105413, 
+        "stop_lon": -122.786881, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound North Nechako at Aspen", 
+        "stop_id": 105413, 
+        "stop_name": "Northbound  North Nechako at Aspen", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.939851, 
+        "stop_code": 105414, 
+        "stop_lon": -122.789752, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound North Nechako at Rustad", 
+        "stop_id": 105414, 
+        "stop_name": "Northbound  North Nechako at Rustad", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.957044, 
+        "stop_code": 105415, 
+        "stop_lon": -122.808924, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound North Nechako at Fairburn", 
+        "stop_id": 105415, 
+        "stop_name": "Westbound  North Nechako at Fairburn", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.957814, 
+        "stop_code": 105416, 
+        "stop_lon": -122.812541, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound North Nechako at Foothills", 
+        "stop_id": 105416, 
+        "stop_name": "Westbound  North Nechako at Foothills", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.945985, 
+        "stop_code": 105417, 
+        "stop_lon": -122.795432, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound North Nechako at Churchill", 
+        "stop_id": 105417, 
+        "stop_name": "Northbound  North Nechako at Churchill", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.95467, 
+        "stop_code": 105418, 
+        "stop_lon": -122.803966, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound North Nechako at Sturgeon", 
+        "stop_id": 105418, 
+        "stop_name": "Northbound North Nechako at Sturgeon", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.961008, 
+        "stop_code": 105419, 
+        "stop_lon": -122.821317, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound North Nechako at Meadowbrook", 
+        "stop_id": 105419, 
+        "stop_name": "Westbound  North Nechako at Meadowbrook", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.957684, 
+        "stop_code": 105420, 
+        "stop_lon": -122.812727, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound North Nechako at Foothills", 
+        "stop_id": 105420, 
+        "stop_name": "Eastbound  North Nechako at Foothills", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.956878, 
+        "stop_code": 105421, 
+        "stop_lon": -122.808918, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound North Nechako at Fairburn", 
+        "stop_id": 105421, 
+        "stop_name": "Eastbound  North Nechako at Fairburn", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.977003, 
+        "stop_code": 105166, 
+        "stop_lon": -122.791275, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Kilarney at Wildwood", 
+        "stop_id": 105166, 
+        "stop_name": "Northbound  Kilarney at Wildwood", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.975142, 
+        "stop_code": 105170, 
+        "stop_lon": -122.78971, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Wildwood at Sussex", 
+        "stop_id": 105170, 
+        "stop_name": "Northbound Wildwood at Sussex", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.979828, 
+        "stop_code": 105171, 
+        "stop_lon": -122.792323, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Kilarney at Carleton", 
+        "stop_id": 105171, 
+        "stop_name": "Northbound  Kilarney at Carleton", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.981245, 
+        "stop_code": 105173, 
+        "stop_lon": -122.792538, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Glengarry at Kilarney", 
+        "stop_id": 105173, 
+        "stop_name": "Westbound  Glengarry at Kilarney", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.972789, 
+        "stop_code": 105174, 
+        "stop_lon": -122.790618, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Wildwood at Carlisle", 
+        "stop_id": 105174, 
+        "stop_name": "Northbound Wildwood at Carlisle", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.973492, 
+        "stop_code": 105176, 
+        "stop_lon": -122.795676, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ridgeview at McKenney", 
+        "stop_id": 105176, 
+        "stop_name": "Southbound Ridgeview at McKenney", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.995642, 
+        "stop_code": 105178, 
+        "stop_lon": -122.801282, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Kelly at Handlen", 
+        "stop_id": 105178, 
+        "stop_name": "Southbound Kelly at Handlen", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.999343, 
+        "stop_code": 105518, 
+        "stop_lon": -122.800425, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Hart Highway at Nordic", 
+        "stop_id": 105518, 
+        "stop_name": "Northbound Hart Highway at Nordic", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.993473, 
+        "stop_code": 105190, 
+        "stop_lon": -122.778341, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Eden at Langer", 
+        "stop_id": 105190, 
+        "stop_name": "Westbound Eden at Langer", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.989502, 
+        "stop_code": 105192, 
+        "stop_lon": -122.781475, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Austin at Driftwood", 
+        "stop_id": 105192, 
+        "stop_name": "Eastbound Austin Rd E at Driftwood", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.989486, 
+        "stop_code": 105193, 
+        "stop_lon": -122.784753, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound 3400 block Austin", 
+        "stop_id": 105193, 
+        "stop_name": "Eastbound 3400 block Austin Rd E", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.993511, 
+        "stop_code": 105197, 
+        "stop_lon": -122.780999, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Eden at Adam", 
+        "stop_id": 105197, 
+        "stop_name": "Westbound Eden at Adam", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.988788, 
+        "stop_code": 105454, 
+        "stop_lon": -122.799423, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Austin at Boschman", 
+        "stop_id": 105454, 
+        "stop_name": "Eastbound Austin Rd W at Boschman", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.992575, 
+        "stop_code": 105199, 
+        "stop_lon": -122.787817, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Eden at Dagg", 
+        "stop_id": 105199, 
+        "stop_name": "Southbound Eden at Dagg", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.992465, 
+        "stop_code": 105200, 
+        "stop_lon": -122.788614, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Dagg at Eden", 
+        "stop_id": 105200, 
+        "stop_name": "Westbound Dagg at Eden", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.99442, 
+        "stop_code": 105201, 
+        "stop_lon": -122.792131, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 7110 block Dagg", 
+        "stop_id": 105201, 
+        "stop_name": "Westbound 7110 block Dagg", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.996235, 
+        "stop_code": 105202, 
+        "stop_lon": -122.795891, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Weisbrod at Dagg", 
+        "stop_id": 105202, 
+        "stop_name": "Westbound Weisbrod at Dagg", 
+        "location_type": 0
+    }
+]
