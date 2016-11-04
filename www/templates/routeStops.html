@@ -19,8 +19,7 @@
     <div id="map" data-tap-disabled="true" style="width:100%;height:30%"></div>
 
     <ion-list ng-repeat="c in newStopList">
-      <ion-item  on-hold="editFavourite(c)">
-        <button class="button icon-left ion-star button-clear button-dark" ng-click="editFavourite(c)"></button>
+      <ion-item>
         {{c.name}}
       </ion-item>
     </ion-list>
