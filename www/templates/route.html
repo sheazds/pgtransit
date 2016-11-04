@@ -1,8 +1,16 @@
 <ion-view view-title="Home Page">
   <ion-content class="has-header">
-    <ion-list ng-repeat="route in routes">
-      <ion-item href="#app/route1" ng-click="setRoute(route.route_id)">
-        <div class="routeEntry"><div class="routeNumberCircle">{{route.route_short_name}}</div> {{route.route_long_name}}</div>
+    <ion-list>
+      <ion-item ng-repeat="route in routes" ng-click = "setRoute(route.route_id)" on-hold="editFavourite(route)">
+        <div class="item item-button-right">
+          <button class="button icon ion-star button-clear button-energized" ng-click="editFavourite(route); $event.stopPropagation();"></button>
+          <div class="routeEntry">
+            <div class="routeNumberCircle">
+              {{route.route_short_name}}
+            </div>
+            {{route.route_long_name}}
+          </div>
+          </div>
       </ion-item>
     </ion-list>
   </ion-content>
