@@ -24,7 +24,7 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
-        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        var map = new google.maps.Map(document.getElementById("nearmemap"), mapOptions);
 
         //add users current location as a marker
         var myLocation = new google.maps.Marker(

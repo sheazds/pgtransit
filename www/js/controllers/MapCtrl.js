@@ -1,4 +1,4 @@
-angular.module('starter.controllers')	.controller('MapCtrl', function($scope, $state, $ionicHistory, $ionicPlatform, locationService)
+angular.module('starter.controllers').controller('MapCtrl', function($scope, $state, $ionicHistory, $ionicPlatform, locationService)
 	{
 	  //Check if location is set, if not redirect to get it
 	  if(locationService.getLat() == null)
@@ -24,7 +24,7 @@ angular.module('starter.controllers')	.controller('MapCtrl', function($scope, $s
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
-        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+        var map = new google.maps.Map(document.getElementById("mapmap"), mapOptions);
 
         //add users current location as a marker
         var myLocation = new google.maps.Marker(

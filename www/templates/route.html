@@ -1,8 +1,13 @@
-<ion-view view-title="Routes">
+<ion-view view-title="Routes" cache-view="false">
   <ion-content class="has-header">
     <ion-list ng-repeat="route in routes">
       <ion-item href="#app/routeStops" ng-click="setRoute(route.route_id, route.route_short_name, route.route_long_name)">
-        <div class="routeEntry"><div class="routeNumberCircle">{{route.route_short_name}}</div> {{route.route_long_name}}</div>
+        <div class="routeEntry">
+          <div class="routeNumberCircle">
+            {{route.route_short_name}}
+          </div>
+          {{route.route_long_name}}
+        </div>
       </ion-item>
     </ion-list>
   </ion-content>

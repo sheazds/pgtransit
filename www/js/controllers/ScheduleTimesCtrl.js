@@ -1,16 +1,15 @@
-angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, favouritesService, stopService)
+angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, favouritesService, stopService)
 {
-    $scope.gotoSchedule = function()
+    $scope.gotoRoute = function()
     {
         $ionicHistory.nextViewOptions({disableBack: true});
-        $state.go('app.scheduleTimes');
+        $state.go('app.routeStops');
     }
     $scope.gotoMap = function()
     {
         $ionicHistory.nextViewOptions({disableBack: true});
         $state.go('app.routeMap');
     }
-
 
 	$scope.stops = [];
 	$scope.routeName = shareService.getRouteName();
@@ -47,7 +46,7 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 			disableDefaultUI: true
 		}
 
-		var map = new google.maps.Map(document.getElementById("routemap"), mapOptions);
+		var map = new google.maps.Map(document.getElementById("schedulemap"), mapOptions);
 
 		//Add other Bus Stop Markers
 		var infoWindow = new google.maps.InfoWindow();

@@ -1,4 +1,4 @@
-<ion-view view-title="{{routeShort}}, {{routeLong}}">
+<ion-view view-title="{{routeShort}}, {{routeLong}}" cache-view="false">
   <!-- Title Navigation Buttons-->
   <ion-nav-buttons side="right">
     <button class="button button-light button-clear no-animation"
@@ -12,7 +12,7 @@
       <a class="tab-item active">
         Route
       </a>
-      <a class="tab-item">
+      <a class="tab-item" ng-click="gotoSchedule()">
         Schedule
       </a>
       <a class="tab-item" ng-click="gotoMap()">
@@ -23,12 +23,12 @@
 
 
   <ion-content class="has-subheader">
-    <div id="map" data-tap-disabled="true" style="width:100%;height:30%"></div>
+    <div id="routemap" data-tap-disabled="true" style="width:100%;height:30%"></div>
 
-    <ion-list ng-repeat="c in newStopList">
-      <ion-item  on-hold="editFavourite(c)">
-        <button class="button icon-left ion-star button-clear button-dark" ng-click="editFavourite(c)"></button>
-        {{c.name}}
+    <ion-list ng-repeat="stop in stops">
+      <ion-item  on-hold="editFavourite(stop)">
+        <button class="button icon-left ion-star button-clear button-dark button-small" ng-click="editFavourite(stop)"></button>
+        {{stop.stop_name}}
       </ion-item>
     </ion-list>
 

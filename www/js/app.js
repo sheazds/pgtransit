@@ -57,30 +57,19 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
   .service("stopService", function ($http, $q)
   {
     var deferred = $q.defer();
-    $http.get('resource/newStop.json').then(function (data)
-    {
-      deferred.resolve(data);
-    });
+    var routeJson;
 
-    this.getNewstop = function ()
+    this.getNewstop = function (stopRouteID)
     {
-      return deferred.promise;
+        routeJson ='resource/FilteredData/' + stopRouteID + '-PrinceGeorgeStops.json';
+        $http.get(routeJson).then(function (data)
+            {
+                deferred.resolve(data);
+            });
+        return deferred.promise;
     }
   })
 
-  .service("stopService1", function ($http, $q)
-  {
-    var deferred = $q.defer();
-    $http.get('resource/Stops.json').then(function (data)
-    {
-      deferred.resolve(data);
-    });
-
-    this.getCo = function ()
-    {
-      return deferred.promise;
-    }
-  })
 
   .service("shareService", function () {
   var _routeID;
@@ -375,28 +364,15 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       }
     })
 
-    .state('app.scheduleStops',
+    .state('app.scheduleTimes',
     {
-      url: '/scheduleStops',
+      url: '/scheduleTimes',
       views:
       {
         'menuContent':
         {
-          templateUrl: 'templates/scheduleStops.html',
-          controller: 'ScheduleStopsCtrl'
-        }
-      }
-    })
-
-    .state('app.scheduleMap',
-    {
-      url: '/scheduleMap',
-      views:
-      {
-        'menuContent':
-        {
-          templateUrl: 'templates/scheduleMap.html',
-          controller: 'ScheduleMapCtrl'
+          templateUrl: 'templates/scheduleTimes.html',
+          controller: 'ScheduleTimesCtrl'
         }
       }
     })
