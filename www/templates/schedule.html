@@ -1,7 +1,7 @@
 <ion-view view-title="Schedule" cache-view="false">>
   <ion-content class="has-header">
     <ion-list ng-repeat="route in routes">
-      <ion-item href="#app/scheduleTimes" ng-click="setRoute(route.route_id, route.route_short_name, route.route_long_name)">
+      <ion-item ng-click="setRoute(route.route_id, route.route_short_name, route.route_long_name); gotoSchedule()">
         <div class="routeEntry">
           <div class="routeNumberCircle">
               {{route.route_short_name}}

@@ -1,20 +1,28 @@
-angular.module('starter.controllers').controller("routeCtrl", function ($scope, routeService, shareService)
-  {
+angular.module('starter.controllers').controller("routeCtrl", function ($scope, $ionicHistory, $state, routeService, shareService)
+{
     $scope.routes = [];
+
+    $scope.gotoRoute = function()
+    {
+        $ionicHistory.clearCache().then(function()
+        {
+            $state.go('app.routeStops');
+        })
+    }
 
     var promise = routeService.getRoutes();
     promise.then(function (data1)
     {
-      $scope.routes = data1.data;
+        $scope.routes = data1.data;
 
-      $scope.setRoute = function (id, shortName, longName)
-      {
-        $scope.routeID = id;
-        $scope.routeShortName = shortName;
-        $scope.routeLongName = longName;
-        shareService.setRouteName($scope.routeID);
-        shareService.setRouteShort($scope.routeShortName);
-        shareService.setRouteLong($scope.routeLongName);
-      };
+        $scope.setRoute = function (id, shortName, longName)
+        {
+            $scope.routeID = id;
+            $scope.routeShortName = shortName;
+            $scope.routeLongName = longName;
+            shareService.setRouteName($scope.routeID);
+            shareService.setRouteShort($scope.routeShortName);
+            shareService.setRouteLong($scope.routeLongName);
+        };
     });
-  });
+});

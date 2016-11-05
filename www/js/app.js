@@ -56,16 +56,13 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 
   .service("stopService", function ($http, $q)
   {
-    var deferred = $q.defer();
-    var routeJson;
-
     this.getNewstop = function (stopRouteID)
     {
-        routeJson ='resource/FilteredData/' + stopRouteID + '-PrinceGeorgeStops.json';
-        $http.get(routeJson).then(function (data)
-            {
-                deferred.resolve(data);
-            });
+        var deferred = $q.defer();
+        $http.get('resource/FilteredData/' + stopRouteID + '-PrinceGeorgeStops.json').then(function (data)
+        {
+            deferred.resolve(data);
+        });
         return deferred.promise;
     }
   })
