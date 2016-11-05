@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, favouritesService, stopService)
+angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, favouritesService, stopService, timeService)
 {
     $scope.gotoRoute = function()
     {
@@ -12,14 +12,21 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     }
 
 	$scope.stops = [];
+	$scope.times = [];
 	$scope.routeName = shareService.getRouteName();
 	$scope.routeShort = shareService.getRouteShort();
 	$scope.routeLong = shareService.getRouteLong();
 
-	var promise = stopService.getNewstop($scope.routeShort);
-    promise.then(function (data1)
+    var promise1 = stopService.getNewstop($scope.routeShort);
+    promise1.then(function (data1)
     {
         $scope.stops = data1.data;
+    });
+
+	var promise2 = timeService.getNewstop($scope.routeShort);
+    promise2.then(function (data2)
+    {
+        $scope.times = data2.data;
         createMap();
     });
 
