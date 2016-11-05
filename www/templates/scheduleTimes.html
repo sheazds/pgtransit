@@ -27,7 +27,7 @@
 
     <div class="row" ng-repeat="stop in stops">
       <div class="col">{{stop.stop_name}}</div>
-      <div class="col" ng-repeat="time in times">{{time.arrival_time}}</div>
+      <div class="col" ng-repeat="time in times" ng-if="stop.stop_id == time.stop_id">{{time.arrival_time}}</div>
     </div>
 
   </ion-content>
