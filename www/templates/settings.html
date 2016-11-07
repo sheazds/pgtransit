@@ -1,8 +1,7 @@
 <ion-view view-title="Settings">
-
   <ion-content>
 
-    <div class="list">
+    <ion-list >
       <ion-toggle
               ng-model="pushNotification.checked"
               ng-change="pushNotificationChange()"
@@ -10,22 +9,18 @@
         Enable Notifications
       </ion-toggle>
 
-      <ion-toggle
-              ng-model="GPS.checked"
-              ng-change="enableLocationChange()"
-              toggle-class="toggle-positive"
-              id = "locationAccess">
-        Enable Location Access
-      </ion-toggle>
-    </div>
+      <ion-item ng-click="requestLocationAccess()">
+        Request Location Access
+      </ion-item>
 
-    <div class="text-center" ng-controller="LocationSettings">
-      <button class="button button-positive" ng-click="getLocation()">
+    </ion-list>
+
+    <div class="text-center">
+      <button class="button button-positive" ng-click="goToLocation()">
         Open Location Settings
       </button>
     </div>
 
-    </div>
   </ion-content>
 </ion-view>
 

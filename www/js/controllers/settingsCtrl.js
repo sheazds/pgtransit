@@ -1,61 +1,59 @@
-angular.module('starter.controllers').controller('settingsCtrl', function($scope, $cordovaLocalNotification, $ionicPlatform, $window)
+angular.module('starter.controllers').controller('settingsCtrl', function($scope, $cordovaLocalNotification, $cordovaGeolocation, $ionicPlatform, $ionicLoading, $window)
    {
-   $ionicPlatform.ready(function ()
-          {
-              $scope.scheduleSingleNotification = function ()
-              {
-
-                $cordovaLocalNotification.schedule(
-                {
-                  id: 1,
-                  title: 'PG Transit',
-                  text: 'You have enabled Notifications',
-                  data: {
-                    customProperty: 'custom value'
-                  }
-                }).then(function (result) {
-                  console.log('Notification 1 triggered');
-                });
-              };
-               $scope.scheduleLocationNotification = function ()
-              {
-
-              $cordovaLocalNotification.schedule(
-              {
-                id: 2,
+    $ionicPlatform.ready(function ()
+    {
+        $scope.scheduleSingleNotification = function ()
+        {
+            $cordovaLocalNotification.schedule(
+            {
+                id: 1,
                 title: 'PG Transit',
-                text: 'You have enabled Locations',
-                data:
-                {
-                    customProperty: 'custom value'
-                }
-                }).then(function (result)
-                {
-                   console.log('Notification 2 triggered');
-                });
-                };
-          });
+                text: 'You have enabled Notifications',
+                data: {
+                        customProperty: 'custom value'
+                      }
+            }).then(function (result)
+            {
+            console.log('Notification "Enable" triggered');
+            });
+        };
+    });
+
+    $scope.pushNotification = { checked: JSON.parse(localStorage.getItem("Notifications")) };
+
      $scope.pushNotificationChange = function()
      {
        console.log('Push Notification Change', $scope.pushNotification.checked);
-       if ($scope.pushNotification.checked == true)
+       localStorage.setItem("Notifications", JSON.stringify($scope.pushNotification.checked));
+       if ($scope.pushNotification.checked)
        {
            $scope.scheduleSingleNotification();
            console.log('Notifications enabled taking action');
        }
-     };
-     $scope.enableLocationChange = function()
-     {
-        console.log('Enable Location Change', $scope.pushLocationNotification.checked);
-        if($scope.pushLocationNotification.checked == true && $scope.pushNotification.checked == true)
-        {
-            $scope.scheduleLocationNotification();
-            console.log('Location enabled taking action')
-        }
      }
-      $scope.userName = localStorage.getItem('username');
-        $scope.saveName = function()
-        {
-          localStorage.setItem('username', document.getElementById('userNameBox').value);
-        };
+
+     $scope.requestLocationAccess = function()
+     {
+        var posOptions = {timeout: 10000, enableHighAccuracy: true};
+                $cordovaGeolocation.getCurrentPosition(posOptions).then(function(position)
+                {
+                  //Execute code on Success
+                  //Requests location access from user.
+                },
+                function(err)//Called when permission isn't acquired.
+                {
+                  $ionicLoading.hide();
+                  $ionicLoading.show(
+                  {
+                    template: 'Could not get access to location. Please try again.',
+                    duration: 1000
+                  });
+                });
+     }
+
+    $scope.goToLocation = function()
+    {
+        cordova.plugins.diagnostic.switchToLocationSettings();
+    }
+
    });
