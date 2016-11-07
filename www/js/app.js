@@ -229,15 +229,15 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
 
-  .state('app.weather',
+  .state('app.home',
   {
-    url: '/weather',
+    url: '/home',
     views:
     {
       'menuContent':
       {
-        templateUrl: 'templates/weather.html',
-        controller: 'WeatherCtrl'
+        templateUrl: 'templates/home.html',
+        controller: 'HomeCtrl'
       }
     }
   })
@@ -371,6 +371,6 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 
 
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/welcome');
+  $urlRouterProvider.otherwise('/app/home');
 })
 ;

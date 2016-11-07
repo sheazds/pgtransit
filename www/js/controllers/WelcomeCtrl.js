@@ -1,46 +1,38 @@
 angular.module('starter.controllers').controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
+{
+  $ionicSideMenuDelegate.canDragContent(false);
+
+  $scope.options =
   {
-      $scope.firstLoad = function()
+      loop: false,
+      effect: 'scroll',
+      speed: 500,
+  };
+
+  $scope.startApp = function()
+  {
+      localStorage.setItem('loadToken', 'Loaded')
+      $ionicSideMenuDelegate.canDragContent(true);
+      $ionicHistory.nextViewOptions(
       {
-          if(localStorage.getItem('loadToken')!==null)
-          {
-              $scope.startApp();
-          }
-      }
+          disableBack: true
+      });
+      $state.go('app.home');
+  };
 
-      $ionicSideMenuDelegate.canDragContent(false);
+  $scope.next = function()
+  {
+      $ionicSlideBoxDelegate.next();
+  };
 
-      $scope.options =
-      {
-          loop: false,
-          effect: 'scroll',
-          speed: 500,
-      };
+  $scope.previous = function()
+  {
+      $ionicSlideBoxDelegate.previous();
+  };
 
-      $scope.startApp = function()
-      {
-          localStorage.setItem('loadToken', 'Loaded')
-          $ionicSideMenuDelegate.canDragContent(true);
-          $ionicHistory.nextViewOptions(
-          {
-              disableBack: true
-          });
-          $state.go('app.route');
-      };
+  $scope.slideChanged = function(index)
+  {
+      $scope.slideIndex = index;
+  };
 
-      $scope.next = function()
-      {
-          $ionicSlideBoxDelegate.next();
-      };
-
-      $scope.previous = function()
-      {
-          $ionicSlideBoxDelegate.previous();
-      };
-
-      $scope.slideChanged = function(index)
-      {
-          $scope.slideIndex = index;
-      };
-
-  });
+});
