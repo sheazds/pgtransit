@@ -11,6 +11,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
         $state.go('app.routeMap');
     }
 
+    $scope.fullStops = [];
 	$scope.stops = [];
 	$scope.times = [];
 	$scope.routeName = shareService.getRouteName();
@@ -20,7 +21,14 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     var promise1 = stopService.getNewstop($scope.routeShort);
     promise1.then(function (data1)
     {
-        $scope.stops = data1.data;
+        $scope.fullStops = data1.data;
+		for (i=0; i < $scope.fullStops.length; i++)
+		{
+		    if($scope.fullStops[i].location_type == 1)
+		    {
+		        $scope.stops.push($scope.fullStops[i]);
+		    }
+		}
     });
 
 	var promise2 = timeService.getNewstop($scope.routeShort);
@@ -78,7 +86,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
 		//Get stops from Json
 		for (i=0; i < $scope.stops.length; i++)
 		{
-		    createMarker($scope.stops[i]);
+            createMarker($scope.stops[i]);
 		}
 	}
 

@@ -97,7 +97,7 @@
         "stop_short_name": "Eastbound 1st Ave at Van Somer", 
         "stop_id": 105353, 
         "stop_name": "Eastbound 1st Ave at Van Somer", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.927789, 
@@ -227,7 +227,7 @@
         "stop_short_name": "Westbound 15th Ave at Spruce", 
         "stop_id": 105090, 
         "stop_name": "Westbound 15th Ave at Spruce", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.915418, 
@@ -267,7 +267,7 @@
         "stop_short_name": "Northbound Foothills at 15th Ave", 
         "stop_id": 105115, 
         "stop_name": "Northbound Foothills at 15th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.913247, 
@@ -357,7 +357,7 @@
         "stop_short_name": "Southbound Dominion at 7th Ave", 
         "stop_id": 105002, 
         "stop_name": "Southbound Dominion at 7th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.917195, 
@@ -427,7 +427,7 @@
         "stop_short_name": "Spruceland Exchange Bay C", 
         "stop_id": 105016, 
         "stop_name": "Spruceland Exchange Bay C", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.915463, 
@@ -477,7 +477,7 @@
         "stop_short_name": "Spruceland Exchange Bay D", 
         "stop_id": 105014, 
         "stop_name": "Spruceland Exchange Bay D", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.935551, 
@@ -517,7 +517,7 @@
         "stop_short_name": "Southbound Ospika at Nugget", 
         "stop_id": 105299, 
         "stop_name": "Southbound Ospika at Nugget", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.921577, 
@@ -617,7 +617,7 @@
         "stop_short_name": "Westbound 15th Ave at Tabor", 
         "stop_id": 105077, 
         "stop_name": "Westbound 15th Ave at Tabor", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.912792, 
