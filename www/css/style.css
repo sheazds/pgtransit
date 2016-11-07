@@ -37,13 +37,55 @@
 
     font: 25px Arial, sans-serif;
 }
+.schedule
+{
+    padding: 0;
+    overflow-x: auto;
+    white-space: nowrap;
+}
 
-.bar.bar-positive-custom {
-	border-color: #0c60ee;
-	background-color: #0c60ee;
-	background-image: linear-gradient(0deg, #0c60ee, #0c60ee 50%, transparent 50%);
-	color: #fff; }
-.bar.bar-positive .title {
-	color: #fff; }
-.bar.bar-positive.bar-footer {
-	background-image: linear-gradient(180deg, #0c60ee, #0c60ee 50%, transparent 50%); }
+.schedRow
+{
+    border: 1px solid gray;
+    padding: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.schedStop
+{
+    background: #525173;
+    color: #fff;
+    margin-right: 1px;
+    padding: 5px;
+    -webkit-box-flex: none;
+    -webkit-flex: none;
+    -moz-box-flex: none;
+    -moz-flex: none;
+    -ms-flex: none;
+    flex: none;
+    display: block;
+    width: 150px;
+    white-space: normal;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+.schedTime
+{
+    background: #a7a7a7;
+    color: #525173;
+    margin-right: 1px;
+    -webkit-box-flex: none;
+    -webkit-flex: none;
+    -moz-box-flex: none;
+    -moz-flex: none;
+    -ms-flex: none;
+    flex: none;
+    display: block;
+    padding: 5px;
+}
