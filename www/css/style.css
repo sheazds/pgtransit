@@ -37,3 +37,38 @@
 
     font: 25px Arial, sans-serif;
 }
+.favourites
+{
+    margin-top: 5px;
+    background: #515078;
+}
+.favourites .header
+{
+    background: #f8ba24;
+    color: #fff;
+    padding: 10px;
+    font-size: 150%;
+}
+.favourites .item
+{
+    background: #515078;
+    color: #fff;
+}
+
+.nearMe
+{
+    margin-top: 5px;
+    background: #515078;
+}
+.nearMe .header
+{
+    background: #3b9cf6;
+    color: #fff;
+    padding: 10px;
+    font-size: 150%;
+}
+.nearMe .item
+{
+    background: #515078;
+    color: #fff;
+}

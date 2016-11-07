@@ -1,4 +1,4 @@
-<ion-view view-title="Home" ng-init="checkWeather()">
+<ion-view view-title="Home" ng-init="checkWeather()" cache-view="false">
     <ion-content>
 
             <div class="item item-thumbnail-left">
@@ -15,12 +15,20 @@
                 <h2>Wind: {{weather.wind.speed}}mph, {{getDirection(weather.wind.deg)}}</h2>
             </div>
 
-            <ion-list ng-controller='favouritesCtrl'>
+            <div class="favourites" ng-controller='favouritesCtrl'>
+                <div ng-if="favs.length > 0">
+                <div class="header">Favourites</div>
                 <ion-item ng-repeat='item in favs'>
-                    <button class="button icon-left ion-close-circled button-clear button-dark" ng-click="removeItem(item)"></button>
                     {{item.name}}
                 </ion-item>
-            </ion-list>
+                </div>
+            </div>
+
+            <div class="nearMe">
+                <div class="header">Near Me</div>
+                <ion-item>Example</ion-item>
+                <ion-item>Example</ion-item>
+            </div>
 
     </ion-content>
 </ion-view>
