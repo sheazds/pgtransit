@@ -1,5 +1,6 @@
 angular.module('starter.controllers').controller("stopListCtrl", function ($scope, $state, routeService, stopService, shareService)
   {
+
     $scope.gotoMap = function()
     {
       $state.go('app.routeMap');
@@ -23,6 +24,7 @@ angular.module('starter.controllers').controller("stopListCtrl", function ($scop
          if ($scope.newStop[i].route_id == $scope.routeName)
          {
            $scope.newStopList.push($scope.newStop[i]);
+
          }
        }
     });

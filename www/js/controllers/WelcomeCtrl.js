@@ -1,5 +1,7 @@
 angular.module('starter.controllers').controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
   {
+     mixpanel.track("WelcomePage", {"welcome": 'WelcomeCtrl'});
+
       $scope.firstLoad = function()
       {
           if(localStorage.getItem('loadToken')!==null)
@@ -26,6 +28,7 @@ angular.module('starter.controllers').controller('WelcomeCtrl', function($scope,
               disableBack: true
           });
           $state.go('app.route');
+
       };
 
       $scope.next = function()

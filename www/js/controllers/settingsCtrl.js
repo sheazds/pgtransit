@@ -1,5 +1,6 @@
 angular.module('starter.controllers').controller('settingsCtrl', function($scope, $cordovaLocalNotification, $ionicPlatform, $window)
    {
+    mixpanel.track("Setting", {"setting": 'settingsCtrl'});
    $ionicPlatform.ready(function ()
           {
               $scope.scheduleSingleNotification = function ()
