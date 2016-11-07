@@ -47,12 +47,19 @@
     background: #f8ba24;
     color: #fff;
     padding: 10px;
+    font-weight: bold;
     font-size: 150%;
+    text-shadow:
+                    -1px -1px 0 #000,
+                     1px -1px 0 #000,
+                     1px  1px 0 #000,
+                    -1px  1px 0 #000;
 }
 .favourites .item
 {
     background: #515078;
     color: #fff;
+    font-size: 125%;
 }
 
 .nearMe
@@ -65,10 +72,17 @@
     background: #3b9cf6;
     color: #fff;
     padding: 10px;
+    font-weight: bold;
     font-size: 150%;
+    text-shadow:
+                -1px -1px 0 #000,
+                 1px -1px 0 #000,
+                 1px  1px 0 #000,
+                -1px  1px 0 #000;
 }
 .nearMe .item
 {
     background: #515078;
     color: #fff;
+    font-size: 125%;
 }
