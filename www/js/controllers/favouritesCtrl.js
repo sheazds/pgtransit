@@ -34,6 +34,6 @@ angular.module('starter.controllers')
     $scope.goToFav = function (id)
     {
         shareService.setRouteName(id.route_id);
-        $state.go('app.route1');
+        $state.go('app.routeStops');
     };
 });

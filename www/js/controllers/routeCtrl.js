@@ -11,7 +11,7 @@ angular.module('starter.controllers').controller("routeCtrl", function ($scope, 
       {
         $scope.routeID = id;
         shareService.setRouteName($scope.routeID);
-        $state.go('app.route1');
+        $state.go('app.routeStops');
       };
     })
 
