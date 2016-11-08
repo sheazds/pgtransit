@@ -1,7 +1,9 @@
-angular.module('starter.controllers').controller('settingsCtrl', function($scope, $cordovaLocalNotification, $cordovaGeolocation, $ionicPlatform, $ionicLoading, $window)
+angular.module('starter.controllers').controller('settingsCtrl', function($scope, $state, $cordovaLocalNotification, $cordovaGeolocation, $ionicPlatform, $ionicLoading, $window)
    {
     $ionicPlatform.ready(function ()
     {
+        //Wrap notifications in a ready function to prevent issues with android devices.
+        //Maybe move to a more generic notification system that could be implemented?
         $scope.scheduleSingleNotification = function ()
         {
             $cordovaLocalNotification.schedule(
@@ -19,12 +21,13 @@ angular.module('starter.controllers').controller('settingsCtrl', function($scope
         };
     });
 
+    //Loads the saved state of the notification toggle.
     $scope.pushNotification = { checked: JSON.parse(localStorage.getItem("Notifications")) };
-
+    //Enable notifications for the app.
      $scope.pushNotificationChange = function()
      {
        console.log('Push Notification Change', $scope.pushNotification.checked);
-       localStorage.setItem("Notifications", JSON.stringify($scope.pushNotification.checked));
+       localStorage.setItem("Notifications", JSON.stringify($scope.pushNotification.checked)); //Saves toggle.
        if ($scope.pushNotification.checked)
        {
            $scope.scheduleSingleNotification();
@@ -32,6 +35,7 @@ angular.module('starter.controllers').controller('settingsCtrl', function($scope
        }
      }
 
+    //Request location access from the user.
      $scope.requestLocationAccess = function()
      {
         var posOptions = {timeout: 10000, enableHighAccuracy: true};
@@ -51,9 +55,16 @@ angular.module('starter.controllers').controller('settingsCtrl', function($scope
                 });
      }
 
+    //Opens up location services on android devices.
     $scope.goToLocation = function()
     {
         cordova.plugins.diagnostic.switchToLocationSettings();
+    }
+
+    //Loads about us page
+    $scope.goToAbout = function()
+    {
+        $state.go('app.about')
     }
 
    });
