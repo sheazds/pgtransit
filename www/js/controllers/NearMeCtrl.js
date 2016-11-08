@@ -1,5 +1,7 @@
 angular.module('starter.controllers').controller("NearMeCtrl", function ($scope, $state, $ionicHistory, stopNearMeService, locationService)
 	{
+
+
 	  $scope.loadMap = function()
 	  {
 		  $state.go('app.nearMeMap');
@@ -22,5 +24,6 @@ angular.module('starter.controllers').controller("NearMeCtrl", function ($scope,
 		promise.then(function (data)
 		{
 			$scope.co = data.data;
+
 		});
 	});

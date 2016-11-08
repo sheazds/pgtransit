@@ -1,5 +1,6 @@
 angular.module('starter.controllers').controller('settingsCtrl', function($scope, $state, $cordovaLocalNotification, $cordovaGeolocation, $ionicPlatform, $ionicLoading, $window)
    {
+       mixpanel.track("Setting", {"setting": 'settingsCtrl'});
     $ionicPlatform.ready(function ()
     {
         //Wrap notifications in a ready function to prevent issues with android devices.
