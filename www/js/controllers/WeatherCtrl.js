@@ -1,5 +1,6 @@
 angular.module('starter.controllers').controller('WeatherCtrl', function($scope, $http, $ionicLoading)
 	{
+	    mixpanel.track("Weather", {"weather": 'WeatherCtrl'});
 		var directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 
 		$scope.getIconUrl = function(iconId)
