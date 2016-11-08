@@ -1,6 +1,6 @@
 angular.module('starter.controllers')
 
-.controller("favouritesCtrl", function($scope, $state, $ionicPlatform, favouritesService, $ionicLoading)
+.controller("favouritesCtrl", function($scope, $state, $ionicPlatform, shareService, favouritesService, $ionicLoading)
 {
     $scope.favs = favouritesService.getFavourites();
 
@@ -30,4 +30,10 @@ angular.module('starter.controllers')
         }
         $scope.isEmpty();
     }
+
+    $scope.goToFav = function (id)
+    {
+        shareService.setRouteName(id.route_id);
+        $state.go('app.route1');
+    };
 });

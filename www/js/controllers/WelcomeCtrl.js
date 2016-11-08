@@ -1,9 +1,10 @@
-angular.module('starter.controllers').controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
+angular.module('starter.controllers').controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate, favouritesService)
   {
       $scope.firstLoad = function()
       {
           if(localStorage.getItem('loadToken')!==null)
           {
+              favouritesService.loadFavs();
               $scope.startApp();
           }
       }
