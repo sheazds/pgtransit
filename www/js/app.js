@@ -336,15 +336,15 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
 
-  .state('app.route1',
+  .state('app.routeStops',
   {
-    url: '/route1',
+    url: '/routeStops',
     views:
     {
       'menuContent':
       {
-        templateUrl: 'templates/route1.html',
-        controller: 'stopListCtrl'
+        templateUrl: 'templates/routeStops.html',
+        controller: 'RouteStopsCtrl'
       }
     }
   })
