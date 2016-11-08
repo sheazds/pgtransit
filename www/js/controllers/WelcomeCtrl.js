@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
+angular.module('starter.controllers').controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate, favouritesService)
   {
      mixpanel.track("WelcomePage", {"welcome": 'WelcomeCtrl'});
 
@@ -6,6 +6,7 @@ angular.module('starter.controllers').controller('WelcomeCtrl', function($scope,
       {
           if(localStorage.getItem('loadToken')!==null)
           {
+              favouritesService.loadFavs();
               $scope.startApp();
           }
       }

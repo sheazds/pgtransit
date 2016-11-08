@@ -1,6 +1,6 @@
 angular.module('starter.controllers')
 
-.controller("favouritesCtrl", function($scope, $state, $ionicPlatform, favouritesService, $ionicLoading)
+.controller("favouritesCtrl", function($scope, $state, $ionicPlatform, shareService, favouritesService, $ionicLoading)
 {
 mixpanel.track("Favorite", {"favorite": 'favouritesCtrl'});
     $scope.favs = favouritesService.getFavourites();
@@ -31,4 +31,10 @@ mixpanel.track("Favorite", {"favorite": 'favouritesCtrl'});
         }
         $scope.isEmpty();
     }
+
+    $scope.goToFav = function (id)
+    {
+        shareService.setRouteName(id.route_id);
+        $state.go('app.route1');
+    };
 });

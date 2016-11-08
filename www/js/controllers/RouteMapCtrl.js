@@ -10,8 +10,8 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function($scope
       $scope.routes = data1.data;
     });
 
-    $scope.newStop = stopService.getNewstop();
-    $scope.newStop.then(function (data2)
+    var newStop = stopService.getNewstop();
+    newStop.then(function (data2)
     {
       $scope.newStop = data2.data;
       for (var i = 0; i < $scope.newStop.length; i++)
@@ -37,7 +37,7 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function($scope
         mapTypeId: google.maps.MapTypeId.ROADMAP
       };
 
-      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+      var map = new google.maps.Map(document.getElementById("fullMap"), mapOptions);
 
       //Add other Bus Stop Markers
       var infoWindow = new google.maps.InfoWindow();
