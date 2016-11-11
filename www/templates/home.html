@@ -16,11 +16,11 @@
             </div>
 
             Favourites only display if they are present.
-            <div ng-if="favs.length > 0">
-                <div class="favourites" ng-controller='favouritesCtrl'>
+            <div class="favourites" ng-controller='favouritesCtrl'>
+                <div ng-if="favs.length > 0">
                     <div class="header">Favourites</div>
                     <ion-item ng-repeat='item in favs'>
-                        {{item.name}}
+                        {{item.route_short_name + '-' + item.route_long_name}}
                     </ion-item>
                 </div>
             </div>

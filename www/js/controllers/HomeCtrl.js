@@ -2,8 +2,6 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
 {
     mixpanel.track("Home", {"home": 'HomeCtrl'});
 
-    favouritesService.loadFavs();
-
     var directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 
     $scope.getIconUrl = function(iconId)
@@ -19,6 +17,8 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
     //check if weather data doesn't exist or is outdated
     $scope.checkWeather = function()
     {
+        favouritesService.loadFavs();
+
         if(localStorage.getItem('loadToken')==null)
         {
             $ionicHistory.nextViewOptions(
