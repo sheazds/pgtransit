@@ -19,8 +19,8 @@
     <div id="map" data-tap-disabled="true" style="width:100%;height:30%"></div>
 
     <ion-list ng-repeat="c in newStopList">
-      <ion-item>
-        {{c.name}}
+      <ion-item href="#app/stop" ng-click="setStop(c.stop_id)">
+        {{c.stop_name}}
       </ion-item>
     </ion-list>
 
