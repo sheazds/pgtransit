@@ -1,5 +1,7 @@
 angular.module('starter.controllers').controller("NearMeMapCtrl", function ($scope, $state, $ionicHistory, $ionicPlatform, stopNearMeService, locationService)
 	{
+	$scope.times = [];
+
 	  //Check if location is set, if not redirect to get it
 	  if(locationService.getLat() == null)
 	  {
@@ -79,10 +81,10 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
           //Check if nearby
           for (i=0; i<$scope.co.length; i++)
           {
-            if( $scope.co[i].stop_lat < $scope.lat + 0.005 &&
-                $scope.co[i].stop_lat > $scope.lat - 0.005 &&
-                $scope.co[i].stop_lon < $scope.long + 0.005 &&
-                $scope.co[i].stop_lon > $scope.long - 0.005)
+            if( $scope.co[i].stop_lat < $scope.lat + 0.010 &&
+                $scope.co[i].stop_lat > $scope.lat - 0.010 &&
+                $scope.co[i].stop_lon < $scope.long + 0.010 &&
+                $scope.co[i].stop_lon > $scope.long - 0.010)
             {
             createMarker($scope.co[i]);
             }
