@@ -1,0 +1,36 @@
+[
+    {
+        "block_id": 327742, 
+        "direction_id": 1, 
+        "hierarchy": 1, 
+        "pattern_rank": 25, 
+        "pattern_id": 100, 
+        "route_id": "97-PrinceGeorge", 
+        "direction_code": 0, 
+        "trip_headsign": "Kelly Road Secondary and Heather Park School via JH Hwy", 
+        "trip_type": 0, 
+        "trip_sequence": 1, 
+        "shape_id": "9-97-8", 
+        "pattern_code": 100, 
+        "service_id": "aaAPR16-APR16-Weekday-02", 
+        "trip_id": "ab1889441", 
+        "pattern_count": 44
+    }, 
+    {
+        "block_id": 327746, 
+        "direction_id": 1, 
+        "hierarchy": 1, 
+        "pattern_rank": 26, 
+        "pattern_id": 101, 
+        "route_id": "97-PrinceGeorge", 
+        "direction_code": 0, 
+        "trip_headsign": "Kelly Road Secondary and Heather Park School via JH Hwy", 
+        "trip_type": 0, 
+        "trip_sequence": 1, 
+        "shape_id": "9-97-9", 
+        "pattern_code": 101, 
+        "service_id": "aaAPR16-APR16-Weekday-02", 
+        "trip_id": "ab1889442", 
+        "pattern_count": 44
+    }
+]

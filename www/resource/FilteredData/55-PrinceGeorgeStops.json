@@ -1,0 +1,622 @@
+[
+    {
+        "stop_lat": 53.896471, 
+        "stop_code": 105221, 
+        "stop_lon": -122.760503, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Upland at Abbott", 
+        "stop_id": 105221, 
+        "stop_name": "Northbound Upland at Abbott", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.892085, 
+        "stop_code": 105222, 
+        "stop_lon": -122.760533, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Upland at Emmet", 
+        "stop_id": 105222, 
+        "stop_name": "Northbound Upland at Emmet", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.889678, 
+        "stop_code": 105223, 
+        "stop_lon": -122.760592, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Upland at Rebman", 
+        "stop_id": 105223, 
+        "stop_name": "Northbound Upland at Rebman", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.88872, 
+        "stop_code": 105224, 
+        "stop_lon": -122.761971, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Ferry at Lansdowne", 
+        "stop_id": 105224, 
+        "stop_name": "Eastbound Ferry at Lansdowne", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.888683, 
+        "stop_code": 105225, 
+        "stop_lon": -122.770565, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Recplace at Ferry", 
+        "stop_id": 105225, 
+        "stop_name": "Northbound Recplace at Ferry", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.888109, 
+        "stop_code": 105226, 
+        "stop_lon": -122.780318, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Ferry at Westwood", 
+        "stop_id": 105226, 
+        "stop_name": "Eastbound Ferry at Westwood", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.888123, 
+        "stop_code": 105227, 
+        "stop_lon": -122.784858, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Ferry at Melody", 
+        "stop_id": 105227, 
+        "stop_name": "Eastbound Ferry at Melody", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.889643, 
+        "stop_code": 105228, 
+        "stop_lon": -122.78781, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Sycamore", 
+        "stop_id": 105228, 
+        "stop_name": "Southbound Ospika at Sycamore", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.919898, 
+        "stop_code": 105101, 
+        "stop_lon": -122.784158, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Ahbau at 5th Ave", 
+        "stop_id": 105101, 
+        "stop_name": "Northbound Ahbau at 5th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920712, 
+        "stop_code": 105102, 
+        "stop_lon": -122.786988, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Nicholson", 
+        "stop_id": 105102, 
+        "stop_name": "Westbound 5th Ave at Nicholson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920714, 
+        "stop_code": 105103, 
+        "stop_lon": -122.789875, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Stuart", 
+        "stop_id": 105103, 
+        "stop_name": "Westbound 5th Ave at Stuart", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920723, 
+        "stop_code": 105104, 
+        "stop_lon": -122.792429, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Quinn", 
+        "stop_id": 105104, 
+        "stop_name": "Westbound 5th Ave at Quinn", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.911264, 
+        "stop_code": 105361, 
+        "stop_lon": -122.807196, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Tabor at Genevieve", 
+        "stop_id": 105361, 
+        "stop_name": "Southbound Tabor at Genevieve", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920694, 
+        "stop_code": 105106, 
+        "stop_lon": -122.800183, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Kerry", 
+        "stop_id": 105106, 
+        "stop_name": "Westbound 5th Ave at Kerry", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920685, 
+        "stop_code": 105107, 
+        "stop_lon": -122.803325, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Voyageur", 
+        "stop_id": 105107, 
+        "stop_name": "Westbound 5th Ave at Voyageur", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.887653, 
+        "stop_code": 105239, 
+        "stop_lon": -122.762229, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Lansdowne at Runnalls", 
+        "stop_id": 105239, 
+        "stop_name": "Northbound Lansdowne at Runnalls", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.884038, 
+        "stop_code": 105240, 
+        "stop_lon": -122.765556, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Lansdowne at Sinclair", 
+        "stop_id": 105240, 
+        "stop_name": "Southbound Lansdowne at Sinclair", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.895351, 
+        "stop_code": 105243, 
+        "stop_lon": -122.789164, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Gould", 
+        "stop_id": 105243, 
+        "stop_name": "Southbound Ospika at Gould", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.887984, 
+        "stop_code": 105244, 
+        "stop_lon": -122.762444, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Lansdowne at McInnis", 
+        "stop_id": 105244, 
+        "stop_name": "Southbound Lansdowne at McInnis", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.919278, 
+        "stop_code": 105120, 
+        "stop_lon": -122.807716, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Tabor at Jackpine", 
+        "stop_id": 105120, 
+        "stop_name": "Southbound Tabor at Jackpine", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.911676, 
+        "stop_code": 105136, 
+        "stop_lon": -122.754006, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at 11th Ave", 
+        "stop_id": 105136, 
+        "stop_name": "Northbound Victoria at 11th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920747, 
+        "stop_code": 105122, 
+        "stop_lon": -122.768396, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Burden", 
+        "stop_id": 105122, 
+        "stop_name": "Westbound 5th Ave at Burden", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917113, 
+        "stop_code": 180004, 
+        "stop_lon": -122.807268, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Tabor at Granite", 
+        "stop_id": 180004, 
+        "stop_name": "Southbound Tabor at Granite", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920735, 
+        "stop_code": 180005, 
+        "stop_lon": -122.778735, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Irwin", 
+        "stop_id": 180005, 
+        "stop_name": "Westbound 5th Ave at Irwin", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.901262, 
+        "stop_code": 180006, 
+        "stop_lon": -122.75501, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at Milburn", 
+        "stop_id": 180006, 
+        "stop_name": "Northbound Victoria at Milburn", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.908829, 
+        "stop_code": 180007, 
+        "stop_lon": -122.755016, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at 17th Ave", 
+        "stop_id": 180007, 
+        "stop_name": "Northbound Victoria at 17th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.905974, 
+        "stop_code": 180008, 
+        "stop_lon": -122.755017, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at 20th Ave", 
+        "stop_id": 180008, 
+        "stop_name": "Northbound Victoria at 20th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913672, 
+        "stop_code": 105001, 
+        "stop_lon": -122.747983, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound 7th Ave at Quebec", 
+        "stop_id": 105001, 
+        "stop_name": "Eastbound 7th Ave at Quebec", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.919003, 
+        "stop_code": 180010, 
+        "stop_lon": -122.749448, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 2nd Ave at Cross", 
+        "stop_id": 180010, 
+        "stop_name": "Westbound 2nd Ave at Cross", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.918396, 
+        "stop_code": 180011, 
+        "stop_lon": -122.74723, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 2nd Ave at Brunswick", 
+        "stop_id": 180011, 
+        "stop_name": "Westbound 2nd Ave at Brunswick", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.906638, 
+        "stop_code": 180012, 
+        "stop_lon": -122.797727, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at 18th Ave", 
+        "stop_id": 180012, 
+        "stop_name": "Southbound Ospika at 18th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.907268, 
+        "stop_code": 180013, 
+        "stop_lon": -122.803488, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound 18th Ave at George Paul", 
+        "stop_id": 180013, 
+        "stop_name": "Eastbound 18th Ave at George Paul", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.899752, 
+        "stop_code": 180015, 
+        "stop_lon": -122.755046, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at McCullagh", 
+        "stop_id": 180015, 
+        "stop_name": "Northbound Victoria at McCullagh", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.896215, 
+        "stop_code": 180016, 
+        "stop_lon": -122.755076, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at Pearson", 
+        "stop_id": 180016, 
+        "stop_name": "Northbound Victoria at Pearson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.898409, 
+        "stop_code": 180017, 
+        "stop_lon": -122.760165, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Pearson at Upland", 
+        "stop_id": 180017, 
+        "stop_name": "Eastbound Pearson at Upland", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.898481, 
+        "stop_code": 105011, 
+        "stop_lon": -122.779584, 
+        "parent_station": 0, 
+        "stop_short_name": "Pine Centre Exchange Bay A", 
+        "stop_id": 105011, 
+        "stop_name": "Pine Centre Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920767, 
+        "stop_code": 105140, 
+        "stop_lon": -122.765495, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Wainwright", 
+        "stop_id": 105140, 
+        "stop_name": "Westbound 5th Ave at Wainwright", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920761, 
+        "stop_code": 105141, 
+        "stop_lon": -122.762047, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Melville", 
+        "stop_id": 105141, 
+        "stop_name": "Westbound 5th Ave at Melville", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.919317, 
+        "stop_code": 105142, 
+        "stop_lon": -122.754018, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 3rd Ave at Winnipeg", 
+        "stop_id": 105142, 
+        "stop_name": "Westbound 3rd Ave at Winnipeg", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.918698, 
+        "stop_code": 105015, 
+        "stop_lon": -122.782284, 
+        "parent_station": 0, 
+        "stop_short_name": "Spruceland Exchange Bay A", 
+        "stop_id": 105015, 
+        "stop_name": "Spruceland Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.901655, 
+        "stop_code": 105024, 
+        "stop_lon": -122.795947, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Ospika at Campbell", 
+        "stop_id": 105024, 
+        "stop_name": "Westbound Ospika at Campbell", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.900468, 
+        "stop_code": 105025, 
+        "stop_lon": -122.793968, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Ospika at Docherty", 
+        "stop_id": 105025, 
+        "stop_name": "Eastbound Ospika at Docherty", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920761, 
+        "stop_code": 105121, 
+        "stop_lon": -122.771249, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Douglas", 
+        "stop_id": 105121, 
+        "stop_name": "Westbound 5th Ave at Douglas", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.904585, 
+        "stop_code": 105160, 
+        "stop_lon": -122.797699, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Kellar", 
+        "stop_id": 105160, 
+        "stop_name": "Southbound Ospika at Kellar", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.918683, 
+        "stop_code": 105161, 
+        "stop_lon": -122.751773, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 3rd Ave at Cross", 
+        "stop_id": 105161, 
+        "stop_name": "Westbound 3rd Ave at Cross", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.90422, 
+        "stop_code": 105162, 
+        "stop_lon": -122.755006, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at Porter", 
+        "stop_id": 105162, 
+        "stop_name": "Northbound Victoria at Porter", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.91556, 
+        "stop_code": 180023, 
+        "stop_lon": -122.745122, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Dominion at 4th Ave", 
+        "stop_id": 180023, 
+        "stop_name": "Northbound Dominion at 4th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.891572, 
+        "stop_code": 105229, 
+        "stop_lon": -122.789179, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Christopher", 
+        "stop_id": 105229, 
+        "stop_name": "Southbound Ospika at Christopher", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.893764, 
+        "stop_code": 105230, 
+        "stop_lon": -122.789153, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Gould", 
+        "stop_id": 105230, 
+        "stop_name": "Southbound Ospika at Gould", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920725, 
+        "stop_code": 105105, 
+        "stop_lon": -122.795109, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Ospika", 
+        "stop_id": 105105, 
+        "stop_name": "Westbound 5th Ave at Ospika", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.898113, 
+        "stop_code": 105231, 
+        "stop_lon": -122.789981, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Ospika at Massey", 
+        "stop_id": 105231, 
+        "stop_name": "Southbound Ospika at Massey", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.899332, 
+        "stop_code": 105233, 
+        "stop_lon": -122.789999, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Massey at Ospika", 
+        "stop_id": 105233, 
+        "stop_name": "Eastbound Massey at Ospika", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913425, 
+        "stop_code": 105135, 
+        "stop_lon": -122.752614, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Victoria at 9th Ave", 
+        "stop_id": 105135, 
+        "stop_name": "Northbound Victoria at 9th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920749, 
+        "stop_code": 105182, 
+        "stop_lon": -122.774247, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5th Ave at Freeman", 
+        "stop_id": 105182, 
+        "stop_name": "Westbound 5th Ave at Freeman", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.899449, 
+        "stop_code": 105232, 
+        "stop_lon": -122.786204, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Massey at Opie", 
+        "stop_id": 105232, 
+        "stop_name": "Eastbound Massey at Opie", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.909631, 
+        "stop_code": 105191, 
+        "stop_lon": -122.81178, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Foothills at Glen Shee", 
+        "stop_id": 105191, 
+        "stop_name": "Southbound Foothills at Glen Shee", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.899719, 
+        "stop_code": 105068, 
+        "stop_lon": -122.783255, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Massey at Westwood", 
+        "stop_id": 105068, 
+        "stop_name": "Westbound Massey at Westwood", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913358, 
+        "stop_code": 105362, 
+        "stop_lon": -122.807318, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Tabor at Chingee", 
+        "stop_id": 105362, 
+        "stop_name": "Southbound Tabor at Chingee", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.899689, 
+        "stop_code": 105330, 
+        "stop_lon": -122.786243, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Massey at Opie", 
+        "stop_id": 105330, 
+        "stop_name": "Westbound Massey at Opie", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.899688, 
+        "stop_code": 105331, 
+        "stop_lon": -122.789537, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Massey at Nicholson", 
+        "stop_id": 105331, 
+        "stop_name": "Westbound Massey at Nicholson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910509, 
+        "stop_code": 105077, 
+        "stop_lon": -122.808613, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 15th Ave at Tabor", 
+        "stop_id": 105077, 
+        "stop_name": "Westbound 15th Ave at Tabor", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917609, 
+        "stop_code": 180009, 
+        "stop_lon": -122.744407, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 2nd Ave at Dominion", 
+        "stop_id": 180009, 
+        "stop_name": "Westbound 2nd Ave at Dominion", 
+        "location_type": 0
+    }
+]
