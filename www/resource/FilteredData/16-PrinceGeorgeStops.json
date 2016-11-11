@@ -1,0 +1,392 @@
+[
+    {
+        "stop_lat": 53.848877, 
+        "stop_code": 105368, 
+        "stop_lon": -122.768744, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Malaspina at Rochester", 
+        "stop_id": 105368, 
+        "stop_name": "Eastbound Malaspina at Rochester", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.850002, 
+        "stop_code": 105369, 
+        "stop_lon": -122.770579, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Domano at St Patrick", 
+        "stop_id": 105369, 
+        "stop_name": "Southbound Domano at St Patrick", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.85254, 
+        "stop_code": 105370, 
+        "stop_lon": -122.77087, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound 7980 block Domano", 
+        "stop_id": 105370, 
+        "stop_name": "Southbound 7980 block Domano", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.85419, 
+        "stop_code": 105371, 
+        "stop_lon": -122.770541, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Domano at Gladstone", 
+        "stop_id": 105371, 
+        "stop_name": "Southbound Domano at Gladstone", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.858155, 
+        "stop_code": 105372, 
+        "stop_lon": -122.767377, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Domano at Gladstone", 
+        "stop_id": 105372, 
+        "stop_name": "Southbound Domano at Gladstone", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.866417, 
+        "stop_code": 105114, 
+        "stop_lon": -122.780314, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 5940 block O Grady", 
+        "stop_id": 105114, 
+        "stop_name": "Westbound 5940 block O Grady", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.85769, 
+        "stop_code": 105374, 
+        "stop_lon": -122.779653, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Southridge at St Anne", 
+        "stop_id": 105374, 
+        "stop_name": "Westbound Southridge at St Anne", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.855624, 
+        "stop_code": 105375, 
+        "stop_lon": -122.777939, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound St Lawrence at Southridge", 
+        "stop_id": 105375, 
+        "stop_name": "Westbound St Lawrence at Southridge", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.855662, 
+        "stop_code": 105376, 
+        "stop_lon": -122.773389, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound St Lawrence at St Patrick", 
+        "stop_id": 105376, 
+        "stop_name": "Westbound St Lawrence at St Patrick", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.858511, 
+        "stop_code": 105377, 
+        "stop_lon": -122.768759, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound 7190 block St Lawrence", 
+        "stop_id": 105377, 
+        "stop_name": "Westbound 7190 block St Lawrence", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.869674, 
+        "stop_code": 180002, 
+        "stop_lon": -122.785012, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Tyner at Gannett", 
+        "stop_id": 180002, 
+        "stop_name": "Eastbound Tyner at Gannett", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.862208, 
+        "stop_code": 105379, 
+        "stop_lon": -122.766502, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound 6430 block Domano", 
+        "stop_id": 105379, 
+        "stop_name": "Southbound 6430 block Domano", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.871998, 
+        "stop_code": 105252, 
+        "stop_lon": -122.765514, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Simon Fraser at Cowart", 
+        "stop_id": 105252, 
+        "stop_name": "Northbound Simon Fraser at Cowart", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.873533, 
+        "stop_code": 105253, 
+        "stop_lon": -122.769026, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Eton at Simon Fraser", 
+        "stop_id": 105253, 
+        "stop_name": "Southbound Eton at Simon Fraser", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.87217, 
+        "stop_code": 105254, 
+        "stop_lon": -122.773038, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Eton at Cambridge", 
+        "stop_id": 105254, 
+        "stop_name": "Westbound Eton at Cambridge", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.87207, 
+        "stop_code": 105255, 
+        "stop_lon": -122.777349, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound McGill at Eton", 
+        "stop_id": 105255, 
+        "stop_name": "Southbound McGill at Eton", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.870226, 
+        "stop_code": 105256, 
+        "stop_lon": -122.776149, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound McGill at Monahan", 
+        "stop_id": 105256, 
+        "stop_name": "Southbound McGill at Monahan", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.862879, 
+        "stop_code": 105259, 
+        "stop_lon": -122.78888, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Marleau at Lalonde", 
+        "stop_id": 105259, 
+        "stop_name": "Westbound Marleau at Lalonde", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.868189, 
+        "stop_code": 105006, 
+        "stop_lon": -122.774446, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Domano at Moriarty", 
+        "stop_id": 105006, 
+        "stop_name": "Eastbound Domano at Moriarty", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.868989, 
+        "stop_code": 105007, 
+        "stop_lon": -122.77786, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Domano at O Grady", 
+        "stop_id": 105007, 
+        "stop_name": "Westbound Domano at O Grady", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.891281, 
+        "stop_code": 105017, 
+        "stop_lon": -122.813641, 
+        "parent_station": 0, 
+        "stop_short_name": "UNBC Exchange Bay A", 
+        "stop_id": 105017, 
+        "stop_name": "UNBC Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.86517, 
+        "stop_code": 105019, 
+        "stop_lon": -122.786144, 
+        "parent_station": 0, 
+        "stop_short_name": "Westgate Exchange Bay A", 
+        "stop_id": 105019, 
+        "stop_name": "Westgate Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.865856, 
+        "stop_code": 105249, 
+        "stop_lon": -122.764404, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Simon Fraser at Caledonia", 
+        "stop_id": 105249, 
+        "stop_name": "Northbound Simon Fraser at Caledonia", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.860489, 
+        "stop_code": 105373, 
+        "stop_lon": -122.783006, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Southridge at St Frances", 
+        "stop_id": 105373, 
+        "stop_name": "Northbound Southridge at St Frances", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.860233, 
+        "stop_code": 105378, 
+        "stop_lon": -122.766481, 
+        "parent_station": 0, 
+        "stop_short_name": "Southbound Domano at Bernard", 
+        "stop_id": 105378, 
+        "stop_name": "Southbound Domano at Bernard", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.870655, 
+        "stop_code": 105251, 
+        "stop_lon": -122.764382, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Simon Fraser at Brock", 
+        "stop_id": 105251, 
+        "stop_name": "Northbound Simon Fraser at Brock", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.849102, 
+        "stop_code": 105049, 
+        "stop_lon": -122.765798, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Malaspina at Princeton", 
+        "stop_id": 105049, 
+        "stop_name": "Eastbound Malaspina at Princeton", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.849698, 
+        "stop_code": 105050, 
+        "stop_lon": -122.761939, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Malaspina at Loyola", 
+        "stop_id": 105050, 
+        "stop_name": "Eastbound Malaspina at Loyola", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.851765, 
+        "stop_code": 105051, 
+        "stop_lon": -122.762083, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Loyola at Rochester", 
+        "stop_id": 105051, 
+        "stop_name": "Northbound Loyola at Rochester", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.854789, 
+        "stop_code": 105052, 
+        "stop_lon": -122.759804, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Gladstone at Loyola", 
+        "stop_id": 105052, 
+        "stop_name": "Eastbound Gladstone at Loyola", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.855387, 
+        "stop_code": 105053, 
+        "stop_lon": -122.75773, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Gladstone at Jean De Brebeuf", 
+        "stop_id": 105053, 
+        "stop_name": "Northbound Gladstone at Jean De Brebeuf", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.858103, 
+        "stop_code": 105054, 
+        "stop_lon": -122.760019, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Gladstone at Hartford", 
+        "stop_id": 105054, 
+        "stop_name": "Westbound Gladstone at Hartford", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.860511, 
+        "stop_code": 105056, 
+        "stop_lon": -122.761769, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Simon Fraser at Fairmont", 
+        "stop_id": 105056, 
+        "stop_name": "Northbound Simon Fraser at Fairmont", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.870002, 
+        "stop_code": 105058, 
+        "stop_lon": -122.785972, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Tyner at Baker", 
+        "stop_id": 105058, 
+        "stop_name": "Westbound Tyner at Baker", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.872012, 
+        "stop_code": 105059, 
+        "stop_lon": -122.801927, 
+        "parent_station": 0, 
+        "stop_short_name": "Westbound Tyner at University Heights", 
+        "stop_id": 105059, 
+        "stop_name": "Westbound  Tyner at University Heights", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.871959, 
+        "stop_code": 105060, 
+        "stop_lon": -122.802041, 
+        "parent_station": 0, 
+        "stop_short_name": "Eastbound Tyner at University Heights", 
+        "stop_id": 105060, 
+        "stop_name": "Eastbound  Tyner at University Heights", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.862875, 
+        "stop_code": 105065, 
+        "stop_lon": -122.762093, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Simon Fraser at Delhi", 
+        "stop_id": 105065, 
+        "stop_name": "Northbound Simon Fraser at Delhi", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.868186, 
+        "stop_code": 105250, 
+        "stop_lon": -122.764696, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Simon Fraser at Rideau", 
+        "stop_id": 105250, 
+        "stop_name": "Northbound Simon Fraser at Rideau", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.86459, 
+        "stop_code": 105067, 
+        "stop_lon": -122.762361, 
+        "parent_station": 0, 
+        "stop_short_name": "Northbound Simon Fraser at Acadia", 
+        "stop_id": 105067, 
+        "stop_name": "Northbound Simon Fraser at Acadia", 
+        "location_type": 0
+    }
+]

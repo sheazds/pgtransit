@@ -11,12 +11,11 @@
   </ion-nav-buttons>
 
   <ion-content>
-    <ion-list ng-repeat="c in newStopList">
-      <ion-item  on-hold="editFavourite(c)">
-        <button class="button icon-left ion-star button-clear button-dark" ng-click="editFavourite(c)"></button>
-        {{c.name}}
-      </ion-item>
-
+    <ion-list ng-repeat="c in filteredStops">
+      <ion-item>
+        <ion-item href="#app/stop" ng-click="setStopID(c.stop_id)">
+          {{c.stop_name}}
+        </ion-item>
     </ion-list>
   </ion-content>
 
