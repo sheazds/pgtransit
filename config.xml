@@ -57,4 +57,5 @@
     <plugin name="cordova-plugin-whitelist" spec="~1.2.2" />
     <plugin name="cordova-plugin-geolocation" spec="~2.2.0" />
     <plugin name="de.appplant.cordova.plugin.local-notification" spec="https://github.com/katzer/cordova-plugin-local-notifications" />
+    <plugin name="cordova.plugins.diagnostic" spec="https://github.com/dpa99c/cordova-diagnostic-plugin" />
 </widget>

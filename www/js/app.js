@@ -144,15 +144,21 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 
         removeItem: function(value)
         {
-            favouritesService.favRoutes.splice(favouritesService.favRoutes.indexOf(value), 1);
+            for (i= 0; i < favouritesService.favRoutes.length; i++)
+            {
+                if (favouritesService.favRoutes[i].route_short_name === value.route_short_name)
+                    favouritesService.favRoutes.splice(i, 1);
+            }
         },
 
         hasItem: function(value)
         {
-            if (favouritesService.favRoutes.indexOf(value) > -1)
-                return true;
-            else
-                return false;
+            for (i= 0; i < favouritesService.favRoutes.length; i++)
+            {
+                if (favouritesService.favRoutes[i].route_short_name === value.route_short_name)
+                    return true;
+            }
+            return false;
         },
 
         saveFavs: function()
@@ -359,15 +365,15 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
 
-  .state('app.route1',
+  .state('app.routeStops',
   {
-    url: '/route1',
+    url: '/routeStops',
     views:
     {
       'menuContent':
       {
-        templateUrl: 'templates/route1.html',
-        controller: 'stopListCtrl'
+        templateUrl: 'templates/routeStops.html',
+        controller: 'RouteStopsCtrl'
       }
     }
   })
