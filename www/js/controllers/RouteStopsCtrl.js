@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("stopListCtrl", function ($scope, $state, $ionicLoading, routeService, stopService, shareService, favouritesService)
+angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicLoading, routeService, stopService, shareService, favouritesService)
 {
 	$scope.gotoMap = function()
 	{

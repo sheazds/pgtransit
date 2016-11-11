@@ -1,38 +1,40 @@
 angular.module('starter.controllers').controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate)
 {
-  $ionicSideMenuDelegate.canDragContent(false);
+    mixpanel.track("WelcomePage", {"welcome": 'WelcomeCtrl'});
 
-  $scope.options =
-  {
-      loop: false,
-      effect: 'scroll',
-      speed: 500,
-  };
+    $ionicSideMenuDelegate.canDragContent(false);
 
-  $scope.startApp = function()
-  {
-      localStorage.setItem('loadToken', 'Loaded')
-      $ionicSideMenuDelegate.canDragContent(true);
-      $ionicHistory.nextViewOptions(
-      {
-          disableBack: true
-      });
-      $state.go('app.home');
-  };
+    $scope.options =
+    {
+        loop: false,
+        effect: 'scroll',
+        speed: 500,
+    };
 
-  $scope.next = function()
-  {
-      $ionicSlideBoxDelegate.next();
-  };
+    $scope.startApp = function()
+    {
+        localStorage.setItem('loadToken', 'Loaded')
+        $ionicSideMenuDelegate.canDragContent(true);
+        $ionicHistory.nextViewOptions(
+        {
+            disableBack: true
+        });
+        $state.go('app.home');
+    };
 
-  $scope.previous = function()
-  {
+    $scope.next = function()
+    {
+        $ionicSlideBoxDelegate.next();
+    };
+
+    $scope.previous = function()
+    {
       $ionicSlideBoxDelegate.previous();
-  };
+    };
 
-  $scope.slideChanged = function(index)
-  {
-      $scope.slideIndex = index;
-  };
+    $scope.slideChanged = function(index)
+    {
+        $scope.slideIndex = index;
+    };
 
 });

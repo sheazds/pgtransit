@@ -1,5 +1,9 @@
-angular.module('starter.controllers').controller('HomeCtrl', function($scope, $state, $http, $ionicLoading, $ionicHistory)
+angular.module('starter.controllers').controller('HomeCtrl', function($scope, $state, $http, $ionicLoading, $ionicHistory, favouritesService)
 {
+    mixpanel.track("Home", {"home": 'HomeCtrl'});
+
+    favouritesService.loadFavs();
+
     var directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 
     $scope.getIconUrl = function(iconId)
