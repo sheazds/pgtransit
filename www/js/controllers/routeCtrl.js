@@ -11,7 +11,7 @@ angular.module('starter.controllers').controller("routeCtrl", function ($scope, 
       {
         $scope.routeID = id;
         shareService.setRouteName($scope.routeID);
-        mixpanel.track("Route", {"Route Id":$scope.routes});
+        //mixpanel.track("Route", {"Route Id":$scope.routes});
         $state.go('app.routeStops');
       };
     })
