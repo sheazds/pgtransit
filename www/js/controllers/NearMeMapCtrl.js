@@ -51,6 +51,19 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
             icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
             optimized: false
           });
+
+          google.maps.event.addListener(map, 'zoom_changed', function()
+          {
+            var zoom = map.getZoom();
+            if (zoom <= 14)
+            {
+                marker.setMap(null);
+            }
+            else
+            {
+                marker.setMap(map);
+            }
+          });
           google.maps.event.addListener(marker, 'click', function()
           {
             infoWindow.setContent(marker.title);
