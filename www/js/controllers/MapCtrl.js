@@ -1,5 +1,6 @@
 angular.module('starter.controllers').controller('MapCtrl', function($scope, $state, $ionicHistory, $ionicPlatform, locationService)
 	{
+	mixpanel.track("Map", {"map": 'MapCtrl'});
 	  //Check if location is set, if not redirect to get it
 	  if(locationService.getLat() == null)
 	  {

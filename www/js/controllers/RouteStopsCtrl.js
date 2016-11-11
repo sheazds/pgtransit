@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, favouritesService, stopService)
+angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, stopService)
 {
     $scope.gotoSchedule = function()
     {
@@ -75,28 +75,4 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 		    createMarker($scope.stops[i]);
 		}
 	}
-
-    $scope.editFavourite = function(stop)//Adds/removes favourite route.
-    {
-        if (favouritesService.hasItem(stop))
-        {
-            favouritesService.removeItem(stop);
-            favouritesService.saveFavs();
-            $ionicLoading.show(
-            {
-                template: stop.stop_name + ' removed from favourites.',
-                duration: 1000
-            })
-        }
-        else
-        {
-            favouritesService.setFavourite(stop);
-            favouritesService.saveFavs();
-            $ionicLoading.show(
-            {
-                template: stop.stop_name + ' added to favourites.',
-                duration: 1000
-            });
-        }
-    };
 });

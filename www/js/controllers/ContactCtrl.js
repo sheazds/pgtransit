@@ -1,5 +1,13 @@
 angular.module('starter.controllers').controller('ContactCtrl', function($scope, $ionicPlatform, $cordovaDevice)
   {
+   mixpanel.track("contact", {"contact": 'ContactCtrl'});
+   mixpanel.identify("13487");
+   mixpanel.people.set({
+                              "$first_name": "pg",
+                               "$last_name": "transit",
+                               "$created": "2016-09-01T09:02:00",
+                               "$email": "situ@unbc.ca"
+                         });
     $ionicPlatform.ready(function()
     {
       var device = $cordovaDevice.getDevice();

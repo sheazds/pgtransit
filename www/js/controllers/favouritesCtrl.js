@@ -1,7 +1,8 @@
 angular.module('starter.controllers')
 
-.controller("favouritesCtrl", function($scope, $state, $ionicPlatform, favouritesService, $ionicLoading)
+.controller("favouritesCtrl", function($scope, $state, $ionicPlatform, shareService, favouritesService, $ionicLoading)
 {
+mixpanel.track("Favorite", {"favorite": 'favouritesCtrl'});
     $scope.favs = favouritesService.getFavourites();
 
     $scope.$on("$ionicView.enter", function(event, data)//Check to see if the list is empty on form enter.
@@ -30,4 +31,12 @@ angular.module('starter.controllers')
         }
         $scope.isEmpty();
     }
+
+    $scope.goToFav = function (id)
+    {
+        shareService.setRouteName(id.route_id);
+        shareService.setRouteShort(id.route_short_name);
+        shareService.setRouteLong(id.route_long_name);
+        $state.go('app.routeStops');
+    };
 });
