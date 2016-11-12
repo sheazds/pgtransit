@@ -82,18 +82,47 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
 
-  .service("shareService", function () {
-  var _routeID;
+  .service("filteredStopService", function ($http, $q)
+  {
+    var getFilteredStops = function(route_id)
+    {
+      return $http.get('resource/FilteredData/' + route_id + 'Stops.json')
+    }
+    return {
+      getFilteredStops: getFilteredStops
+    }
+  })
 
-  // moving { to newline breaks app
-  return {
+  .service("timesService", function ($http, $q)
+  {
+    var getTimes = function(route_id)
+    {
+      return $http.get('resource/FilteredData/' + route_id + 'StopTimes.json')
+    }
+    return {
+      getTimes: getTimes
+    }
+  })
+
+  .service("shareService", function () {
+    var _routeID;
+    var _stopID;
+
+    // moving { to newline breaks app
+    return {
       getRouteName: function ()
       {
         return _routeID;
       },
+      getStopID: function() {
+        return _stopID;
+      },
       setRouteName: function (id)
       {
         _routeID = id;
+      },
+      setStopID: function (id) {
+        _stopID = id;
       }
     };
   })
@@ -348,6 +377,19 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       }
     }
   })
+
+  .state('app.stop',
+      {
+        url: '/stop',
+        views:
+        {
+          'menuContent':
+          {
+            templateUrl: 'templates/stop.html',
+            controller: 'timesCtrl'
+          }
+        }
+      })
 
   .state('app.routeMap',
   {

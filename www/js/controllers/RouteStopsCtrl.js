@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicLoading, routeService, stopService, shareService, favouritesService)
+angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicLoading, routeService, shareService, favouritesService, filteredStopService)
 {
 	$scope.gotoMap = function()
 	{
@@ -38,24 +38,29 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 		$scope.routes = data1.data;
 	});
 
-	var newStop = stopService.getNewstop();
+	$scope.routeID = shareService.getRouteName();
+
+	$scope.setStop = function (id)
+	{
+		$scope.stop_id = id;
+		shareService.setStopID($scope.stop_id);
+	};
+
+	var newStop = filteredStopService.getFilteredStops($scope.routeID);
 	newStop.then(function (data2)
 	{
 		$scope.newStop = data2.data;
 		for (var i = 0; i < $scope.newStop.length; i++)
 		{
-			if ($scope.newStop[i].route_id == $scope.routeName)
-			{
-				$scope.newStopList.push($scope.newStop[i]);
-			}
+			$scope.newStopList.push($scope.newStop[i]);
 		}
 		createMap();
 	});
 
 	var createMap = function()
 	{
-		$scope.lat = $scope.newStopList[(Math.floor($scope.newStopList.length/2))].lat;
-		$scope.long = $scope.newStopList[(Math.floor($scope.newStopList.length/2))].lng;
+		$scope.lat = $scope.newStopList[(Math.floor($scope.newStopList.length/2))].stop_lat;
+		$scope.long = $scope.newStopList[(Math.floor($scope.newStopList.length/2))].stop_lon;
 
 		var latLng = new google.maps.LatLng($scope.lat, $scope.long);
 
@@ -77,7 +82,7 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 		{
 			var marker = new google.maps.Marker(
 			{
-				position: new google.maps.LatLng(info.lat, info.lng),
+				position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
 				map: map,
 				animation: google.maps.Animation.DROP,
 				title: info.name,
@@ -93,7 +98,7 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 		//Get stops from Json
 		for (i=0; i<$scope.newStopList.length; i++)
 		{
-		createMarker($scope.newStopList[i]);
+			createMarker($scope.newStopList[i]);
 		}
 	}
 });

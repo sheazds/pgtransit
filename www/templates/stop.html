@@ -1,0 +1,20 @@
+<ion-view view-title="Stop {{stop_id}}">
+    <!-- Title Navigation Buttons-->
+    <ion-nav-buttons side="right">
+        <button class="button button-light button-clear no-animation" ng-click="gotoMap()">
+            Map View
+        </button>
+        <button class="button button-light button-clear no-animation"
+                ng-click="previous()" ng-show="slideIndex > 0">
+            Back
+        </button>
+    </ion-nav-buttons>
+
+    <ion-content>
+        <ion-list ng-repeat="c in filteredTimes">
+            <ion-item>
+                Arrival Time: {{c.arrival_time}}
+            </ion-item>
+        </ion-list>
+    </ion-content>
+</ion-view>
