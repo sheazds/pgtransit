@@ -1,5 +1,7 @@
-angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, stopService, shapeService)
+angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, routeService, shareService, favouritesService, shapeService, stopService)
 {
+    $ionicSideMenuDelegate.canDragContent(false);
+
     $scope.gotoSchedule = function()
     {
         $ionicHistory.nextViewOptions({disableBack: true});
@@ -13,38 +15,37 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 
 
 	$scope.stops = [];
-	$scope.shapes = [];
+	var shapes = [];
 	$scope.routeName = shareService.getRouteName();
 	$scope.routeShort = shareService.getRouteShort();
 	$scope.routeLong = shareService.getRouteLong();
 
-	var promise1 = stopService.getNewstop($scope.routeShort);
+    var promise1 = stopService.getNewstop($scope.routeShort);
     promise1.then(function (data1)
     {
         $scope.stops = data1.data;
-    });
+    })
 
     var promise2 = shapeService.getShapes($scope.routeShort);
     promise2.then(function (data2)
     {
-        $scope.shapes = data2.data;
+        shapes = data2.data;
         createMap();
     })
 
-
 	var createMap = function()
 	{
-		$scope.lat = 0;
-		$scope.lon = 0;
+		var lat = 0;
+		var lon = 0;
 		for (i=0; i < $scope.stops.length; i++)
         {
-            $scope.lat = $scope.lat + $scope.stops[i].stop_lat;
-            $scope.lon = $scope.lon + $scope.stops[i].stop_lon;
+            lat = lat + $scope.stops[i].stop_lat;
+            lon = lon + $scope.stops[i].stop_lon;
         }
-        $scope.lat = $scope.lat / $scope.stops.length;
-        $scope.lon = $scope.lon / $scope.stops.length;
+        lat = lat / $scope.stops.length;
+        lon = lon / $scope.stops.length;
 
-		var latLon = new google.maps.LatLng($scope.lat, $scope.lon);
+		var latLon = new google.maps.LatLng(lat, lon);
 
 		var mapOptions =
 		{
@@ -80,11 +81,10 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 
 		var poly = new google.maps.Polyline(
 		{
-		    path: $scope.shapes,
+		    path: shapes,
 		    strokeColor: '#387ef5',
 		    strokeOpacity: 0.6,
 		    strokeWeight: 2
 		}).setMap(map)
-
 	}
 });

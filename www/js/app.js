@@ -54,7 +54,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
 
-  .service("stopService", function ($http, $q)
+.service("stopService", function ($http, $q)
   {
     this.getNewstop = function (stopRouteID)
     {
@@ -65,7 +65,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         });
         return deferred.promise;
     }
-  })
+})
 
 
     .service("timeService", function ($http, $q)
@@ -95,39 +95,69 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     })
 
 
-  .service("shareService", function () {
-  var _routeID;
-  var _routeShort
-  var _routeLong
-
-  // moving { to newline breaks app
-  return {
-      getRouteName: function ()
-      {
-        return _routeID;
-      },
-      setRouteName: function (id)
-      {
-        _routeID = id;
-      },
-      getRouteShort: function ()
-      {
-        return _routeShort;
-      },
-      setRouteShort: function (shortName)
-      {
-        _routeShort = shortName;
-      },
-      getRouteLong: function ()
-      {
-        return _routeLong;
-      },
-      setRouteLong: function (longName)
-      {
-        _routeLong = longName;
-      }
-    };
+  .service("filteredStopService", function ($http, $q)
+  {
+    var getFilteredStops = function(route_id)
+    {
+      return $http.get('resource/FilteredData/' + route_id + 'Stops.json')
+    }
+    return {
+      getFilteredStops: getFilteredStops
+    }
   })
+
+  .service("timesService", function ($http, $q)
+  {
+    var getTimes = function(route_id)
+    {
+      return $http.get('resource/FilteredData/' + route_id + 'StopTimes.json')
+    }
+    return {
+      getTimes: getTimes
+    }
+  })
+
+    .service("shareService", function ()
+    {
+        var _routeID;
+        var _routeShort
+        var _routeLong
+        var _stopID;
+
+        // moving { to newline breaks app
+        return {
+            getRouteName: function ()
+            {
+                return _routeID;
+            },
+            getStopID: function() {
+             return _stopID;
+            },
+            setRouteName: function (id)
+            {
+                _routeID = id;
+            },
+            getRouteShort: function ()
+            {
+                return _routeShort;
+            },
+            setRouteShort: function (shortName)
+            {
+                _routeShort = shortName;
+            },
+            getRouteLong: function ()
+            {
+                return _routeLong;
+            },
+            setRouteLong: function (longName)
+            {
+                _routeLong = longName;
+            },
+            setStopID: function (id) {
+                _stopID = id;
+            }
+        };
+    })
 
   .service("favouritesService", function() {
     var favouritesService = this;
@@ -367,6 +397,19 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       }
     }
   })
+
+  .state('app.stop',
+      {
+        url: '/stop',
+        views:
+        {
+          'menuContent':
+          {
+            templateUrl: 'templates/stop.html',
+            controller: 'timesCtrl'
+          }
+        }
+      })
 
   .state('app.routeMap',
   {
