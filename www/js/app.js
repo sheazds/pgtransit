@@ -67,17 +67,31 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
 
+
     .service("timeService", function ($http, $q)
     {
-      this.getNewstop = function (stopRouteID)
-      {
-          var deferred = $q.defer();
-          $http.get('resource/FilteredData/' + stopRouteID + '-PrinceGeorgeStopTimes.json').then(function (data)
-          {
-              deferred.resolve(data);
-          });
-          return deferred.promise;
-      }
+        this.getNewstop = function (stopRouteID)
+        {
+            var deferred = $q.defer();
+            $http.get('resource/FilteredData/' + stopRouteID + '-PrinceGeorgeStopTimes.json').then(function (data)
+            {
+                deferred.resolve(data);
+            });
+            return deferred.promise;
+        }
+    })
+
+    .service("shapeService", function ($http, $q)
+    {
+        this.getShapes = function (stopRouteID)
+        {
+            var deferred = $q.defer();
+            $http.get('resource/FilteredData/' + stopRouteID + '-Shapes.json').then(function (data)
+            {
+                deferred.resolve(data);
+            });
+            return deferred.promise;
+        }
     })
 
 

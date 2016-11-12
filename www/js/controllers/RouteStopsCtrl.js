@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, stopService)
+angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, stopService, shapeService)
 {
     $scope.gotoSchedule = function()
     {
@@ -13,16 +13,24 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 
 
 	$scope.stops = [];
+	$scope.shapes = [];
 	$scope.routeName = shareService.getRouteName();
 	$scope.routeShort = shareService.getRouteShort();
 	$scope.routeLong = shareService.getRouteLong();
 
-	var promise = stopService.getNewstop($scope.routeShort);
-    promise.then(function (data1)
+	var promise1 = stopService.getNewstop($scope.routeShort);
+    promise1.then(function (data1)
     {
         $scope.stops = data1.data;
-        createMap();
     });
+
+    var promise2 = shapeService.getShapes($scope.routeShort);
+    promise2.then(function (data2)
+    {
+        $scope.shapes = data2.data;
+        createMap();
+    })
+
 
 	var createMap = function()
 	{
@@ -69,10 +77,14 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 				infoWindow.open($scope.map, marker)
 			});
 		}
-		//Get stops from Json
-		for (i=0; i < $scope.stops.length; i++)
+
+		var poly = new google.maps.Polyline(
 		{
-		    createMarker($scope.stops[i]);
-		}
+		    path: $scope.shapes,
+		    strokeColor: '#387ef5',
+		    strokeOpacity: 0.6,
+		    strokeWeight: 2
+		}).setMap(map)
+
 	}
 });

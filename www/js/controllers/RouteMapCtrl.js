@@ -1,5 +1,7 @@
-angular.module('starter.controllers').controller('RouteMapCtrl', function($scope, $state, $ionicHistory, routeService, stopService, shareService)
+angular.module('starter.controllers').controller('RouteMapCtrl', function($scope, $state, $ionicHistory, $ionicSideMenuDelegate, routeService, stopService, shareService, shapeService)
 {
+    $ionicSideMenuDelegate.canDragContent(false);
+
     $scope.gotoRoute = function()
     {
         $ionicHistory.nextViewOptions({disableBack: true});
@@ -22,6 +24,14 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function($scope
         $scope.stops = data1.data;
         createMap();
     });
+
+    var promise2 = shapeService.getShapes($scope.routeShort);
+    promise2.then(function (data2)
+    {
+        $scope.shapes = data2.data;
+        createMap();
+    })
+
 
 	var createMap = function()
 	{
@@ -71,5 +81,13 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function($scope
         {
             createMarker($scope.stops[i]);
         }
+
+		var poly = new google.maps.Polyline(
+		{
+		    path: $scope.shapes,
+		    strokeColor: '#387ef5',
+		    strokeOpacity: 0.6,
+		    strokeWeight: 2
+		}).setMap(map)
     }
 });

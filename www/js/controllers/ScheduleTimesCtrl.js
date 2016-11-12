@@ -1,5 +1,7 @@
-angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, shareService, favouritesService, stopService, timeService)
+angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, shareService, favouritesService, stopService, timeService, shapeService)
 {
+    $ionicSideMenuDelegate.canDragContent(false);
+
     $scope.gotoRoute = function()
     {
         $ionicHistory.nextViewOptions({disableBack: true});
@@ -35,8 +37,15 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     promise2.then(function (data2)
     {
         $scope.times = data2.data;
-        createMap();
     });
+
+    var promise3 = shapeService.getShapes($scope.routeShort);
+    promise3.then(function (data3)
+    {
+        $scope.shapes = data3.data;
+        createMap();
+    })
+
 
 	var createMap = function()
 	{
@@ -88,6 +97,14 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
 		{
             createMarker($scope.stops[i]);
 		}
+
+		var poly = new google.maps.Polyline(
+		{
+		    path: $scope.shapes,
+		    strokeColor: '#387ef5',
+		    strokeOpacity: 0.6,
+		    strokeWeight: 2
+		}).setMap(map)
 	}
 
     $scope.editFavourite = function(stop)//Adds/removes favourite route.
