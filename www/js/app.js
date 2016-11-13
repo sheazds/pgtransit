@@ -83,10 +83,23 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 
     .service("shapeService", function ($http, $q)
     {
-        this.getShapes = function (stopRouteID)
+        this.getShapes = function (ID)
         {
             var deferred = $q.defer();
-            $http.get('resource/FilteredData/' + stopRouteID + '-Shapes.json').then(function (data)
+            $http.get('resource/FilteredData/' + ID + '-Shapes.json').then(function (data)
+            {
+                deferred.resolve(data);
+            });
+            return deferred.promise;
+        }
+    })
+
+    .service("scheduleService", function ($http, $q)
+    {
+        this.getSchedule = function (ID)
+        {
+            var deferred = $q.defer();
+            $http.get('resource/FilteredData/' + ID + '-Schedule.json').then(function (data)
             {
                 deferred.resolve(data);
             });

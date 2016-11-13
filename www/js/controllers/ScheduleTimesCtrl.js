@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, shareService, favouritesService, stopService, timeService, shapeService)
+angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, shareService, favouritesService, stopService, timeService, shapeService, scheduleService)
 {
     $ionicSideMenuDelegate.canDragContent(false);
 
@@ -16,6 +16,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     $scope.fullStops = [];
 	$scope.stops = [];
 	$scope.times = [];
+	$scope.schedule = [];
 	$scope.routeName = shareService.getRouteName();
 	$scope.routeShort = shareService.getRouteShort();
 	$scope.routeLong = shareService.getRouteLong();
@@ -39,12 +40,20 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
         $scope.times = data2.data;
     });
 
+    var promise4 = scheduleService.getSchedule($scope.routeShort);
+    promise4.then(function (data4)
+    {
+        $scope.schedule = data4.data;
+    })
+
     var promise3 = shapeService.getShapes($scope.routeShort);
     promise3.then(function (data3)
     {
         $scope.shapes = data3.data;
         createMap();
     })
+
+
 
 
 	var createMap = function()
