@@ -27,7 +27,7 @@
         "stop_short_name": "Westbound 15th Ave at Spruce", 
         "stop_id": 105090, 
         "stop_name": "Westbound 15th Ave at Spruce", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.910322, 
@@ -207,7 +207,7 @@
         "stop_short_name": "Southbound Dominion at 7th Ave", 
         "stop_id": 105002, 
         "stop_name": "Southbound Dominion at 7th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.915429, 
@@ -257,7 +257,7 @@
         "stop_short_name": "Spruceland Exchange Bay D", 
         "stop_id": 105014, 
         "stop_name": "Spruceland Exchange Bay D", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.915425, 
@@ -297,7 +297,7 @@
         "stop_short_name": "Spruceland Exchange Bay B", 
         "stop_id": 105013, 
         "stop_name": "Spruceland Exchange Bay B", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.913974, 
@@ -337,7 +337,7 @@
         "stop_short_name": "Northbound N Ospika at McLeod", 
         "stop_id": 105303, 
         "stop_name": "Northbound N Ospika at McLeod", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.927138, 
@@ -467,7 +467,7 @@
         "stop_short_name": "Westbound 1st Ave at Van Somer", 
         "stop_id": 105316, 
         "stop_name": "Westbound 1st Ave at Van Somer", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.925015, 
@@ -597,7 +597,7 @@
         "stop_short_name": "Eastbound 15th Ave at Foothills", 
         "stop_id": 105064, 
         "stop_name": "Eastbound 15th Ave at Foothills", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.912792, 

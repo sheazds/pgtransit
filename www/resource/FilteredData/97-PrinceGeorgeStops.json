@@ -27,7 +27,7 @@
         "stop_short_name": "Southbound Kelly at Heather", 
         "stop_id": 105500, 
         "stop_name": "Southbound Kelly at Heather", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.991922, 
@@ -197,7 +197,7 @@
         "stop_short_name": "Spruceland Exchange Bay D", 
         "stop_id": 105014, 
         "stop_name": "Spruceland Exchange Bay D", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.992439, 
@@ -217,7 +217,7 @@
         "stop_short_name": "Southbound Heather Park at Gray", 
         "stop_id": 105169, 
         "stop_name": "Southbound  Heather Park at Gray", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.980577, 
@@ -247,7 +247,7 @@
         "stop_short_name": "Westbound Handlen at Kelly S", 
         "stop_id": 105177, 
         "stop_name": "Westbound  Handlen at Kelly S", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.95305, 
@@ -287,7 +287,7 @@
         "stop_short_name": "Westbound 5740 block Cook", 
         "stop_id": 105184, 
         "stop_name": "Westbound 5740 block Cook", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.979475, 
@@ -427,7 +427,7 @@
         "stop_short_name": "Southbound Eden at Dagg", 
         "stop_id": 105199, 
         "stop_name": "Southbound Eden at Dagg", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.992465, 
@@ -437,7 +437,7 @@
         "stop_short_name": "Westbound Dagg at Eden", 
         "stop_id": 105200, 
         "stop_name": "Westbound Dagg at Eden", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.99442, 

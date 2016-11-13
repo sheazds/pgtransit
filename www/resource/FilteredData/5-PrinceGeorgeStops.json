@@ -117,7 +117,7 @@
         "stop_short_name": "Southbound Lansdowne at Sinclair", 
         "stop_id": 105240, 
         "stop_name": "Southbound Lansdowne at Sinclair", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.88885, 
@@ -227,7 +227,7 @@
         "stop_short_name": "Westbound 7th Ave at Dominion", 
         "stop_id": 105000, 
         "stop_name": "Westbound 7th Ave at Dominion", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.918946, 
@@ -307,7 +307,7 @@
         "stop_short_name": "Pine Centre Exchange Bay A", 
         "stop_id": 105011, 
         "stop_name": "Pine Centre Exchange Bay A", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.918281, 
@@ -317,7 +317,7 @@
         "stop_short_name": "Spruceland Exchange Bay B", 
         "stop_id": 105013, 
         "stop_name": "Spruceland Exchange Bay B", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.917696, 
@@ -447,7 +447,7 @@
         "stop_short_name": "Eastbound 15th Ave at Foothills", 
         "stop_id": 105064, 
         "stop_name": "Eastbound 15th Ave at Foothills", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.911099, 

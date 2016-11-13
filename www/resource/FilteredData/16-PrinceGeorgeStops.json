@@ -7,7 +7,7 @@
         "stop_short_name": "Eastbound Malaspina at Rochester", 
         "stop_id": 105368, 
         "stop_name": "Eastbound Malaspina at Rochester", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.850002, 
@@ -187,7 +187,7 @@
         "stop_short_name": "Eastbound Domano at Moriarty", 
         "stop_id": 105006, 
         "stop_name": "Eastbound Domano at Moriarty", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.868989, 
@@ -197,7 +197,7 @@
         "stop_short_name": "Westbound Domano at O Grady", 
         "stop_id": 105007, 
         "stop_name": "Westbound Domano at O Grady", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.891281, 
@@ -207,7 +207,7 @@
         "stop_short_name": "UNBC Exchange Bay A", 
         "stop_id": 105017, 
         "stop_name": "UNBC Exchange Bay A", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.86517, 
@@ -217,7 +217,7 @@
         "stop_short_name": "Westgate Exchange Bay A", 
         "stop_id": 105019, 
         "stop_name": "Westgate Exchange Bay A", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.865856, 
@@ -227,7 +227,7 @@
         "stop_short_name": "Northbound Simon Fraser at Caledonia", 
         "stop_id": 105249, 
         "stop_name": "Northbound Simon Fraser at Caledonia", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.860489, 
@@ -297,7 +297,7 @@
         "stop_short_name": "Eastbound Gladstone at Loyola", 
         "stop_id": 105052, 
         "stop_name": "Eastbound Gladstone at Loyola", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.855387, 

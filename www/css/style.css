@@ -46,7 +46,6 @@
 
 .schedRow
 {
-    border: 1px solid gray;
     padding: 0;
     display: -webkit-box;
     display: -webkit-flex;
@@ -58,9 +57,10 @@
 
 .schedStop
 {
+    border: 1px solid gray;
     background: #525173;
     color: #fff;
-    margin-right: 1px;
+    margin-right: 0px;
     padding: 5px;
     -webkit-box-flex: none;
     -webkit-flex: none;
@@ -69,17 +69,18 @@
     -ms-flex: none;
     flex: none;
     display: block;
-    width: 150px;
+    width: 125px;
     white-space: normal;
     word-wrap: break-word;
     text-align: center;
 }
 
-.schedTime
+.schedTimeOdd
 {
-    background: #a7a7a7;
+    border: 1px solid white;
+    background: #e7e7e7;
     color: #525173;
-    margin-right: 1px;
+    margin-right: 0px;
     -webkit-box-flex: none;
     -webkit-flex: none;
     -moz-box-flex: none;
@@ -88,4 +89,24 @@
     flex: none;
     display: block;
     padding: 5px;
+    width: 75px;
+    height: 100%;
+}
+
+.schedTimeEven
+{
+    border: 1px solid white;
+    background: #b9b9b9;
+    color: #525173;
+    margin-right: 0px;
+    -webkit-box-flex: none;
+    -webkit-flex: none;
+    -moz-box-flex: none;
+    -moz-flex: none;
+    -ms-flex: none;
+    flex: none;
+    display: block;
+    padding: 5px;
+    width: 75px;
+    height: 100%;
 }

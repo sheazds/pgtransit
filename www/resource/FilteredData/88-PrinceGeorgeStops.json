@@ -97,7 +97,7 @@
         "stop_short_name": "Southbound Nicholson at 15th Ave", 
         "stop_id": 105005, 
         "stop_name": "Southbound Nicholson at 15th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.868189, 
@@ -107,7 +107,7 @@
         "stop_short_name": "Eastbound Domano at Moriarty", 
         "stop_id": 105006, 
         "stop_name": "Eastbound Domano at Moriarty", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.988882, 
@@ -117,7 +117,7 @@
         "stop_short_name": "Eastbound Austin Road at Madill", 
         "stop_id": 105008, 
         "stop_name": "Eastbound Austin Road at Madill", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.987527, 
@@ -177,7 +177,7 @@
         "stop_short_name": "Spruceland Exchange Bay A", 
         "stop_id": 105015, 
         "stop_name": "Spruceland Exchange Bay A", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.904277, 
@@ -197,7 +197,7 @@
         "stop_short_name": "Southbound Nicholson at 18th Ave", 
         "stop_id": 105022, 
         "stop_name": "Southbound Nicholson at 18th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.886188, 
@@ -377,7 +377,7 @@
         "stop_short_name": "Westbound 4270 block Bear", 
         "stop_id": 105820, 
         "stop_name": "Westbound 4270 block Bear", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.88407, 
@@ -397,7 +397,7 @@
         "stop_short_name": "Westgate Exchange Bay A", 
         "stop_id": 105019, 
         "stop_name": "Westgate Exchange Bay A", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.884597, 
@@ -417,7 +417,7 @@
         "stop_short_name": "Pine Centre Exchange Bay B", 
         "stop_id": 105010, 
         "stop_name": "Pine Centre Exchange Bay B", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.894016, 

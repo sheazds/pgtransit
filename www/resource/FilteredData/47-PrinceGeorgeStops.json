@@ -17,7 +17,7 @@
         "stop_short_name": "Westbound 15th Ave at 13th Ave", 
         "stop_id": 105091, 
         "stop_name": "Westbound 15th Ave at 13th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.911054, 
@@ -167,7 +167,7 @@
         "stop_short_name": "Southbound Nicholson at 15th Ave", 
         "stop_id": 105005, 
         "stop_name": "Southbound Nicholson at 15th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.914406, 
@@ -187,7 +187,7 @@
         "stop_short_name": "Westbound 7th Ave at Dominion", 
         "stop_id": 105000, 
         "stop_name": "Westbound 7th Ave at Dominion", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.913232, 
@@ -197,7 +197,7 @@
         "stop_short_name": "Southbound Dominion at 7th Ave", 
         "stop_id": 105002, 
         "stop_name": "Southbound Dominion at 7th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.910518, 
@@ -257,7 +257,7 @@
         "stop_short_name": "Pine Centre Exchange Bay B", 
         "stop_id": 105010, 
         "stop_name": "Pine Centre Exchange Bay B", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.910525, 
@@ -447,7 +447,7 @@
         "stop_short_name": "Southbound Nicholson at 18th Ave", 
         "stop_id": 105038, 
         "stop_name": "Southbound Nicholson at 18th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.901409, 
@@ -467,7 +467,7 @@
         "stop_short_name": "Southbound 3880 block Wiebe", 
         "stop_id": 105048, 
         "stop_name": "Southbound 3880 block Wiebe", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.904277, 

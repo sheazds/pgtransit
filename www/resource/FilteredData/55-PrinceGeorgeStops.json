@@ -167,7 +167,7 @@
         "stop_short_name": "Southbound Lansdowne at Sinclair", 
         "stop_id": 105240, 
         "stop_name": "Southbound Lansdowne at Sinclair", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.895351, 
@@ -277,7 +277,7 @@
         "stop_short_name": "Eastbound 7th Ave at Quebec", 
         "stop_id": 105001, 
         "stop_name": "Eastbound 7th Ave at Quebec", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.919003, 
@@ -357,7 +357,7 @@
         "stop_short_name": "Pine Centre Exchange Bay A", 
         "stop_id": 105011, 
         "stop_name": "Pine Centre Exchange Bay A", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.920767, 
@@ -397,7 +397,7 @@
         "stop_short_name": "Spruceland Exchange Bay A", 
         "stop_id": 105015, 
         "stop_name": "Spruceland Exchange Bay A", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.901655, 
@@ -607,7 +607,7 @@
         "stop_short_name": "Westbound 15th Ave at Tabor", 
         "stop_id": 105077, 
         "stop_name": "Westbound 15th Ave at Tabor", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.917609, 

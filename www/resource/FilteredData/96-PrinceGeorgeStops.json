@@ -97,7 +97,7 @@
         "stop_short_name": "Southbound Stauble at Vellencher", 
         "stop_id": 105505, 
         "stop_name": "Southbound Stauble at Vellencher", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.981564, 
@@ -197,7 +197,7 @@
         "stop_short_name": "Spruceland Exchange Bay D", 
         "stop_id": 105014, 
         "stop_name": "Spruceland Exchange Bay D", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.982644, 
@@ -277,7 +277,7 @@
         "stop_short_name": "Westbound Nixon at Berwick", 
         "stop_id": 105151, 
         "stop_name": "Westbound Nixon at Berwick", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.96886, 
@@ -297,7 +297,7 @@
         "stop_short_name": "Southbound Panorama at Sadler", 
         "stop_id": 105154, 
         "stop_name": "Southbound  Panorama at Sadler", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.968322, 
@@ -387,7 +387,7 @@
         "stop_short_name": "Westbound North Nechako at Meadowbrook", 
         "stop_id": 105419, 
         "stop_name": "Westbound  North Nechako at Meadowbrook", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.957684, 
@@ -427,7 +427,7 @@
         "stop_short_name": "Southbound Heather Park at Gray", 
         "stop_id": 105169, 
         "stop_name": "Southbound  Heather Park at Gray", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.975142, 
@@ -477,7 +477,7 @@
         "stop_short_name": "Northbound Wildwood at Carlisle", 
         "stop_id": 105174, 
         "stop_name": "Northbound Wildwood at Carlisle", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.965984, 
@@ -507,7 +507,7 @@
         "stop_short_name": "Westbound Handlen at Kelly S", 
         "stop_id": 105177, 
         "stop_name": "Westbound  Handlen at Kelly S", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.981407, 

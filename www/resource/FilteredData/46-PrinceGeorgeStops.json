@@ -157,7 +157,7 @@
         "stop_short_name": "Southbound Dominion at 7th Ave", 
         "stop_id": 105002, 
         "stop_name": "Southbound Dominion at 7th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.917541, 
@@ -217,7 +217,7 @@
         "stop_short_name": "Pine Centre Exchange Bay B", 
         "stop_id": 105010, 
         "stop_name": "Pine Centre Exchange Bay B", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.905507, 
@@ -427,7 +427,7 @@
         "stop_short_name": "Westbound Range at Wiebe", 
         "stop_id": 105044, 
         "stop_name": "Westbound Range at Wiebe", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.888831, 
@@ -507,7 +507,7 @@
         "stop_short_name": "Northbound Nicholson at 18th Ave", 
         "stop_id": 105021, 
         "stop_name": "Northbound Nicholson at 18th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.910271, 
@@ -527,7 +527,7 @@
         "stop_short_name": "Eastbound 15th Ave at Spruce", 
         "stop_id": 105074, 
         "stop_name": "Eastbound 15th Ave at Spruce", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.907269, 

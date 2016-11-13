@@ -97,7 +97,7 @@
         "stop_short_name": "Northbound Hart Highway at Estavilla", 
         "stop_id": 105520, 
         "stop_name": "Northbound Hart Highway at Estavilla", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.983214, 
@@ -167,7 +167,7 @@
         "stop_short_name": "Eastbound Austin Road at Madill", 
         "stop_id": 105008, 
         "stop_name": "Eastbound Austin Road at Madill", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.983316, 
@@ -207,7 +207,7 @@
         "stop_short_name": "Spruceland Exchange Bay B", 
         "stop_id": 105013, 
         "stop_name": "Spruceland Exchange Bay B", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.981407, 
@@ -277,7 +277,7 @@
         "stop_short_name": "Eastbound Highland at Berwick", 
         "stop_id": 105149, 
         "stop_name": "Eastbound  Highland at Berwick", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.975127, 
@@ -297,7 +297,7 @@
         "stop_short_name": "Westbound North Nechako at Highway 97", 
         "stop_id": 105412, 
         "stop_name": "Westbound  North Nechako at Highway 97", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.934432, 
@@ -367,7 +367,7 @@
         "stop_short_name": "Westbound North Nechako at Meadowbrook", 
         "stop_id": 105419, 
         "stop_name": "Westbound  North Nechako at Meadowbrook", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.957684, 
@@ -397,7 +397,7 @@
         "stop_short_name": "Northbound Kilarney at Wildwood", 
         "stop_id": 105166, 
         "stop_name": "Northbound  Kilarney at Wildwood", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.975142, 
