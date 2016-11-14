@@ -1,5 +1,4 @@
-.numberCircle
-{
+.numberCircle {
     border-radius: 30%;
 
     width: 40px;
@@ -15,24 +14,20 @@
     font: 20px Arial, sans-serif;
 }
 
-.custom-blue
-{
-    color : #1fb6ff;
+.custom-blue {
+    color: #1fb6ff;
 }
 
-.custom-font
-{
+.custom-font {
     font: 44px Arial, sans-serif;
 }
 
-.customFont
-{
+.customFont {
     text-align: center;
     color: #000000;
     font: 17px Arial, sans-serif;
 }
 
-.centerWord
-{
+.centerWord {
     text-align: center;
 }

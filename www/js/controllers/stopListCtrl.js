@@ -8,7 +8,7 @@ angular.module('starter.controllers').controller("stopListCtrl", function ($scop
     stopPromise.then(function (data)
     {
         $scope.stops = data.data;
-        for (var i = 0; i < $scope.stops.length; i ++)
+        for (var i = 0; i < $scope.stops.length; i++)
         {
             $scope.filteredStops.push($scope.stops[i]);
         }

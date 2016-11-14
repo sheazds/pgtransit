@@ -8,7 +8,7 @@ angular.module('starter.controllers').controller("timesCtrl", function ($scope, 
     stopPromise.then(function (data)
     {
         $scope.times = data.data;
-        for (var i = 0; i < $scope.times.length; i ++)
+        for (var i = 0; i < $scope.times.length; i++)
         {
             if ($scope.times[i].stop_id == $scope.stop_id)
             {

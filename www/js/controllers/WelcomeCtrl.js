@@ -1,50 +1,50 @@
-angular.module('starter.controllers').controller('WelcomeCtrl', function($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate, favouritesService)
-  {
-     mixpanel.track("WelcomePage", {"welcome": 'WelcomeCtrl'});
+angular.module('starter.controllers').controller('WelcomeCtrl', function ($scope, $ionicSideMenuDelegate, $state, $ionicHistory, $ionicSlideBoxDelegate, favouritesService)
+{
+    mixpanel.track("WelcomePage", {"welcome": 'WelcomeCtrl'});
 
-      $scope.firstLoad = function()
-      {
-          if(localStorage.getItem('loadToken')!==null)
-          {
-              favouritesService.loadFavs();
-              $scope.startApp();
-          }
-      }
+    $scope.firstLoad = function ()
+    {
+        if (localStorage.getItem('loadToken') !== null)
+        {
+            favouritesService.loadFavs();
+            $scope.startApp();
+        }
+    }
 
-      $ionicSideMenuDelegate.canDragContent(false);
+    $ionicSideMenuDelegate.canDragContent(false);
 
-      $scope.options =
-      {
-          loop: false,
-          effect: 'scroll',
-          speed: 500,
-      };
+    $scope.options =
+    {
+        loop: false,
+        effect: 'scroll',
+        speed: 500,
+    };
 
-      $scope.startApp = function()
-      {
-          localStorage.setItem('loadToken', 'Loaded')
-          $ionicSideMenuDelegate.canDragContent(true);
-          $ionicHistory.nextViewOptions(
-          {
-              disableBack: true
-          });
-          $state.go('app.route');
+    $scope.startApp = function ()
+    {
+        localStorage.setItem('loadToken', 'Loaded')
+        $ionicSideMenuDelegate.canDragContent(true);
+        $ionicHistory.nextViewOptions(
+            {
+                disableBack: true
+            });
+        $state.go('app.route');
 
-      };
+    };
 
-      $scope.next = function()
-      {
-          $ionicSlideBoxDelegate.next();
-      };
+    $scope.next = function ()
+    {
+        $ionicSlideBoxDelegate.next();
+    };
 
-      $scope.previous = function()
-      {
-          $ionicSlideBoxDelegate.previous();
-      };
+    $scope.previous = function ()
+    {
+        $ionicSlideBoxDelegate.previous();
+    };
 
-      $scope.slideChanged = function(index)
-      {
-          $scope.slideIndex = index;
-      };
+    $scope.slideChanged = function (index)
+    {
+        $scope.slideIndex = index;
+    };
 
-  });
+});
