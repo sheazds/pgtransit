@@ -1,7 +1,5 @@
 angular.module('starter.controllers').controller("NearMeMapCtrl", function ($scope, $state, $ionicHistory, $ionicPlatform, stopNearMeService, locationService)
 	{
-	$scope.times = [];
-
 	  //Check if location is set, if not redirect to get it
 	  if(locationService.getLat() == null)
 	  {
@@ -54,18 +52,6 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
             optimized: false
           });
 
-          google.maps.event.addListener(map, 'zoom_changed', function()
-          {
-            var zoom = map.getZoom();
-            if (zoom <= 14)
-            {
-                marker.setMap(null);
-            }
-            else
-            {
-                marker.setMap(map);
-            }
-          });
           google.maps.event.addListener(marker, 'click', function()
           {
             infoWindow.setContent(marker.title);
