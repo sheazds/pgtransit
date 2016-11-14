@@ -42,7 +42,7 @@ angular.module('starter.controllers').controller("timesCtrl", function ($scope, 
             notifyDate.setMinutes(hms[1] - 12);//-12 minutes, javascript data object allows -minutes
             notifyDate.setSeconds(hms[2]);
 
-            notificationService.scheduleNotificationLater('PG Bua', $scope.route_id + ' is due to arrive soon!', notifyDate, 1);
+            notificationService.scheduleNotificationLater('PG Bus', $scope.route_id + ' is due to arrive soon!', notifyDate, 1);
             notificationService.setNotification(c);
             notificationService.saveNotifications();
             $ionicLoading.show(
