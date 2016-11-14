@@ -1,35 +1,35 @@
 <ion-view view-title="Home" ng-init="checkWeather()">
-    <ion-content>
+  <ion-content>
 
-            <div class="item item-thumbnail-left">
-                <img src="{{getIconUrl(weather.weather[0].icon)}}"/>
-                <h1>{{weather.weather[0].main}}</h1>
-                <h2>{{weather.weather[0].description}}</h2>
-            </div>
-            <div class="item item-icon-left">
-                <i class="icon ion-thermometer"></i>
-                <h2>Temperature: {{weather.main.temp}}&deg;</h2>
-            </div>
-            <div class="item item-icon-left">
-                <i class="icon ion-shuffle"></i>
-                <h2>Wind: {{weather.wind.speed}}mph, {{getDirection(weather.wind.deg)}}</h2>
-            </div>
+    <div class="item item-thumbnail-left">
+      <img src="{{getIconUrl(weather.weather[0].icon)}}"/>
+      <h1>{{weather.weather[0].main}}</h1>
+      <h2>{{weather.weather[0].description}}</h2>
+    </div>
+    <div class="item item-icon-left">
+      <i class="icon ion-thermometer"></i>
+      <h2>Temperature: {{weather.main.temp}}&deg;</h2>
+    </div>
+    <div class="item item-icon-left">
+      <i class="icon ion-shuffle"></i>
+      <h2>Wind: {{weather.wind.speed}}mph, {{getDirection(weather.wind.deg)}}</h2>
+    </div>
 
-            Favourites only display if they are present.
-            <div class="favourites" ng-controller='favouritesCtrl'>
-                <div ng-if="favs.length > 0">
-                    <div class="header">Favourites</div>
-                    <ion-item ng-repeat='item in favs'>
-                        {{item.route_short_name + '-' + item.route_long_name}}
-                    </ion-item>
-                </div>
-            </div>
+    Favourites only display if they are present.
+    <div class="favourites" ng-controller='favouritesCtrl'>
+      <div ng-if="favs.length > 0">
+        <div class="header">Favourites</div>
+        <ion-item ng-repeat='item in favs'>
+          {{item.route_short_name + '-' + item.route_long_name}}
+        </ion-item>
+      </div>
+    </div>
 
-            <div class="nearMe">
-                <div class="header">Near Me</div>
-                <ion-item>Example</ion-item>
-                <ion-item>Example</ion-item>
-            </div>
+    <div class="nearMe">
+      <div class="header">Near Me</div>
+      <ion-item>Example</ion-item>
+      <ion-item>Example</ion-item>
+    </div>
 
-    </ion-content>
+  </ion-content>
 </ion-view>

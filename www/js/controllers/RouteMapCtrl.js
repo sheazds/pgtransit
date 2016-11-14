@@ -1,50 +1,50 @@
-angular.module('starter.controllers').controller('RouteMapCtrl', function($scope, routeService, stopService, shareService)
+angular.module('starter.controllers').controller('RouteMapCtrl', function ($scope, routeService, stopService, shareService)
+{
+  $scope.newStopList = [];
+
+  $scope.routeName = shareService.getRouteName();
+
+  var promise = routeService.getRoutes();
+  promise.then(function (data1)
   {
-    $scope.newStopList = [];
+    $scope.routes = data1.data;
+  });
 
-    $scope.routeName = shareService.getRouteName();
-
-    var promise = routeService.getRoutes();
-    promise.then(function (data1)
+  var newStop = stopService.getNewstop();
+  newStop.then(function (data2)
+  {
+    $scope.newStop = data2.data;
+    for (var i = 0; i < $scope.newStop.length; i++)
     {
-      $scope.routes = data1.data;
-    });
-
-    var newStop = stopService.getNewstop();
-    newStop.then(function (data2)
-    {
-      $scope.newStop = data2.data;
-      for (var i = 0; i < $scope.newStop.length; i++)
+      if ($scope.newStop[i].route_id == $scope.routeName)
       {
-        if ($scope.newStop[i].route_id == $scope.routeName)
-        {
-          $scope.newStopList.push($scope.newStop[i]);
-        }
+        $scope.newStopList.push($scope.newStop[i]);
       }
-      createMap();
-    });
-    var createMap = function()
+    }
+    createMap();
+  });
+  var createMap = function ()
+  {
+    $scope.lat = $scope.newStopList[(Math.floor($scope.newStopList.length / 2))].lat;
+    $scope.long = $scope.newStopList[(Math.floor($scope.newStopList.length / 2))].lng;
+
+    var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+
+    var mapOptions =
     {
-      $scope.lat = $scope.newStopList[(Math.floor($scope.newStopList.length/2))].lat;
-      $scope.long = $scope.newStopList[(Math.floor($scope.newStopList.length/2))].lng;
+      center: latLng,
+      zoom: 12,
+      mapTypeId: google.maps.MapTypeId.ROADMAP
+    };
 
-      var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+    var map = new google.maps.Map(document.getElementById("fullMap"), mapOptions);
 
-      var mapOptions =
-      {
-        center: latLng,
-        zoom: 12,
-        mapTypeId: google.maps.MapTypeId.ROADMAP
-      };
+    //Add other Bus Stop Markers
+    var infoWindow = new google.maps.InfoWindow();
 
-      var map = new google.maps.Map(document.getElementById("fullMap"), mapOptions);
-
-      //Add other Bus Stop Markers
-      var infoWindow = new google.maps.InfoWindow();
-
-      var createMarker = function (info)
-      {
-        var marker = new google.maps.Marker(
+    var createMarker = function (info)
+    {
+      var marker = new google.maps.Marker(
         {
           position: new google.maps.LatLng(info.lat, info.lng),
           map: map,
@@ -53,17 +53,17 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function($scope
           icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
           optimized: false
         });
-        google.maps.event.addListener(marker, 'click', function()
-        {
-          infoWindow.setContent(marker.title);
-          infoWindow.open($scope.map, marker)
-        });
-      }
-
-      //Get stops from Json
-      for (i=0; i<$scope.newStopList.length; i++)
+      google.maps.event.addListener(marker, 'click', function ()
       {
-        createMarker($scope.newStopList[i]);
-      }
+        infoWindow.setContent(marker.title);
+        infoWindow.open($scope.map, marker)
+      });
     }
-  });
+
+    //Get stops from Json
+    for (i = 0; i < $scope.newStopList.length; i++)
+    {
+      createMarker($scope.newStopList[i]);
+    }
+  }
+});
