@@ -262,8 +262,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         }
     }
 
-    $ionicPlatform.ready(function ()
-    {
+    //$ionicPlatform.ready(function ()
+    //{
         //Instant notification.
         notificationService.scheduleNotificationNow = function(header, message)
         {
@@ -290,7 +290,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
                     id: id, //ID is important to remember so that we can reschedule if needed.
                     title: header,
                     text: message,
-                    at: time
+                    at: time,
+                    every: "day" //Repeat daily unless disabled.
                 }).then(function (result) {
                     console.log('Timed notification set for: ' + time);
                 })
@@ -311,7 +312,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
                     console.log('Notification ' + id + ' does not exist');
             })
         }
-    })
+    //})
 
     notificationService.saveNotifications = function()
     {
@@ -330,7 +331,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     {
         for (i= 0; i < notificationService.routes.length; i++)
         {
-            if (notificationService.routes[i].name === value.name)
+            if (notificationService.routes[i].arrival_time === value.arrival_time)
                 notificationService.routes.splice(i, 1);
         }
     }
@@ -339,7 +340,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     {
         for (i= 0; i < notificationService.routes.length; i++)
         {
-            if (notificationService.routes[i].name === value.name)
+            if (notificationService.routes[i].arrival_time === value.arrival_time)
                 return true;
         }
 

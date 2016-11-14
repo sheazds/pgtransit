@@ -1,6 +1,6 @@
 angular.module('starter.controllers')
 
-.controller("notificationCtrl", function($scope, $cordovaLocalNotification, $ionicPlatform, notificationService) {
+.controller("notificationCtrl", function($scope, $ionicPlatform, notificationService) {
 
     $scope.routes = notificationService.getNotifications();
 
