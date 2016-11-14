@@ -51,6 +51,7 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
             icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
             optimized: false
           });
+
           google.maps.event.addListener(marker, 'click', function()
           {
             infoWindow.setContent(marker.title);
@@ -66,10 +67,10 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
           //Check if nearby
           for (i=0; i<$scope.co.length; i++)
           {
-            if( $scope.co[i].stop_lat < $scope.lat + 0.005 &&
-                $scope.co[i].stop_lat > $scope.lat - 0.005 &&
-                $scope.co[i].stop_lon < $scope.long + 0.005 &&
-                $scope.co[i].stop_lon > $scope.long - 0.005)
+            if( $scope.co[i].stop_lat < $scope.lat + 0.010 &&
+                $scope.co[i].stop_lat > $scope.lat - 0.010 &&
+                $scope.co[i].stop_lon < $scope.long + 0.010 &&
+                $scope.co[i].stop_lon > $scope.long - 0.010)
             {
             createMarker($scope.co[i]);
             }
