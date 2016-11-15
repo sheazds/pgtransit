@@ -22,10 +22,11 @@
     </div>
 
 
-    <ion-content class="has-subheader">
+    <ion-content class="has-subheader" overflow-scroll="false">
         <div id="schedulemap" data-tap-disabled="true" style="width:100%;height:30%"></div>
 
-        <div class="schedule">
+
+        <ion-scroll class="schedule" zooming="false" direction="xy" overflow-scroll="false" style="height:70%; width:100%;">
             <div class="schedRow" ng-repeat="array in schedule">
                 <div ng-repeat="entry in array track by $index">
                     <div class="schedStop" ng-if="$index == 0">{{entry}}</div>
@@ -33,7 +34,7 @@
                     <div class="schedTimeEven" ng-if="$index > 0 && $index % 2 == 0">{{entry}}</div>
                 </div>
             </div>
-        </div>
+        </ion-scroll>
 
     </ion-content>
 

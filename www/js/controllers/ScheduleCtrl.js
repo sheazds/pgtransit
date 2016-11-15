@@ -1,7 +1,5 @@
 angular.module('starter.controllers').controller('ScheduleCtrl', function ($scope, $ionicHistory, $state, routeService, shareService)
 {
-    $ionicSideMenuDelegate.canDragContent(false);
-
     $scope.routes = [];
 
     $scope.gotoSchedule = function()
