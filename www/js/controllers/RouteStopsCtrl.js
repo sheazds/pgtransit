@@ -61,7 +61,7 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 		//Add other Bus Stop Markers
 		var infoWindow = new google.maps.InfoWindow();
 
-		var createMarker = function (info)
+		$scope.createMarker = function (info)
 		{
 			var marker = new google.maps.Marker(
 			{
