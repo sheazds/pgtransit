@@ -19,7 +19,7 @@ angular.module('starter.controllers').controller('ContactCtrl', function ($scope
   })
 
   document.getElementById("feedbackBtn").addEventListener("click", sendFeedback);
-
+  
   function sendFeedback()
   {
     window.open("mailto: sheazds@gmail.com"

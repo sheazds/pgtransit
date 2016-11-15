@@ -17,7 +17,6 @@ angular.module('starter.controllers').controller("NearMeCtrl", function ($scope,
     $scope.lat = locationService.getLat();
     $scope.long = locationService.getLong();
   }
-
   var promise = stopNearMeService.getCo();
   promise.then(function (data)
   {

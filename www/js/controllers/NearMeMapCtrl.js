@@ -35,7 +35,7 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
           title: "My Location",
           optimized: false
         });
-
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
       //Add other Bus Stop Markers
       var infoWindow = new google.maps.InfoWindow();

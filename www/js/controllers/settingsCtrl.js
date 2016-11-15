@@ -35,7 +35,6 @@ angular.module('starter.controllers').controller('settingsCtrl', function ($scop
       console.log('Notifications enabled taking action');
     }
   }
-
   //Request location access from the user.
   $scope.requestLocationAccess = function ()
   {

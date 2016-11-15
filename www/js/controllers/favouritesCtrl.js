@@ -1,5 +1,4 @@
 angular.module('starter.controllers')
-
   .controller("favouritesCtrl", function ($scope, $state, $ionicPlatform, shareService, favouritesService, $ionicLoading)
   {
     mixpanel.track("Favorite", {"favorite": 'favouritesCtrl'});

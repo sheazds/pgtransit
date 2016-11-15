@@ -42,7 +42,5 @@ angular.module('starter.controllers').controller('LocationSettings', function ($
     {
       alert(error);
     }, {enableHighAccuracy: true});
-
   }
-
 });

@@ -1,6 +1,7 @@
 angular.module('starter.controllers').controller('RouteMapCtrl', function ($scope, routeService, stopService, shareService)
 {
   $scope.newStopList = [];
+  $scope.newStopList = [];
 
   $scope.routeName = shareService.getRouteName();
 
