@@ -34,12 +34,13 @@
     line-height: 40px;
     display: inline-block;
     word-spacing: 5px;
-
     font: 25px Arial, sans-serif;
 }
-.schedule
+.routeList
 {
     white-space: nowrap;
+    height: 70%;
+    width: 100%;
 }
 
 .schedRow
@@ -110,5 +111,9 @@
 }
 
 .scroll-view.scroll-xy {
+    overflow: hidden;  /* default value is 'scroll' */
+}
+
+.scroll-view.scroll-y {
     overflow: hidden;  /* default value is 'scroll' */
 }

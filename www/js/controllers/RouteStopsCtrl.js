@@ -13,6 +13,17 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
         $state.go('app.routeMap');
     }
 
+    var markers = [];
+    $scope.addMarker = function(stop)
+    {
+        //Check if stop is allready a marker
+        if (markers.indexOf(stop.stop_id) == -1)
+        {
+            markers.push(stop.stop_id)
+            $scope.createMarker(stop)
+        }
+    }
+
 
 	$scope.stops = [];
 	var shapes = [];
