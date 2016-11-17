@@ -269,14 +269,17 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         {
             if (notificationService.checkNotifications())
             {
-                $cordovaLocalNotification.schedule(
+                cordova.plugins.notification.local.schedule(
                 {
                     id: 1, //ID doesn't matter because we won't be cancelling an instant notification.
                     title: header,
                     text: message,
-                }).then(function (result) {
+                    //at: time,
+                    every: 5, //Repeat daily unless disabled.
+                    icon: "ic_stat_icon.png"
+                })/*.then(function (result) {
                     console.log('Notification triggered');
-                })
+                })*/
             }
         }
 
@@ -291,7 +294,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
                     title: header,
                     text: message,
                     at: time,
-                    every: "day" //Repeat daily unless disabled.
+                    every: 5, //Repeat daily unless disabled.
+                    icon: "file://img/icon.png"
                 }).then(function (result) {
                     console.log('Timed notification set for: ' + time);
                 })
