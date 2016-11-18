@@ -170,9 +170,9 @@
 }
 
 .homeWeather {
-        height:40%;
-    	background-size:  100% 100%;
-        background-repeat: no-repeat;
+    height:15%;
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
 }
 
 .weatherItem {
@@ -194,11 +194,15 @@
                     -1px  1px 0 #000;
 }
 
-.weatherItem h2 {
+.weatherItem h4 {
     color:white;
     text-shadow:
                     -1px -1px 0 #000,
                      1px -1px 0 #000,
                      1px  1px 0 #000,
                     -1px  1px 0 #000;
+}
+
+.right {
+    float: right;
 }

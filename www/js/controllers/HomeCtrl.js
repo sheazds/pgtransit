@@ -4,6 +4,21 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
 
     var directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 
+    $scope.time = new Date();
+    $scope.day = ["Mon", "Tues", "Wed", "Thur", "Fri", "Sat", "Sun"];
+    $scope.month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+    $scope.hour = [12,1,2,3,4,5,6,7,8,9,10,11,12,1,2,3,4,5,6,7,8,9,10,11];
+    $scope.ampm = function()
+    {
+        if($scope.time.getHours()<12) return "AM"
+        else return "PM"
+    }
+    $scope.minutes = function()
+    {
+        if($scope.time.getMinutes()<10) return '0'+$scope.time.getMinutes()
+        else return $scope.time.getMinutes()
+    }
+
     $scope.getIconUrl = function(iconId)
     {
         return 'http://openweathermap.org/img/w/' + iconId + '.png';
@@ -22,6 +37,9 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
     //check if weather data doesn't exist or is outdated
     $scope.checkWeather = function()
     {
+        //Refresh time
+        $scope.time = new Date();
+
         favouritesService.loadFavs();
 
         if(localStorage.getItem('loadToken')==null)
@@ -36,6 +54,8 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
         //If no time data exists or is more then 30 minutes out of date get new data
         if(sessionStorage.getItem('weatherTime') == null || ((new Date().getTime()) - sessionStorage.getItem('weatherTime')) > 900000)
         {
+
+
             //Get new weatherdata and store
             console.log("Getting new Weather Data");
             $http.get('http://api.openweathermap.org/data/2.5/weather?id=6113365&units=metric&appid=3d958a8a15a4158a118d8769e70c5461').success(function (response)
