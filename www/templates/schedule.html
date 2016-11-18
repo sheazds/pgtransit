@@ -1,14 +1,23 @@
-<ion-view view-title="Schedule" cache-view="false">>
-  <ion-content class="has-header">
-    <ion-list ng-repeat="route in routes">
-      <ion-item ng-click="setRoute(route.route_id, route.route_short_name, route.route_long_name); gotoSchedule()">
-        <div class="routeEntry">
-          <div class="routeNumberCircle">
-              {{route.route_short_name}}
-          </div>
-            {{route.route_long_name}}
-        </div>
-      </ion-item>
-    </ion-list>
-  </ion-content>
+<ion-view view-title="Schedule" cache-view="false">
+    <ion-content class="has-header">
+
+        <ion-list ng-repeat="route in routes">
+
+            <ion-item ng-click="setRoute(route);" on-hold="routeOnHold(route)">
+
+                <div class="routeEntry">
+                    <div class="routeNumberCircle">
+                        {{route.route_short_name}}
+                    </div>
+                    {{route.route_long_name}}
+                </div>
+
+                <button class="button button-clear icon" ng-click="editFavourite(route); $event.stopPropagation();"
+                        ng-class="hasFav(route) ? 'ion-android-star button-energized' : 'ion-android-star-outline button-light'">
+                </button>
+
+            </ion-item>
+        </ion-list>
+
+    </ion-content>
 </ion-view>
