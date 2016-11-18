@@ -329,9 +329,9 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     {
         console.log("Running android version: " + ionic.Platform.version());
         if (ionic.Platform.version() < 5)
-            notificationService.notifyIcon = "notifyIcon_4.x.png";
+            notificationService.notifyIcon = "notifyicon_4x.png";
         else
-            notificationService.notifyIcon = "notifyIcon.png";
+            notificationService.notifyIcon = "notifyicon.png";
 
         if(localStorage.getItem("notifications")!==null)
         {
