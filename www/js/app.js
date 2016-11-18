@@ -238,6 +238,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
 
     var notificationService = this;
     notificationService.routes = []; //For keeping track of timed notifications.
+    notificationService.notifyIcon = "";
 
     //Test to see if the notifications setting is enabled. By default it is.
     notificationService.checkNotifications = function()
@@ -267,6 +268,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         //Instant notification.
         notificationService.scheduleNotificationNow = function(header, message)
         {
+        //console.log('Timed notification set for: ' + notificationService.notifyIcon);
             if (notificationService.checkNotifications())
             {
                 cordova.plugins.notification.local.schedule(
@@ -276,7 +278,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
                     text: message,
                     //at: time,
                     every: 5, //Repeat daily unless disabled.
-                    icon: "ic_stat_icon.png"
+                    icon: "ic_notification.png"
                 })/*.then(function (result) {
                     console.log('Notification triggered');
                 })*/
@@ -323,12 +325,23 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         localStorage.setItem("notifications", JSON.stringify(notificationService.routes));
     }
 
-    notificationService.loadNotifications = function()
+    notificationService.Initialize = function()
     {
+        console.log("Running android version: " + ionic.Platform.version());
+        if (ionic.Platform.version() < 5)
+            notificationService.notifyIcon = "notifyIcon_4.x.png";
+        else
+            notificationService.notifyIcon = "notifyIcon.png";
+
         if(localStorage.getItem("notifications")!==null)
         {
             notificationService.routes = JSON.parse(localStorage.getItem("notifications"));
         }
+    }
+
+    notificationService.getNotifyIcon = function()
+    {
+        return notificationService.notifyIcon;
     }
 
     notificationService.removeItem = function(value)
