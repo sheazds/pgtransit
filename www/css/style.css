@@ -168,3 +168,37 @@
 .scroll-view.scroll-y {
     overflow: hidden;  /* default value is 'scroll' */
 }
+
+.homeWeather {
+        height:40%;
+    	background-size:  100% 100%;
+        background-repeat: no-repeat;
+}
+
+.weatherItem {
+    background-color:transparent;
+    color:white;
+    text-shadow:
+                    -1px -1px 0 #000,
+                     1px -1px 0 #000,
+                     1px  1px 0 #000,
+                    -1px  1px 0 #000;
+}
+
+.weatherItem h1 {
+    color:white;
+    text-shadow:
+                    -1px -1px 0 #000,
+                     1px -1px 0 #000,
+                     1px  1px 0 #000,
+                    -1px  1px 0 #000;
+}
+
+.weatherItem h2 {
+    color:white;
+    text-shadow:
+                    -1px -1px 0 #000,
+                     1px -1px 0 #000,
+                     1px  1px 0 #000,
+                    -1px  1px 0 #000;
+}

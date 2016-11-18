@@ -9,6 +9,11 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
         return 'http://openweathermap.org/img/w/' + iconId + '.png';
     };
 
+    $scope.getBackground = function(iconId)
+    {
+        return 'img/w/' + iconId.substring(0,2) + '.jpeg';
+    }
+
     $ionicLoading.show();
 
     //Initialize weather object
