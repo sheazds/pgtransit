@@ -11,8 +11,8 @@
           </div>
           {{route.route_long_name}}
         </div>
-        <button class="button button-clear icon" ng-click="editFavourite(route); $event.stopPropagation();"
-                ng-class="hasFav(route) ? 'ion-android-star button-energized' : 'ion-android-star-outline button-light'"></button>
+        <div class="icon" ng-click="editFavourite(route); $event.stopPropagation();"
+                ng-class="hasFav(route) ? 'energized ion-android-star' : 'ion-android-star-outline'"></div>
       </ion-item>
     </ion-list>
 
