@@ -14,8 +14,8 @@
 {
     border-radius: 50%;
     display: inline-block;
-    width: 42px;
-    height: 42px;
+    width: 36px;
+    height: 36px;
     padding: 9px;
     background: #387ef5;
     color: #FFFFFF;
@@ -24,7 +24,7 @@
     line-height: 50px;
     word-spacing: 20px;
     font-weight: bold;
-    font: 20px Arial, sans-serif;
+    font: 18px Arial, sans-serif;
 }
 
 .routeEntry
@@ -35,7 +35,7 @@
     display: inline-block;
     word-spacing: 5px;
 
-    font: 25px Arial, sans-serif;
+    font: 20px Arial, sans-serif;
 }
 .favourites
 {
