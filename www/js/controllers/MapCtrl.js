@@ -1,34 +1,34 @@
-angular.module('starter.controllers')	.controller('MapCtrl', function($scope, $state, $ionicHistory, $ionicPlatform, locationService)
-	{
-	mixpanel.track("Map", {"map": 'MapCtrl'});
-	  //Check if location is set, if not redirect to get it
-	  if(locationService.getLat() == null)
-	  {
-      console.log("Location not set, Ridirecting")
-      $ionicHistory.nextViewOptions({disableBack: true});
-      $state.go('app.mapLoad');
-	  }
-	  //If location is set generate map
-	  else
-	  {
-      $ionicPlatform.ready(function()
+angular.module('starter.controllers').controller('MapCtrl', function ($scope, $state, $ionicHistory, $ionicPlatform, locationService)
+{
+  mixpanel.track("Map", {"map": 'MapCtrl'});
+  //Check if location is set, if not redirect to get it
+  if (locationService.getLat() == null)
+  {
+    console.log("Location not set, Ridirecting")
+    $ionicHistory.nextViewOptions({disableBack: true});
+    $state.go('app.mapLoad');
+  }
+  //If location is set generate map
+  else
+  {
+    $ionicPlatform.ready(function ()
+    {
+      $scope.lat = locationService.getLat();
+      $scope.long = locationService.getLong();
+
+      var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+
+      var mapOptions =
       {
-        $scope.lat = locationService.getLat();
-        $scope.long = locationService.getLong();
+        center: latLng,
+        zoom: 16,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+      };
 
-        var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+      var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
-        var mapOptions =
-        {
-          center: latLng,
-          zoom: 16,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
-
-        var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-
-        //add users current location as a marker
-        var myLocation = new google.maps.Marker(
+      //add users current location as a marker
+      var myLocation = new google.maps.Marker(
         {
           position: new google.maps.LatLng($scope.lat, $scope.long),
           map: map,
@@ -36,6 +36,6 @@ angular.module('starter.controllers')	.controller('MapCtrl', function($scope, $s
           title: "My Location",
           optimized: false
         });
-      })
-	  }
-	});
+    })
+  }
+});
