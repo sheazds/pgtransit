@@ -49,7 +49,7 @@ angular.module('starter.controllers').controller("routeCtrl", function ($scope, 
       title: 'Route options',
       //HTML Template for buttons on popup.
       //Consequently we must write a function to handle button clicks.
-      template: '<ion-list> <ion-item ng-click="popUpButtons(1)"> Go to </ion-item> <ion-item ng-click="popUpButtons(2)"> Favourite </ion-item> </ion-list>',
+      template: '<ion-list> <ion-item ng-click="popUpButtons(1)"> Go to </ion-item> <ion-item ng-click="popUpButtons(2)"> Add to favourites </ion-item> </ion-list>',
       scope: $scope
     })
 
