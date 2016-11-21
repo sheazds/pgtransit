@@ -16,16 +16,16 @@ var paths =
 gulp.task('default', ['sass']);
 
 //Task to inject JavaScript and CSS into index.html
-gulp.task('index', function()
+gulp.task('index', function ()
 {
   var target = gulp.src('./www/index.html');
-  var sources = gulp.src(['./www/js/**/*.js', './www/css/*.css'], {read: false} );
+  var sources = gulp.src(['./www/js/**/*.js', './www/css/*.css'], {read: false});
 
   return target.pipe(inject(sources, {relative: true}))
     .pipe(gulp.dest('./www'));
 });
 
-gulp.task('sass', function(done)
+gulp.task('sass', function (done)
 {
   gulp.src('./scss/ionic.app.scss')
     .pipe(sass())
@@ -35,26 +35,26 @@ gulp.task('sass', function(done)
     ({
       keepSpecialComments: 0
     }))
-    .pipe(rename({ extname: '.min.css' }))
+    .pipe(rename({extname: '.min.css'}))
     .pipe(gulp.dest('./www/css/'))
     .on('end', done);
 });
 
-gulp.task('watch', function()
+gulp.task('watch', function ()
 {
   gulp.watch(paths.sass, ['sass']);
 });
 
-gulp.task('install', ['git-check'], function()
+gulp.task('install', ['git-check'], function ()
 {
   return bower.commands.install()
-    .on('log', function(data)
+    .on('log', function (data)
     {
       gutil.log('bower', gutil.colors.cyan(data.id), data.message);
     });
 });
 
-gulp.task('git-check', function(done)
+gulp.task('git-check', function (done)
 {
   if (!sh.which('git'))
   {
