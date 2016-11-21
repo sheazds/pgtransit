@@ -1,0 +1,407 @@
+[
+    {
+        "stop_lat": 53.891281, 
+        "stop_code": 105017, 
+        "stop_lon": -122.813641, 
+        "parent_station": "", 
+        "stop_short_name": "UNBC Exchange Bay A", 
+        "arrival_time": [
+            "07:55:00", 
+            "08:25:00", 
+            "08:55:00", 
+            "09:25:00", 
+            "09:55:00", 
+            "10:25:00", 
+            "14:55:00", 
+            "15:25:00", 
+            "15:55:00", 
+            "16:25:00", 
+            "16:55:00", 
+            "17:25:00"
+        ], 
+        "stop_sequence": [
+            15
+        ], 
+        "stop_id": 105017, 
+        "stop_name": "UNBC Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.916045, 
+        "stop_code": 105111, 
+        "stop_lon": -122.815648, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Ochakwin at Robson", 
+        "arrival_time": [
+            "07:47:00", 
+            "08:17:00", 
+            "08:47:00", 
+            "09:17:00", 
+            "09:47:00", 
+            "10:17:00", 
+            "14:47:00", 
+            "15:17:00", 
+            "15:47:00", 
+            "16:17:00", 
+            "16:47:00", 
+            "17:17:00"
+        ], 
+        "stop_sequence": [
+            12
+        ], 
+        "stop_id": 105111, 
+        "stop_name": "Southbound Ochakwin at Robson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.919898, 
+        "stop_code": 105101, 
+        "stop_lon": -122.784158, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Ahbau at 5th Ave", 
+        "arrival_time": [
+            "07:40:00", 
+            "08:10:00", 
+            "08:40:00", 
+            "09:10:00", 
+            "09:40:00", 
+            "10:10:00", 
+            "14:40:00", 
+            "15:10:00", 
+            "15:40:00", 
+            "16:10:00", 
+            "16:40:00", 
+            "17:10:00"
+        ], 
+        "stop_sequence": [
+            2
+        ], 
+        "stop_id": 105101, 
+        "stop_name": "Northbound Ahbau at 5th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920712, 
+        "stop_code": 105102, 
+        "stop_lon": -122.786988, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 5th Ave at Nicholson", 
+        "arrival_time": [
+            "07:41:00", 
+            "08:11:00", 
+            "08:41:00", 
+            "09:11:00", 
+            "09:41:00", 
+            "10:11:00", 
+            "14:41:00", 
+            "15:11:00", 
+            "15:41:00", 
+            "16:11:00", 
+            "16:41:00", 
+            "17:11:00"
+        ], 
+        "stop_sequence": [
+            3
+        ], 
+        "stop_id": 105102, 
+        "stop_name": "Westbound 5th Ave at Nicholson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920714, 
+        "stop_code": 105103, 
+        "stop_lon": -122.789875, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 5th Ave at Stuart", 
+        "arrival_time": [
+            "07:41:00", 
+            "08:11:00", 
+            "08:41:00", 
+            "09:11:00", 
+            "09:41:00", 
+            "10:11:00", 
+            "14:41:00", 
+            "15:11:00", 
+            "15:41:00", 
+            "16:11:00", 
+            "16:41:00", 
+            "17:11:00"
+        ], 
+        "stop_sequence": [
+            4
+        ], 
+        "stop_id": 105103, 
+        "stop_name": "Westbound 5th Ave at Stuart", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920723, 
+        "stop_code": 105104, 
+        "stop_lon": -122.792429, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 5th Ave at Quinn", 
+        "arrival_time": [
+            "07:42:00", 
+            "08:12:00", 
+            "08:42:00", 
+            "09:12:00", 
+            "09:42:00", 
+            "10:12:00", 
+            "14:42:00", 
+            "15:12:00", 
+            "15:42:00", 
+            "16:12:00", 
+            "16:42:00", 
+            "17:12:00"
+        ], 
+        "stop_sequence": [
+            5
+        ], 
+        "stop_id": 105104, 
+        "stop_name": "Westbound 5th Ave at Quinn", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920725, 
+        "stop_code": 105105, 
+        "stop_lon": -122.795109, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 5th Ave at Ospika", 
+        "arrival_time": [
+            "07:42:00", 
+            "08:12:00", 
+            "08:42:00", 
+            "09:12:00", 
+            "09:42:00", 
+            "10:12:00", 
+            "14:42:00", 
+            "15:12:00", 
+            "15:42:00", 
+            "16:12:00", 
+            "16:42:00", 
+            "17:12:00"
+        ], 
+        "stop_sequence": [
+            6
+        ], 
+        "stop_id": 105105, 
+        "stop_name": "Westbound 5th Ave at Ospika", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920694, 
+        "stop_code": 105106, 
+        "stop_lon": -122.800183, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 5th Ave at Kerry", 
+        "arrival_time": [
+            "07:43:00", 
+            "08:13:00", 
+            "08:43:00", 
+            "09:13:00", 
+            "09:43:00", 
+            "10:13:00", 
+            "14:43:00", 
+            "15:13:00", 
+            "15:43:00", 
+            "16:13:00", 
+            "16:43:00", 
+            "17:13:00"
+        ], 
+        "stop_sequence": [
+            7
+        ], 
+        "stop_id": 105106, 
+        "stop_name": "Westbound 5th Ave at Kerry", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920685, 
+        "stop_code": 105107, 
+        "stop_lon": -122.803325, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 5th Ave at Voyageur", 
+        "arrival_time": [
+            "07:44:00", 
+            "08:14:00", 
+            "08:44:00", 
+            "09:14:00", 
+            "09:44:00", 
+            "10:14:00", 
+            "14:44:00", 
+            "15:14:00", 
+            "15:44:00", 
+            "16:14:00", 
+            "16:44:00", 
+            "17:14:00"
+        ], 
+        "stop_sequence": [
+            8
+        ], 
+        "stop_id": 105107, 
+        "stop_name": "Westbound 5th Ave at Voyageur", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920739, 
+        "stop_code": 105108, 
+        "stop_lon": -122.808388, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 5th Ave at Tabor", 
+        "arrival_time": [
+            "07:44:00", 
+            "08:14:00", 
+            "08:44:00", 
+            "09:14:00", 
+            "09:44:00", 
+            "10:14:00", 
+            "14:44:00", 
+            "15:14:00", 
+            "15:44:00", 
+            "16:14:00", 
+            "16:44:00", 
+            "17:14:00"
+        ], 
+        "stop_sequence": [
+            9
+        ], 
+        "stop_id": 105108, 
+        "stop_name": "Westbound 5th Ave at Tabor", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.92031, 
+        "stop_code": 105109, 
+        "stop_lon": -122.81088, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Pilot at 5th Ave", 
+        "arrival_time": [
+            "07:45:00", 
+            "08:15:00", 
+            "08:45:00", 
+            "09:15:00", 
+            "09:45:00", 
+            "10:15:00", 
+            "14:45:00", 
+            "15:15:00", 
+            "15:45:00", 
+            "16:15:00", 
+            "16:45:00", 
+            "17:15:00"
+        ], 
+        "stop_sequence": [
+            10
+        ], 
+        "stop_id": 105109, 
+        "stop_name": "Southbound Pilot at 5th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.916731, 
+        "stop_code": 105110, 
+        "stop_lon": -122.813182, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Pilot at Selwyn", 
+        "arrival_time": [
+            "07:46:00", 
+            "08:16:00", 
+            "08:46:00", 
+            "09:16:00", 
+            "09:46:00", 
+            "10:16:00", 
+            "14:46:00", 
+            "15:16:00", 
+            "15:46:00", 
+            "16:16:00", 
+            "16:46:00", 
+            "17:16:00"
+        ], 
+        "stop_sequence": [
+            11
+        ], 
+        "stop_id": 105110, 
+        "stop_name": "Westbound Pilot at Selwyn", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.918698, 
+        "stop_code": 105015, 
+        "stop_lon": -122.782284, 
+        "parent_station": "", 
+        "stop_short_name": "Spruceland Exchange Bay A", 
+        "arrival_time": [
+            "07:39:00", 
+            "08:09:00", 
+            "08:39:00", 
+            "09:09:00", 
+            "09:39:00", 
+            "10:09:00", 
+            "14:39:00", 
+            "15:09:00", 
+            "15:39:00", 
+            "16:09:00", 
+            "16:39:00", 
+            "17:09:00"
+        ], 
+        "stop_sequence": [
+            1
+        ], 
+        "stop_id": 105015, 
+        "stop_name": "Spruceland Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.912553, 
+        "stop_code": 105112, 
+        "stop_lon": -122.812957, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound Foothills at Cascade", 
+        "arrival_time": [
+            "07:48:00", 
+            "08:18:00", 
+            "08:48:00", 
+            "09:18:00", 
+            "09:48:00", 
+            "10:18:00", 
+            "14:48:00", 
+            "15:18:00", 
+            "15:48:00", 
+            "16:18:00", 
+            "16:48:00", 
+            "17:18:00"
+        ], 
+        "stop_sequence": [
+            13
+        ], 
+        "stop_id": 105112, 
+        "stop_name": "Eastbound Foothills at Cascade", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910495, 
+        "stop_code": 105113, 
+        "stop_lon": -122.812458, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound University at Foothills", 
+        "arrival_time": [
+            "07:49:00", 
+            "08:19:00", 
+            "08:49:00", 
+            "09:19:00", 
+            "09:49:00", 
+            "10:19:00", 
+            "14:49:00", 
+            "15:19:00", 
+            "15:49:00", 
+            "16:19:00", 
+            "16:49:00", 
+            "17:19:00"
+        ], 
+        "stop_sequence": [
+            14
+        ], 
+        "stop_id": 105113, 
+        "stop_name": "Westbound University at Foothills", 
+        "location_type": 0
+    }
+]

@@ -6,7 +6,7 @@
     "stop_lon": -122.7474,
     "stop_code": 105000,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 7th Ave at Dominion"
   },
   {
@@ -16,7 +16,7 @@
     "stop_lon": -122.747983,
     "stop_code": 105001,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 7th Ave at Quebec"
   },
   {
@@ -26,7 +26,7 @@
     "stop_lon": -122.747274,
     "stop_code": 105002,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Dominion at 7th Ave"
   },
   {
@@ -36,7 +36,7 @@
     "stop_lon": -122.787037,
     "stop_code": 105003,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Endako"
   },
   {
@@ -46,7 +46,7 @@
     "stop_lon": -122.785976,
     "stop_code": 105004,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Nicholson Exchange Bay B"
   },
   {
@@ -56,7 +56,7 @@
     "stop_lon": -122.787015,
     "stop_code": 105005,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Nicholson at 15th Ave"
   },
   {
@@ -66,7 +66,7 @@
     "stop_lon": -122.774446,
     "stop_code": 105006,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Domano at Moriarty"
   },
   {
@@ -76,7 +76,7 @@
     "stop_lon": -122.77786,
     "stop_code": 105007,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Domano at O Grady"
   },
   {
@@ -86,7 +86,7 @@
     "stop_lon": -122.789089,
     "stop_code": 105008,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Austin Road at Madill"
   },
   {
@@ -96,7 +96,7 @@
     "stop_lon": -122.77985,
     "stop_code": 105010,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Pine Centre Exchange Bay B"
   },
   {
@@ -106,7 +106,7 @@
     "stop_lon": -122.779584,
     "stop_code": 105011,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Pine Centre Exchange Bay A"
   },
   {
@@ -116,7 +116,7 @@
     "stop_lon": -122.782284,
     "stop_code": 105013,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Spruceland Exchange Bay B"
   },
   {
@@ -126,7 +126,7 @@
     "stop_lon": -122.782871,
     "stop_code": 105014,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Spruceland Exchange Bay D"
   },
   {
@@ -136,7 +136,7 @@
     "stop_lon": -122.782284,
     "stop_code": 105015,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Spruceland Exchange Bay A"
   },
   {
@@ -146,7 +146,7 @@
     "stop_lon": -122.782291,
     "stop_code": 105016,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Spruceland Exchange Bay C"
   },
   {
@@ -156,7 +156,7 @@
     "stop_lon": -122.813641,
     "stop_code": 105017,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "UNBC Exchange Bay A"
   },
   {
@@ -166,7 +166,7 @@
     "stop_lon": -122.786144,
     "stop_code": 105019,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westgate Exchange Bay A"
   },
   {
@@ -176,7 +176,7 @@
     "stop_lon": -122.785722,
     "stop_code": 105021,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Nicholson at 18th Ave"
   },
   {
@@ -186,7 +186,7 @@
     "stop_lon": -122.785841,
     "stop_code": 105022,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Nicholson at 18th Ave"
   },
   {
@@ -196,7 +196,7 @@
     "stop_lon": -122.785891,
     "stop_code": 105023,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Nicholson at 18th Ave"
   },
   {
@@ -206,7 +206,7 @@
     "stop_lon": -122.795947,
     "stop_code": 105024,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Ospika at Campbell"
   },
   {
@@ -216,7 +216,7 @@
     "stop_lon": -122.793968,
     "stop_code": 105025,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Ospika at Docherty"
   },
   {
@@ -226,7 +226,7 @@
     "stop_lon": -122.786297,
     "stop_code": 105026,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Nicholson Exchange Bay A"
   },
   {
@@ -236,7 +236,7 @@
     "stop_lon": -122.769365,
     "stop_code": 105027,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Carney at Ellison"
   },
   {
@@ -246,7 +246,7 @@
     "stop_lon": -122.765709,
     "stop_code": 105028,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound 17th Ave at Yew"
   },
   {
@@ -256,7 +256,7 @@
     "stop_lon": -122.758979,
     "stop_code": 105029,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 17th Ave at Tamarack"
   },
   {
@@ -266,7 +266,7 @@
     "stop_lon": -122.761797,
     "stop_code": 105030,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 17th Ave at Upland"
   },
   {
@@ -276,7 +276,7 @@
     "stop_lon": -122.745439,
     "stop_code": 105031,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Quebec at 2nd Ave"
   },
   {
@@ -286,7 +286,7 @@
     "stop_lon": -122.740496,
     "stop_code": 105032,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Ingledew"
   },
   {
@@ -296,7 +296,7 @@
     "stop_lon": -122.73764,
     "stop_code": 105033,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Gorse"
   },
   {
@@ -306,7 +306,7 @@
     "stop_lon": -122.735242,
     "stop_code": 105034,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Elm at 15th Ave"
   },
   {
@@ -316,7 +316,7 @@
     "stop_lon": -122.735599,
     "stop_code": 105035,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 17th Ave at Elm"
   },
   {
@@ -326,7 +326,7 @@
     "stop_lon": -122.738011,
     "stop_code": 105036,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Gorse at 20th Ave"
   },
   {
@@ -336,7 +336,7 @@
     "stop_lon": -122.742409,
     "stop_code": 105037,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Queensway at Connaught"
   },
   {
@@ -346,7 +346,7 @@
     "stop_lon": -122.78602,
     "stop_code": 105038,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Nicholson at 18th Ave"
   },
   {
@@ -356,7 +356,7 @@
     "stop_lon": -122.742048,
     "stop_code": 105039,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound La Salle at Queensway"
   },
   {
@@ -366,7 +366,7 @@
     "stop_lon": -122.745655,
     "stop_code": 105040,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound La Salle at Lillooet"
   },
   {
@@ -376,7 +376,7 @@
     "stop_lon": -122.810769,
     "stop_code": 105041,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Pilot at 5th Ave"
   },
   {
@@ -386,7 +386,7 @@
     "stop_lon": -122.811688,
     "stop_code": 105042,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Pilot at Eaglenest"
   },
   {
@@ -396,7 +396,7 @@
     "stop_lon": -122.741262,
     "stop_code": 105043,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Royal at Queensway"
   },
   {
@@ -406,7 +406,7 @@
     "stop_lon": -122.771239,
     "stop_code": 105044,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Range at Wiebe"
   },
   {
@@ -416,7 +416,7 @@
     "stop_lon": -122.75875,
     "stop_code": 105045,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Ferry at Spruce"
   },
   {
@@ -426,7 +426,7 @@
     "stop_lon": -122.754885,
     "stop_code": 105046,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Ferry at Clapperton"
   },
   {
@@ -436,7 +436,7 @@
     "stop_lon": -122.777242,
     "stop_code": 105047,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Vance at Blakley"
   },
   {
@@ -446,7 +446,7 @@
     "stop_lon": -122.773523,
     "stop_code": 105048,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound 3880 block Wiebe"
   },
   {
@@ -456,7 +456,7 @@
     "stop_lon": -122.765798,
     "stop_code": 105049,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Malaspina at Princeton"
   },
   {
@@ -466,7 +466,7 @@
     "stop_lon": -122.761939,
     "stop_code": 105050,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Malaspina at Loyola"
   },
   {
@@ -476,7 +476,7 @@
     "stop_lon": -122.762083,
     "stop_code": 105051,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Loyola at Rochester"
   },
   {
@@ -486,7 +486,7 @@
     "stop_lon": -122.759804,
     "stop_code": 105052,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Gladstone at Loyola"
   },
   {
@@ -496,7 +496,7 @@
     "stop_lon": -122.75773,
     "stop_code": 105053,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Gladstone at Jean De Brebeuf"
   },
   {
@@ -506,7 +506,7 @@
     "stop_lon": -122.760019,
     "stop_code": 105054,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Gladstone at Hartford"
   },
   {
@@ -516,7 +516,7 @@
     "stop_lon": -122.761769,
     "stop_code": 105056,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Simon Fraser at Fairmont"
   },
   {
@@ -526,7 +526,7 @@
     "stop_lon": -122.785972,
     "stop_code": 105058,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Tyner at Baker"
   },
   {
@@ -536,7 +536,7 @@
     "stop_lon": -122.801927,
     "stop_code": 105059,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Tyner at University Heights"
   },
   {
@@ -546,7 +546,7 @@
     "stop_lon": -122.802041,
     "stop_code": 105060,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Tyner at University Heights"
   },
   {
@@ -556,7 +556,7 @@
     "stop_lon": -122.805768,
     "stop_code": 105061,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Tabor"
   },
   {
@@ -566,7 +566,7 @@
     "stop_lon": -122.801708,
     "stop_code": 105062,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Voyageur"
   },
   {
@@ -576,7 +576,7 @@
     "stop_lon": -122.810735,
     "stop_code": 105064,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Foothills"
   },
   {
@@ -586,7 +586,7 @@
     "stop_lon": -122.762093,
     "stop_code": 105065,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Simon Fraser at Delhi"
   },
   {
@@ -596,7 +596,7 @@
     "stop_lon": -122.7963,
     "stop_code": 105066,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Nation"
   },
   {
@@ -606,7 +606,7 @@
     "stop_lon": -122.762361,
     "stop_code": 105067,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Simon Fraser at Acadia"
   },
   {
@@ -616,7 +616,7 @@
     "stop_lon": -122.783255,
     "stop_code": 105068,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Massey at Westwood"
   },
   {
@@ -626,7 +626,7 @@
     "stop_lon": -122.780646,
     "stop_code": 105069,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Central"
   },
   {
@@ -636,7 +636,7 @@
     "stop_lon": -122.774821,
     "stop_code": 105070,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Gillett"
   },
   {
@@ -646,7 +646,7 @@
     "stop_lon": -122.777895,
     "stop_code": 105071,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Irwin"
   },
   {
@@ -656,7 +656,7 @@
     "stop_lon": -122.771896,
     "stop_code": 105072,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Ewert"
   },
   {
@@ -666,7 +666,7 @@
     "stop_lon": -122.7685,
     "stop_code": 105073,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Burden"
   },
   {
@@ -676,7 +676,7 @@
     "stop_lon": -122.757467,
     "stop_code": 105074,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Spruce"
   },
   {
@@ -686,7 +686,7 @@
     "stop_lon": -122.766207,
     "stop_code": 105075,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Alward"
   },
   {
@@ -696,7 +696,7 @@
     "stop_lon": -122.784545,
     "stop_code": 105076,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ahbau at 8th Ave"
   },
   {
@@ -706,7 +706,7 @@
     "stop_lon": -122.808613,
     "stop_code": 105077,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Tabor"
   },
   {
@@ -716,7 +716,7 @@
     "stop_lon": -122.804021,
     "stop_code": 105078,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Jarvis"
   },
   {
@@ -726,7 +726,7 @@
     "stop_lon": -122.801069,
     "stop_code": 105079,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Drummond"
   },
   {
@@ -736,7 +736,7 @@
     "stop_lon": -122.795518,
     "stop_code": 105080,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Nation"
   },
   {
@@ -746,7 +746,7 @@
     "stop_lon": -122.798711,
     "stop_code": 105081,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Kerry"
   },
   {
@@ -756,7 +756,7 @@
     "stop_lon": -122.792736,
     "stop_code": 105082,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Ruggles"
   },
   {
@@ -766,7 +766,7 @@
     "stop_lon": -122.791328,
     "stop_code": 105083,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Ingenika"
   },
   {
@@ -776,7 +776,7 @@
     "stop_lon": -122.783184,
     "stop_code": 105084,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Central"
   },
   {
@@ -786,7 +786,7 @@
     "stop_lon": -122.77921,
     "stop_code": 105085,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Johnson"
   },
   {
@@ -796,7 +796,7 @@
     "stop_lon": -122.775621,
     "stop_code": 105086,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Gillett"
   },
   {
@@ -806,7 +806,7 @@
     "stop_lon": -122.772699,
     "stop_code": 105087,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Ewert"
   },
   {
@@ -816,7 +816,7 @@
     "stop_lon": -122.769734,
     "stop_code": 105088,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Carney"
   },
   {
@@ -826,7 +826,7 @@
     "stop_lon": -122.765712,
     "stop_code": 105089,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Alward"
   },
   {
@@ -836,7 +836,7 @@
     "stop_lon": -122.758781,
     "stop_code": 105090,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Spruce"
   },
   {
@@ -846,7 +846,7 @@
     "stop_lon": -122.756507,
     "stop_code": 105091,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at 13th Ave"
   },
   {
@@ -856,7 +856,7 @@
     "stop_lon": -122.752575,
     "stop_code": 105092,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Patricia at 10th Ave"
   },
   {
@@ -866,7 +866,7 @@
     "stop_lon": -122.749658,
     "stop_code": 105093,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Patricia at 10th Ave"
   },
   {
@@ -876,7 +876,7 @@
     "stop_lon": -122.746341,
     "stop_code": 105094,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Dominion at 6th Ave"
   },
   {
@@ -886,7 +886,7 @@
     "stop_lon": -122.745086,
     "stop_code": 105095,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Dominion at 4th Ave"
   },
   {
@@ -896,7 +896,7 @@
     "stop_lon": -122.743763,
     "stop_code": 105096,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Dominion at 2nd Ave"
   },
   {
@@ -906,7 +906,7 @@
     "stop_lon": -122.743813,
     "stop_code": 105097,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 1st Ave at Quebec"
   },
   {
@@ -916,7 +916,7 @@
     "stop_lon": -122.74917,
     "stop_code": 105098,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at 3rd Ave"
   },
   {
@@ -926,7 +926,7 @@
     "stop_lon": -122.747573,
     "stop_code": 105099,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Moyie at Proppe"
   },
   {
@@ -936,7 +936,7 @@
     "stop_lon": -122.75012,
     "stop_code": 105100,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at 5th Ave"
   },
   {
@@ -946,7 +946,7 @@
     "stop_lon": -122.784158,
     "stop_code": 105101,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Ahbau at 5th Ave"
   },
   {
@@ -956,7 +956,7 @@
     "stop_lon": -122.786988,
     "stop_code": 105102,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Nicholson"
   },
   {
@@ -966,7 +966,7 @@
     "stop_lon": -122.789875,
     "stop_code": 105103,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Stuart"
   },
   {
@@ -976,7 +976,7 @@
     "stop_lon": -122.792429,
     "stop_code": 105104,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Quinn"
   },
   {
@@ -986,7 +986,7 @@
     "stop_lon": -122.795109,
     "stop_code": 105105,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Ospika"
   },
   {
@@ -996,7 +996,7 @@
     "stop_lon": -122.800183,
     "stop_code": 105106,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Kerry"
   },
   {
@@ -1006,7 +1006,7 @@
     "stop_lon": -122.803325,
     "stop_code": 105107,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Voyageur"
   },
   {
@@ -1016,7 +1016,7 @@
     "stop_lon": -122.808388,
     "stop_code": 105108,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Tabor"
   },
   {
@@ -1026,7 +1026,7 @@
     "stop_lon": -122.81088,
     "stop_code": 105109,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Pilot at 5th Ave"
   },
   {
@@ -1036,7 +1036,7 @@
     "stop_lon": -122.813182,
     "stop_code": 105110,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Pilot at Selwyn"
   },
   {
@@ -1046,7 +1046,7 @@
     "stop_lon": -122.815648,
     "stop_code": 105111,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ochakwin at Robson"
   },
   {
@@ -1056,7 +1056,7 @@
     "stop_lon": -122.812957,
     "stop_code": 105112,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Foothills at Cascade"
   },
   {
@@ -1066,7 +1066,7 @@
     "stop_lon": -122.812458,
     "stop_code": 105113,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound University at Foothills"
   },
   {
@@ -1076,7 +1076,7 @@
     "stop_lon": -122.780314,
     "stop_code": 105114,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5940 block O Grady"
   },
   {
@@ -1086,7 +1086,7 @@
     "stop_lon": -122.811364,
     "stop_code": 105115,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Foothills at 15th Ave"
   },
   {
@@ -1096,7 +1096,7 @@
     "stop_lon": -122.813407,
     "stop_code": 105116,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Foothills at Cascade"
   },
   {
@@ -1106,7 +1106,7 @@
     "stop_lon": -122.815602,
     "stop_code": 105117,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Foothills at Ochakwin"
   },
   {
@@ -1116,7 +1116,7 @@
     "stop_lon": -122.814866,
     "stop_code": 105118,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Pilot at Ochakwin"
   },
   {
@@ -1126,7 +1126,7 @@
     "stop_lon": -122.755218,
     "stop_code": 105119,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Victoria at Strathcona"
   },
   {
@@ -1136,7 +1136,7 @@
     "stop_lon": -122.807716,
     "stop_code": 105120,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Tabor at Jackpine"
   },
   {
@@ -1146,7 +1146,7 @@
     "stop_lon": -122.771249,
     "stop_code": 105121,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Douglas"
   },
   {
@@ -1156,7 +1156,7 @@
     "stop_lon": -122.768396,
     "stop_code": 105122,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Burden"
   },
   {
@@ -1166,7 +1166,7 @@
     "stop_lon": -122.808951,
     "stop_code": 105123,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Tabor"
   },
   {
@@ -1176,7 +1176,7 @@
     "stop_lon": -122.755262,
     "stop_code": 105124,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Victoria at 20th Ave"
   },
   {
@@ -1186,7 +1186,7 @@
     "stop_lon": -122.755258,
     "stop_code": 105125,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Victoria at 17th Ave"
   },
   {
@@ -1196,7 +1196,7 @@
     "stop_lon": -122.754475,
     "stop_code": 105126,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Victoria at 11th Ave"
   },
   {
@@ -1206,7 +1206,7 @@
     "stop_lon": -122.753215,
     "stop_code": 105127,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Victoria at 9th Ave"
   },
   {
@@ -1216,7 +1216,7 @@
     "stop_lon": -122.75197,
     "stop_code": 105128,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Victoria at 7th Ave"
   },
   {
@@ -1226,7 +1226,7 @@
     "stop_lon": -122.756422,
     "stop_code": 105129,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 4th Ave at Edmonton"
   },
   {
@@ -1236,7 +1236,7 @@
     "stop_lon": -122.761538,
     "stop_code": 105130,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Melville"
   },
   {
@@ -1246,7 +1246,7 @@
     "stop_lon": -122.764701,
     "stop_code": 105131,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Wainwright"
   },
   {
@@ -1256,7 +1256,7 @@
     "stop_lon": -122.765604,
     "stop_code": 105132,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 6th Ave at Wainwright"
   },
   {
@@ -1266,7 +1266,7 @@
     "stop_lon": -122.767471,
     "stop_code": 105133,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Burden"
   },
   {
@@ -1276,7 +1276,7 @@
     "stop_lon": -122.751021,
     "stop_code": 105134,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at 6th Ave"
   },
   {
@@ -1286,7 +1286,7 @@
     "stop_lon": -122.752614,
     "stop_code": 105135,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at 9th Ave"
   },
   {
@@ -1296,7 +1296,7 @@
     "stop_lon": -122.754006,
     "stop_code": 105136,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at 11th Ave"
   },
   {
@@ -1306,7 +1306,7 @@
     "stop_lon": -122.770254,
     "stop_code": 105137,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Douglas"
   },
   {
@@ -1316,7 +1316,7 @@
     "stop_lon": -122.773271,
     "stop_code": 105138,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Freeman"
   },
   {
@@ -1326,7 +1326,7 @@
     "stop_lon": -122.787227,
     "stop_code": 105139,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound North Nechako at Aspen"
   },
   {
@@ -1336,7 +1336,7 @@
     "stop_lon": -122.765495,
     "stop_code": 105140,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Wainwright"
   },
   {
@@ -1346,7 +1346,7 @@
     "stop_lon": -122.762047,
     "stop_code": 105141,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Melville"
   },
   {
@@ -1356,7 +1356,7 @@
     "stop_lon": -122.754018,
     "stop_code": 105142,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 3rd Ave at Winnipeg"
   },
   {
@@ -1366,7 +1366,7 @@
     "stop_lon": -122.753014,
     "stop_code": 105143,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 4th Ave at Prince Rupert"
   },
   {
@@ -1376,7 +1376,7 @@
     "stop_lon": -122.776283,
     "stop_code": 105144,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Harper"
   },
   {
@@ -1386,7 +1386,7 @@
     "stop_lon": -122.779243,
     "stop_code": 105145,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Johnson"
   },
   {
@@ -1396,7 +1396,7 @@
     "stop_lon": -122.801047,
     "stop_code": 105147,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Kelly S at Richet"
   },
   {
@@ -1406,7 +1406,7 @@
     "stop_lon": -122.796675,
     "stop_code": 105148,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Berwick at Langley"
   },
   {
@@ -1416,7 +1416,7 @@
     "stop_lon": -122.799089,
     "stop_code": 105149,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Highland at Berwick"
   },
   {
@@ -1426,7 +1426,7 @@
     "stop_lon": -122.796612,
     "stop_code": 105151,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Nixon at Berwick"
   },
   {
@@ -1436,7 +1436,7 @@
     "stop_lon": -122.787256,
     "stop_code": 105152,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Carlisle Way at Canan"
   },
   {
@@ -1446,7 +1446,7 @@
     "stop_lon": -122.786363,
     "stop_code": 105154,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Panorama at Sadler"
   },
   {
@@ -1456,7 +1456,7 @@
     "stop_lon": -122.78921,
     "stop_code": 105155,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Ridgeview at Canan"
   },
   {
@@ -1466,7 +1466,7 @@
     "stop_lon": -122.792588,
     "stop_code": 105157,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Wildwood at Ridgeview"
   },
   {
@@ -1476,7 +1476,7 @@
     "stop_lon": -122.795142,
     "stop_code": 105159,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Highland at Nixon"
   },
   {
@@ -1486,7 +1486,7 @@
     "stop_lon": -122.797699,
     "stop_code": 105160,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at Kellar"
   },
   {
@@ -1496,7 +1496,7 @@
     "stop_lon": -122.751773,
     "stop_code": 105161,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 3rd Ave at Cross"
   },
   {
@@ -1506,7 +1506,7 @@
     "stop_lon": -122.755006,
     "stop_code": 105162,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at Porter"
   },
   {
@@ -1516,7 +1516,7 @@
     "stop_lon": -122.760201,
     "stop_code": 105163,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Pearson at Upland"
   },
   {
@@ -1526,7 +1526,7 @@
     "stop_lon": -122.75529,
     "stop_code": 105164,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Victoria at Diefenbaker"
   },
   {
@@ -1536,7 +1536,7 @@
     "stop_lon": -122.791275,
     "stop_code": 105166,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Kilarney at Wildwood"
   },
   {
@@ -1546,7 +1546,7 @@
     "stop_lon": -122.807547,
     "stop_code": 105169,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Heather Park at Gray"
   },
   {
@@ -1556,7 +1556,7 @@
     "stop_lon": -122.78971,
     "stop_code": 105170,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Wildwood at Sussex"
   },
   {
@@ -1566,7 +1566,7 @@
     "stop_lon": -122.792323,
     "stop_code": 105171,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Kilarney at Carleton"
   },
   {
@@ -1576,7 +1576,7 @@
     "stop_lon": -122.785692,
     "stop_code": 105172,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Sadler at Ridgeview"
   },
   {
@@ -1586,7 +1586,7 @@
     "stop_lon": -122.792538,
     "stop_code": 105173,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Glengarry at Kilarney"
   },
   {
@@ -1596,7 +1596,7 @@
     "stop_lon": -122.790618,
     "stop_code": 105174,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Wildwood at Carlisle"
   },
   {
@@ -1606,7 +1606,7 @@
     "stop_lon": -122.784126,
     "stop_code": 105175,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Panorama at Panorama Place"
   },
   {
@@ -1616,7 +1616,7 @@
     "stop_lon": -122.795676,
     "stop_code": 105176,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ridgeview at McKenney"
   },
   {
@@ -1626,7 +1626,7 @@
     "stop_lon": -122.803079,
     "stop_code": 105177,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Handlen at Kelly S"
   },
   {
@@ -1636,7 +1636,7 @@
     "stop_lon": -122.801282,
     "stop_code": 105178,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Kelly at Handlen"
   },
   {
@@ -1646,7 +1646,7 @@
     "stop_lon": -122.764107,
     "stop_code": 105180,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Bellamy"
   },
   {
@@ -1656,7 +1656,7 @@
     "stop_lon": -122.78888,
     "stop_code": 105181,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Croft at Winslow"
   },
   {
@@ -1666,7 +1666,7 @@
     "stop_lon": -122.774247,
     "stop_code": 105182,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Freeman"
   },
   {
@@ -1676,7 +1676,7 @@
     "stop_lon": -122.782037,
     "stop_code": 105183,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Croft at Hepting"
   },
   {
@@ -1686,7 +1686,7 @@
     "stop_lon": -122.778981,
     "stop_code": 105184,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5740 block Cook"
   },
   {
@@ -1696,7 +1696,7 @@
     "stop_lon": -122.773151,
     "stop_code": 105185,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5540 block Hart"
   },
   {
@@ -1706,7 +1706,7 @@
     "stop_lon": -122.767847,
     "stop_code": 105186,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Collins"
   },
   {
@@ -1716,7 +1716,7 @@
     "stop_lon": -122.767205,
     "stop_code": 105187,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Noranda"
   },
   {
@@ -1726,7 +1726,7 @@
     "stop_lon": -122.767583,
     "stop_code": 105188,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Kennworth"
   },
   {
@@ -1736,7 +1736,7 @@
     "stop_lon": -122.787841,
     "stop_code": 105189,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Winslow at Kim"
   },
   {
@@ -1746,7 +1746,7 @@
     "stop_lon": -122.778341,
     "stop_code": 105190,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Eden at Langer"
   },
   {
@@ -1756,7 +1756,7 @@
     "stop_lon": -122.81178,
     "stop_code": 105191,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Foothills at Glen Shee"
   },
   {
@@ -1766,7 +1766,7 @@
     "stop_lon": -122.781475,
     "stop_code": 105192,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Austin at Driftwood"
   },
   {
@@ -1776,7 +1776,7 @@
     "stop_lon": -122.784753,
     "stop_code": 105193,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 3400 block Austin"
   },
   {
@@ -1786,7 +1786,7 @@
     "stop_lon": -122.784286,
     "stop_code": 105195,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Birchwood at Hazel"
   },
   {
@@ -1796,7 +1796,7 @@
     "stop_lon": -122.78553,
     "stop_code": 105196,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Winslow at Poplar"
   },
   {
@@ -1806,7 +1806,7 @@
     "stop_lon": -122.780999,
     "stop_code": 105197,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Eden at Adam"
   },
   {
@@ -1816,7 +1816,7 @@
     "stop_lon": -122.784216,
     "stop_code": 105198,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Eden at Glenview"
   },
   {
@@ -1826,7 +1826,7 @@
     "stop_lon": -122.787817,
     "stop_code": 105199,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Eden at Dagg"
   },
   {
@@ -1836,7 +1836,7 @@
     "stop_lon": -122.788614,
     "stop_code": 105200,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Dagg at Eden"
   },
   {
@@ -1846,7 +1846,7 @@
     "stop_lon": -122.792131,
     "stop_code": 105201,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 7110 block Dagg"
   },
   {
@@ -1856,7 +1856,7 @@
     "stop_lon": -122.795891,
     "stop_code": 105202,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Weisbrod at Dagg"
   },
   {
@@ -1866,7 +1866,7 @@
     "stop_lon": -122.786472,
     "stop_code": 105203,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Hart at Austin"
   },
   {
@@ -1876,7 +1876,7 @@
     "stop_lon": -122.784265,
     "stop_code": 105204,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Birchwood at Hazel"
   },
   {
@@ -1886,7 +1886,7 @@
     "stop_lon": -122.785648,
     "stop_code": 105205,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Winslow at Poplar"
   },
   {
@@ -1896,7 +1896,7 @@
     "stop_lon": -122.763531,
     "stop_code": 105206,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Lethbridge at Prince George Regional Hospital"
   },
   {
@@ -1906,7 +1906,7 @@
     "stop_lon": -122.76287,
     "stop_code": 105207,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Edmonton at 13th Ave"
   },
   {
@@ -1916,7 +1916,7 @@
     "stop_lon": -122.748493,
     "stop_code": 105208,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 4th Ave at Brunswick"
   },
   {
@@ -1926,7 +1926,7 @@
     "stop_lon": -122.751246,
     "stop_code": 105209,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 4th Ave at Vancouver"
   },
   {
@@ -1936,7 +1936,7 @@
     "stop_lon": -122.756619,
     "stop_code": 105211,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 10th Ave at Vancouver"
   },
   {
@@ -1946,7 +1946,7 @@
     "stop_lon": -122.760321,
     "stop_code": 105212,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Winnipeg at 13th Ave"
   },
   {
@@ -1956,7 +1956,7 @@
     "stop_lon": -122.763701,
     "stop_code": 105213,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Lethbridge at Prince George Regional Hospital"
   },
   {
@@ -1966,7 +1966,7 @@
     "stop_lon": -122.763778,
     "stop_code": 105214,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Laurier at Lethbridge"
   },
   {
@@ -1976,7 +1976,7 @@
     "stop_lon": -122.765523,
     "stop_code": 105215,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 10th Ave at Alward"
   },
   {
@@ -1986,7 +1986,7 @@
     "stop_lon": -122.770468,
     "stop_code": 105216,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 10th Ave at Douglas"
   },
   {
@@ -1996,7 +1996,7 @@
     "stop_lon": -122.7734,
     "stop_code": 105217,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 10th Ave at Freeman"
   },
   {
@@ -2006,7 +2006,7 @@
     "stop_lon": -122.776343,
     "stop_code": 105218,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 10th Ave at Harper"
   },
   {
@@ -2016,7 +2016,7 @@
     "stop_lon": -122.779278,
     "stop_code": 105219,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 10th Ave at Johnson"
   },
   {
@@ -2026,7 +2026,7 @@
     "stop_lon": -122.785027,
     "stop_code": 105220,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Ahbau at Rainbow"
   },
   {
@@ -2036,7 +2036,7 @@
     "stop_lon": -122.760503,
     "stop_code": 105221,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Upland at Abbott"
   },
   {
@@ -2046,7 +2046,7 @@
     "stop_lon": -122.760533,
     "stop_code": 105222,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Upland at Emmet"
   },
   {
@@ -2056,7 +2056,7 @@
     "stop_lon": -122.760592,
     "stop_code": 105223,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Upland at Rebman"
   },
   {
@@ -2066,7 +2066,7 @@
     "stop_lon": -122.761971,
     "stop_code": 105224,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Ferry at Lansdowne"
   },
   {
@@ -2076,7 +2076,7 @@
     "stop_lon": -122.770565,
     "stop_code": 105225,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Recplace at Ferry"
   },
   {
@@ -2086,7 +2086,7 @@
     "stop_lon": -122.780318,
     "stop_code": 105226,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Ferry at Westwood"
   },
   {
@@ -2096,7 +2096,7 @@
     "stop_lon": -122.784858,
     "stop_code": 105227,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Ferry at Melody"
   },
   {
@@ -2106,7 +2106,7 @@
     "stop_lon": -122.78781,
     "stop_code": 105228,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at Sycamore"
   },
   {
@@ -2116,7 +2116,7 @@
     "stop_lon": -122.789179,
     "stop_code": 105229,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at Christopher"
   },
   {
@@ -2126,7 +2126,7 @@
     "stop_lon": -122.789153,
     "stop_code": 105230,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at Gould"
   },
   {
@@ -2136,7 +2136,7 @@
     "stop_lon": -122.789981,
     "stop_code": 105231,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at Massey"
   },
   {
@@ -2146,7 +2146,7 @@
     "stop_lon": -122.786204,
     "stop_code": 105232,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Massey at Opie"
   },
   {
@@ -2156,7 +2156,7 @@
     "stop_lon": -122.789999,
     "stop_code": 105233,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Massey at Ospika"
   },
   {
@@ -2166,7 +2166,7 @@
     "stop_lon": -122.788756,
     "stop_code": 105234,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Ospika at Dufferin"
   },
   {
@@ -2176,7 +2176,7 @@
     "stop_lon": -122.788781,
     "stop_code": 105235,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Ospika at Pinewood"
   },
   {
@@ -2186,7 +2186,7 @@
     "stop_lon": -122.78699,
     "stop_code": 105236,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Ospika at Denise"
   },
   {
@@ -2196,7 +2196,7 @@
     "stop_lon": -122.780217,
     "stop_code": 105237,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Ferry at Westwood"
   },
   {
@@ -2206,7 +2206,7 @@
     "stop_lon": -122.771397,
     "stop_code": 105238,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Ferry at Recplace"
   },
   {
@@ -2216,7 +2216,7 @@
     "stop_lon": -122.762229,
     "stop_code": 105239,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Lansdowne at Runnalls"
   },
   {
@@ -2226,7 +2226,7 @@
     "stop_lon": -122.765556,
     "stop_code": 105240,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Lansdowne at Sinclair"
   },
   {
@@ -2236,7 +2236,7 @@
     "stop_lon": -122.761327,
     "stop_code": 105241,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Ferry at Upland"
   },
   {
@@ -2246,7 +2246,7 @@
     "stop_lon": -122.760732,
     "stop_code": 105242,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Upland at McKenzie"
   },
   {
@@ -2256,7 +2256,7 @@
     "stop_lon": -122.789164,
     "stop_code": 105243,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at Gould"
   },
   {
@@ -2266,7 +2266,7 @@
     "stop_lon": -122.762444,
     "stop_code": 105244,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Lansdowne at McInnis"
   },
   {
@@ -2276,7 +2276,7 @@
     "stop_lon": -122.760797,
     "stop_code": 105245,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Upland at Rebman"
   },
   {
@@ -2286,7 +2286,7 @@
     "stop_lon": -122.790454,
     "stop_code": 105246,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Patterson"
   },
   {
@@ -2296,7 +2296,7 @@
     "stop_lon": -122.786687,
     "stop_code": 105247,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5th Ave at Nicholson"
   },
   {
@@ -2306,7 +2306,7 @@
     "stop_lon": -122.764404,
     "stop_code": 105249,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Simon Fraser at Caledonia"
   },
   {
@@ -2316,7 +2316,7 @@
     "stop_lon": -122.764696,
     "stop_code": 105250,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Simon Fraser at Rideau"
   },
   {
@@ -2326,7 +2326,7 @@
     "stop_lon": -122.764382,
     "stop_code": 105251,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Simon Fraser at Brock"
   },
   {
@@ -2336,7 +2336,7 @@
     "stop_lon": -122.765514,
     "stop_code": 105252,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Simon Fraser at Cowart"
   },
   {
@@ -2346,7 +2346,7 @@
     "stop_lon": -122.769026,
     "stop_code": 105253,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Eton at Simon Fraser"
   },
   {
@@ -2356,7 +2356,7 @@
     "stop_lon": -122.773038,
     "stop_code": 105254,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Eton at Cambridge"
   },
   {
@@ -2366,7 +2366,7 @@
     "stop_lon": -122.777349,
     "stop_code": 105255,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound McGill at Eton"
   },
   {
@@ -2376,7 +2376,7 @@
     "stop_lon": -122.776149,
     "stop_code": 105256,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound McGill at Monahan"
   },
   {
@@ -2386,7 +2386,7 @@
     "stop_lon": -122.78888,
     "stop_code": 105259,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Marleau at Lalonde"
   },
   {
@@ -2396,7 +2396,7 @@
     "stop_lon": -122.761879,
     "stop_code": 105263,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 17th Ave at Upland"
   },
   {
@@ -2406,7 +2406,7 @@
     "stop_lon": -122.758059,
     "stop_code": 105264,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Spruce at 15th Ave"
   },
   {
@@ -2416,7 +2416,7 @@
     "stop_lon": -122.742222,
     "stop_code": 105265,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Queensway at 15th Ave"
   },
   {
@@ -2426,7 +2426,7 @@
     "stop_lon": -122.74048,
     "stop_code": 105266,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Ingledew"
   },
   {
@@ -2436,7 +2436,7 @@
     "stop_lon": -122.737638,
     "stop_code": 105267,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 15th Ave at Gorse"
   },
   {
@@ -2446,7 +2446,7 @@
     "stop_lon": -122.735524,
     "stop_code": 105268,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 17th Ave at Elm"
   },
   {
@@ -2456,7 +2456,7 @@
     "stop_lon": -122.73791,
     "stop_code": 105269,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Gorse at 20th Ave"
   },
   {
@@ -2466,7 +2466,7 @@
     "stop_lon": -122.738253,
     "stop_code": 105270,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 20th Ave at Gorse"
   },
   {
@@ -2476,7 +2476,7 @@
     "stop_lon": -122.744242,
     "stop_code": 105271,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 20th Ave at Juniper"
   },
   {
@@ -2486,7 +2486,7 @@
     "stop_lon": -122.748043,
     "stop_code": 105272,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Maple at 20th Ave"
   },
   {
@@ -2496,7 +2496,7 @@
     "stop_lon": -122.747202,
     "stop_code": 105273,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 17th Ave at Larch"
   },
   {
@@ -2506,7 +2506,7 @@
     "stop_lon": -122.742926,
     "stop_code": 105274,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 17th Ave at Queensway"
   },
   {
@@ -2516,7 +2516,7 @@
     "stop_lon": -122.742125,
     "stop_code": 105275,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Queensway at 20th Ave"
   },
   {
@@ -2526,7 +2526,7 @@
     "stop_lon": -122.743352,
     "stop_code": 105276,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Queensway at Jasper"
   },
   {
@@ -2536,7 +2536,7 @@
     "stop_lon": -122.741221,
     "stop_code": 105277,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Queensway at La Salle"
   },
   {
@@ -2546,7 +2546,7 @@
     "stop_lon": -122.741257,
     "stop_code": 105278,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Queensway at Quadrant"
   },
   {
@@ -2556,7 +2556,7 @@
     "stop_lon": -122.757134,
     "stop_code": 105279,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Ferry at Spruce"
   },
   {
@@ -2566,7 +2566,7 @@
     "stop_lon": -122.779648,
     "stop_code": 105280,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Westwood at Andres"
   },
   {
@@ -2576,7 +2576,7 @@
     "stop_lon": -122.806813,
     "stop_code": 105281,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Bear at Aldeen"
   },
   {
@@ -2586,7 +2586,7 @@
     "stop_lon": -122.773762,
     "stop_code": 105282,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Massey at Griffiths"
   },
   {
@@ -2596,7 +2596,7 @@
     "stop_lon": -122.778856,
     "stop_code": 105283,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound 2870 block Griffiths"
   },
   {
@@ -2606,7 +2606,7 @@
     "stop_lon": -122.783206,
     "stop_code": 105284,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 22nd Ave at Westwood"
   },
   {
@@ -2616,7 +2616,7 @@
     "stop_lon": -122.773474,
     "stop_code": 105285,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Massey at Del Laverdure"
   },
   {
@@ -2626,7 +2626,7 @@
     "stop_lon": -122.779461,
     "stop_code": 105286,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound 3320 block Westwood"
   },
   {
@@ -2636,7 +2636,7 @@
     "stop_lon": -122.779468,
     "stop_code": 105287,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Westwood at Merritt"
   },
   {
@@ -2646,7 +2646,7 @@
     "stop_lon": -122.802749,
     "stop_code": 105290,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Bear at Westgate"
   },
   {
@@ -2656,7 +2656,7 @@
     "stop_lon": -122.798412,
     "stop_code": 105296,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound N Ospika at Blair"
   },
   {
@@ -2666,7 +2666,7 @@
     "stop_lon": -122.794204,
     "stop_code": 105297,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound N Ospika at McIntyre"
   },
   {
@@ -2676,7 +2676,7 @@
     "stop_lon": -122.794249,
     "stop_code": 105298,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound N Ospika at McRae"
   },
   {
@@ -2686,7 +2686,7 @@
     "stop_lon": -122.794277,
     "stop_code": 105299,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at Nugget"
   },
   {
@@ -2696,7 +2696,7 @@
     "stop_lon": -122.79431,
     "stop_code": 105300,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at Pioneer"
   },
   {
@@ -2706,7 +2706,7 @@
     "stop_lon": -122.794026,
     "stop_code": 105301,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Ospika at Pioneer"
   },
   {
@@ -2716,7 +2716,7 @@
     "stop_lon": -122.794019,
     "stop_code": 105302,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Ospika at Nugget"
   },
   {
@@ -2726,7 +2726,7 @@
     "stop_lon": -122.794018,
     "stop_code": 105303,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound N Ospika at McLeod"
   },
   {
@@ -2736,7 +2736,7 @@
     "stop_lon": -122.794027,
     "stop_code": 105304,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound N Ospika at McRae"
   },
   {
@@ -2746,7 +2746,7 @@
     "stop_lon": -122.794036,
     "stop_code": 105305,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound N Ospika at McDermid"
   },
   {
@@ -2756,7 +2756,7 @@
     "stop_lon": -122.798445,
     "stop_code": 105306,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound N Ospika at N Tabor"
   },
   {
@@ -2766,7 +2766,7 @@
     "stop_lon": -122.80116,
     "stop_code": 105307,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound N Tabor at Stirling"
   },
   {
@@ -2776,7 +2776,7 @@
     "stop_lon": -122.804137,
     "stop_code": 105308,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound N Tabor at McDermid"
   },
   {
@@ -2786,7 +2786,7 @@
     "stop_lon": -122.804101,
     "stop_code": 105309,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound N Tabor at Corless"
   },
   {
@@ -2796,7 +2796,7 @@
     "stop_lon": -122.803919,
     "stop_code": 105310,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound N Tabor at McKinley"
   },
   {
@@ -2806,7 +2806,7 @@
     "stop_lon": -122.805627,
     "stop_code": 105311,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 1st Ave at Boyd"
   },
   {
@@ -2816,7 +2816,7 @@
     "stop_lon": -122.803474,
     "stop_code": 105312,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound N Tabor at McArthur"
   },
   {
@@ -2826,7 +2826,7 @@
     "stop_lon": -122.809186,
     "stop_code": 105313,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 1st Ave at Anderson"
   },
   {
@@ -2836,7 +2836,7 @@
     "stop_lon": -122.811931,
     "stop_code": 105314,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 1st Ave at Freimuller"
   },
   {
@@ -2846,7 +2846,7 @@
     "stop_lon": -122.815088,
     "stop_code": 105315,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 1st Ave at Zimmaro"
   },
   {
@@ -2856,7 +2856,7 @@
     "stop_lon": -122.818269,
     "stop_code": 105316,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 1st Ave at Van Somer"
   },
   {
@@ -2866,7 +2866,7 @@
     "stop_lon": -122.818402,
     "stop_code": 105317,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Killoren at Foothills"
   },
   {
@@ -2876,7 +2876,7 @@
     "stop_lon": -122.815738,
     "stop_code": 105318,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Killoren at Mullett"
   },
   {
@@ -2886,7 +2886,7 @@
     "stop_lon": -122.810188,
     "stop_code": 105319,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Hill at Anderson"
   },
   {
@@ -2896,7 +2896,7 @@
     "stop_lon": -122.808518,
     "stop_code": 105320,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Hill at Graham"
   },
   {
@@ -2906,7 +2906,7 @@
     "stop_lon": -122.80755,
     "stop_code": 105321,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Tabor at Hill"
   },
   {
@@ -2916,7 +2916,7 @@
     "stop_lon": -122.806832,
     "stop_code": 105322,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Tabor at Genevieve"
   },
   {
@@ -2926,7 +2926,7 @@
     "stop_lon": -122.806489,
     "stop_code": 105323,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Davie at Tabor"
   },
   {
@@ -2936,7 +2936,7 @@
     "stop_lon": -122.802291,
     "stop_code": 105324,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Kerry at Inez"
   },
   {
@@ -2946,7 +2946,7 @@
     "stop_lon": -122.801387,
     "stop_code": 105325,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Kerry at Lacoma"
   },
   {
@@ -2956,7 +2956,7 @@
     "stop_lon": -122.798851,
     "stop_code": 105326,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Rainbow at Reid"
   },
   {
@@ -2966,7 +2966,7 @@
     "stop_lon": -122.795206,
     "stop_code": 105327,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Rainbow at Ospika"
   },
   {
@@ -2976,7 +2976,7 @@
     "stop_lon": -122.789614,
     "stop_code": 105328,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Rainbow at Liard"
   },
   {
@@ -2986,7 +2986,7 @@
     "stop_lon": -122.786436,
     "stop_code": 105329,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Rainbow at Union"
   },
   {
@@ -2996,7 +2996,7 @@
     "stop_lon": -122.786243,
     "stop_code": 105330,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Massey at Opie"
   },
   {
@@ -3006,7 +3006,7 @@
     "stop_lon": -122.789537,
     "stop_code": 105331,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Massey at Nicholson"
   },
   {
@@ -3016,7 +3016,7 @@
     "stop_lon": -122.791705,
     "stop_code": 105332,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Ospika at Massey"
   },
   {
@@ -3026,7 +3026,7 @@
     "stop_lon": -122.795664,
     "stop_code": 105333,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Ospika at Campbell"
   },
   {
@@ -3036,7 +3036,7 @@
     "stop_lon": -122.797262,
     "stop_code": 105334,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound 2100 block Ospika"
   },
   {
@@ -3046,7 +3046,7 @@
     "stop_lon": -122.798429,
     "stop_code": 105335,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 18th Ave at Ospika"
   },
   {
@@ -3056,7 +3056,7 @@
     "stop_lon": -122.803373,
     "stop_code": 105336,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 18th Ave at George Paul"
   },
   {
@@ -3066,7 +3066,7 @@
     "stop_lon": -122.811362,
     "stop_code": 105337,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Foothills at Glen Shee"
   },
   {
@@ -3076,7 +3076,7 @@
     "stop_lon": -122.806867,
     "stop_code": 105338,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Tabor at Eaglenest"
   },
   {
@@ -3086,7 +3086,7 @@
     "stop_lon": -122.80687,
     "stop_code": 105339,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Tabor at Granite"
   },
   {
@@ -3096,7 +3096,7 @@
     "stop_lon": -122.807381,
     "stop_code": 105340,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Tabor at Quentin"
   },
   {
@@ -3106,7 +3106,7 @@
     "stop_lon": -122.760708,
     "stop_code": 105341,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Upland at Lonsdale"
   },
   {
@@ -3116,7 +3116,7 @@
     "stop_lon": -122.760723,
     "stop_code": 105342,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Upland at St Laurent"
   },
   {
@@ -3126,7 +3126,7 @@
     "stop_lon": -122.801151,
     "stop_code": 105343,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound N Tabor at Stirling"
   },
   {
@@ -3136,7 +3136,7 @@
     "stop_lon": -122.803871,
     "stop_code": 105344,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound N Tabor at McDermid"
   },
   {
@@ -3146,7 +3146,7 @@
     "stop_lon": -122.803903,
     "stop_code": 105345,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound N Tabor at Lofting"
   },
   {
@@ -3156,7 +3156,7 @@
     "stop_lon": -122.803875,
     "stop_code": 105346,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound N Tabor at Corless"
   },
   {
@@ -3166,7 +3166,7 @@
     "stop_lon": -122.803586,
     "stop_code": 105347,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound N Tabor at McKinley"
   },
   {
@@ -3176,7 +3176,7 @@
     "stop_lon": -122.803109,
     "stop_code": 105348,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound N Tabor at McArthur"
   },
   {
@@ -3186,7 +3186,7 @@
     "stop_lon": -122.805755,
     "stop_code": 105349,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 1st Ave at Boyd"
   },
   {
@@ -3196,7 +3196,7 @@
     "stop_lon": -122.809262,
     "stop_code": 105350,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 1st Ave at Anderson"
   },
   {
@@ -3206,7 +3206,7 @@
     "stop_lon": -122.812023,
     "stop_code": 105351,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 1st Ave at Freimuller"
   },
   {
@@ -3216,7 +3216,7 @@
     "stop_lon": -122.814653,
     "stop_code": 105352,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 1st Ave at Zimmaro"
   },
   {
@@ -3226,7 +3226,7 @@
     "stop_lon": -122.817876,
     "stop_code": 105353,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 1st Ave at Van Somer"
   },
   {
@@ -3236,7 +3236,7 @@
     "stop_lon": -122.820012,
     "stop_code": 105354,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Foothills at Freimuller"
   },
   {
@@ -3246,7 +3246,7 @@
     "stop_lon": -122.815619,
     "stop_code": 105355,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Killoren at Mullett"
   },
   {
@@ -3256,7 +3256,7 @@
     "stop_lon": -122.815745,
     "stop_code": 105356,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Killoren at Mullett"
   },
   {
@@ -3266,7 +3266,7 @@
     "stop_lon": -122.811828,
     "stop_code": 105357,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Hill at Bic"
   },
   {
@@ -3276,7 +3276,7 @@
     "stop_lon": -122.807402,
     "stop_code": 105358,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Hill at Tabor"
   },
   {
@@ -3286,7 +3286,7 @@
     "stop_lon": -122.8074,
     "stop_code": 105359,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Tabor at 5th Ave"
   },
   {
@@ -3296,7 +3296,7 @@
     "stop_lon": -122.819667,
     "stop_code": 105360,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Foothills at Killoren"
   },
   {
@@ -3306,7 +3306,7 @@
     "stop_lon": -122.807196,
     "stop_code": 105361,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Tabor at Genevieve"
   },
   {
@@ -3316,7 +3316,7 @@
     "stop_lon": -122.807318,
     "stop_code": 105362,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Tabor at Chingee"
   },
   {
@@ -3326,7 +3326,7 @@
     "stop_lon": -122.80262,
     "stop_code": 105363,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Kerry at Inez"
   },
   {
@@ -3336,7 +3336,7 @@
     "stop_lon": -122.799314,
     "stop_code": 105364,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Rainbow at Reid"
   },
   {
@@ -3346,7 +3346,7 @@
     "stop_lon": -122.794316,
     "stop_code": 105365,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Rainbow at Ospika"
   },
   {
@@ -3356,7 +3356,7 @@
     "stop_lon": -122.789771,
     "stop_code": 105366,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Rainbow at Liard"
   },
   {
@@ -3366,7 +3366,7 @@
     "stop_lon": -122.785936,
     "stop_code": 105367,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Rainbow at Ahbau"
   },
   {
@@ -3376,7 +3376,7 @@
     "stop_lon": -122.768744,
     "stop_code": 105368,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Malaspina at Rochester"
   },
   {
@@ -3386,7 +3386,7 @@
     "stop_lon": -122.770579,
     "stop_code": 105369,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Domano at St Patrick"
   },
   {
@@ -3396,7 +3396,7 @@
     "stop_lon": -122.77087,
     "stop_code": 105370,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound 7980 block Domano"
   },
   {
@@ -3406,7 +3406,7 @@
     "stop_lon": -122.770541,
     "stop_code": 105371,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Domano at Gladstone"
   },
   {
@@ -3416,7 +3416,7 @@
     "stop_lon": -122.767377,
     "stop_code": 105372,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Domano at Gladstone"
   },
   {
@@ -3426,7 +3426,7 @@
     "stop_lon": -122.783006,
     "stop_code": 105373,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Southridge at St Frances"
   },
   {
@@ -3436,7 +3436,7 @@
     "stop_lon": -122.779653,
     "stop_code": 105374,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Southridge at St Anne"
   },
   {
@@ -3446,7 +3446,7 @@
     "stop_lon": -122.777939,
     "stop_code": 105375,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound St Lawrence at Southridge"
   },
   {
@@ -3456,7 +3456,7 @@
     "stop_lon": -122.773389,
     "stop_code": 105376,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound St Lawrence at St Patrick"
   },
   {
@@ -3466,7 +3466,7 @@
     "stop_lon": -122.768759,
     "stop_code": 105377,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 7190 block St Lawrence"
   },
   {
@@ -3476,7 +3476,7 @@
     "stop_lon": -122.766481,
     "stop_code": 105378,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Domano at Bernard"
   },
   {
@@ -3486,7 +3486,7 @@
     "stop_lon": -122.766502,
     "stop_code": 105379,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound 6430 block Domano"
   },
   {
@@ -3496,7 +3496,7 @@
     "stop_lon": -122.799289,
     "stop_code": 105394,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Highland at Montgomery"
   },
   {
@@ -3506,7 +3506,7 @@
     "stop_lon": -122.796004,
     "stop_code": 105395,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound North Nechako at Craig"
   },
   {
@@ -3516,7 +3516,7 @@
     "stop_lon": -122.789556,
     "stop_code": 105396,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound North Nechako at Rustad"
   },
   {
@@ -3526,7 +3526,7 @@
     "stop_lon": -122.782244,
     "stop_code": 105397,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound North Nechako at Highway 97"
   },
   {
@@ -3536,7 +3536,7 @@
     "stop_lon": -122.795347,
     "stop_code": 105398,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Highland at Glengarry"
   },
   {
@@ -3546,7 +3546,7 @@
     "stop_lon": -122.796737,
     "stop_code": 105399,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Highland at Teresa"
   },
   {
@@ -3556,7 +3556,7 @@
     "stop_lon": -122.801049,
     "stop_code": 105400,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Kelly S at Vellencher"
   },
   {
@@ -3566,7 +3566,7 @@
     "stop_lon": -122.801026,
     "stop_code": 105401,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Kelly S at Austin"
   },
   {
@@ -3576,7 +3576,7 @@
     "stop_lon": -122.797944,
     "stop_code": 105402,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Highland at Wallace"
   },
   {
@@ -3586,7 +3586,7 @@
     "stop_lon": -122.7414,
     "stop_code": 105403,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 20th Ave at Ingledew"
   },
   {
@@ -3596,7 +3596,7 @@
     "stop_lon": -122.745488,
     "stop_code": 105404,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 20th Ave at Kenwood"
   },
   {
@@ -3606,7 +3606,7 @@
     "stop_lon": -122.747915,
     "stop_code": 105405,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Maple at 20th Ave"
   },
   {
@@ -3616,7 +3616,7 @@
     "stop_lon": -122.747484,
     "stop_code": 105406,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 17th Ave at Maple"
   },
   {
@@ -3626,7 +3626,7 @@
     "stop_lon": -122.742858,
     "stop_code": 105407,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 17th Ave at Queensway"
   },
   {
@@ -3636,7 +3636,7 @@
     "stop_lon": -122.742344,
     "stop_code": 105408,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Queensway at 20th Ave"
   },
   {
@@ -3646,7 +3646,7 @@
     "stop_lon": -122.741468,
     "stop_code": 105409,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Queensway at Hamilton"
   },
   {
@@ -3656,7 +3656,7 @@
     "stop_lon": -122.769179,
     "stop_code": 105410,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Carney at Ellison"
   },
   {
@@ -3666,7 +3666,7 @@
     "stop_lon": -122.766093,
     "stop_code": 105411,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound 17th Ave at Yew"
   },
   {
@@ -3676,7 +3676,7 @@
     "stop_lon": -122.781173,
     "stop_code": 105412,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound North Nechako at Highway 97"
   },
   {
@@ -3686,7 +3686,7 @@
     "stop_lon": -122.786881,
     "stop_code": 105413,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound North Nechako at Aspen"
   },
   {
@@ -3696,7 +3696,7 @@
     "stop_lon": -122.789752,
     "stop_code": 105414,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound North Nechako at Rustad"
   },
   {
@@ -3706,7 +3706,7 @@
     "stop_lon": -122.808924,
     "stop_code": 105415,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound North Nechako at Fairburn"
   },
   {
@@ -3716,7 +3716,7 @@
     "stop_lon": -122.812541,
     "stop_code": 105416,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound North Nechako at Foothills"
   },
   {
@@ -3726,7 +3726,7 @@
     "stop_lon": -122.795432,
     "stop_code": 105417,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound North Nechako at Churchill"
   },
   {
@@ -3736,7 +3736,7 @@
     "stop_lon": -122.803966,
     "stop_code": 105418,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound North Nechako at Sturgeon"
   },
   {
@@ -3746,7 +3746,7 @@
     "stop_lon": -122.821317,
     "stop_code": 105419,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound North Nechako at Meadowbrook"
   },
   {
@@ -3756,7 +3756,7 @@
     "stop_lon": -122.812727,
     "stop_code": 105420,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound North Nechako at Foothills"
   },
   {
@@ -3766,7 +3766,7 @@
     "stop_lon": -122.808918,
     "stop_code": 105421,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound North Nechako at Fairburn"
   },
   {
@@ -3776,7 +3776,7 @@
     "stop_lon": -122.804043,
     "stop_code": 105422,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound North Nechako at Sturgeon"
   },
   {
@@ -3786,7 +3786,7 @@
     "stop_lon": -122.784133,
     "stop_code": 105424,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Davis at Baker"
   },
   {
@@ -3796,7 +3796,7 @@
     "stop_lon": -122.767774,
     "stop_code": 105425,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Hart Highway at Kenworth"
   },
   {
@@ -3806,7 +3806,7 @@
     "stop_lon": -122.76596,
     "stop_code": 105426,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Hart Higway Frontage at Perrin"
   },
   {
@@ -3816,7 +3816,7 @@
     "stop_lon": -122.763288,
     "stop_code": 105427,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound 2800 Block Hart Highway Frontage"
   },
   {
@@ -3826,7 +3826,7 @@
     "stop_lon": -122.764465,
     "stop_code": 105428,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound 3100 Block Hart Highway Frontage"
   },
   {
@@ -3836,7 +3836,7 @@
     "stop_lon": -122.760467,
     "stop_code": 105429,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Hart Highway at Hoffercamp"
   },
   {
@@ -3846,7 +3846,7 @@
     "stop_lon": -122.762967,
     "stop_code": 105430,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Hart Highway Frontage at McIntosh"
   },
   {
@@ -3856,7 +3856,7 @@
     "stop_lon": -122.761993,
     "stop_code": 105431,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Hart Highway Frontage at Northwood Pulpmill"
   },
   {
@@ -3866,7 +3866,7 @@
     "stop_lon": -122.784768,
     "stop_code": 105432,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Baker at Calhoun"
   },
   {
@@ -3876,7 +3876,7 @@
     "stop_lon": -122.785354,
     "stop_code": 105433,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Baker at Baker"
   },
   {
@@ -3886,7 +3886,7 @@
     "stop_lon": -122.78443,
     "stop_code": 105434,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Wheeler at Baker"
   },
   {
@@ -3896,7 +3896,7 @@
     "stop_lon": -122.784987,
     "stop_code": 105435,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Baker at Wheeler"
   },
   {
@@ -3906,7 +3906,7 @@
     "stop_lon": -122.781961,
     "stop_code": 105436,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Wheeler at Bell"
   },
   {
@@ -3916,7 +3916,7 @@
     "stop_lon": -122.780404,
     "stop_code": 105437,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Wheeler at Starlane"
   },
   {
@@ -3926,7 +3926,7 @@
     "stop_lon": -122.780968,
     "stop_code": 105438,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Davis at Foster"
   },
   {
@@ -3936,7 +3936,7 @@
     "stop_lon": -122.782981,
     "stop_code": 105439,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Davis at Prudente"
   },
   {
@@ -3946,7 +3946,7 @@
     "stop_lon": -122.784692,
     "stop_code": 105441,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at Range"
   },
   {
@@ -3956,7 +3956,7 @@
     "stop_lon": -122.783536,
     "stop_code": 105442,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Range at Romanin"
   },
   {
@@ -3966,7 +3966,7 @@
     "stop_lon": -122.781568,
     "stop_code": 105444,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Range at Romanin"
   },
   {
@@ -3976,7 +3976,7 @@
     "stop_lon": -122.779458,
     "stop_code": 105445,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Westwood at Ferry"
   },
   {
@@ -3986,7 +3986,7 @@
     "stop_lon": -122.77946,
     "stop_code": 105446,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Westwood at Laurel"
   },
   {
@@ -3996,7 +3996,7 @@
     "stop_lon": -122.779466,
     "stop_code": 105447,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Westwood at Fairview"
   },
   {
@@ -4006,7 +4006,7 @@
     "stop_lon": -122.779617,
     "stop_code": 105449,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Westwood at Fairview"
   },
   {
@@ -4016,7 +4016,7 @@
     "stop_lon": -122.779645,
     "stop_code": 105450,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Westwood at Fern"
   },
   {
@@ -4026,7 +4026,7 @@
     "stop_lon": -122.779605,
     "stop_code": 105451,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Westwood at Cherry"
   },
   {
@@ -4036,7 +4036,7 @@
     "stop_lon": -122.799423,
     "stop_code": 105454,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Austin at Boschman"
   },
   {
@@ -4046,7 +4046,7 @@
     "stop_lon": -122.779555,
     "stop_code": 105488,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Westwood at Tweedsmuir"
   },
   {
@@ -4056,7 +4056,7 @@
     "stop_lon": -122.80128,
     "stop_code": 105500,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Kelly at Heather"
   },
   {
@@ -4066,7 +4066,7 @@
     "stop_lon": -122.801269,
     "stop_code": 105501,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Kelly at Richet"
   },
   {
@@ -4076,7 +4076,7 @@
     "stop_lon": -122.801241,
     "stop_code": 105502,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Kelly at Austin"
   },
   {
@@ -4086,7 +4086,7 @@
     "stop_lon": -122.80126,
     "stop_code": 105503,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound 6440 block Kelly"
   },
   {
@@ -4096,7 +4096,7 @@
     "stop_lon": -122.804927,
     "stop_code": 105504,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Vellencher at Tasa"
   },
   {
@@ -4106,7 +4106,7 @@
     "stop_lon": -122.807339,
     "stop_code": 105505,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Stauble at Vellencher"
   },
   {
@@ -4116,7 +4116,7 @@
     "stop_lon": -122.803582,
     "stop_code": 105506,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Stauble at Enns"
   },
   {
@@ -4126,7 +4126,7 @@
     "stop_lon": -122.799373,
     "stop_code": 105507,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Highland at Montgomery"
   },
   {
@@ -4136,7 +4136,7 @@
     "stop_lon": -122.795689,
     "stop_code": 105509,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Highland at Nixon"
   },
   {
@@ -4146,7 +4146,7 @@
     "stop_lon": -122.798063,
     "stop_code": 105510,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Highland at Wallace"
   },
   {
@@ -4156,7 +4156,7 @@
     "stop_lon": -122.759944,
     "stop_code": 105511,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Hoffercamp"
   },
   {
@@ -4166,7 +4166,7 @@
     "stop_lon": -122.761477,
     "stop_code": 105512,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Northwood Pulpmill"
   },
   {
@@ -4176,7 +4176,7 @@
     "stop_lon": -122.784831,
     "stop_code": 105513,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Croft at Glade"
   },
   {
@@ -4186,7 +4186,7 @@
     "stop_lon": -122.788955,
     "stop_code": 105514,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Croft at Winslow"
   },
   {
@@ -4196,7 +4196,7 @@
     "stop_lon": -122.781449,
     "stop_code": 105515,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Croft at Hepting"
   },
   {
@@ -4206,7 +4206,7 @@
     "stop_lon": -122.778948,
     "stop_code": 105516,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5760 block Cook"
   },
   {
@@ -4216,7 +4216,7 @@
     "stop_lon": -122.800684,
     "stop_code": 105517,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Brons"
   },
   {
@@ -4226,7 +4226,7 @@
     "stop_lon": -122.800425,
     "stop_code": 105518,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Nordic"
   },
   {
@@ -4236,7 +4236,7 @@
     "stop_lon": -122.800651,
     "stop_code": 105519,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Chestnut"
   },
   {
@@ -4246,7 +4246,7 @@
     "stop_lon": -122.800621,
     "stop_code": 105520,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Hart Highway at Estavilla"
   },
   {
@@ -4256,7 +4256,7 @@
     "stop_lon": -122.782791,
     "stop_code": 105521,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Hart at Birchwood"
   },
   {
@@ -4266,7 +4266,7 @@
     "stop_lon": -122.775611,
     "stop_code": 105522,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Hart at Lehman"
   },
   {
@@ -4276,7 +4276,7 @@
     "stop_lon": -122.771584,
     "stop_code": 105523,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 5470 block Hart"
   },
   {
@@ -4286,7 +4286,7 @@
     "stop_lon": -122.768196,
     "stop_code": 105524,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound 5200 block Hart"
   },
   {
@@ -4296,7 +4296,7 @@
     "stop_lon": -122.767686,
     "stop_code": 105525,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Hart Highway at Noranda"
   },
   {
@@ -4306,7 +4306,7 @@
     "stop_lon": -122.784755,
     "stop_code": 105812,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Croft at Glade"
   },
   {
@@ -4316,7 +4316,7 @@
     "stop_lon": -122.814829,
     "stop_code": 105820,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 4270 block Bear"
   },
   {
@@ -4326,7 +4326,7 @@
     "stop_lon": -122.788216,
     "stop_code": 180000,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound Winslow at Kim"
   },
   {
@@ -4336,7 +4336,7 @@
     "stop_lon": -122.803736,
     "stop_code": 180001,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 15th Ave at Jarvis"
   },
   {
@@ -4346,8 +4346,18 @@
     "stop_lon": -122.785012,
     "stop_code": 180002,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Tyner at Gannett"
+  },
+  {
+    "stop_id": 180003,
+    "stop_name": "Northbound Quebec at 5th",
+    "stop_lat": 53.915712,
+    "stop_lon": -122.746887,
+    "stop_code": 180003,
+    "location_type": 0,
+    "parent_station": "",
+    "stop_short_name": "Northbound Quebec at 5th"
   },
   {
     "stop_id": 180004,
@@ -4356,7 +4366,7 @@
     "stop_lon": -122.807268,
     "stop_code": 180004,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Tabor at Granite"
   },
   {
@@ -4366,7 +4376,7 @@
     "stop_lon": -122.778735,
     "stop_code": 180005,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 5th Ave at Irwin"
   },
   {
@@ -4376,7 +4386,7 @@
     "stop_lon": -122.75501,
     "stop_code": 180006,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at Milburn"
   },
   {
@@ -4386,7 +4396,7 @@
     "stop_lon": -122.755016,
     "stop_code": 180007,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at 17th Ave"
   },
   {
@@ -4396,7 +4406,7 @@
     "stop_lon": -122.755017,
     "stop_code": 180008,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at 20th Ave"
   },
   {
@@ -4406,7 +4416,7 @@
     "stop_lon": -122.744407,
     "stop_code": 180009,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 2nd Ave at Dominion"
   },
   {
@@ -4416,7 +4426,7 @@
     "stop_lon": -122.749448,
     "stop_code": 180010,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 2nd Ave at Cross"
   },
   {
@@ -4426,7 +4436,7 @@
     "stop_lon": -122.74723,
     "stop_code": 180011,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 2nd Ave at Brunswick"
   },
   {
@@ -4436,7 +4446,7 @@
     "stop_lon": -122.797727,
     "stop_code": 180012,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Ospika at 18th Ave"
   },
   {
@@ -4446,7 +4456,7 @@
     "stop_lon": -122.803488,
     "stop_code": 180013,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound 18th Ave at George Paul"
   },
   {
@@ -4456,7 +4466,7 @@
     "stop_lon": -122.77668,
     "stop_code": 180014,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Southbound Dawson at Austin"
   },
   {
@@ -4466,7 +4476,7 @@
     "stop_lon": -122.755046,
     "stop_code": 180015,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at McCullagh"
   },
   {
@@ -4476,7 +4486,7 @@
     "stop_lon": -122.755076,
     "stop_code": 180016,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Victoria at Pearson"
   },
   {
@@ -4486,7 +4496,7 @@
     "stop_lon": -122.760165,
     "stop_code": 180017,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Pearson at Upland"
   },
   {
@@ -4496,7 +4506,7 @@
     "stop_lon": -122.78011,
     "stop_code": 180018,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 10th Ave at Johnson"
   },
   {
@@ -4506,7 +4516,7 @@
     "stop_lon": -122.774116,
     "stop_code": 180019,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 10th Ave at Freeman"
   },
   {
@@ -4516,7 +4526,7 @@
     "stop_lon": -122.777319,
     "stop_code": 180020,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 10th Ave at Harper"
   },
   {
@@ -4526,7 +4536,7 @@
     "stop_lon": -122.771163,
     "stop_code": 180021,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 10th Ave at Douglas"
   },
   {
@@ -4536,7 +4546,7 @@
     "stop_lon": -122.75437,
     "stop_code": 180022,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Vancouver at 9th Ave"
   },
   {
@@ -4546,7 +4556,7 @@
     "stop_lon": -122.745122,
     "stop_code": 180023,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Dominion at 4th Ave"
   },
   {
@@ -4556,7 +4566,7 @@
     "stop_lon": -122.768246,
     "stop_code": 180024,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 10th Ave at Burden"
   },
   {
@@ -4566,7 +4576,7 @@
     "stop_lon": -122.765514,
     "stop_code": 180025,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Westbound 10th Ave at Alward"
   },
   {
@@ -4576,7 +4586,7 @@
     "stop_lon": -122.763961,
     "stop_code": 180026,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Laurier at 10th Ave"
   },
   {
@@ -4586,7 +4596,7 @@
     "stop_lon": -122.778669,
     "stop_code": 180027,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound 2870 block Griffiths"
   },
   {
@@ -4596,7 +4606,7 @@
     "stop_lon": -122.78029,
     "stop_code": 180028,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Eastbound Range at Romanin"
   },
   {
@@ -4606,7 +4616,7 @@
     "stop_lon": -122.787727,
     "stop_code": 180033,
     "location_type": 0,
-    "parent_station": 0,
+    "parent_station": "",
     "stop_short_name": "Northbound Eden at Dagg"
   }
 ]

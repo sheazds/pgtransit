@@ -1,0 +1,1832 @@
+[
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "22:36:00", 
+        "stop_sequence": 1, 
+        "stop_id": 105002, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:36:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:37:00", 
+        "stop_sequence": 2, 
+        "stop_id": 105093, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:37:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:38:00", 
+        "stop_sequence": 3, 
+        "stop_id": 105092, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:38:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:39:00", 
+        "stop_sequence": 4, 
+        "stop_id": 105091, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:39:00", 
+        "stop_sequence": 5, 
+        "stop_id": 105090, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:41:00", 
+        "stop_sequence": 6, 
+        "stop_id": 105089, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:41:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:42:00", 
+        "stop_sequence": 7, 
+        "stop_id": 105088, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:42:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:43:00", 
+        "stop_sequence": 8, 
+        "stop_id": 105087, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:43:00", 
+        "stop_sequence": 9, 
+        "stop_id": 105086, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:44:00", 
+        "stop_sequence": 10, 
+        "stop_id": 105085, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:44:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:45:00", 
+        "stop_sequence": 11, 
+        "stop_id": 105084, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:45:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "22:46:00", 
+        "stop_sequence": 12, 
+        "stop_id": 105003, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:48:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:49:00", 
+        "stop_sequence": 13, 
+        "stop_id": 105083, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:49:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:50:00", 
+        "stop_sequence": 14, 
+        "stop_id": 105080, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:50:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:51:00", 
+        "stop_sequence": 15, 
+        "stop_id": 105079, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:51:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:52:00", 
+        "stop_sequence": 16, 
+        "stop_id": 105078, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:52:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "22:53:00", 
+        "stop_sequence": 17, 
+        "stop_id": 105077, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:53:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "22:54:00", 
+        "stop_sequence": 18, 
+        "stop_id": 105113, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "22:54:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "23:00:00", 
+        "stop_sequence": 19, 
+        "stop_id": 105017, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890748", 
+        "departure_time": "23:00:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "23:06:00", 
+        "stop_sequence": 1, 
+        "stop_id": 105017, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:06:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "23:11:00", 
+        "stop_sequence": 2, 
+        "stop_id": 105064, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:13:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:14:00", 
+        "stop_sequence": 3, 
+        "stop_id": 180001, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:14:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:15:00", 
+        "stop_sequence": 4, 
+        "stop_id": 105066, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:15:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "23:16:00", 
+        "stop_sequence": 5, 
+        "stop_id": 105004, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:18:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:19:00", 
+        "stop_sequence": 6, 
+        "stop_id": 105069, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:19:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:20:00", 
+        "stop_sequence": 7, 
+        "stop_id": 105071, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:20:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:20:00", 
+        "stop_sequence": 8, 
+        "stop_id": 105070, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:20:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:21:00", 
+        "stop_sequence": 9, 
+        "stop_id": 105072, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:21:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:22:00", 
+        "stop_sequence": 10, 
+        "stop_id": 105073, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:22:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:22:00", 
+        "stop_sequence": 11, 
+        "stop_id": 105075, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:22:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:24:00", 
+        "stop_sequence": 12, 
+        "stop_id": 105074, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:24:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:25:00", 
+        "stop_sequence": 13, 
+        "stop_id": 105136, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:25:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:26:00", 
+        "stop_sequence": 14, 
+        "stop_id": 105135, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:26:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:27:00", 
+        "stop_sequence": 15, 
+        "stop_id": 105134, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:27:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:27:00", 
+        "stop_sequence": 16, 
+        "stop_id": 105100, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:27:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:28:00", 
+        "stop_sequence": 17, 
+        "stop_id": 105098, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:28:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:30:00", 
+        "stop_sequence": 18, 
+        "stop_id": 105097, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:30:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:30:00", 
+        "stop_sequence": 19, 
+        "stop_id": 105096, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:30:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:31:00", 
+        "stop_sequence": 20, 
+        "stop_id": 105095, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:31:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:32:00", 
+        "stop_sequence": 21, 
+        "stop_id": 105094, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:32:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "23:32:00", 
+        "stop_sequence": 22, 
+        "stop_id": 105002, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890795", 
+        "departure_time": "23:32:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "23:36:00", 
+        "stop_sequence": 1, 
+        "stop_id": 105002, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:36:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:37:00", 
+        "stop_sequence": 2, 
+        "stop_id": 105093, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:37:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:38:00", 
+        "stop_sequence": 3, 
+        "stop_id": 105092, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:38:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:39:00", 
+        "stop_sequence": 4, 
+        "stop_id": 105091, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:39:00", 
+        "stop_sequence": 5, 
+        "stop_id": 105090, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:41:00", 
+        "stop_sequence": 6, 
+        "stop_id": 105089, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:41:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:42:00", 
+        "stop_sequence": 7, 
+        "stop_id": 105088, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:42:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:43:00", 
+        "stop_sequence": 8, 
+        "stop_id": 105087, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:43:00", 
+        "stop_sequence": 9, 
+        "stop_id": 105086, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:44:00", 
+        "stop_sequence": 10, 
+        "stop_id": 105085, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:44:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:45:00", 
+        "stop_sequence": 11, 
+        "stop_id": 105084, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:45:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "23:46:00", 
+        "stop_sequence": 12, 
+        "stop_id": 105003, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:48:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:49:00", 
+        "stop_sequence": 13, 
+        "stop_id": 105083, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:49:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:50:00", 
+        "stop_sequence": 14, 
+        "stop_id": 105080, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:50:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:51:00", 
+        "stop_sequence": 15, 
+        "stop_id": 105079, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:51:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:52:00", 
+        "stop_sequence": 16, 
+        "stop_id": 105078, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:52:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "23:53:00", 
+        "stop_sequence": 17, 
+        "stop_id": 105077, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:53:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "23:54:00", 
+        "stop_sequence": 18, 
+        "stop_id": 105113, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "23:54:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "24:00:00", 
+        "stop_sequence": 19, 
+        "stop_id": 105017, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890749", 
+        "departure_time": "24:00:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "24:06:00", 
+        "stop_sequence": 1, 
+        "stop_id": 105017, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:06:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "24:11:00", 
+        "stop_sequence": 2, 
+        "stop_id": 105064, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:13:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:14:00", 
+        "stop_sequence": 3, 
+        "stop_id": 180001, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:14:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:15:00", 
+        "stop_sequence": 4, 
+        "stop_id": 105066, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:15:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "24:16:00", 
+        "stop_sequence": 5, 
+        "stop_id": 105004, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:18:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:19:00", 
+        "stop_sequence": 6, 
+        "stop_id": 105069, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:19:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:20:00", 
+        "stop_sequence": 7, 
+        "stop_id": 105071, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:20:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:20:00", 
+        "stop_sequence": 8, 
+        "stop_id": 105070, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:20:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:21:00", 
+        "stop_sequence": 9, 
+        "stop_id": 105072, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:21:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:22:00", 
+        "stop_sequence": 10, 
+        "stop_id": 105073, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:22:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:22:00", 
+        "stop_sequence": 11, 
+        "stop_id": 105075, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:22:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:24:00", 
+        "stop_sequence": 12, 
+        "stop_id": 105074, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:24:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:25:00", 
+        "stop_sequence": 13, 
+        "stop_id": 105136, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:25:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:26:00", 
+        "stop_sequence": 14, 
+        "stop_id": 105135, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:26:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:27:00", 
+        "stop_sequence": 15, 
+        "stop_id": 105134, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:27:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:27:00", 
+        "stop_sequence": 16, 
+        "stop_id": 105100, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:27:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:28:00", 
+        "stop_sequence": 17, 
+        "stop_id": 105098, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:28:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:30:00", 
+        "stop_sequence": 18, 
+        "stop_id": 105097, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:30:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:30:00", 
+        "stop_sequence": 19, 
+        "stop_id": 105096, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:30:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:31:00", 
+        "stop_sequence": 20, 
+        "stop_id": 105095, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:31:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:32:00", 
+        "stop_sequence": 21, 
+        "stop_id": 105094, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:32:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "24:32:00", 
+        "stop_sequence": 22, 
+        "stop_id": 105002, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890792", 
+        "departure_time": "24:32:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "24:36:00", 
+        "stop_sequence": 1, 
+        "stop_id": 105002, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:36:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:37:00", 
+        "stop_sequence": 2, 
+        "stop_id": 105093, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:37:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:38:00", 
+        "stop_sequence": 3, 
+        "stop_id": 105092, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:38:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:39:00", 
+        "stop_sequence": 4, 
+        "stop_id": 105091, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:39:00", 
+        "stop_sequence": 5, 
+        "stop_id": 105090, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:41:00", 
+        "stop_sequence": 6, 
+        "stop_id": 105089, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:41:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:42:00", 
+        "stop_sequence": 7, 
+        "stop_id": 105088, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:42:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:43:00", 
+        "stop_sequence": 8, 
+        "stop_id": 105087, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:43:00", 
+        "stop_sequence": 9, 
+        "stop_id": 105086, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:44:00", 
+        "stop_sequence": 10, 
+        "stop_id": 105085, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:44:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:45:00", 
+        "stop_sequence": 11, 
+        "stop_id": 105084, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:45:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "24:46:00", 
+        "stop_sequence": 12, 
+        "stop_id": 105003, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:48:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:49:00", 
+        "stop_sequence": 13, 
+        "stop_id": 105083, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:49:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:50:00", 
+        "stop_sequence": 14, 
+        "stop_id": 105080, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:50:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:51:00", 
+        "stop_sequence": 15, 
+        "stop_id": 105079, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:51:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:52:00", 
+        "stop_sequence": 16, 
+        "stop_id": 105078, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:52:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "24:53:00", 
+        "stop_sequence": 17, 
+        "stop_id": 105077, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:53:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "24:54:00", 
+        "stop_sequence": 18, 
+        "stop_id": 105113, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "24:54:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "25:00:00", 
+        "stop_sequence": 19, 
+        "stop_id": 105017, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890750", 
+        "departure_time": "25:00:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "25:06:00", 
+        "stop_sequence": 1, 
+        "stop_id": 105017, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:06:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "25:11:00", 
+        "stop_sequence": 2, 
+        "stop_id": 105064, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:13:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:14:00", 
+        "stop_sequence": 3, 
+        "stop_id": 180001, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:14:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:15:00", 
+        "stop_sequence": 4, 
+        "stop_id": 105066, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:15:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "25:16:00", 
+        "stop_sequence": 5, 
+        "stop_id": 105004, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:18:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:19:00", 
+        "stop_sequence": 6, 
+        "stop_id": 105069, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:19:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:20:00", 
+        "stop_sequence": 7, 
+        "stop_id": 105071, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:20:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:20:00", 
+        "stop_sequence": 8, 
+        "stop_id": 105070, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:20:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:21:00", 
+        "stop_sequence": 9, 
+        "stop_id": 105072, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:21:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:22:00", 
+        "stop_sequence": 10, 
+        "stop_id": 105073, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:22:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:22:00", 
+        "stop_sequence": 11, 
+        "stop_id": 105075, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:22:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:24:00", 
+        "stop_sequence": 12, 
+        "stop_id": 105074, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:24:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:25:00", 
+        "stop_sequence": 13, 
+        "stop_id": 105136, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:25:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:26:00", 
+        "stop_sequence": 14, 
+        "stop_id": 105135, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:26:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:27:00", 
+        "stop_sequence": 15, 
+        "stop_id": 105134, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:27:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:27:00", 
+        "stop_sequence": 16, 
+        "stop_id": 105100, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:27:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:28:00", 
+        "stop_sequence": 17, 
+        "stop_id": 105098, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:28:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:30:00", 
+        "stop_sequence": 18, 
+        "stop_id": 105097, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:30:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:30:00", 
+        "stop_sequence": 19, 
+        "stop_id": 105096, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:30:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:31:00", 
+        "stop_sequence": 20, 
+        "stop_id": 105095, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:31:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:32:00", 
+        "stop_sequence": 21, 
+        "stop_id": 105094, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:32:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "25:32:00", 
+        "stop_sequence": 22, 
+        "stop_id": 105002, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890793", 
+        "departure_time": "25:32:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "25:36:00", 
+        "stop_sequence": 1, 
+        "stop_id": 105002, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:36:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:37:00", 
+        "stop_sequence": 2, 
+        "stop_id": 105093, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:37:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:38:00", 
+        "stop_sequence": 3, 
+        "stop_id": 105092, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:38:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:39:00", 
+        "stop_sequence": 4, 
+        "stop_id": 105091, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:39:00", 
+        "stop_sequence": 5, 
+        "stop_id": 105090, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:41:00", 
+        "stop_sequence": 6, 
+        "stop_id": 105089, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:41:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:42:00", 
+        "stop_sequence": 7, 
+        "stop_id": 105088, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:42:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:43:00", 
+        "stop_sequence": 8, 
+        "stop_id": 105087, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:43:00", 
+        "stop_sequence": 9, 
+        "stop_id": 105086, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:44:00", 
+        "stop_sequence": 10, 
+        "stop_id": 105085, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:44:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:45:00", 
+        "stop_sequence": 11, 
+        "stop_id": 105084, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:45:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "25:46:00", 
+        "stop_sequence": 12, 
+        "stop_id": 105003, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:48:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:49:00", 
+        "stop_sequence": 13, 
+        "stop_id": 105083, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:49:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:50:00", 
+        "stop_sequence": 14, 
+        "stop_id": 105080, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:50:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:51:00", 
+        "stop_sequence": 15, 
+        "stop_id": 105079, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:51:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:52:00", 
+        "stop_sequence": 16, 
+        "stop_id": 105078, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:52:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "25:53:00", 
+        "stop_sequence": 17, 
+        "stop_id": 105077, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:53:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "25:54:00", 
+        "stop_sequence": 18, 
+        "stop_id": 105113, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "25:54:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "26:00:00", 
+        "stop_sequence": 19, 
+        "stop_id": 105017, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890751", 
+        "departure_time": "26:00:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "26:06:00", 
+        "stop_sequence": 1, 
+        "stop_id": 105017, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:06:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "26:11:00", 
+        "stop_sequence": 2, 
+        "stop_id": 105064, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:13:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:14:00", 
+        "stop_sequence": 3, 
+        "stop_id": 180001, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:14:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:15:00", 
+        "stop_sequence": 4, 
+        "stop_id": 105066, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:15:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "26:16:00", 
+        "stop_sequence": 5, 
+        "stop_id": 105004, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:18:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:19:00", 
+        "stop_sequence": 6, 
+        "stop_id": 105069, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:19:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:20:00", 
+        "stop_sequence": 7, 
+        "stop_id": 105071, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:20:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:20:00", 
+        "stop_sequence": 8, 
+        "stop_id": 105070, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:20:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:21:00", 
+        "stop_sequence": 9, 
+        "stop_id": 105072, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:21:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:22:00", 
+        "stop_sequence": 10, 
+        "stop_id": 105073, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:22:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:22:00", 
+        "stop_sequence": 11, 
+        "stop_id": 105075, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:22:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:24:00", 
+        "stop_sequence": 12, 
+        "stop_id": 105074, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:24:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:25:00", 
+        "stop_sequence": 13, 
+        "stop_id": 105136, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:25:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:26:00", 
+        "stop_sequence": 14, 
+        "stop_id": 105135, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:26:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:27:00", 
+        "stop_sequence": 15, 
+        "stop_id": 105134, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:27:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:27:00", 
+        "stop_sequence": 16, 
+        "stop_id": 105100, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:27:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:28:00", 
+        "stop_sequence": 17, 
+        "stop_id": 105098, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:28:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:30:00", 
+        "stop_sequence": 18, 
+        "stop_id": 105097, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:30:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:30:00", 
+        "stop_sequence": 19, 
+        "stop_id": 105096, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:30:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:31:00", 
+        "stop_sequence": 20, 
+        "stop_id": 105095, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:31:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:32:00", 
+        "stop_sequence": 21, 
+        "stop_id": 105094, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:32:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "26:32:00", 
+        "stop_sequence": 22, 
+        "stop_id": 105002, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890794", 
+        "departure_time": "26:32:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "26:36:00", 
+        "stop_sequence": 1, 
+        "stop_id": 105002, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:36:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:37:00", 
+        "stop_sequence": 2, 
+        "stop_id": 105093, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:37:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:38:00", 
+        "stop_sequence": 3, 
+        "stop_id": 105092, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:38:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:39:00", 
+        "stop_sequence": 4, 
+        "stop_id": 105091, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:39:00", 
+        "stop_sequence": 5, 
+        "stop_id": 105090, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:39:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:41:00", 
+        "stop_sequence": 6, 
+        "stop_id": 105089, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:41:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:42:00", 
+        "stop_sequence": 7, 
+        "stop_id": 105088, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:42:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:43:00", 
+        "stop_sequence": 8, 
+        "stop_id": 105087, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:43:00", 
+        "stop_sequence": 9, 
+        "stop_id": 105086, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:43:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:44:00", 
+        "stop_sequence": 10, 
+        "stop_id": 105085, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:44:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:45:00", 
+        "stop_sequence": 11, 
+        "stop_id": 105084, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:45:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "26:46:00", 
+        "stop_sequence": 12, 
+        "stop_id": 105003, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:48:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:49:00", 
+        "stop_sequence": 13, 
+        "stop_id": 105083, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:49:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:50:00", 
+        "stop_sequence": 14, 
+        "stop_id": 105080, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:50:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:51:00", 
+        "stop_sequence": 15, 
+        "stop_id": 105079, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:51:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:52:00", 
+        "stop_sequence": 16, 
+        "stop_id": 105078, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:52:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 0, 
+        "arrival_time": "26:53:00", 
+        "stop_sequence": 17, 
+        "stop_id": 105077, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:53:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "26:54:00", 
+        "stop_sequence": 18, 
+        "stop_id": 105113, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "26:54:00"
+    }, 
+    {
+        "pickup_type": 0, 
+        "timepoint": 1, 
+        "arrival_time": "27:00:00", 
+        "stop_sequence": 19, 
+        "stop_id": 105017, 
+        "drop_off_type": 0, 
+        "trip_id": "ab1890752", 
+        "departure_time": "27:00:00"
+    }
+]
