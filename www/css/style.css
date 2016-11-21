@@ -82,3 +82,8 @@
     color: #fff;
     font-size: 125%;
 }
+.contactFont
+{
+    font: 28px Arial, sans-serif;
+    font-weight: bold;
+}
