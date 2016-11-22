@@ -1,38 +1,41 @@
 <ion-view view-title="Home" ng-init="checkWeather()" cache-view="false">
-    <ion-content>
-        <div class="homeWeather" style="background-image:url({{getBackground(weather.weather[0].icon)}});">
-            <div class = "row weatherItem">
-                <div class = "col-50">
-                    <h1>{{hour[time.getHours()]}}:{{minutes()}} {{ampm()}}</h1>
-                    <h4>{{day[time.getDay()]}}, {{month[time.getMonth()]}} {{time.getDate()}}</h4>
-                </div>
-                <div class = "col-30">
-                    <h1>{{weather.main.temp}}&deg;C</h1>
-                </div>
-                <div class = "col-30">
-                    <div class="right"><img src="{{getIconUrl(weather.weather[0].icon)}}"/></div>
-                    <div class="right">{{weather.weather[0].description}}<br></div>
-                </div>
-            </div>
+  <ion-content style=background-image:url('img/w/00.jpg'); background-size:100% 100%;>
+    <div class="homeWeather"
+         style="background-image:url({{getBackground(weather.weather[0].icon)}});">
+      <div class="row weatherItem">
+        <div class="col-50">
+          <h1>{{hour[time.getHours()]}}:{{minutes()}} {{ampm()}}</h1>
+          <h4>{{day[time.getDay()]}}, {{month[time.getMonth()]}} {{time.getDate()}}</h4>
         </div>
-
-
-        <div class="favourites" ng-controller='favouritesCtrl'>
-            <div ng-if="favs.length > 0">
-                <div class="header">Favourites</div>
-                <ion-list ng-repeat='item in favs'>
-                    <ion-item ng-click="goToFav(item);">
-                        {{item.route_short_name + '-' + item.route_long_name}}
-                    </ion-item>
-                </ion-list>
-            </div>
+        <div class="col-30">
+          <h1>{{weather.main.temp}}&deg;C</h1>
         </div>
-
-        <div class="nearMe">
-            <div class="header">Near Me</div>
-            <ion-item>Example</ion-item>
-            <ion-item>Example</ion-item>
+        <div class="col-30">
+          <div class="right"><img src="{{getIconUrl(weather.weather[0].icon)}}"/></div>
+          <div class="right">{{weather.weather[0].description}}<br></div>
         </div>
+      </div>
+    </div>
 
-    </ion-content>
+
+    <div class="favourites" ng-controller='favouritesCtrl'>
+      <div ng-if="favs.length > 0">
+        <div class="header">Favourites</div>
+        <ion-list ng-repeat='item in favs'>
+          <ion-item ng-click="goToFav(item);">
+            {{item.route_short_name + '-' + item.route_long_name}}
+          </ion-item>
+        </ion-list>
+      </div>
+    </div>
+
+    <!--
+    <div class="nearMe">
+      <div class="header">Near Me</div>
+      <ion-item>Example</ion-item>
+      <ion-item>Example</ion-item>
+    </div>
+    -->
+
+  </ion-content>
 </ion-view>

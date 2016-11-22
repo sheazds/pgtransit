@@ -1,12 +1,20 @@
 <ion-view view-title="Favourites">
 	<ion-content>
 		<ion-list ng-repeat="item in favs">
-            <ion-item  ng-click="goToFav(item)">
-                <button class="button icon-left ion-close-circled button-clear button-dark" ng-click="removeItem(item); $event.stopPropagation();"></button>
-                <div class="routeEntry">
-                    {{item.route_short_name + '-' + item.route_long_name}}
-                </div>
-            </ion-item>
-        </ion-list>
+      <ion-item class="item-icon-right" ng-click="goToFav(item)">
+
+        <div class="routeEntry">
+          <div class="routeNumberCircle">
+            <div class="routeNumberText">{{item.route_short_name}}</div>
+          </div>
+            {{item.route_long_name}}
+        </div>
+
+        <div class="icon" ng-click="removeItem(item); $event.stopPropagation();">
+          <i class ="ion-close-circled"></i>
+        </div>
+
+      </ion-item>
+    </ion-list>
 	</ion-content>
 </ion-view>

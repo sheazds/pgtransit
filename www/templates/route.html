@@ -1,23 +1,28 @@
 <ion-view view-title="Routes">
-    <ion-content class="has-header">
+  <ion-content class="has-header">
 
-        <ion-list ng-repeat="route in routes">
 
-            <ion-item ng-click="setRoute(route); gotoSchedule()" on-hold="routeOnHold(route)">
+    <!-- //This Page isn't currently used. Use schedule.html and scheduleCtrl -->
 
-                <div class="routeEntry">
-                    <div class="routeNumberCircle">
-                        {{route.route_short_name}}
-                    </div>
-                    {{route.route_long_name}}
-                </div>
 
-                <button class="button button-clear icon" ng-click="editFavourite(route); $event.stopPropagation();"
-                        ng-class="hasFav(route) ? 'ion-android-star button-energized' : 'ion-android-star-outline button-light'">
-                </button>
 
-            </ion-item>
-        </ion-list>
+    <ion-list ng-repeat="route in routes">
 
-    </ion-content>
+      <ion-item class="item-icon-right" ng-click="setRoute(route);" on-hold="routeOnHold(route)">
+
+        <div class="routeEntry">
+          <div class="routeNumberCircle">
+            <div class="routeNumberText">{{route.route_short_name}}</div>
+          </div>
+          {{route.route_long_name}}
+        </div>
+
+        <div class="icon" ng-click="editFavourite(route); $event.stopPropagation();"
+           ng-class="hasFav(route) ? 'energized ion-android-star' : 'ion-android-star-outline'">
+        </div>
+
+      </ion-item>
+    </ion-list>
+
+  </ion-content>
 </ion-view>

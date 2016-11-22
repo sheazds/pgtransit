@@ -1,28 +1,53 @@
 angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, routeService, shareService, favouritesService, shapeService, stopService)
 {
-    $ionicSideMenuDelegate.canDragContent(false);
+  $ionicSideMenuDelegate.canDragContent(false);
 
-    $scope.gotoSchedule = function()
-    {
-        $ionicHistory.nextViewOptions({disableBack: true});
-        $state.go('app.scheduleTimes');
-    }
-    $scope.gotoMap = function()
-    {
-        $ionicHistory.nextViewOptions({disableBack: true});
-        $state.go('app.routeMap');
-    }
+  $scope.gotoSchedule = function()
+  {
+    $ionicHistory.nextViewOptions({disableBack: true});
+    $state.go('app.scheduleTimes');
+  }
 
-    var markers = [];
-    $scope.addMarker = function(stop)
+  $scope.gotoMap = function()
+  {
+    $ionicHistory.nextViewOptions({disableBack: true});
+    $state.go('app.routeMap');
+  }
+
+  $scope.editFavourite = function (c)//Adds/removes favourite route.
+  {
+    if (favouritesService.hasItem(c))
     {
-        //Check if stop is allready a marker
-        if (markers.indexOf(stop.stop_id) == -1)
+      favouritesService.removeItem(c);
+      favouritesService.saveFavs();
+      $ionicLoading.show(
         {
-            markers.push(stop.stop_id)
-            $scope.createMarker(stop)
-        }
+          template: c.name + ' removed from favourites.',
+          duration: 1000
+        })
     }
+    else
+    {
+      favouritesService.setFavourite(c);
+      favouritesService.saveFavs();
+      $ionicLoading.show(
+        {
+          template: c.name + ' added to favourites.',
+          duration: 1000
+        });
+    }
+  };
+
+  var markers = [];
+  $scope.addMarker = function(stop)
+  {
+    //Check if stop is allready a marker
+    if (markers.indexOf(stop.stop_id) == -1)
+    {
+      markers.push(stop.stop_id)
+      $scope.createMarker(stop)
+    }
+  }
 
 
 	$scope.stops = [];
@@ -31,30 +56,30 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 	$scope.routeShort = shareService.getRouteShort();
 	$scope.routeLong = shareService.getRouteLong();
 
-    var promise1 = stopService.getNewstop($scope.routeShort);
-    promise1.then(function (data1)
-    {
-        $scope.stops = data1.data;
-    })
+  var promise1 = stopService.getNewstop($scope.routeShort);
+  promise1.then(function (data1)
+  {
+    $scope.stops = data1.data;
+  })
 
-    var promise2 = shapeService.getShapes($scope.routeShort);
-    promise2.then(function (data2)
-    {
-        shapes = data2.data;
-        createMap();
-    })
+  var promise2 = shapeService.getShapes($scope.routeShort);
+  promise2.then(function (data2)
+  {
+    shapes = data2.data;
+    createMap();
+  })
 
 	var createMap = function()
 	{
 		var lat = 0;
 		var lon = 0;
 		for (i=0; i < $scope.stops.length; i++)
-        {
-            lat = lat + $scope.stops[i].stop_lat;
-            lon = lon + $scope.stops[i].stop_lon;
-        }
-        lat = lat / $scope.stops.length;
-        lon = lon / $scope.stops.length;
+    {
+      lat = lat + $scope.stops[i].stop_lat;
+      lon = lon + $scope.stops[i].stop_lon;
+    }
+    lat = lat / $scope.stops.length;
+    lon = lon / $scope.stops.length;
 
 		var latLon = new google.maps.LatLng(lat, lon);
 
@@ -92,10 +117,10 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 
 		var poly = new google.maps.Polyline(
 		{
-		    path: shapes,
-		    strokeColor: '#387ef5',
-		    strokeOpacity: 0.6,
-		    strokeWeight: 2
+      path: shapes,
+      strokeColor: '#387ef5',
+      strokeOpacity: 0.6,
+      strokeWeight: 2
 		}).setMap(map)
 	}
 });

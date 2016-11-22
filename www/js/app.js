@@ -13,13 +13,13 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     {
       deferred.resolve(data);
     });
-
+  
     this.getCo = function ()
     {
       return deferred.promise;
     }
   })
-
+  
   .service('locationService', function()
   {
     this.getLat = function()
@@ -39,7 +39,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       this.long = long;
     }
   })
-
+  
   .service("routeService", function ($http, $q)
   {
     var deferred = $q.defer();
@@ -47,65 +47,65 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     {
       deferred.resolve(data);
     });
-
+  
     this.getRoutes = function ()
     {
       return deferred.promise;
     }
   })
-
-.service("stopService", function ($http, $q)
-  {
-    this.getNewstop = function (stopRouteID)
+  
+  .service("stopService", function ($http, $q)
     {
+      this.getNewstop = function (stopRouteID)
+      {
         var deferred = $q.defer();
         $http.get('resource/FilteredData/' + stopRouteID + '-PrinceGeorgeStops.json').then(function (data)
         {
-            deferred.resolve(data);
+          deferred.resolve(data);
         });
         return deferred.promise;
+      }
+  })
+
+
+  .service("timeService", function ($http, $q)
+  {
+    this.getNewstop = function (stopRouteID)
+    {
+      var deferred = $q.defer();
+      $http.get('resource/FilteredData/' + stopRouteID + '-PrinceGeorgeStopTimes.json').then(function (data)
+      {
+        deferred.resolve(data);
+      });
+      return deferred.promise;
     }
-})
+  })
 
-
-    .service("timeService", function ($http, $q)
+  .service("shapeService", function ($http, $q)
+  {
+    this.getShapes = function (ID)
     {
-        this.getNewstop = function (stopRouteID)
-        {
-            var deferred = $q.defer();
-            $http.get('resource/FilteredData/' + stopRouteID + '-PrinceGeorgeStopTimes.json').then(function (data)
-            {
-                deferred.resolve(data);
-            });
-            return deferred.promise;
-        }
-    })
+      var deferred = $q.defer();
+      $http.get('resource/FilteredData/' + ID + '-Shapes.json').then(function (data)
+      {
+        deferred.resolve(data);
+      });
+      return deferred.promise;
+    }
+  })
 
-    .service("shapeService", function ($http, $q)
+  .service("scheduleService", function ($http, $q)
+  {
+    this.getSchedule = function (ID)
     {
-        this.getShapes = function (ID)
-        {
-            var deferred = $q.defer();
-            $http.get('resource/FilteredData/' + ID + '-Shapes.json').then(function (data)
-            {
-                deferred.resolve(data);
-            });
-            return deferred.promise;
-        }
-    })
-
-    .service("scheduleService", function ($http, $q)
-    {
-        this.getSchedule = function (ID)
-        {
-            var deferred = $q.defer();
-            $http.get('resource/FilteredData/' + ID + '-Schedule.json').then(function (data)
-            {
-                deferred.resolve(data);
-            });
-            return deferred.promise;
-        }
-    })
+      var deferred = $q.defer();
+      $http.get('resource/FilteredData/' + ID + '-Schedule.json').then(function (data)
+      {
+        deferred.resolve(data);
+      });
+      return deferred.promise;
+    }
+  })
 
 
   .service("filteredStopService", function ($http, $q)
@@ -130,94 +130,94 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
 
-    .service("shareService", function ()
-    {
-        var _routeID;
-        var _routeShort
-        var _routeLong
-        var _stopID;
+  .service("shareService", function ()
+  {
+    var _routeID;
+    var _routeShort
+    var _routeLong
+    var _stopID;
 
-        // moving { to newline breaks app
-        return {
-            getRouteName: function ()
-            {
-                return _routeID;
-            },
-            getStopID: function() {
-             return _stopID;
-            },
-            setRouteName: function (id)
-            {
-                _routeID = id;
-            },
-            getRouteShort: function ()
-            {
-                return _routeShort;
-            },
-            setRouteShort: function (shortName)
-            {
-                _routeShort = shortName;
-            },
-            getRouteLong: function ()
-            {
-                return _routeLong;
-            },
-            setRouteLong: function (longName)
-            {
-                _routeLong = longName;
-            },
-            setStopID: function (id) {
-                _stopID = id;
-            }
-        };
-    })
+    // moving { to newline breaks app
+    return {
+      getRouteName: function ()
+      {
+        return _routeID;
+      },
+      getStopID: function() {
+       return _stopID;
+      },
+      setRouteName: function (id)
+      {
+        _routeID = id;
+      },
+      getRouteShort: function ()
+      {
+        return _routeShort;
+      },
+      setRouteShort: function (shortName)
+      {
+        _routeShort = shortName;
+      },
+      getRouteLong: function ()
+      {
+        return _routeLong;
+      },
+      setRouteLong: function (longName)
+      {
+        _routeLong = longName;
+      },
+      setStopID: function (id) {
+        _stopID = id;
+      }
+    };
+  })
 
   .service("favouritesService", function() {
     var favouritesService = this;
     favouritesService.favRoutes = [];
 
     return {
-        getFavourites: function()
-        {
-            return favouritesService.favRoutes;
-        },
+    getFavourites: function()
+    {
+      return favouritesService.favRoutes;
+    },
 
-        setFavourite: function(value)
-        {
-            favouritesService.favRoutes.push(value);
-        },
+    setFavourite: function(value)
+    {
+      favouritesService.favRoutes.push(value);
+    },
 
-        removeItem: function(value)
-        {
-            for (i= 0; i < favouritesService.favRoutes.length; i++)
-            {
-                if (favouritesService.favRoutes[i].route_short_name === value.route_short_name)
-                    favouritesService.favRoutes.splice(i, 1);
-            }
-        },
+    removeItem: function(value)
+    {
+      for (i= 0; i < favouritesService.favRoutes.length; i++)
+      {
+        if (favouritesService.favRoutes[i].route_short_name === value.route_short_name)
+          favouritesService.favRoutes.splice(i, 1);
+      }
+    },
 
-        hasItem: function(value)
-        {
-            for (i= 0; i < favouritesService.favRoutes.length; i++)
-            {
-                if (favouritesService.favRoutes[i].route_short_name === value.route_short_name)
-                    return true;
-            }
-            return false;
-        },
+    hasItem: function(value)
+    {
+      for (i= 0; i < favouritesService.favRoutes.length; i++)
+      {
+        if (favouritesService.favRoutes[i].route_short_name === value.route_short_name)
+          return true;
+      }
+      return false;
+    },
 
-        saveFavs: function()
-        {
-            localStorage.setItem("favourites", JSON.stringify(favouritesService.favRoutes));
-        },
+    saveFavs: function()
+    {
+      localStorage.setItem("favourites", JSON.stringify(favouritesService.favRoutes));
+    },
 
-        loadFavs: function()
-        {
-            if(localStorage.getItem("favourites")!==null)
-            {
-                favouritesService.favRoutes = JSON.parse(localStorage.getItem("favourites"));
-            }
-        }
+    loadFavs: function()
+    {
+      if(localStorage.getItem("favourites")!==null)
+      {
+        favouritesService.favRoutes = JSON.parse(localStorage.getItem("favourites"));
+      }
+    }
     };
 
   })
@@ -412,17 +412,17 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
   })
 
   .state('app.stop',
+  {
+    url: '/stop',
+    views:
+    {
+      'menuContent':
       {
-        url: '/stop',
-        views:
-        {
-          'menuContent':
-          {
-            templateUrl: 'templates/stop.html',
-            controller: 'timesCtrl'
-          }
-        }
-      })
+        templateUrl: 'templates/stop.html',
+        controller: 'timesCtrl'
+      }
+    }
+  })
 
   .state('app.routeMap',
   {
@@ -437,31 +437,31 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
   })
 
-    .state('app.schedule',
+  .state('app.schedule',
+  {
+    url: '/schedule',
+    views:
     {
-      url: '/schedule',
-      views:
+      'menuContent':
       {
-        'menuContent':
-        {
-          templateUrl: 'templates/schedule.html',
-          controller: 'ScheduleCtrl'
-        }
+        templateUrl: 'templates/schedule.html',
+        controller: 'ScheduleCtrl'
       }
-    })
+    }
+  })
 
-    .state('app.scheduleTimes',
+  .state('app.scheduleTimes',
+  {
+    url: '/scheduleTimes',
+    views:
     {
-      url: '/scheduleTimes',
-      views:
+      'menuContent':
       {
-        'menuContent':
-        {
-          templateUrl: 'templates/scheduleTimes.html',
-          controller: 'ScheduleTimesCtrl'
-        }
+        templateUrl: 'templates/scheduleTimes.html',
+        controller: 'ScheduleTimesCtrl'
       }
-    })
+    }
+  })
 
   .state('app.favourites',
   {
