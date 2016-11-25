@@ -20,7 +20,11 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     shareService.setRouteType($scope.routeType);
     mixpanel.track("RouteType", {"Route Type":$scope.routeType});
 
-    $state.reload();
+    $ionicHistory.clearCache([$state.current.name]).then(function()
+    {
+      $state.reload();
+    });
+
   };
 
   $scope.fullStops = [];
@@ -31,6 +35,9 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   $scope.routeShort = shareService.getRouteShort();
   $scope.routeLong = shareService.getRouteLong();
   $scope.routeType = shareService.getRouteType();
+
+  //Indicates which route has what types of stops
+  $scope.routeTypes = [];
 
   //If page is blank go home
   if($scope.routeName == null)
@@ -58,7 +65,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     $scope.times = data2.data;
   });
 
-  var promise4 = scheduleService.getSchedule($scope.routeShort);
+  var promise4 = scheduleService.getSchedule($scope.routeType);
   promise4.then(function (data4)
   {
     $scope.schedule = data4.data;

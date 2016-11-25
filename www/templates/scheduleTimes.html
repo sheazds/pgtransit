@@ -1,4 +1,5 @@
-<ion-view view-title="{{routeShort}} Schedule">
+<ion-view>
+  <ion-nav-title>{{routeType}} Schedule</ion-nav-title>
   <!-- Title Navigation Buttons-->
   <ion-nav-buttons side="right">
     <button class="button button-light button-clear no-animation"
@@ -39,18 +40,18 @@
   <div class="tabs-striped tabs-background-positive tabs-color-light">
 
     <div class="tabs">
-      {{routeType}}
-      <a class="tab-item active" ng-if="0==1" ng-click=""                    >Reverse</a>
-      <a class="tab-item       " ng-if="1==1" ng-click="setRouteType('-rev')">Reverse</a>
 
-      <a class="tab-item active" ng-if="routeType==routeShort" ng-click=""                    >Weekday</a>
-      <a class="tab-item       " ng-if="routeType!=routeShort" ng-click="setRouteType()"      >Weekday</a>
+      <a class="tab-item active" ng-if="routeType==routeShort+'-rev' && 1==1" ng-click="">Reverse</a>
+      <a class="tab-item       " ng-if="routeType!=routeShort+'-rev' && 1==1" ng-click="setRouteType('-rev')">Reverse</a>
 
-      <a class="tab-item active" ng-if="0==1" ng-click=""                    >Saturday</a>
-      <a class="tab-item       " ng-if="1==1" ng-click="setRouteType('-sat')">Saturday</a>
+      <a class="tab-item active" ng-if="routeType==routeShort" ng-click="">Weekday</a>
+      <a class="tab-item       " ng-if="routeType!=routeShort" ng-click="setRouteType()">Weekday</a>
 
-      <a class="tab-item active" ng-if="0==1" ng-click=""                    >Sunday</a>
-      <a class="tab-item       " ng-if="1==1" ng-click="setRouteType('-sun')">Sunday</a>
+      <a class="tab-item active" ng-if="routeType==routeShort+'-sat' && 1==1" ng-click="">Saturday</a>
+      <a class="tab-item       " ng-if="routeType!=routeShort+'-sat' && 1==1" ng-click="setRouteType('-sat')">Saturday</a>
+
+      <a class="tab-item active" ng-if="routeType==routeShort+'-sun' && 1==1" ng-click="">Sunday</a>
+      <a class="tab-item       " ng-if="routeType!=routeShort+'-sun' && 1==1" ng-click="setRouteType('-sun')">Sunday</a>
 
     </div>
   </div>
