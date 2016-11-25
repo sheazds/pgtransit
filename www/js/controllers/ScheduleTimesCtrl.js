@@ -13,6 +13,16 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     $state.go('app.routeMap');
   }
 
+  $scope.setRouteType = function(type)
+  {
+    if(type != null) $scope.routeType = $scope.routeShort + type
+    else $scope.routeType = $scope.routeShort
+    shareService.setRouteType($scope.routeType);
+    mixpanel.track("RouteType", {"Route Type":$scope.routeType});
+
+    $state.reload();
+  };
+
   $scope.fullStops = [];
   $scope.stops = [];
   $scope.times = [];
@@ -20,6 +30,14 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   $scope.routeName = shareService.getRouteName();
   $scope.routeShort = shareService.getRouteShort();
   $scope.routeLong = shareService.getRouteLong();
+  $scope.routeType = shareService.getRouteType();
+
+  //If page is blank go home
+  if($scope.routeName == null)
+  {
+    $ionicHistory.nextViewOptions({disableBack: true});
+    $state.go('app.home');
+  }
 
   var promise1 = stopService.getNewstop($scope.routeShort);
   promise1.then(function (data1)

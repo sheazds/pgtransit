@@ -57,7 +57,7 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
 
 
       //Get new weatherdata and store
-      console.log("Getting new Weather Data");
+      //console.log("Getting new Weather Data");
       $http.get('http://api.openweathermap.org/data/2.5/weather?id=6113365&units=metric&appid=3d958a8a15a4158a118d8769e70c5461').success(function (response)
       {
         $scope.weather = response;
@@ -80,7 +80,7 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
     }
     else
     {
-      console.log("Weather Data up to date");
+      //console.log("Weather Data up to date");
       $scope.weather.weather[0].icon           = sessionStorage.getItem('weatherIcon');
       $scope.weather.weather[0].main           = sessionStorage.getItem('weatherMain');
       $scope.weather.weather[0].description    = sessionStorage.getItem('weatherDescription');

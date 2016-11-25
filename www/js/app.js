@@ -135,16 +135,15 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     var _routeID;
     var _routeShort
     var _routeLong
+    var _routeType
     var _stopID;
+
 
     // moving { to newline breaks app
     return {
       getRouteName: function ()
       {
         return _routeID;
-      },
-      getStopID: function() {
-       return _stopID;
       },
       setRouteName: function (id)
       {
@@ -157,6 +156,15 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       setRouteShort: function (shortName)
       {
         _routeShort = shortName;
+        _routeType = _routeShort;
+      },
+      getRouteType: function ()
+      {
+        return _routeType;
+      },
+      setRouteType: function (type)
+      {
+        _routeType = type;
       },
       getRouteLong: function ()
       {
@@ -165,6 +173,9 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       setRouteLong: function (longName)
       {
         _routeLong = longName;
+      },
+      getStopID: function() {
+       return _stopID;
       },
       setStopID: function (id) {
         _stopID = id;
@@ -240,8 +251,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         StatusBar.styleDefault();
       }
       // creating DB here
-      db = $cordovaSQLite.openDB("name.db");
-      $cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS people (id integer primary key, firstname text, lastname text)");
+      //db = $cordovaSQLite.openDB("name.db");
+      //$cordovaSQLite.execute(db, "CREATE TABLE IF NOT EXISTS people (id integer primary key, firstname text, lastname text)");
     });
   })
 

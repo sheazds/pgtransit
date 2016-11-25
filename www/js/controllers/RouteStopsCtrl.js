@@ -56,6 +56,13 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 	$scope.routeShort = shareService.getRouteShort();
 	$scope.routeLong = shareService.getRouteLong();
 
+	//If page is blank go home
+  if($scope.routeName == null)
+  {
+    $ionicHistory.nextViewOptions({disableBack: true});
+    $state.go('app.home');
+  }
+
   var promise1 = stopService.getNewstop($scope.routeShort);
   promise1.then(function (data1)
   {
