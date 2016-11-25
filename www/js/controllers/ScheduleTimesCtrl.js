@@ -37,7 +37,14 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   $scope.routeType = shareService.getRouteType();
 
   //Indicates which route has what types of stops
-  $scope.routeTypes = [];
+  var routeTypesIndex = [1, 5, 11, 15, 16, 17, 18, 46, 47, 55, 88, 89, 91, 96, 97];
+  $scope.routeTypes = [/*1*/["sa","su"], /*5*/["sa"], /*11*/["sa","su"],
+                      /*15*/["rv","sa","su"], /*16*/["sa","su"], /*17*/[],
+                      /*18*/[], /*46*/["sa","su"], /*47*/[],
+                      /*55*/["sa","su"], /*88*/["sa","su"], /*89*/["sa","su"],
+                       /*91*/["rv","sa","su"], /*96*/[], /*97*/[]];
+
+  $scope.ri = routeTypesIndex.indexOf($scope.routeShort);
 
   //If page is blank go home
   if($scope.routeName == null)
