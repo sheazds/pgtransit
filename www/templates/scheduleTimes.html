@@ -49,16 +49,16 @@
     <div class="tabs">
 
       <a class="tab-item active" ng-if="routeType==routeShort+'-rev' && routeTypes[ri].indexOf('rv')!=-1" ng-click="">Reverse</a>
-      <a class="tab-item       " ng-if="routeType!=routeShort+'-rev' && routeTypes[ri].indexOf('rv')!=-1" ng-click="setRouteType('-rev')">Reverse</a>
+      <a class="tab-item       " ng-if="routeType!=routeShort+'-rev' && routeTypes[ri].indexOf('rv')!=-1" ng-click="setReverse(routeTypes[ri][0])">Reverse</a>
 
       <a class="tab-item active" ng-if="routeType==routeShort" ng-click="">Weekday</a>
-      <a class="tab-item       " ng-if="routeType!=routeShort" ng-click="setRouteType()">Weekday</a>
+      <a class="tab-item       " ng-if="routeType!=routeShort" ng-click="setWeekend()">Weekday</a>
 
       <a class="tab-item active" ng-if="routeType==routeShort+'-sat' && routeTypes[ri].indexOf('sa')!=-1" ng-click="">Saturday</a>
-      <a class="tab-item       " ng-if="routeType!=routeShort+'-sat' && routeTypes[ri].indexOf('sa')!=-1" ng-click="setRouteType('-sat')">Saturday</a>
+      <a class="tab-item       " ng-if="routeType!=routeShort+'-sat' && routeTypes[ri].indexOf('sa')!=-1" ng-click="setWeekend('-sat')">Saturday</a>
 
       <a class="tab-item active" ng-if="routeType==routeShort+'-sun' && routeTypes[ri].indexOf('su')!=-1" ng-click="">Sunday</a>
-      <a class="tab-item       " ng-if="routeType!=routeShort+'-sun' && routeTypes[ri].indexOf('su')!=-1" ng-click="setRouteType('-sun')">Sunday</a>
+      <a class="tab-item       " ng-if="routeType!=routeShort+'-sun' && routeTypes[ri].indexOf('su')!=-1" ng-click="setWeekend('-sun')">Sunday</a>
 
     </div>
   </div>

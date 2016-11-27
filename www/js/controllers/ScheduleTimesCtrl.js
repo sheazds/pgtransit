@@ -13,7 +13,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     $state.go('app.routeMap');
   }
 
-  $scope.setRouteType = function(type)
+  $scope.setWeekend = function(type)
   {
     if(type != null) $scope.routeType = $scope.routeShort + type
     else $scope.routeType = $scope.routeShort
@@ -24,7 +24,19 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     {
       $state.reload();
     });
+  };
 
+  $scope.setReverse = function(type)
+  {
+    $scope.routeShort = type
+    shareService.setRouteShort($scope.routeShort);
+    mixpanel.track("RouteName", {"Route Name":$scope.routeShort});
+
+    $ionicHistory.clearCache([$state.current.name]).then(function()
+    {
+      //$state.go('app.scheduleTimes');
+      $state.reload();
+    });
   };
 
   $scope.fullStops = [];
@@ -38,11 +50,11 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
 
   //Indicates which route has what types of stops
   var routeTypesIndex = [1, 5, 11, 15, 16, 17, 18, 46, 47, 55, 88, 89, 91, 96, 97];
-  $scope.routeTypes = [/*1*/["sa","su"], /*5*/["sa"], /*11*/["sa","su"],
-                      /*15*/["rv","sa","su"], /*16*/["sa","su"], /*17*/[],
-                      /*18*/[], /*46*/["sa","su"], /*47*/[],
-                      /*55*/["sa","su"], /*88*/["sa","su"], /*89*/["sa","su"],
-                       /*91*/["rv","sa","su"], /*96*/[], /*97*/[]];
+  $scope.routeTypes = [/*1*/[11,"rv","sa","su"], /*5*/[55,"rv","sa"], /*11*/[1,"rv","sa","su"],
+                      /*15*/["15-rev","rv","sa","su"], /*16*/["sa","su"], /*17*/[18,"rv"],
+                      /*18*/[17,"rv"], /*46*/[47,"rv","sa","su"], /*47*/[46,"rv"],
+                      /*55*/[5,"rv","sa","su"], /*88*/[89,"rv","sa","su"], /*89*/[88,"rv","sa","su"],
+                       /*91*/["91-rev","rv","sa","su"], /*96*/[], /*97*/[]];
 
   $scope.ri = routeTypesIndex.indexOf($scope.routeShort);
 
@@ -66,7 +78,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     }
   });
 
-	var promise2 = timeService.getNewstop($scope.routeShort);
+  var promise2 = timeService.getNewstop($scope.routeShort);
   promise2.then(function (data2)
   {
     $scope.times = data2.data;
@@ -82,10 +94,10 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   promise3.then(function (data3)
   {
     $scope.shapes = data3.data;
-    createMap();
   })
 
-  var createMap = function()
+
+  .then(function()
   {
     $scope.lat = 0;
     $scope.lon = 0;
@@ -143,7 +155,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
       strokeOpacity: 0.6,
       strokeWeight: 2
     }).setMap(map)
-  }
+  })
 
   $scope.editFavourite = function(stop)//Adds/removes favourite route.
   {
