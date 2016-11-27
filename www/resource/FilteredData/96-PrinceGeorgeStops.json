@@ -3,8 +3,20 @@
         "stop_lat": 53.987488, 
         "stop_code": 105503, 
         "stop_lon": -122.80126, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound 6440 block Kelly", 
+        "arrival_time": [
+            "08:25:00", 
+            "15:10:00", 
+            "15:11:00", 
+            "15:41:00"
+        ], 
+        "stop_sequence": [
+            49, 
+            39, 
+            6, 
+            25
+        ], 
         "stop_id": 105503, 
         "stop_name": "Southbound 6440 block Kelly Rd S", 
         "location_type": 0
@@ -13,8 +25,15 @@
         "stop_lat": 53.919898, 
         "stop_code": 105101, 
         "stop_lon": -122.784158, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Ahbau at 5th Ave", 
+        "arrival_time": [
+            "07:41:00", 
+            "14:46:00"
+        ], 
+        "stop_sequence": [
+            2
+        ], 
         "stop_id": 105101, 
         "stop_name": "Northbound Ahbau at 5th Ave", 
         "location_type": 0
@@ -23,8 +42,18 @@
         "stop_lat": 53.954534, 
         "stop_code": 105422, 
         "stop_lon": -122.804043, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound North Nechako at Sturgeon", 
+        "arrival_time": [
+            "08:37:00", 
+            "15:37:00", 
+            "15:53:00"
+        ], 
+        "stop_sequence": [
+            56, 
+            52, 
+            46
+        ], 
         "stop_id": 105422, 
         "stop_name": "Southbound North Nechako at Sturgeon", 
         "location_type": 0
@@ -33,8 +62,18 @@
         "stop_lat": 53.934748, 
         "stop_code": 105139, 
         "stop_lon": -122.787227, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound North Nechako at Aspen", 
+        "arrival_time": [
+            "08:41:00", 
+            "15:41:00", 
+            "15:57:00"
+        ], 
+        "stop_sequence": [
+            49, 
+            59, 
+            55
+        ], 
         "stop_id": 105139, 
         "stop_name": "Southbound  North Nechako at Aspen", 
         "location_type": 0
@@ -43,8 +82,20 @@
         "stop_lat": 53.993321, 
         "stop_code": 105500, 
         "stop_lon": -122.80128, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Kelly at Heather", 
+        "arrival_time": [
+            "08:24:00", 
+            "15:09:00", 
+            "15:10:00", 
+            "15:40:00"
+        ], 
+        "stop_sequence": [
+            3, 
+            36, 
+            22, 
+            46
+        ], 
         "stop_id": 105500, 
         "stop_name": "Southbound Kelly at Heather", 
         "location_type": 0
@@ -53,8 +104,20 @@
         "stop_lat": 53.991922, 
         "stop_code": 105501, 
         "stop_lon": -122.801269, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Kelly at Richet", 
+        "arrival_time": [
+            "08:24:00", 
+            "15:09:00", 
+            "15:10:00", 
+            "15:40:00"
+        ], 
+        "stop_sequence": [
+            23, 
+            4, 
+            37, 
+            47
+        ], 
         "stop_id": 105501, 
         "stop_name": "Southbound Kelly Rd S at Richet", 
         "location_type": 0
@@ -63,8 +126,20 @@
         "stop_lat": 53.98956, 
         "stop_code": 105502, 
         "stop_lon": -122.801241, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Kelly at Austin", 
+        "arrival_time": [
+            "08:25:00", 
+            "15:10:00", 
+            "15:11:00", 
+            "15:41:00"
+        ], 
+        "stop_sequence": [
+            48, 
+            24, 
+            5, 
+            38
+        ], 
         "stop_id": 105502, 
         "stop_name": "Southbound Kelly Rd S at Austin Rd W", 
         "location_type": 0
@@ -73,8 +148,24 @@
         "stop_lat": 53.971682, 
         "stop_code": 105157, 
         "stop_lon": -122.792588, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Wildwood at Ridgeview", 
+        "arrival_time": [
+            "08:08:00", 
+            "08:14:00", 
+            "15:23:00", 
+            "15:28:00", 
+            "15:24:00", 
+            "15:30:00"
+        ], 
+        "stop_sequence": [
+            32, 
+            35, 
+            41, 
+            16, 
+            22, 
+            26
+        ], 
         "stop_id": 105157, 
         "stop_name": "Northbound  Wildwood at Ridgeview", 
         "location_type": 0
@@ -83,8 +174,18 @@
         "stop_lat": 53.985117, 
         "stop_code": 105504, 
         "stop_lon": -122.804927, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Vellencher at Tasa", 
+        "arrival_time": [
+            "07:57:00", 
+            "15:12:00", 
+            "15:13:00"
+        ], 
+        "stop_sequence": [
+            17, 
+            26, 
+            7
+        ], 
         "stop_id": 105504, 
         "stop_name": "Westbound Vellencher at Tasa", 
         "location_type": 0
@@ -93,8 +194,18 @@
         "stop_lat": 53.984053, 
         "stop_code": 105505, 
         "stop_lon": -122.807339, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Stauble at Vellencher", 
+        "arrival_time": [
+            "07:57:00", 
+            "15:12:00", 
+            "15:13:00"
+        ], 
+        "stop_sequence": [
+            8, 
+            18, 
+            27
+        ], 
         "stop_id": 105505, 
         "stop_name": "Southbound Stauble at Vellencher", 
         "location_type": 1
@@ -103,8 +214,18 @@
         "stop_lat": 53.981564, 
         "stop_code": 105506, 
         "stop_lon": -122.803582, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Stauble at Enns", 
+        "arrival_time": [
+            "07:58:00", 
+            "15:13:00", 
+            "15:14:00"
+        ], 
+        "stop_sequence": [
+            9, 
+            19, 
+            28
+        ], 
         "stop_id": 105506, 
         "stop_name": "Eastbound Stauble at Enns", 
         "location_type": 0
@@ -113,8 +234,22 @@
         "stop_lat": 53.983214, 
         "stop_code": 105507, 
         "stop_lon": -122.799373, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Highland at Montgomery", 
+        "arrival_time": [
+            "07:59:00", 
+            "08:26:00", 
+            "15:14:00", 
+            "15:15:00", 
+            "15:42:00"
+        ], 
+        "stop_sequence": [
+            40, 
+            50, 
+            10, 
+            20, 
+            29
+        ], 
         "stop_id": 105507, 
         "stop_name": "Eastbound Highland at Montgomery", 
         "location_type": 0
@@ -123,8 +258,24 @@
         "stop_lat": 53.979439, 
         "stop_code": 105509, 
         "stop_lon": -122.795689, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Highland at Nixon", 
+        "arrival_time": [
+            "08:00:00", 
+            "08:27:00", 
+            "15:15:00", 
+            "15:30:00", 
+            "15:16:00", 
+            "15:43:00"
+        ], 
+        "stop_sequence": [
+            41, 
+            11, 
+            47, 
+            51, 
+            21, 
+            30
+        ], 
         "stop_id": 105509, 
         "stop_name": "Southbound Highland at Nixon", 
         "location_type": 0
@@ -133,8 +284,24 @@
         "stop_lat": 53.978407, 
         "stop_code": 105510, 
         "stop_lon": -122.798063, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Highland at Wallace", 
+        "arrival_time": [
+            "08:00:00", 
+            "08:27:00", 
+            "15:15:00", 
+            "15:30:00", 
+            "15:16:00", 
+            "15:43:00"
+        ], 
+        "stop_sequence": [
+            42, 
+            12, 
+            48, 
+            52, 
+            22, 
+            31
+        ], 
         "stop_id": 105510, 
         "stop_name": "Westbound Highland at Wallace", 
         "location_type": 0
@@ -143,8 +310,15 @@
         "stop_lat": 53.979795, 
         "stop_code": 105159, 
         "stop_lon": -122.795142, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Highland at Nixon", 
+        "arrival_time": [
+            "07:56:00", 
+            "15:03:00"
+        ], 
+        "stop_sequence": [
+            13
+        ], 
         "stop_id": 105159, 
         "stop_name": "Northbound Highland at Nixon", 
         "location_type": 0
@@ -153,8 +327,19 @@
         "stop_lat": 53.983316, 
         "stop_code": 105394, 
         "stop_lon": -122.799289, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Highland at Montgomery", 
+        "arrival_time": [
+            "07:56:00", 
+            "08:18:00", 
+            "15:04:00", 
+            "15:34:00"
+        ], 
+        "stop_sequence": [
+            16, 
+            40, 
+            30
+        ], 
         "stop_id": 105394, 
         "stop_name": "Westbound Highland at Montgomery", 
         "location_type": 0
@@ -163,8 +348,18 @@
         "stop_lat": 53.946285, 
         "stop_code": 105395, 
         "stop_lon": -122.796004, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound North Nechako at Craig", 
+        "arrival_time": [
+            "08:39:00", 
+            "15:39:00", 
+            "15:55:00"
+        ], 
+        "stop_sequence": [
+            57, 
+            53, 
+            47
+        ], 
         "stop_id": 105395, 
         "stop_name": "Southbound North Nechako at Craig", 
         "location_type": 0
@@ -173,8 +368,18 @@
         "stop_lat": 53.93943, 
         "stop_code": 105396, 
         "stop_lon": -122.789556, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound North Nechako at Rustad", 
+        "arrival_time": [
+            "08:40:00", 
+            "15:40:00", 
+            "15:56:00"
+        ], 
+        "stop_sequence": [
+            48, 
+            58, 
+            54
+        ], 
         "stop_id": 105396, 
         "stop_name": "Eastbound  North Nechako at Rustad", 
         "location_type": 0
@@ -183,8 +388,18 @@
         "stop_lat": 53.931127, 
         "stop_code": 105397, 
         "stop_lon": -122.782244, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound North Nechako at Highway 97", 
+        "arrival_time": [
+            "08:42:00", 
+            "15:42:00", 
+            "15:58:00"
+        ], 
+        "stop_sequence": [
+            56, 
+            50, 
+            60
+        ], 
         "stop_id": 105397, 
         "stop_name": "Eastbound North Nechako at Highway 97", 
         "location_type": 0
@@ -193,8 +408,21 @@
         "stop_lat": 53.917696, 
         "stop_code": 105014, 
         "stop_lon": -122.782871, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Spruceland Exchange Bay D", 
+        "arrival_time": [
+            "07:40:00", 
+            "08:45:00", 
+            "14:45:00", 
+            "15:45:00", 
+            "16:01:00"
+        ], 
+        "stop_sequence": [
+            1, 
+            51, 
+            61, 
+            57
+        ], 
         "stop_id": 105014, 
         "stop_name": "Spruceland Exchange Bay D", 
         "location_type": 1
@@ -203,8 +431,19 @@
         "stop_lat": 53.982644, 
         "stop_code": 105399, 
         "stop_lon": -122.796737, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Highland at Teresa", 
+        "arrival_time": [
+            "07:56:00", 
+            "08:18:00", 
+            "15:03:00", 
+            "15:34:00"
+        ], 
+        "stop_sequence": [
+            39, 
+            29, 
+            15
+        ], 
         "stop_id": 105399, 
         "stop_name": "Westbound Highland at Teresa", 
         "location_type": 0
@@ -213,8 +452,18 @@
         "stop_lat": 53.985413, 
         "stop_code": 105400, 
         "stop_lon": -122.801049, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Kelly S at Vellencher", 
+        "arrival_time": [
+            "08:18:00", 
+            "15:04:00", 
+            "15:34:00"
+        ], 
+        "stop_sequence": [
+            41, 
+            31, 
+            17
+        ], 
         "stop_id": 105400, 
         "stop_name": "Northbound  Kelly S at Vellencher", 
         "location_type": 0
@@ -223,8 +472,18 @@
         "stop_lat": 53.98748, 
         "stop_code": 105401, 
         "stop_lon": -122.801026, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Kelly S at Austin", 
+        "arrival_time": [
+            "08:19:00", 
+            "15:04:00", 
+            "15:35:00"
+        ], 
+        "stop_sequence": [
+            32, 
+            42, 
+            18
+        ], 
         "stop_id": 105401, 
         "stop_name": "Northbound  Kelly S at Austin", 
         "location_type": 0
@@ -233,8 +492,15 @@
         "stop_lat": 53.978303, 
         "stop_code": 105402, 
         "stop_lon": -122.797944, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Highland at Wallace", 
+        "arrival_time": [
+            "07:56:00", 
+            "15:03:00"
+        ], 
+        "stop_sequence": [
+            12
+        ], 
         "stop_id": 105402, 
         "stop_name": "Eastbound Highland at Wallace", 
         "location_type": 0
@@ -243,8 +509,18 @@
         "stop_lat": 53.991918, 
         "stop_code": 105147, 
         "stop_lon": -122.801047, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Kelly S at Richet", 
+        "arrival_time": [
+            "08:20:00", 
+            "15:05:00", 
+            "15:36:00"
+        ], 
+        "stop_sequence": [
+            19, 
+            33, 
+            43
+        ], 
         "stop_id": 105147, 
         "stop_name": "Northbound  Kelly S at Richet", 
         "location_type": 0
@@ -253,8 +529,18 @@
         "stop_lat": 53.975994, 
         "stop_code": 105148, 
         "stop_lon": -122.796675, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Berwick at Langley", 
+        "arrival_time": [
+            "08:01:00", 
+            "15:16:00", 
+            "15:17:00"
+        ], 
+        "stop_sequence": [
+            32, 
+            13, 
+            23
+        ], 
         "stop_id": 105148, 
         "stop_name": "Eastbound Berwick at Langley", 
         "location_type": 0
@@ -263,8 +549,15 @@
         "stop_lat": 53.977951, 
         "stop_code": 105149, 
         "stop_lon": -122.799089, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Highland at Berwick", 
+        "arrival_time": [
+            "07:55:00", 
+            "15:03:00"
+        ], 
+        "stop_sequence": [
+            11
+        ], 
         "stop_id": 105149, 
         "stop_name": "Eastbound  Highland at Berwick", 
         "location_type": 0
@@ -273,8 +566,18 @@
         "stop_lat": 53.975127, 
         "stop_code": 105151, 
         "stop_lon": -122.796612, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Nixon at Berwick", 
+        "arrival_time": [
+            "08:01:00", 
+            "15:16:00", 
+            "15:17:00"
+        ], 
+        "stop_sequence": [
+            24, 
+            33, 
+            14
+        ], 
         "stop_id": 105151, 
         "stop_name": "Westbound Nixon at Berwick", 
         "location_type": 1
@@ -283,8 +586,18 @@
         "stop_lat": 53.96886, 
         "stop_code": 105152, 
         "stop_lon": -122.787256, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Carlisle Way at Canan", 
+        "arrival_time": [
+            "08:10:00", 
+            "15:25:00", 
+            "15:26:00"
+        ], 
+        "stop_sequence": [
+            17, 
+            27, 
+            36
+        ], 
         "stop_id": 105152, 
         "stop_name": "Southbound  Carlisle Way at Canan", 
         "location_type": 0
@@ -293,8 +606,18 @@
         "stop_lat": 53.963522, 
         "stop_code": 105154, 
         "stop_lon": -122.786363, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Panorama at Sadler", 
+        "arrival_time": [
+            "08:12:00", 
+            "15:27:00", 
+            "15:28:00"
+        ], 
+        "stop_sequence": [
+            19, 
+            29, 
+            38
+        ], 
         "stop_id": 105154, 
         "stop_name": "Southbound  Panorama at Sadler", 
         "location_type": 1
@@ -303,8 +626,18 @@
         "stop_lat": 53.968322, 
         "stop_code": 105155, 
         "stop_lon": -122.78921, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Ridgeview at Canan", 
+        "arrival_time": [
+            "08:13:00", 
+            "15:28:00", 
+            "15:29:00"
+        ], 
+        "stop_sequence": [
+            40, 
+            21, 
+            31
+        ], 
         "stop_id": 105155, 
         "stop_name": "Northbound Ridgeview at Canan", 
         "location_type": 0
@@ -313,8 +646,15 @@
         "stop_lat": 53.931187, 
         "stop_code": 105412, 
         "stop_lon": -122.781173, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound North Nechako at Highway 97", 
+        "arrival_time": [
+            "07:44:00", 
+            "14:49:00"
+        ], 
+        "stop_sequence": [
+            3
+        ], 
         "stop_id": 105412, 
         "stop_name": "Westbound  North Nechako at Highway 97", 
         "location_type": 0
@@ -323,8 +663,15 @@
         "stop_lat": 53.934432, 
         "stop_code": 105413, 
         "stop_lon": -122.786881, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound North Nechako at Aspen", 
+        "arrival_time": [
+            "07:45:00", 
+            "14:50:00"
+        ], 
+        "stop_sequence": [
+            4
+        ], 
         "stop_id": 105413, 
         "stop_name": "Northbound  North Nechako at Aspen", 
         "location_type": 0
@@ -333,8 +680,15 @@
         "stop_lat": 53.939851, 
         "stop_code": 105414, 
         "stop_lon": -122.789752, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound North Nechako at Rustad", 
+        "arrival_time": [
+            "07:46:00", 
+            "14:51:00"
+        ], 
+        "stop_sequence": [
+            5
+        ], 
         "stop_id": 105414, 
         "stop_name": "Northbound  North Nechako at Rustad", 
         "location_type": 0
@@ -343,8 +697,15 @@
         "stop_lat": 53.957044, 
         "stop_code": 105415, 
         "stop_lon": -122.808924, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound North Nechako at Fairburn", 
+        "arrival_time": [
+            "07:49:00", 
+            "14:54:00"
+        ], 
+        "stop_sequence": [
+            8
+        ], 
         "stop_id": 105415, 
         "stop_name": "Westbound  North Nechako at Fairburn", 
         "location_type": 0
@@ -353,8 +714,15 @@
         "stop_lat": 53.957814, 
         "stop_code": 105416, 
         "stop_lon": -122.812541, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound North Nechako at Foothills", 
+        "arrival_time": [
+            "07:50:00", 
+            "14:55:00"
+        ], 
+        "stop_sequence": [
+            9
+        ], 
         "stop_id": 105416, 
         "stop_name": "Westbound  North Nechako at Foothills", 
         "location_type": 0
@@ -363,8 +731,15 @@
         "stop_lat": 53.945985, 
         "stop_code": 105417, 
         "stop_lon": -122.795432, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound North Nechako at Churchill", 
+        "arrival_time": [
+            "07:47:00", 
+            "14:52:00"
+        ], 
+        "stop_sequence": [
+            6
+        ], 
         "stop_id": 105417, 
         "stop_name": "Northbound  North Nechako at Churchill", 
         "location_type": 0
@@ -373,8 +748,15 @@
         "stop_lat": 53.95467, 
         "stop_code": 105418, 
         "stop_lon": -122.803966, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound North Nechako at Sturgeon", 
+        "arrival_time": [
+            "07:49:00", 
+            "14:54:00"
+        ], 
+        "stop_sequence": [
+            7
+        ], 
         "stop_id": 105418, 
         "stop_name": "Northbound North Nechako at Sturgeon", 
         "location_type": 0
@@ -383,8 +765,21 @@
         "stop_lat": 53.961008, 
         "stop_code": 105419, 
         "stop_lon": -122.821317, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound North Nechako at Meadowbrook", 
+        "arrival_time": [
+            "07:51:00", 
+            "08:34:00", 
+            "14:56:00", 
+            "15:34:00", 
+            "15:50:00"
+        ], 
+        "stop_sequence": [
+            49, 
+            10, 
+            43, 
+            53
+        ], 
         "stop_id": 105419, 
         "stop_name": "Westbound  North Nechako at Meadowbrook", 
         "location_type": 1
@@ -393,8 +788,18 @@
         "stop_lat": 53.957684, 
         "stop_code": 105420, 
         "stop_lon": -122.812727, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound North Nechako at Foothills", 
+        "arrival_time": [
+            "08:36:00", 
+            "15:36:00", 
+            "15:52:00"
+        ], 
+        "stop_sequence": [
+            50, 
+            44, 
+            54
+        ], 
         "stop_id": 105420, 
         "stop_name": "Eastbound  North Nechako at Foothills", 
         "location_type": 0
@@ -403,8 +808,18 @@
         "stop_lat": 53.956878, 
         "stop_code": 105421, 
         "stop_lon": -122.808918, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound North Nechako at Fairburn", 
+        "arrival_time": [
+            "08:37:00", 
+            "15:37:00", 
+            "15:53:00"
+        ], 
+        "stop_sequence": [
+            51, 
+            45, 
+            55
+        ], 
         "stop_id": 105421, 
         "stop_name": "Eastbound  North Nechako at Fairburn", 
         "location_type": 0
@@ -413,8 +828,18 @@
         "stop_lat": 53.977003, 
         "stop_code": 105166, 
         "stop_lon": -122.791275, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Kilarney at Wildwood", 
+        "arrival_time": [
+            "08:16:00", 
+            "15:29:00", 
+            "15:32:00"
+        ], 
+        "stop_sequence": [
+            25, 
+            35, 
+            44
+        ], 
         "stop_id": 105166, 
         "stop_name": "Northbound  Kilarney at Wildwood", 
         "location_type": 0
@@ -423,8 +848,20 @@
         "stop_lat": 53.994148, 
         "stop_code": 105169, 
         "stop_lon": -122.807547, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Heather Park at Gray", 
+        "arrival_time": [
+            "08:23:00", 
+            "15:08:00", 
+            "15:09:00", 
+            "15:39:00"
+        ], 
+        "stop_sequence": [
+            2, 
+            35, 
+            45, 
+            21
+        ], 
         "stop_id": 105169, 
         "stop_name": "Southbound  Heather Park at Gray", 
         "location_type": 1
@@ -433,8 +870,18 @@
         "stop_lat": 53.975142, 
         "stop_code": 105170, 
         "stop_lon": -122.78971, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Wildwood at Sussex", 
+        "arrival_time": [
+            "08:15:00", 
+            "15:29:00", 
+            "15:31:00"
+        ], 
+        "stop_sequence": [
+            24, 
+            34, 
+            43
+        ], 
         "stop_id": 105170, 
         "stop_name": "Northbound Wildwood at Sussex", 
         "location_type": 0
@@ -443,8 +890,18 @@
         "stop_lat": 53.979828, 
         "stop_code": 105171, 
         "stop_lon": -122.792323, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Kilarney at Carleton", 
+        "arrival_time": [
+            "08:16:00", 
+            "15:29:00", 
+            "15:32:00"
+        ], 
+        "stop_sequence": [
+            26, 
+            36, 
+            45
+        ], 
         "stop_id": 105171, 
         "stop_name": "Northbound  Kilarney at Carleton", 
         "location_type": 0
@@ -453,8 +910,18 @@
         "stop_lat": 53.965353, 
         "stop_code": 105172, 
         "stop_lon": -122.785692, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Sadler at Ridgeview", 
+        "arrival_time": [
+            "08:13:00", 
+            "15:27:00", 
+            "15:29:00"
+        ], 
+        "stop_sequence": [
+            20, 
+            30, 
+            39
+        ], 
         "stop_id": 105172, 
         "stop_name": "Eastbound  Sadler at Ridgeview", 
         "location_type": 0
@@ -463,8 +930,18 @@
         "stop_lat": 53.981245, 
         "stop_code": 105173, 
         "stop_lon": -122.792538, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Glengarry at Kilarney", 
+        "arrival_time": [
+            "08:17:00", 
+            "15:29:00", 
+            "15:33:00"
+        ], 
+        "stop_sequence": [
+            27, 
+            37, 
+            46
+        ], 
         "stop_id": 105173, 
         "stop_name": "Westbound  Glengarry at Kilarney", 
         "location_type": 0
@@ -473,8 +950,18 @@
         "stop_lat": 53.972789, 
         "stop_code": 105174, 
         "stop_lon": -122.790618, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Wildwood at Carlisle", 
+        "arrival_time": [
+            "08:15:00", 
+            "15:28:00", 
+            "15:31:00"
+        ], 
+        "stop_sequence": [
+            33, 
+            42, 
+            23
+        ], 
         "stop_id": 105174, 
         "stop_name": "Northbound Wildwood at Carlisle", 
         "location_type": 1
@@ -483,8 +970,18 @@
         "stop_lat": 53.965984, 
         "stop_code": 105175, 
         "stop_lon": -122.784126, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Panorama at Panorama Place", 
+        "arrival_time": [
+            "08:11:00", 
+            "15:26:00", 
+            "15:27:00"
+        ], 
+        "stop_sequence": [
+            18, 
+            28, 
+            37
+        ], 
         "stop_id": 105175, 
         "stop_name": "Southbound  Panorama at Panorama Place", 
         "location_type": 0
@@ -493,8 +990,18 @@
         "stop_lat": 53.973492, 
         "stop_code": 105176, 
         "stop_lon": -122.795676, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Ridgeview at McKenney", 
+        "arrival_time": [
+            "08:04:00", 
+            "15:19:00", 
+            "15:20:00"
+        ], 
+        "stop_sequence": [
+            25, 
+            34, 
+            15
+        ], 
         "stop_id": 105176, 
         "stop_name": "Southbound Ridgeview at McKenney", 
         "location_type": 0
@@ -503,8 +1010,20 @@
         "stop_lat": 53.996253, 
         "stop_code": 105177, 
         "stop_lon": -122.803079, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Handlen at Kelly S", 
+        "arrival_time": [
+            "08:21:00", 
+            "15:06:00", 
+            "15:07:00", 
+            "15:37:00"
+        ], 
+        "stop_sequence": [
+            20, 
+            34, 
+            44, 
+            1
+        ], 
         "stop_id": 105177, 
         "stop_name": "Westbound  Handlen at Kelly S", 
         "location_type": 1
@@ -513,8 +1032,19 @@
         "stop_lat": 53.981407, 
         "stop_code": 105398, 
         "stop_lon": -122.795347, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Highland at Glengarry", 
+        "arrival_time": [
+            "07:56:00", 
+            "08:17:00", 
+            "15:03:00", 
+            "15:33:00"
+        ], 
+        "stop_sequence": [
+            28, 
+            38, 
+            14
+        ], 
         "stop_id": 105398, 
         "stop_name": "Northbound  Highland at Glengarry", 
         "location_type": 0

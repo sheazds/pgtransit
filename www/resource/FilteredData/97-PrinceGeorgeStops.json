@@ -3,8 +3,15 @@
         "stop_lat": 53.919898, 
         "stop_code": 105101, 
         "stop_lon": -122.784158, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Ahbau at 5th Ave", 
+        "arrival_time": [
+            "07:55:00", 
+            "14:55:00"
+        ], 
+        "stop_sequence": [
+            2
+        ], 
         "stop_id": 105101, 
         "stop_name": "Northbound Ahbau at 5th Ave", 
         "location_type": 0
@@ -13,8 +20,14 @@
         "stop_lat": 53.988788, 
         "stop_code": 105454, 
         "stop_lon": -122.799423, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Austin at Boschman", 
+        "arrival_time": [
+            "08:25:00"
+        ], 
+        "stop_sequence": [
+            32
+        ], 
         "stop_id": 105454, 
         "stop_name": "Eastbound Austin Rd W at Boschman", 
         "location_type": 0
@@ -23,8 +36,14 @@
         "stop_lat": 53.993321, 
         "stop_code": 105500, 
         "stop_lon": -122.80128, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Kelly at Heather", 
+        "arrival_time": [
+            "08:25:00"
+        ], 
+        "stop_sequence": [
+            29
+        ], 
         "stop_id": 105500, 
         "stop_name": "Southbound Kelly at Heather", 
         "location_type": 1
@@ -33,8 +52,14 @@
         "stop_lat": 53.991922, 
         "stop_code": 105501, 
         "stop_lon": -122.801269, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Kelly at Richet", 
+        "arrival_time": [
+            "08:25:00"
+        ], 
+        "stop_sequence": [
+            30
+        ], 
         "stop_id": 105501, 
         "stop_name": "Southbound Kelly Rd S at Richet", 
         "location_type": 0
@@ -43,8 +68,14 @@
         "stop_lat": 53.98956, 
         "stop_code": 105502, 
         "stop_lon": -122.801241, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Kelly at Austin", 
+        "arrival_time": [
+            "08:25:00"
+        ], 
+        "stop_sequence": [
+            31
+        ], 
         "stop_id": 105502, 
         "stop_name": "Southbound Kelly Rd S at Austin Rd W", 
         "location_type": 0
@@ -53,8 +84,14 @@
         "stop_lat": 53.984465, 
         "stop_code": 180000, 
         "stop_lon": -122.788216, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Winslow at Kim", 
+        "arrival_time": [
+            "15:23:00"
+        ], 
+        "stop_sequence": [
+            16
+        ], 
         "stop_id": 180000, 
         "stop_name": "Westbound Winslow at Kim", 
         "location_type": 0
@@ -63,8 +100,15 @@
         "stop_lat": 53.938659, 
         "stop_code": 105511, 
         "stop_lon": -122.759944, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Hart Highway at Hoffercamp", 
+        "arrival_time": [
+            "08:00:00", 
+            "15:00:00"
+        ], 
+        "stop_sequence": [
+            3
+        ], 
         "stop_id": 105511, 
         "stop_name": "Northbound Hart Highway at Hoffercamp", 
         "location_type": 0
@@ -73,8 +117,15 @@
         "stop_lat": 53.944357, 
         "stop_code": 105512, 
         "stop_lon": -122.761477, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Hart Highway at Northwood Pulpmill", 
+        "arrival_time": [
+            "08:01:00", 
+            "15:01:00"
+        ], 
+        "stop_sequence": [
+            4
+        ], 
         "stop_id": 105512, 
         "stop_name": "Northbound Hart Highway at Northwood Pulpmill", 
         "location_type": 0
@@ -83,8 +134,14 @@
         "stop_lat": 53.980446, 
         "stop_code": 105513, 
         "stop_lon": -122.784831, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Croft at Glade", 
+        "arrival_time": [
+            "15:26:00"
+        ], 
+        "stop_sequence": [
+            18
+        ], 
         "stop_id": 105513, 
         "stop_name": "Eastbound Croft at Glade", 
         "location_type": 0
@@ -93,8 +150,14 @@
         "stop_lat": 53.981176, 
         "stop_code": 105514, 
         "stop_lon": -122.788955, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Croft at Winslow", 
+        "arrival_time": [
+            "15:25:00"
+        ], 
+        "stop_sequence": [
+            17
+        ], 
         "stop_id": 105514, 
         "stop_name": "Eastbound Croft at Winslow", 
         "location_type": 0
@@ -103,8 +166,14 @@
         "stop_lat": 53.978515, 
         "stop_code": 105515, 
         "stop_lon": -122.781449, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Croft at Hepting", 
+        "arrival_time": [
+            "15:27:00"
+        ], 
+        "stop_sequence": [
+            19
+        ], 
         "stop_id": 105515, 
         "stop_name": "Eastbound Croft at Hepting", 
         "location_type": 0
@@ -113,8 +182,14 @@
         "stop_lat": 53.98092, 
         "stop_code": 105516, 
         "stop_lon": -122.778948, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound 5760 block Cook", 
+        "arrival_time": [
+            "15:28:00"
+        ], 
+        "stop_sequence": [
+            20
+        ], 
         "stop_id": 105516, 
         "stop_name": "Eastbound 5760 block Cook", 
         "location_type": 0
@@ -123,8 +198,14 @@
         "stop_lat": 53.990012, 
         "stop_code": 180014, 
         "stop_lon": -122.77668, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Dawson at Austin", 
+        "arrival_time": [
+            "08:15:00"
+        ], 
+        "stop_sequence": [
+            19
+        ], 
         "stop_id": 180014, 
         "stop_name": "Southbound Dawson at Austin Rd E", 
         "location_type": 0
@@ -133,8 +214,14 @@
         "stop_lat": 53.988882, 
         "stop_code": 105008, 
         "stop_lon": -122.789089, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Austin Road at Madill", 
+        "arrival_time": [
+            "08:26:00"
+        ], 
+        "stop_sequence": [
+            33
+        ], 
         "stop_id": 105008, 
         "stop_name": "Eastbound Austin Road at Madill", 
         "location_type": 0
@@ -143,8 +230,14 @@
         "stop_lat": 53.987527, 
         "stop_code": 105521, 
         "stop_lon": -122.782791, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Hart at Birchwood", 
+        "arrival_time": [
+            "08:27:00"
+        ], 
+        "stop_sequence": [
+            35
+        ], 
         "stop_id": 105521, 
         "stop_name": "Eastbound Hart at Birchwood", 
         "location_type": 0
@@ -153,8 +246,16 @@
         "stop_lat": 53.98068, 
         "stop_code": 105522, 
         "stop_lon": -122.775611, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Hart at Lehman", 
+        "arrival_time": [
+            "08:28:00", 
+            "15:28:00"
+        ], 
+        "stop_sequence": [
+            36, 
+            21
+        ], 
         "stop_id": 105522, 
         "stop_name": "Southbound Hart at Lehman", 
         "location_type": 0
@@ -163,8 +264,16 @@
         "stop_lat": 53.978168, 
         "stop_code": 105523, 
         "stop_lon": -122.771584, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound 5470 block Hart", 
+        "arrival_time": [
+            "08:29:00", 
+            "15:29:00"
+        ], 
+        "stop_sequence": [
+            37, 
+            22
+        ], 
         "stop_id": 105523, 
         "stop_name": "Eastbound 5470 block Hart", 
         "location_type": 0
@@ -173,8 +282,16 @@
         "stop_lat": 53.974516, 
         "stop_code": 105524, 
         "stop_lon": -122.768196, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound 5200 block Hart", 
+        "arrival_time": [
+            "08:29:00", 
+            "15:30:00"
+        ], 
+        "stop_sequence": [
+            38, 
+            23
+        ], 
         "stop_id": 105524, 
         "stop_name": "Southbound 5200 block Hart", 
         "location_type": 0
@@ -183,8 +300,16 @@
         "stop_lat": 53.964855, 
         "stop_code": 105525, 
         "stop_lon": -122.767686, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Hart Highway at Noranda", 
+        "arrival_time": [
+            "08:31:00", 
+            "15:31:00"
+        ], 
+        "stop_sequence": [
+            24, 
+            39
+        ], 
         "stop_id": 105525, 
         "stop_name": "Southbound Hart Highway at Noranda", 
         "location_type": 0
@@ -193,8 +318,19 @@
         "stop_lat": 53.917696, 
         "stop_code": 105014, 
         "stop_lon": -122.782871, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Spruceland Exchange Bay D", 
+        "arrival_time": [
+            "07:55:00", 
+            "08:39:00", 
+            "14:55:00", 
+            "15:41:00"
+        ], 
+        "stop_sequence": [
+            1, 
+            42, 
+            27
+        ], 
         "stop_id": 105014, 
         "stop_name": "Spruceland Exchange Bay D", 
         "location_type": 1
@@ -203,8 +339,14 @@
         "stop_lat": 53.992439, 
         "stop_code": 180033, 
         "stop_lon": -122.787727, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Eden at Dagg", 
+        "arrival_time": [
+            "15:16:00"
+        ], 
+        "stop_sequence": [
+            12
+        ], 
         "stop_id": 180033, 
         "stop_name": "Northbound Eden at Dagg", 
         "location_type": 0
@@ -213,8 +355,16 @@
         "stop_lat": 53.994148, 
         "stop_code": 105169, 
         "stop_lon": -122.807547, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Heather Park at Gray", 
+        "arrival_time": [
+            "08:24:00", 
+            "15:12:00"
+        ], 
+        "stop_sequence": [
+            11, 
+            28
+        ], 
         "stop_id": 105169, 
         "stop_name": "Southbound  Heather Park at Gray", 
         "location_type": 1
@@ -223,8 +373,14 @@
         "stop_lat": 53.980577, 
         "stop_code": 105812, 
         "stop_lon": -122.784755, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Croft at Glade", 
+        "arrival_time": [
+            "08:10:00"
+        ], 
+        "stop_sequence": [
+            12
+        ], 
         "stop_id": 105812, 
         "stop_name": "Westbound Croft at Glade", 
         "location_type": 0
@@ -233,8 +389,16 @@
         "stop_lat": 53.938899, 
         "stop_code": 105429, 
         "stop_lon": -122.760467, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Hart Highway at Hoffercamp", 
+        "arrival_time": [
+            "08:34:00", 
+            "15:36:00"
+        ], 
+        "stop_sequence": [
+            41, 
+            26
+        ], 
         "stop_id": 105429, 
         "stop_name": "Southbound  Hart Highway at Hoffercamp", 
         "location_type": 0
@@ -243,8 +407,16 @@
         "stop_lat": 53.996253, 
         "stop_code": 105177, 
         "stop_lon": -122.803079, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Handlen at Kelly S", 
+        "arrival_time": [
+            "08:21:00", 
+            "15:10:00"
+        ], 
+        "stop_sequence": [
+            10, 
+            27
+        ], 
         "stop_id": 105177, 
         "stop_name": "Westbound  Handlen at Kelly S", 
         "location_type": 1
@@ -253,8 +425,15 @@
         "stop_lat": 53.95305, 
         "stop_code": 105180, 
         "stop_lon": -122.764107, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Hart Highway at Bellamy", 
+        "arrival_time": [
+            "08:03:00", 
+            "15:02:00"
+        ], 
+        "stop_sequence": [
+            5
+        ], 
         "stop_id": 105180, 
         "stop_name": "Northbound Hart Highway at Bellamy", 
         "location_type": 0
@@ -263,8 +442,14 @@
         "stop_lat": 53.981315, 
         "stop_code": 105181, 
         "stop_lon": -122.78888, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Croft at Winslow", 
+        "arrival_time": [
+            "08:10:00"
+        ], 
+        "stop_sequence": [
+            13
+        ], 
         "stop_id": 105181, 
         "stop_name": "Westbound Croft at Winslow", 
         "location_type": 0
@@ -273,8 +458,14 @@
         "stop_lat": 53.978653, 
         "stop_code": 105183, 
         "stop_lon": -122.782037, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Croft at Hepting", 
+        "arrival_time": [
+            "08:09:00"
+        ], 
+        "stop_sequence": [
+            11
+        ], 
         "stop_id": 105183, 
         "stop_name": "Westbound Croft at Hepting", 
         "location_type": 0
@@ -283,8 +474,14 @@
         "stop_lat": 53.981021, 
         "stop_code": 105184, 
         "stop_lon": -122.778981, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound 5740 block Cook", 
+        "arrival_time": [
+            "08:08:00"
+        ], 
+        "stop_sequence": [
+            10
+        ], 
         "stop_id": 105184, 
         "stop_name": "Westbound 5740 block Cook", 
         "location_type": 1
@@ -293,8 +490,15 @@
         "stop_lat": 53.979475, 
         "stop_code": 105185, 
         "stop_lon": -122.773151, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound 5540 block Hart", 
+        "arrival_time": [
+            "08:07:00", 
+            "15:06:00"
+        ], 
+        "stop_sequence": [
+            9
+        ], 
         "stop_id": 105185, 
         "stop_name": "Westbound 5540 block Hart", 
         "location_type": 0
@@ -303,8 +507,15 @@
         "stop_lat": 53.971557, 
         "stop_code": 105186, 
         "stop_lon": -122.767847, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Hart Highway at Collins", 
+        "arrival_time": [
+            "08:06:00", 
+            "15:05:00"
+        ], 
+        "stop_sequence": [
+            8
+        ], 
         "stop_id": 105186, 
         "stop_name": "Northbound Hart Highway at Collins", 
         "location_type": 0
@@ -313,8 +524,15 @@
         "stop_lat": 53.965142, 
         "stop_code": 105187, 
         "stop_lon": -122.767205, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Hart Highway at Noranda", 
+        "arrival_time": [
+            "08:05:00", 
+            "15:04:00"
+        ], 
+        "stop_sequence": [
+            7
+        ], 
         "stop_id": 105187, 
         "stop_name": "Northbound Hart Highway at Noranda", 
         "location_type": 0
@@ -323,8 +541,15 @@
         "stop_lat": 53.960859, 
         "stop_code": 105188, 
         "stop_lon": -122.767583, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Hart Highway at Kennworth", 
+        "arrival_time": [
+            "08:04:00", 
+            "15:03:00"
+        ], 
+        "stop_sequence": [
+            6
+        ], 
         "stop_id": 105188, 
         "stop_name": "Northbound Hart Highway at Kennworth", 
         "location_type": 0
@@ -333,8 +558,14 @@
         "stop_lat": 53.984337, 
         "stop_code": 105189, 
         "stop_lon": -122.787841, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Winslow at Kim", 
+        "arrival_time": [
+            "08:11:00"
+        ], 
+        "stop_sequence": [
+            14
+        ], 
         "stop_id": 105189, 
         "stop_name": "Eastbound Winslow at Kim", 
         "location_type": 0
@@ -343,8 +574,14 @@
         "stop_lat": 53.993473, 
         "stop_code": 105190, 
         "stop_lon": -122.778341, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Eden at Langer", 
+        "arrival_time": [
+            "08:16:00"
+        ], 
+        "stop_sequence": [
+            20
+        ], 
         "stop_id": 105190, 
         "stop_name": "Westbound Eden at Langer", 
         "location_type": 0
@@ -353,8 +590,16 @@
         "stop_lat": 53.960467, 
         "stop_code": 105425, 
         "stop_lon": -122.767774, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Hart Highway at Kenworth", 
+        "arrival_time": [
+            "08:31:00", 
+            "15:32:00"
+        ], 
+        "stop_sequence": [
+            40, 
+            25
+        ], 
         "stop_id": 105425, 
         "stop_name": "Southbound Hart Highway at Kenworth", 
         "location_type": 0
@@ -363,8 +608,14 @@
         "stop_lat": 53.989502, 
         "stop_code": 105192, 
         "stop_lon": -122.781475, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Austin at Driftwood", 
+        "arrival_time": [
+            "08:14:00"
+        ], 
+        "stop_sequence": [
+            18
+        ], 
         "stop_id": 105192, 
         "stop_name": "Eastbound Austin Rd E at Driftwood", 
         "location_type": 0
@@ -373,8 +624,14 @@
         "stop_lat": 53.989486, 
         "stop_code": 105193, 
         "stop_lon": -122.784753, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound 3400 block Austin", 
+        "arrival_time": [
+            "08:14:00"
+        ], 
+        "stop_sequence": [
+            17
+        ], 
         "stop_id": 105193, 
         "stop_name": "Eastbound 3400 block Austin Rd E", 
         "location_type": 0
@@ -383,8 +640,14 @@
         "stop_lat": 53.987069, 
         "stop_code": 105195, 
         "stop_lon": -122.784286, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Northbound Birchwood at Hazel", 
+        "arrival_time": [
+            "08:12:00"
+        ], 
+        "stop_sequence": [
+            16
+        ], 
         "stop_id": 105195, 
         "stop_name": "Northbound Birchwood at Hazel", 
         "location_type": 0
@@ -393,8 +656,14 @@
         "stop_lat": 53.984585, 
         "stop_code": 105196, 
         "stop_lon": -122.78553, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Winslow at Poplar", 
+        "arrival_time": [
+            "08:12:00"
+        ], 
+        "stop_sequence": [
+            15
+        ], 
         "stop_id": 105196, 
         "stop_name": "Eastbound Winslow at Poplar", 
         "location_type": 0
@@ -403,8 +672,14 @@
         "stop_lat": 53.993511, 
         "stop_code": 105197, 
         "stop_lon": -122.780999, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Eden at Adam", 
+        "arrival_time": [
+            "08:16:00"
+        ], 
+        "stop_sequence": [
+            21
+        ], 
         "stop_id": 105197, 
         "stop_name": "Westbound Eden at Adam", 
         "location_type": 0
@@ -413,8 +688,14 @@
         "stop_lat": 53.993417, 
         "stop_code": 105198, 
         "stop_lon": -122.784216, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Eden at Glenview", 
+        "arrival_time": [
+            "08:17:00"
+        ], 
+        "stop_sequence": [
+            22
+        ], 
         "stop_id": 105198, 
         "stop_name": "Westbound Eden at Glenview", 
         "location_type": 0
@@ -423,8 +704,14 @@
         "stop_lat": 53.992575, 
         "stop_code": 105199, 
         "stop_lon": -122.787817, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Eden at Dagg", 
+        "arrival_time": [
+            "08:17:00"
+        ], 
+        "stop_sequence": [
+            23
+        ], 
         "stop_id": 105199, 
         "stop_name": "Southbound Eden at Dagg", 
         "location_type": 1
@@ -433,8 +720,14 @@
         "stop_lat": 53.992465, 
         "stop_code": 105200, 
         "stop_lon": -122.788614, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Dagg at Eden", 
+        "arrival_time": [
+            "08:17:00"
+        ], 
+        "stop_sequence": [
+            24
+        ], 
         "stop_id": 105200, 
         "stop_name": "Westbound Dagg at Eden", 
         "location_type": 1
@@ -443,8 +736,14 @@
         "stop_lat": 53.99442, 
         "stop_code": 105201, 
         "stop_lon": -122.792131, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound 7110 block Dagg", 
+        "arrival_time": [
+            "08:18:00"
+        ], 
+        "stop_sequence": [
+            25
+        ], 
         "stop_id": 105201, 
         "stop_name": "Westbound 7110 block Dagg", 
         "location_type": 0
@@ -453,8 +752,14 @@
         "stop_lat": 53.996235, 
         "stop_code": 105202, 
         "stop_lon": -122.795891, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Weisbrod at Dagg", 
+        "arrival_time": [
+            "08:19:00"
+        ], 
+        "stop_sequence": [
+            26
+        ], 
         "stop_id": 105202, 
         "stop_name": "Westbound Weisbrod at Dagg", 
         "location_type": 0
@@ -463,8 +768,16 @@
         "stop_lat": 53.989122, 
         "stop_code": 105203, 
         "stop_lon": -122.786472, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Eastbound Hart at Austin", 
+        "arrival_time": [
+            "08:27:00", 
+            "15:21:00"
+        ], 
+        "stop_sequence": [
+            34, 
+            13
+        ], 
         "stop_id": 105203, 
         "stop_name": "Eastbound Hart at Austin Rd W", 
         "location_type": 0
@@ -473,8 +786,14 @@
         "stop_lat": 53.98733, 
         "stop_code": 105204, 
         "stop_lon": -122.784265, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Southbound Birchwood at Hazel", 
+        "arrival_time": [
+            "15:22:00"
+        ], 
+        "stop_sequence": [
+            14
+        ], 
         "stop_id": 105204, 
         "stop_name": "Southbound Birchwood at Hazel", 
         "location_type": 0
@@ -483,8 +802,14 @@
         "stop_lat": 53.984701, 
         "stop_code": 105205, 
         "stop_lon": -122.785648, 
-        "parent_station": 0, 
+        "parent_station": "", 
         "stop_short_name": "Westbound Winslow at Poplar", 
+        "arrival_time": [
+            "15:23:00"
+        ], 
+        "stop_sequence": [
+            15
+        ], 
         "stop_id": 105205, 
         "stop_name": "Westbound Winslow at Poplar", 
         "location_type": 0
