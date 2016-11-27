@@ -1,33 +1,24 @@
-angular.module('starter.controllers').controller('RouteMapCtrl', function ($scope, routeService, stopService, shareService)
+angular.module('starter.controllers').controller('RouteMapCtrl', function ($scope, shareService, filteredStopService)
 {
-  $scope.newStopList = [];
   $scope.newStopList = [];
 
   $scope.routeName = shareService.getRouteName();
 
-  var promise = routeService.getRoutes();
-  promise.then(function (data1)
-  {
-    $scope.routes = data1.data;
-  });
-
-  var newStop = stopService.getNewstop();
+  var newStop = filteredStopService.getFilteredStops($scope.routeName);
   newStop.then(function (data2)
   {
     $scope.newStop = data2.data;
     for (var i = 0; i < $scope.newStop.length; i++)
     {
-      if ($scope.newStop[i].route_id == $scope.routeName)
-      {
-        $scope.newStopList.push($scope.newStop[i]);
-      }
+      $scope.newStopList.push($scope.newStop[i]);
     }
     createMap();
   });
+
   var createMap = function ()
   {
-    $scope.lat = $scope.newStopList[(Math.floor($scope.newStopList.length / 2))].lat;
-    $scope.long = $scope.newStopList[(Math.floor($scope.newStopList.length / 2))].lng;
+    $scope.lat = $scope.newStopList[(Math.floor($scope.newStopList.length / 2))].stop_lat;
+    $scope.long = $scope.newStopList[(Math.floor($scope.newStopList.length / 2))].stop_lon;
 
     var latLng = new google.maps.LatLng($scope.lat, $scope.long);
 
@@ -47,7 +38,7 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function ($scop
     {
       var marker = new google.maps.Marker(
         {
-          position: new google.maps.LatLng(info.lat, info.lng),
+          position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
           map: map,
           animation: google.maps.Animation.DROP,
           title: info.name,
@@ -62,7 +53,7 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function ($scop
     }
 
     //Get stops from Json
-    for (i = 0; i < $scope.newStopList.length; i++)
+    for (var i = 0; i < $scope.newStopList.length; i++)
     {
       createMarker($scope.newStopList[i]);
     }
