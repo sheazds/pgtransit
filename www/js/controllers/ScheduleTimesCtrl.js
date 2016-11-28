@@ -49,12 +49,12 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   $scope.routeType = shareService.getRouteType();
 
   //Indicates which route has what types of stops
-  var routeTypesIndex = [1, 5, 11, 15, 16, 17, 18, 46, 47, 55, 88, 89, 91, 96, 97];
+  var routeTypesIndex = [1, 5, 11, 15, "15-rev", 16, 17, 18, 46, 47, 55, 88, 89, 91, "91-rev", 96, 97];
   $scope.routeTypes = [/*1*/[11,"rv","sa","su"], /*5*/[55,"rv","sa"], /*11*/[1,"rv","sa","su"],
-                      /*15*/["15-rev","rv","sa","su"], /*16*/["sa","su"], /*17*/[18,"rv"],
+                      /*15*/["15-rev","rv","sa","su"], /*15-rev*/[15,"rv","sa","su"], /*16*/["sa","su"], /*17*/[18,"rv"],
                       /*18*/[17,"rv"], /*46*/[47,"rv","sa","su"], /*47*/[46,"rv"],
                       /*55*/[5,"rv","sa","su"], /*88*/[89,"rv","sa","su"], /*89*/[88,"rv","sa","su"],
-                       /*91*/["91-rev","rv","sa","su"], /*96*/[], /*97*/[]];
+                       /*91*/["91-rev","rv","sa","su"], /*91-rev*/[91,"rv","sa","su"], /*96*/[], /*97*/[]];
 
   $scope.ri = routeTypesIndex.indexOf($scope.routeShort);
 

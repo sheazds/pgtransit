@@ -1438,7 +1438,7 @@
     ],
     "stop_id": 105004,
     "stop_name": "Nicholson Exchange Bay B",
-    "location_type": 0
+    "location_type": 1
   },
   {
     "stop_code": 105134,
@@ -2288,7 +2288,7 @@
     ],
     "stop_id": 105064,
     "stop_name": "Eastbound 15th Ave at Foothills",
-    "location_type": 0
+    "location_type": 1
   },
   {
     "stop_code": 105066,
