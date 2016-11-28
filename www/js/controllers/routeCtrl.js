@@ -1,5 +1,11 @@
-angular.module('starter.controllers').controller("routeCtrl", function ($scope, $state, $ionicLoading, routeService, shareService, favouritesService, $ionicPopup)
+angular.module('starter.controllers').controller("routeCtrl", function ($scope, $state, $ionicLoading, $ionicHistory, routeService, shareService, favouritesService, $ionicPopup)
 {
+
+
+  //This Page isn't currently used. Use schedule.html and scheduleCtrl
+
+
+
   $scope.routes = [];
 
   var promise = routeService.getRoutes();
@@ -7,26 +13,31 @@ angular.module('starter.controllers').controller("routeCtrl", function ($scope, 
   {
     $scope.routes = data1.data;
 
-    $scope.setRoute = function (id)
+    $scope.setRoute = function (route)
     {
-      $scope.routeID = id;
-      shareService.setRouteName($scope.routeID);
-      mixpanel.track("Route", {"Route Id": $scope.routeID});
-      $state.go('app.routeStops');
+      shareService.setRouteName(route.route_id);
+      shareService.setRouteShort(route.route_short_name);
+      shareService.setRouteLong(route.route_long_name);
+      mixpanel.track("Route", {"Route Id":$scope.routeID});
+
+      $ionicHistory.clearCache().then(function()
+      {
+        $state.go('app.routeStops');
+      })
     };
   })
 
-  $scope.editFavourite = function (c)//Adds/removes favourite route.
+  $scope.editFavourite = function(c)//Adds/removes favourite route.
   {
     if (favouritesService.hasItem(c))
     {
       favouritesService.removeItem(c);
       favouritesService.saveFavs();
       $ionicLoading.show(
-        {
-          template: c.route_short_name + '-' + c.route_long_name + ' removed from favourites.',
-          duration: 750
-        });
+      {
+        template: c.route_short_name + '-' + c.route_long_name + ' removed from favourites.',
+        duration: 750
+      });
     }
     else
     {
@@ -34,15 +45,15 @@ angular.module('starter.controllers').controller("routeCtrl", function ($scope, 
       favouritesService.saveFavs();
       $ionicLoading.show(
         {
-          template: c.route_short_name + '-' + c.route_long_name + ' added to favourites.',
-          duration: 750
+        template: c.route_short_name + '-' + c.route_long_name + ' added to favourites.',
+        duration: 750
         });
 
       //mixpanel.track("Favourite", {"Route ID": c.route_id, "Route Name": c.name});
     }
   };
 
-  $scope.routeOnHold = function (c)
+  $scope.routeOnHold = function(c)
   {
     var popUp = $ionicPopup.show({
 
@@ -53,31 +64,27 @@ angular.module('starter.controllers').controller("routeCtrl", function ($scope, 
       scope: $scope
     })
 
-    popUp.then(function (result)
-    {
-      console.log('Route context menu opened.')
+    popUp.then(function (result) {
+       console.log('Route context menu opened.')
     })
 
-    $scope.popUpButtons = function (value)
+    $scope.popUpButtons = function(value)
     {
-      switch (value)
+      switch(value)
       {
-        case 1:
-          popUp.close();
-          $scope.setRoute(c.route_id);
+      case 1: popUp.close();
+          $scope.setRoute(c);
           break;
-        case 2:
-          popUp.close();
+      case 2: popUp.close();
           $scope.editFavourite(c);
           break;
-        default:
-          ;
+      default: ;
       }
     }
   }
 
   //For setting star icon.
-  $scope.hasFav = function (c)
+  $scope.hasFav = function(c)
   {
     if (favouritesService.hasItem(c))
       return true;
