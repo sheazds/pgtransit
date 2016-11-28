@@ -382,7 +382,18 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
       }
     }
   })
-
+  .state('app.fares',
+  {
+    url: '/fares',
+    views:
+    {
+      'menuContent':
+      {
+        templateUrl: 'templates/fares.html'
+      }
+    }
+  })
+        
   .state('app.welcome',
   {
     url: '/welcome',
