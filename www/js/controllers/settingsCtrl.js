@@ -1,26 +1,6 @@
-angular.module('starter.controllers').controller('settingsCtrl', function ($scope, $state, $cordovaLocalNotification, $cordovaGeolocation, $ionicPlatform, $ionicLoading, $window)
+angular.module('starter.controllers').controller('settingsCtrl', function ($scope, $state, $cordovaLocalNotification, $cordovaGeolocation, $ionicPlatform, $ionicLoading, $window, notificationService)
 {
   mixpanel.track("Setting", {"setting": 'settingsCtrl'});
-  $ionicPlatform.ready(function ()
-  {
-    //Wrap notifications in a ready function to prevent issues with android devices.
-    //Maybe move to a more generic notification system that could be implemented?
-    $scope.scheduleSingleNotification = function ()
-    {
-      $cordovaLocalNotification.schedule(
-        {
-          id: 1,
-          title: 'PG Transit',
-          text: 'You have enabled Notifications',
-          data: {
-            customProperty: 'custom value'
-          }
-        }).then(function (result)
-      {
-        console.log('Notification "Enable" triggered');
-      });
-    };
-  });
 
   //Loads the saved state of the notification toggle.
   $scope.pushNotification = {checked: JSON.parse(localStorage.getItem("Notifications"))};
@@ -31,7 +11,7 @@ angular.module('starter.controllers').controller('settingsCtrl', function ($scop
     localStorage.setItem("Notifications", JSON.stringify($scope.pushNotification.checked)); //Saves toggle.
     if ($scope.pushNotification.checked)
     {
-      $scope.scheduleSingleNotification();
+      notificationService.scheduleNotificationNow('PG Transit', 'You have enabled notifications');
       console.log('Notifications enabled taking action');
     }
   }
