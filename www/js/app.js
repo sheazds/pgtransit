@@ -310,7 +310,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         if (ionic.Platform.version() < 5)
             notificationService.notifyIcon = "notifyicon_4x.png";
         else
-            notificationService.notifyIcon = "notifyicon.png";
+            notificationService.notifyIcon = "notifyicn.png";
 
         //Loads existing notification data into the app.
         //Currently not used.
