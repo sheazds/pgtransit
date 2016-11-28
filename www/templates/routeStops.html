@@ -1,29 +1,36 @@
-<ion-view view-title="Route {{routeName}}">
+<ion-view view-title="{{routeShort}}, {{routeLong}}">
   <!-- Title Navigation Buttons-->
   <ion-nav-buttons side="right">
     <button class="button button-light button-clear no-animation"
-            ng-click="previous()" ng-show="slideIndex > 0">
+        ng-click="previous()" ng-show="slideIndex > 0">
       Back
     </button>
   </ion-nav-buttons>
 
-  <div class="bar bar-subheader" style="padding:0;border:0;">
-    <div class="button-bar">
-      <a class="button button-active">Route</a>
-      <a class="button button-positive">Schedule</a>
-      <a class="button button-positive" ng-click="gotoMap()">Map View</a>
+  <div class="tabs-striped tabs-top tabs-background-positive tabs-color-light">
+    <div class="tabs">
+      <a class="tab-item" ng-click="gotoSchedule()">
+        Schedule
+      </a>
+      <a class="tab-item active">
+        Find a Stop
+      </a>
+      <a class="tab-item" ng-click="gotoMap()">
+        Map
+      </a>
     </div>
   </div>
 
-  <ion-content class="has-subheader">
-    <div id="map" data-tap-disabled="true" style="width:100%;height:30%"></div>
+  <ion-content class="has-subheader" overflow-scroll="false">
+    <div id="routemap" data-tap-disabled="true" style="width:100%;height:40%;"></div>
 
-    <ion-list ng-repeat="c in newStopList">
-      <ion-item href="#app/stop" ng-click="setStop(c.stop_id)">
-        {{c.stop_name}}
-      </ion-item>
-    </ion-list>
+    <ion-scroll class="routeList" zooming="false" direction="xy" overflow-scroll="false">
+      <ion-list ng-repeat="stop in stops">
+        <ion-item ng-click="addMarker(stop)">
+          {{stop.stop_name}}
+        </ion-item>
+      </ion-list>
+    </ion-scroll>
 
   </ion-content>
-
 </ion-view>

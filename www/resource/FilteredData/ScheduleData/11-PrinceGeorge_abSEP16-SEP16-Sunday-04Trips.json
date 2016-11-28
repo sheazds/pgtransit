@@ -1,0 +1,53 @@
+[
+    {
+        "block_id": 328077, 
+        "direction_id": 1, 
+        "hierarchy": 2, 
+        "pattern_rank": 23, 
+        "pattern_id": 121, 
+        "route_id": "11-PrinceGeorge", 
+        "direction_code": 0, 
+        "trip_headsign": "Spruceland - Foothills - Downtown", 
+        "trip_type": 0, 
+        "trip_sequence": 3, 
+        "shape_id": "9-11-46", 
+        "pattern_code": 121, 
+        "service_id": "abSEP16-SEP16-Sunday-04", 
+        "trip_id": "ab1891288", 
+        "pattern_count": 202
+    }, 
+    {
+        "block_id": 328079, 
+        "direction_id": 1, 
+        "hierarchy": 2, 
+        "pattern_rank": 22, 
+        "pattern_id": 120, 
+        "route_id": "11-PrinceGeorge", 
+        "direction_code": 0, 
+        "trip_headsign": "Spruceland - Foothills - Downtown", 
+        "trip_type": 0, 
+        "trip_sequence": 1, 
+        "shape_id": "9-11-47", 
+        "pattern_code": 120, 
+        "service_id": "abSEP16-SEP16-Sunday-04", 
+        "trip_id": "ab1891287", 
+        "pattern_count": 202
+    }, 
+    {
+        "block_id": 328079, 
+        "direction_id": 1, 
+        "hierarchy": 1, 
+        "pattern_rank": 12, 
+        "pattern_id": 100, 
+        "route_id": "11-PrinceGeorge", 
+        "direction_code": 0, 
+        "trip_headsign": "Spruceland - Foothills - Downtown", 
+        "trip_type": 0, 
+        "trip_sequence": 2, 
+        "shape_id": "9-11-44", 
+        "pattern_code": 100, 
+        "service_id": "abSEP16-SEP16-Sunday-04", 
+        "trip_id": "ab1891289", 
+        "pattern_count": 2695
+    }
+]

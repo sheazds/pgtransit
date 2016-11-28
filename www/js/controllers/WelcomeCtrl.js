@@ -36,5 +36,4 @@ angular.module('starter.controllers').controller('WelcomeCtrl', function ($scope
   {
     $scope.slideIndex = index;
   };
-
 });
