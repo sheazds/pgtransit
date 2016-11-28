@@ -34,6 +34,12 @@
         <param name="ios-package" onload="true" value="CDVStatusBar" />
     </feature>
     <platform name="android">
+        <!-- This is a simple hook for android-only cordova to make the cordova-plugin-local-notifications plugin work with your own icons.
+        This creates a drawable folder in ..\platforms\android\res
+        which is where the plugin loads icons from. The folder is not naturally created so we use a script to make it.
+        https://github.com/rienk-git/cordova-plugin-local-notifications-drawable-creator -->
+        <hook type="after_build" src="scripts/createDrawableAfterBuild.js"/>
+        <!--icons from res/android folder-->
         <icon density="ldpi" src="resources/android/icon/drawable-ldpi-icon.png" />
         <icon density="mdpi" src="resources/android/icon/drawable-mdpi-icon.png" />
         <icon density="hdpi" src="resources/android/icon/drawable-hdpi-icon.png" />
