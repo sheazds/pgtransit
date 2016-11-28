@@ -1,0 +1,1558 @@
+[
+    {
+        "stop_lat": 53.934166, 
+        "stop_code": 105344, 
+        "stop_lon": -122.803871, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound N Tabor at McDermid", 
+        "arrival_time": [
+            "12:25:00", 
+            "13:25:00", 
+            "14:25:00", 
+            "15:25:00", 
+            "16:25:00", 
+            "17:25:00"
+        ], 
+        "stop_sequence": [
+            48, 
+            34
+        ], 
+        "stop_id": 105344, 
+        "stop_name": "Northbound N Tabor at McDermid", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.932579, 
+        "stop_code": 105345, 
+        "stop_lon": -122.803903, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound N Tabor at Lofting", 
+        "arrival_time": [
+            "12:24:00", 
+            "13:24:00", 
+            "14:24:00", 
+            "15:24:00", 
+            "16:24:00", 
+            "17:24:00"
+        ], 
+        "stop_sequence": [
+            33, 
+            47
+        ], 
+        "stop_id": 105345, 
+        "stop_name": "Northbound N Tabor at Lofting", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.930968, 
+        "stop_code": 105346, 
+        "stop_lon": -122.803875, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound N Tabor at Corless", 
+        "arrival_time": [
+            "12:24:00", 
+            "13:24:00", 
+            "14:24:00", 
+            "15:24:00", 
+            "16:24:00", 
+            "17:24:00"
+        ], 
+        "stop_sequence": [
+            32, 
+            46
+        ], 
+        "stop_id": 105346, 
+        "stop_name": "Northbound N Tabor at Corless", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.929146, 
+        "stop_code": 105347, 
+        "stop_lon": -122.803586, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound N Tabor at McKinley", 
+        "arrival_time": [
+            "12:24:00", 
+            "13:24:00", 
+            "14:24:00", 
+            "15:24:00", 
+            "16:24:00", 
+            "17:24:00"
+        ], 
+        "stop_sequence": [
+            45, 
+            31
+        ], 
+        "stop_id": 105347, 
+        "stop_name": "Northbound N Tabor at McKinley", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.928011, 
+        "stop_code": 105348, 
+        "stop_lon": -122.803109, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound N Tabor at McArthur", 
+        "arrival_time": [
+            "12:23:00", 
+            "13:23:00", 
+            "14:23:00", 
+            "15:23:00", 
+            "16:23:00", 
+            "17:23:00"
+        ], 
+        "stop_sequence": [
+            44, 
+            30
+        ], 
+        "stop_id": 105348, 
+        "stop_name": "Northbound N Tabor at McArthur", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.927196, 
+        "stop_code": 105349, 
+        "stop_lon": -122.805755, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 1st Ave at Boyd", 
+        "arrival_time": [
+            "12:23:00", 
+            "13:23:00", 
+            "14:23:00", 
+            "15:23:00", 
+            "16:23:00", 
+            "17:23:00"
+        ], 
+        "stop_sequence": [
+            43, 
+            29
+        ], 
+        "stop_id": 105349, 
+        "stop_name": "Eastbound 1st Ave at Boyd", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.927917, 
+        "stop_code": 105350, 
+        "stop_lon": -122.809262, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 1st Ave at Anderson", 
+        "arrival_time": [
+            "12:22:00", 
+            "13:22:00", 
+            "14:22:00", 
+            "15:22:00", 
+            "16:22:00", 
+            "17:22:00"
+        ], 
+        "stop_sequence": [
+            42, 
+            28
+        ], 
+        "stop_id": 105350, 
+        "stop_name": "Eastbound 1st Ave at Anderson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.929549, 
+        "stop_code": 105351, 
+        "stop_lon": -122.812023, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 1st Ave at Freimuller", 
+        "arrival_time": [
+            "12:22:00", 
+            "13:22:00", 
+            "14:22:00", 
+            "15:22:00", 
+            "16:22:00", 
+            "17:22:00"
+        ], 
+        "stop_sequence": [
+            41, 
+            27
+        ], 
+        "stop_id": 105351, 
+        "stop_name": "Eastbound 1st Ave at Freimuller", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.930728, 
+        "stop_code": 105352, 
+        "stop_lon": -122.814653, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 1st Ave at Zimmaro", 
+        "arrival_time": [
+            "12:21:00", 
+            "13:21:00", 
+            "14:21:00", 
+            "15:21:00", 
+            "16:21:00", 
+            "17:21:00"
+        ], 
+        "stop_sequence": [
+            40, 
+            26
+        ], 
+        "stop_id": 105352, 
+        "stop_name": "Eastbound 1st Ave at Zimmaro", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.931105, 
+        "stop_code": 105353, 
+        "stop_lon": -122.817876, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 1st Ave at Van Somer", 
+        "arrival_time": [
+            "12:21:00", 
+            "13:21:00", 
+            "14:21:00", 
+            "15:21:00", 
+            "16:21:00", 
+            "17:21:00"
+        ], 
+        "stop_sequence": [
+            25, 
+            39
+        ], 
+        "stop_id": 105353, 
+        "stop_name": "Eastbound 1st Ave at Van Somer", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.927789, 
+        "stop_code": 105354, 
+        "stop_lon": -122.820012, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Foothills at Freimuller", 
+        "arrival_time": [
+            "12:21:00", 
+            "13:20:00", 
+            "14:20:00", 
+            "15:20:00", 
+            "16:20:00", 
+            "17:20:00"
+        ], 
+        "stop_sequence": [
+            24, 
+            38
+        ], 
+        "stop_id": 105354, 
+        "stop_name": "Northbound Foothills at Freimuller", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.925114, 
+        "stop_code": 105355, 
+        "stop_lon": -122.815619, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Killoren at Mullett", 
+        "arrival_time": [
+            "12:20:00", 
+            "13:19:00", 
+            "14:19:00", 
+            "15:19:00", 
+            "16:19:00", 
+            "17:19:00"
+        ], 
+        "stop_sequence": [
+            36, 
+            22
+        ], 
+        "stop_id": 105355, 
+        "stop_name": "Westbound Killoren at Mullett", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.923652, 
+        "stop_code": 105356, 
+        "stop_lon": -122.815745, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Killoren at Mullett", 
+        "arrival_time": [
+            "12:19:00", 
+            "13:18:00", 
+            "14:18:00", 
+            "15:18:00", 
+            "16:18:00", 
+            "17:18:00"
+        ], 
+        "stop_sequence": [
+            35, 
+            21
+        ], 
+        "stop_id": 105356, 
+        "stop_name": "Northbound Killoren at Mullett", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.922922, 
+        "stop_code": 105357, 
+        "stop_lon": -122.811828, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Hill at Bic", 
+        "arrival_time": [
+            "12:18:00", 
+            "13:17:00", 
+            "14:17:00", 
+            "15:17:00", 
+            "16:17:00", 
+            "17:17:00"
+        ], 
+        "stop_sequence": [
+            34, 
+            20
+        ], 
+        "stop_id": 105357, 
+        "stop_name": "Westbound Hill at Bic", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.92272, 
+        "stop_code": 105358, 
+        "stop_lon": -122.807402, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Hill at Tabor", 
+        "arrival_time": [
+            "12:17:00", 
+            "13:17:00", 
+            "14:17:00", 
+            "15:17:00", 
+            "16:17:00", 
+            "17:17:00"
+        ], 
+        "stop_sequence": [
+            33, 
+            19
+        ], 
+        "stop_id": 105358, 
+        "stop_name": "Westbound Hill at Tabor", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.92124, 
+        "stop_code": 105359, 
+        "stop_lon": -122.8074, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Tabor at 5th Ave", 
+        "arrival_time": [
+            "12:17:00", 
+            "13:16:00", 
+            "14:16:00", 
+            "15:16:00", 
+            "16:16:00", 
+            "17:16:00"
+        ], 
+        "stop_sequence": [
+            32, 
+            18
+        ], 
+        "stop_id": 105359, 
+        "stop_name": "Northbound Tabor at 5th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.925259, 
+        "stop_code": 105360, 
+        "stop_lon": -122.819667, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Foothills at Killoren", 
+        "arrival_time": [
+            "12:20:00", 
+            "13:19:00", 
+            "14:19:00", 
+            "15:19:00", 
+            "16:19:00", 
+            "17:19:00"
+        ], 
+        "stop_sequence": [
+            37, 
+            23
+        ], 
+        "stop_id": 105360, 
+        "stop_name": "Northbound Foothills at Killoren", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.911264, 
+        "stop_code": 105361, 
+        "stop_lon": -122.807196, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Tabor at Genevieve", 
+        "arrival_time": [
+            "12:11:00", 
+            "13:08:00", 
+            "14:08:00", 
+            "15:08:00", 
+            "16:08:00", 
+            "17:08:00"
+        ], 
+        "stop_sequence": [
+            9, 
+            23
+        ], 
+        "stop_id": 105361, 
+        "stop_name": "Southbound Tabor at Genevieve", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913358, 
+        "stop_code": 105362, 
+        "stop_lon": -122.807318, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Tabor at Chingee", 
+        "arrival_time": [
+            "12:11:00", 
+            "13:08:00", 
+            "14:08:00", 
+            "15:08:00", 
+            "16:08:00", 
+            "17:08:00"
+        ], 
+        "stop_sequence": [
+            8, 
+            22
+        ], 
+        "stop_id": 105362, 
+        "stop_name": "Southbound Tabor at Chingee", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915448, 
+        "stop_code": 105363, 
+        "stop_lon": -122.80262, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Kerry at Inez", 
+        "arrival_time": [
+            "12:09:00", 
+            "13:06:00", 
+            "14:06:00", 
+            "15:06:00", 
+            "16:06:00", 
+            "17:06:00"
+        ], 
+        "stop_sequence": [
+            21, 
+            7
+        ], 
+        "stop_id": 105363, 
+        "stop_name": "Southbound Kerry at Inez", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917195, 
+        "stop_code": 105364, 
+        "stop_lon": -122.799314, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Rainbow at Reid", 
+        "arrival_time": [
+            "12:07:00", 
+            "13:04:00", 
+            "14:04:00", 
+            "15:04:00", 
+            "16:04:00", 
+            "17:04:00"
+        ], 
+        "stop_sequence": [
+            20, 
+            6
+        ], 
+        "stop_id": 105364, 
+        "stop_name": "Westbound Rainbow at Reid", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.916283, 
+        "stop_code": 105365, 
+        "stop_lon": -122.794316, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Rainbow at Ospika", 
+        "arrival_time": [
+            "12:06:00", 
+            "13:03:00", 
+            "14:03:00", 
+            "15:03:00", 
+            "16:03:00", 
+            "17:03:00"
+        ], 
+        "stop_sequence": [
+            19, 
+            5
+        ], 
+        "stop_id": 105365, 
+        "stop_name": "Westbound Rainbow at Ospika", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.916208, 
+        "stop_code": 105366, 
+        "stop_lon": -122.789771, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Rainbow at Liard", 
+        "arrival_time": [
+            "12:05:00", 
+            "13:02:00", 
+            "14:02:00", 
+            "15:02:00", 
+            "16:02:00", 
+            "17:02:00"
+        ], 
+        "stop_sequence": [
+            18, 
+            4
+        ], 
+        "stop_id": 105366, 
+        "stop_name": "Westbound Rainbow at Liard", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.916113, 
+        "stop_code": 105367, 
+        "stop_lon": -122.785936, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Rainbow at Ahbau", 
+        "arrival_time": [
+            "12:04:00", 
+            "13:01:00", 
+            "14:01:00", 
+            "15:01:00", 
+            "16:01:00", 
+            "17:01:00"
+        ], 
+        "stop_sequence": [
+            17, 
+            3
+        ], 
+        "stop_id": 105367, 
+        "stop_name": "Westbound Rainbow at Ahbau", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.911054, 
+        "stop_code": 105092, 
+        "stop_lon": -122.752575, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Patricia at 10th Ave", 
+        "arrival_time": [
+            "12:48:00", 
+            "13:48:00", 
+            "14:48:00", 
+            "15:48:00", 
+            "16:48:00"
+        ], 
+        "stop_sequence": [
+            3
+        ], 
+        "stop_id": 105092, 
+        "stop_name": "Westbound Patricia at 10th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915346, 
+        "stop_code": 105218, 
+        "stop_lon": -122.776343, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 10th Ave at Harper", 
+        "arrival_time": [
+            "12:37:00", 
+            "13:37:00", 
+            "14:37:00", 
+            "15:37:00", 
+            "16:37:00", 
+            "17:37:00"
+        ], 
+        "stop_sequence": [
+            60, 
+            46
+        ], 
+        "stop_id": 105218, 
+        "stop_name": "Eastbound 10th Ave at Harper", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910908, 
+        "stop_code": 105115, 
+        "stop_lon": -122.811364, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Foothills at 15th Ave", 
+        "arrival_time": [
+            "12:13:00", 
+            "13:10:00", 
+            "14:10:00", 
+            "15:10:00", 
+            "16:10:00", 
+            "17:10:00"
+        ], 
+        "stop_sequence": [
+            25, 
+            11
+        ], 
+        "stop_id": 105115, 
+        "stop_name": "Northbound Foothills at 15th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913247, 
+        "stop_code": 105116, 
+        "stop_lon": -122.813407, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Foothills at Cascade", 
+        "arrival_time": [
+            "12:14:00", 
+            "13:14:00", 
+            "14:14:00", 
+            "15:14:00", 
+            "16:14:00", 
+            "17:14:00"
+        ], 
+        "stop_sequence": [
+            26, 
+            12
+        ], 
+        "stop_id": 105116, 
+        "stop_name": "Westbound Foothills at Cascade", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.914509, 
+        "stop_code": 105117, 
+        "stop_lon": -122.815602, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Foothills at Ochakwin", 
+        "arrival_time": [
+            "12:14:00", 
+            "13:14:00", 
+            "14:14:00", 
+            "15:14:00", 
+            "16:14:00", 
+            "17:14:00"
+        ], 
+        "stop_sequence": [
+            27, 
+            13
+        ], 
+        "stop_id": 105117, 
+        "stop_name": "Westbound Foothills at Ochakwin", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.916616, 
+        "stop_code": 105118, 
+        "stop_lon": -122.814866, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound Pilot at Ochakwin", 
+        "arrival_time": [
+            "12:15:00", 
+            "13:15:00", 
+            "14:15:00", 
+            "15:15:00", 
+            "16:15:00", 
+            "17:15:00"
+        ], 
+        "stop_sequence": [
+            28, 
+            14
+        ], 
+        "stop_id": 105118, 
+        "stop_name": "Eastbound Pilot at Ochakwin", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920502, 
+        "stop_code": 105247, 
+        "stop_lon": -122.786687, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Nicholson", 
+        "arrival_time": [
+            "12:31:00", 
+            "13:31:00", 
+            "14:31:00", 
+            "15:31:00", 
+            "16:31:00", 
+            "17:31:00"
+        ], 
+        "stop_sequence": [
+            57, 
+            43
+        ], 
+        "stop_id": 105247, 
+        "stop_name": "Eastbound 5th Ave at Nicholson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915425, 
+        "stop_code": 180024, 
+        "stop_lon": -122.768246, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 10th Ave at Burden", 
+        "arrival_time": [
+            "12:55:00", 
+            "13:55:00", 
+            "14:55:00", 
+            "15:55:00", 
+            "16:55:00"
+        ], 
+        "stop_sequence": [
+            10
+        ], 
+        "stop_id": 180024, 
+        "stop_name": "Westbound 10th Ave at Burden", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920517, 
+        "stop_code": 105123, 
+        "stop_lon": -122.808951, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Tabor", 
+        "arrival_time": [
+            "12:17:00", 
+            "13:16:00", 
+            "14:16:00", 
+            "15:16:00", 
+            "16:16:00", 
+            "17:16:00"
+        ], 
+        "stop_sequence": [
+            17, 
+            31
+        ], 
+        "stop_id": 105123, 
+        "stop_name": "Eastbound 5th Ave at Tabor", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.914406, 
+        "stop_code": 105094, 
+        "stop_lon": -122.746341, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Dominion at 6th Ave", 
+        "arrival_time": [
+            "12:47:00", 
+            "13:47:00", 
+            "14:47:00", 
+            "15:47:00", 
+            "16:47:00", 
+            "17:47:00"
+        ], 
+        "stop_sequence": [
+            57, 
+            71
+        ], 
+        "stop_id": 105094, 
+        "stop_name": "Southbound Dominion at 6th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913232, 
+        "stop_code": 105002, 
+        "stop_lon": -122.747274, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Dominion at 7th Ave", 
+        "arrival_time": [
+            "12:47:00", 
+            "12:47:00", 
+            "13:47:00", 
+            "13:47:00", 
+            "14:47:00", 
+            "14:47:00", 
+            "15:47:00", 
+            "15:47:00", 
+            "16:47:00", 
+            "16:47:00", 
+            "17:47:00"
+        ], 
+        "stop_sequence": [
+            72, 
+            1, 
+            58
+        ], 
+        "stop_id": 105002, 
+        "stop_name": "Southbound Dominion at 7th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915439, 
+        "stop_code": 180021, 
+        "stop_lon": -122.771163, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 10th Ave at Douglas", 
+        "arrival_time": [
+            "12:56:00", 
+            "13:56:00", 
+            "14:56:00", 
+            "15:56:00", 
+            "16:56:00"
+        ], 
+        "stop_sequence": [
+            11
+        ], 
+        "stop_id": 180021, 
+        "stop_name": "Westbound 10th Ave at Douglas", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915429, 
+        "stop_code": 180018, 
+        "stop_lon": -122.78011, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 10th Ave at Johnson", 
+        "arrival_time": [
+            "12:58:00", 
+            "13:58:00", 
+            "14:58:00", 
+            "15:58:00", 
+            "16:58:00"
+        ], 
+        "stop_sequence": [
+            14
+        ], 
+        "stop_id": 180018, 
+        "stop_name": "Westbound 10th Ave at Johnson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915439, 
+        "stop_code": 180019, 
+        "stop_lon": -122.774116, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 10th Ave at Freeman", 
+        "arrival_time": [
+            "12:56:00", 
+            "13:56:00", 
+            "14:56:00", 
+            "15:56:00", 
+            "16:56:00"
+        ], 
+        "stop_sequence": [
+            12
+        ], 
+        "stop_id": 180019, 
+        "stop_name": "Westbound 10th Ave at Freeman", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910322, 
+        "stop_code": 105091, 
+        "stop_lon": -122.756507, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 15th Ave at 13th Ave", 
+        "arrival_time": [
+            "12:49:00", 
+            "13:49:00", 
+            "14:49:00", 
+            "15:49:00", 
+            "16:49:00"
+        ], 
+        "stop_sequence": [
+            4
+        ], 
+        "stop_id": 105091, 
+        "stop_name": "Westbound 15th Ave at 13th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920495, 
+        "stop_code": 105246, 
+        "stop_lon": -122.790454, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Patterson", 
+        "arrival_time": [
+            "12:30:00", 
+            "13:30:00", 
+            "14:30:00", 
+            "15:30:00", 
+            "16:30:00", 
+            "17:30:00"
+        ], 
+        "stop_sequence": [
+            56, 
+            42
+        ], 
+        "stop_id": 105246, 
+        "stop_name": "Eastbound 5th Ave at Patterson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917696, 
+        "stop_code": 105014, 
+        "stop_lon": -122.782871, 
+        "parent_station": "", 
+        "stop_short_name": "Spruceland Exchange Bay D", 
+        "arrival_time": [
+            "12:03:00", 
+            "13:00:00", 
+            "14:00:00", 
+            "15:00:00", 
+            "16:00:00", 
+            "17:00:00"
+        ], 
+        "stop_sequence": [
+            1, 
+            15
+        ], 
+        "stop_id": 105014, 
+        "stop_name": "Spruceland Exchange Bay D", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915362, 
+        "stop_code": 105219, 
+        "stop_lon": -122.779278, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 10th Ave at Johnson", 
+        "arrival_time": [
+            "12:37:00", 
+            "13:36:00", 
+            "14:36:00", 
+            "15:36:00", 
+            "16:36:00", 
+            "17:36:00"
+        ], 
+        "stop_sequence": [
+            59, 
+            45
+        ], 
+        "stop_id": 105219, 
+        "stop_name": "Eastbound 10th Ave at Johnson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915463, 
+        "stop_code": 180025, 
+        "stop_lon": -122.765514, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 10th Ave at Alward", 
+        "arrival_time": [
+            "12:54:00", 
+            "13:54:00", 
+            "14:54:00", 
+            "15:54:00", 
+            "16:54:00"
+        ], 
+        "stop_sequence": [
+            9
+        ], 
+        "stop_id": 180025, 
+        "stop_name": "Westbound 10th Ave at Alward", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915313, 
+        "stop_code": 180026, 
+        "stop_lon": -122.763961, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Laurier at 10th Ave", 
+        "arrival_time": [
+            "12:53:00", 
+            "13:53:00", 
+            "14:53:00", 
+            "15:53:00", 
+            "16:53:00"
+        ], 
+        "stop_sequence": [
+            8
+        ], 
+        "stop_id": 180026, 
+        "stop_name": "Northbound Laurier at 10th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.918281, 
+        "stop_code": 105013, 
+        "stop_lon": -122.782284, 
+        "parent_station": "", 
+        "stop_short_name": "Spruceland Exchange Bay B", 
+        "arrival_time": [
+            "12:32:00"
+        ], 
+        "stop_sequence": [
+            44
+        ], 
+        "stop_id": 105013, 
+        "stop_name": "Spruceland Exchange Bay B", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915418, 
+        "stop_code": 180020, 
+        "stop_lon": -122.777319, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 10th Ave at Harper", 
+        "arrival_time": [
+            "12:57:00", 
+            "13:57:00", 
+            "14:57:00", 
+            "15:57:00", 
+            "16:57:00"
+        ], 
+        "stop_sequence": [
+            13
+        ], 
+        "stop_id": 180020, 
+        "stop_name": "Westbound 10th Ave at Harper", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913974, 
+        "stop_code": 180022, 
+        "stop_lon": -122.75437, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Vancouver at 9th Ave", 
+        "arrival_time": [
+            "12:43:00", 
+            "13:43:00", 
+            "14:43:00", 
+            "15:43:00", 
+            "16:43:00", 
+            "17:43:00"
+        ], 
+        "stop_sequence": [
+            68, 
+            54
+        ], 
+        "stop_id": 180022, 
+        "stop_name": "Northbound Vancouver at 9th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.935551, 
+        "stop_code": 105296, 
+        "stop_lon": -122.798412, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound N Ospika at Blair", 
+        "arrival_time": [
+            "12:26:00", 
+            "13:26:00", 
+            "14:26:00", 
+            "15:26:00", 
+            "16:26:00", 
+            "17:26:00"
+        ], 
+        "stop_sequence": [
+            50, 
+            36
+        ], 
+        "stop_id": 105296, 
+        "stop_name": "Southbound N Ospika at Blair", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920287, 
+        "stop_code": 105041, 
+        "stop_lon": -122.810769, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Pilot at 5th Ave", 
+        "arrival_time": [
+            "12:16:00", 
+            "13:16:00", 
+            "14:16:00", 
+            "15:16:00", 
+            "16:16:00", 
+            "17:16:00"
+        ], 
+        "stop_sequence": [
+            16, 
+            30
+        ], 
+        "stop_id": 105041, 
+        "stop_name": "Northbound Pilot at 5th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917705, 
+        "stop_code": 105042, 
+        "stop_lon": -122.811688, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Pilot at Eaglenest", 
+        "arrival_time": [
+            "12:16:00", 
+            "13:15:00", 
+            "14:15:00", 
+            "15:15:00", 
+            "16:15:00", 
+            "17:15:00"
+        ], 
+        "stop_sequence": [
+            29, 
+            15
+        ], 
+        "stop_id": 105042, 
+        "stop_name": "Northbound Pilot at Eaglenest", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.923202, 
+        "stop_code": 105299, 
+        "stop_lon": -122.794277, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Ospika at Nugget", 
+        "arrival_time": [
+            "12:29:00", 
+            "13:29:00", 
+            "14:29:00", 
+            "15:29:00", 
+            "16:29:00", 
+            "17:29:00"
+        ], 
+        "stop_sequence": [
+            53, 
+            39
+        ], 
+        "stop_id": 105299, 
+        "stop_name": "Southbound Ospika at Nugget", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.921577, 
+        "stop_code": 105300, 
+        "stop_lon": -122.79431, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Ospika at Pioneer", 
+        "arrival_time": [
+            "12:29:00", 
+            "13:29:00", 
+            "14:29:00", 
+            "15:29:00", 
+            "16:29:00", 
+            "17:29:00"
+        ], 
+        "stop_sequence": [
+            40, 
+            54
+        ], 
+        "stop_id": 105300, 
+        "stop_name": "Southbound Ospika at Pioneer", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.90985, 
+        "stop_code": 105090, 
+        "stop_lon": -122.758781, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 15th Ave at Spruce", 
+        "arrival_time": [
+            "12:49:00", 
+            "13:49:00", 
+            "14:49:00", 
+            "15:49:00", 
+            "16:49:00"
+        ], 
+        "stop_sequence": [
+            5
+        ], 
+        "stop_id": 105090, 
+        "stop_name": "Westbound 15th Ave at Spruce", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915368, 
+        "stop_code": 105216, 
+        "stop_lon": -122.770468, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 10th Ave at Douglas", 
+        "arrival_time": [
+            "12:38:00", 
+            "13:38:00", 
+            "14:38:00", 
+            "15:38:00", 
+            "16:38:00", 
+            "17:38:00"
+        ], 
+        "stop_sequence": [
+            48, 
+            62
+        ], 
+        "stop_id": 105216, 
+        "stop_name": "Eastbound 10th Ave at Douglas", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913278, 
+        "stop_code": 105211, 
+        "stop_lon": -122.756619, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 10th Ave at Vancouver", 
+        "arrival_time": [
+            "12:43:00", 
+            "13:43:00", 
+            "14:43:00", 
+            "15:43:00", 
+            "16:43:00", 
+            "17:43:00"
+        ], 
+        "stop_sequence": [
+            67, 
+            53
+        ], 
+        "stop_id": 105211, 
+        "stop_name": "Eastbound 10th Ave at Vancouver", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.928825, 
+        "stop_code": 105297, 
+        "stop_lon": -122.794204, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound N Ospika at McIntyre", 
+        "arrival_time": [
+            "12:28:00", 
+            "13:28:00", 
+            "14:28:00", 
+            "15:28:00", 
+            "16:28:00", 
+            "17:28:00"
+        ], 
+        "stop_sequence": [
+            51, 
+            37
+        ], 
+        "stop_id": 105297, 
+        "stop_name": "Southbound N Ospika at McIntyre", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.911965, 
+        "stop_code": 105212, 
+        "stop_lon": -122.760321, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Winnipeg at 13th Ave", 
+        "arrival_time": [
+            "12:41:00", 
+            "13:41:00", 
+            "14:41:00", 
+            "15:41:00", 
+            "16:41:00", 
+            "17:41:00"
+        ], 
+        "stop_sequence": [
+            66, 
+            52
+        ], 
+        "stop_id": 105212, 
+        "stop_name": "Northbound Winnipeg at 13th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917911, 
+        "stop_code": 105016, 
+        "stop_lon": -122.782291, 
+        "parent_station": "", 
+        "stop_short_name": "Spruceland Exchange Bay C", 
+        "arrival_time": [
+            "13:32:00", 
+            "14:32:00", 
+            "15:32:00", 
+            "16:32:00", 
+            "17:32:00"
+        ], 
+        "stop_sequence": [
+            58
+        ], 
+        "stop_id": 105016, 
+        "stop_name": "Spruceland Exchange Bay C", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.926992, 
+        "stop_code": 105298, 
+        "stop_lon": -122.794249, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound N Ospika at McRae", 
+        "arrival_time": [
+            "12:28:00", 
+            "13:28:00", 
+            "14:28:00", 
+            "15:28:00", 
+            "16:28:00", 
+            "17:28:00"
+        ], 
+        "stop_sequence": [
+            52, 
+            38
+        ], 
+        "stop_id": 105298, 
+        "stop_name": "Southbound N Ospika at McRae", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.91164, 
+        "stop_code": 105093, 
+        "stop_lon": -122.749658, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Patricia at 10th Ave", 
+        "arrival_time": [
+            "12:48:00", 
+            "13:48:00", 
+            "14:48:00", 
+            "15:48:00", 
+            "16:48:00"
+        ], 
+        "stop_sequence": [
+            2
+        ], 
+        "stop_id": 105093, 
+        "stop_name": "Westbound Patricia at 10th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917404, 
+        "stop_code": 105076, 
+        "stop_lon": -122.784545, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Ahbau at 8th Ave", 
+        "arrival_time": [
+            "12:03:00", 
+            "13:00:00", 
+            "14:00:00", 
+            "15:00:00", 
+            "16:00:00", 
+            "17:00:00"
+        ], 
+        "stop_sequence": [
+            16, 
+            2
+        ], 
+        "stop_id": 105076, 
+        "stop_name": "Southbound Ahbau at 8th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910509, 
+        "stop_code": 105077, 
+        "stop_lon": -122.808613, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound 15th Ave at Tabor", 
+        "arrival_time": [
+            "12:12:00", 
+            "13:09:00", 
+            "14:09:00", 
+            "15:09:00", 
+            "16:09:00", 
+            "17:09:00"
+        ], 
+        "stop_sequence": [
+            24, 
+            10
+        ], 
+        "stop_id": 105077, 
+        "stop_name": "Westbound 15th Ave at Tabor", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.912792, 
+        "stop_code": 105206, 
+        "stop_lon": -122.763531, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Lethbridge at Prince George Regional Hospital", 
+        "arrival_time": [
+            "12:52:00", 
+            "13:52:00", 
+            "14:52:00", 
+            "15:52:00", 
+            "16:52:00"
+        ], 
+        "stop_sequence": [
+            7
+        ], 
+        "stop_id": 105206, 
+        "stop_name": "Northbound Lethbridge at Prince George Regional Hospital", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.911442, 
+        "stop_code": 105207, 
+        "stop_lon": -122.76287, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Edmonton at 13th Ave", 
+        "arrival_time": [
+            "12:51:00", 
+            "13:51:00", 
+            "14:51:00", 
+            "15:51:00", 
+            "16:51:00"
+        ], 
+        "stop_sequence": [
+            6
+        ], 
+        "stop_id": 105207, 
+        "stop_name": "Northbound Edmonton at 13th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.916676, 
+        "stop_code": 105208, 
+        "stop_lon": -122.748493, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 4th Ave at Brunswick", 
+        "arrival_time": [
+            "12:45:00", 
+            "13:45:00", 
+            "14:45:00", 
+            "15:45:00", 
+            "16:45:00", 
+            "17:45:00"
+        ], 
+        "stop_sequence": [
+            56, 
+            70
+        ], 
+        "stop_id": 105208, 
+        "stop_name": "Eastbound 4th Ave at Brunswick", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917478, 
+        "stop_code": 105209, 
+        "stop_lon": -122.751246, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 4th Ave at Vancouver", 
+        "arrival_time": [
+            "12:45:00", 
+            "13:45:00", 
+            "14:45:00", 
+            "15:45:00", 
+            "16:45:00", 
+            "17:45:00"
+        ], 
+        "stop_sequence": [
+            69, 
+            55
+        ], 
+        "stop_id": 105209, 
+        "stop_name": "Eastbound 4th Ave at Vancouver", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920492, 
+        "stop_code": 105082, 
+        "stop_lon": -122.792736, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Ruggles", 
+        "arrival_time": [
+            "12:30:00", 
+            "13:30:00", 
+            "14:30:00", 
+            "15:30:00", 
+            "16:30:00", 
+            "17:30:00"
+        ], 
+        "stop_sequence": [
+            41, 
+            55
+        ], 
+        "stop_id": 105082, 
+        "stop_name": "Eastbound 5th Ave at Ruggles", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915332, 
+        "stop_code": 105215, 
+        "stop_lon": -122.765523, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 10th Ave at Alward", 
+        "arrival_time": [
+            "12:39:00", 
+            "13:39:00", 
+            "14:39:00", 
+            "15:39:00", 
+            "16:39:00", 
+            "17:39:00"
+        ], 
+        "stop_sequence": [
+            49, 
+            63
+        ], 
+        "stop_id": 105215, 
+        "stop_name": "Eastbound 10th Ave at Alward", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.915351, 
+        "stop_code": 105217, 
+        "stop_lon": -122.7734, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 10th Ave at Freeman", 
+        "arrival_time": [
+            "12:38:00", 
+            "13:38:00", 
+            "14:38:00", 
+            "15:38:00", 
+            "16:38:00", 
+            "17:38:00"
+        ], 
+        "stop_sequence": [
+            61, 
+            47
+        ], 
+        "stop_id": 105217, 
+        "stop_name": "Eastbound 10th Ave at Freeman", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.91271, 
+        "stop_code": 105213, 
+        "stop_lon": -122.763701, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Lethbridge at Prince George Regional Hospital", 
+        "arrival_time": [
+            "12:41:00", 
+            "13:41:00", 
+            "14:41:00", 
+            "15:41:00", 
+            "16:41:00", 
+            "17:41:00"
+        ], 
+        "stop_sequence": [
+            65, 
+            51
+        ], 
+        "stop_id": 105213, 
+        "stop_name": "Southbound Lethbridge at Prince George Regional Hospital", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.914973, 
+        "stop_code": 105214, 
+        "stop_lon": -122.763778, 
+        "parent_station": "", 
+        "stop_short_name": "Southbound Laurier at Lethbridge", 
+        "arrival_time": [
+            "12:40:00", 
+            "13:40:00", 
+            "14:40:00", 
+            "15:40:00", 
+            "16:40:00", 
+            "17:40:00"
+        ], 
+        "stop_sequence": [
+            64, 
+            50
+        ], 
+        "stop_id": 105214, 
+        "stop_name": "Southbound Laurier at Lethbridge", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.935679, 
+        "stop_code": 105343, 
+        "stop_lon": -122.801151, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound N Tabor at Stirling", 
+        "arrival_time": [
+            "12:25:00", 
+            "13:25:00", 
+            "14:25:00", 
+            "15:25:00", 
+            "16:25:00", 
+            "17:25:00"
+        ], 
+        "stop_sequence": [
+            49, 
+            35
+        ], 
+        "stop_id": 105343, 
+        "stop_name": "Eastbound N Tabor at Stirling", 
+        "location_type": 0
+    }
+]

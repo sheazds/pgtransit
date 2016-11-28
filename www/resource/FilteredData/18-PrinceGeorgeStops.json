@@ -1,0 +1,407 @@
+[
+    {
+        "stop_lat": 53.920517, 
+        "stop_code": 105123, 
+        "stop_lon": -122.808951, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Tabor", 
+        "arrival_time": [
+            "08:04:00", 
+            "08:34:00", 
+            "09:04:00", 
+            "09:34:00", 
+            "10:04:00", 
+            "14:34:00", 
+            "15:04:00", 
+            "15:34:00", 
+            "16:04:00", 
+            "16:34:00", 
+            "17:04:00", 
+            "17:34:00"
+        ], 
+        "stop_sequence": [
+            8
+        ], 
+        "stop_id": 105123, 
+        "stop_name": "Eastbound 5th Ave at Tabor", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920516, 
+        "stop_code": 105061, 
+        "stop_lon": -122.805768, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Tabor", 
+        "arrival_time": [
+            "08:05:00", 
+            "08:35:00", 
+            "09:05:00", 
+            "09:35:00", 
+            "10:05:00", 
+            "14:35:00", 
+            "15:05:00", 
+            "15:35:00", 
+            "16:05:00", 
+            "16:35:00", 
+            "17:05:00", 
+            "17:35:00"
+        ], 
+        "stop_sequence": [
+            9
+        ], 
+        "stop_id": 105061, 
+        "stop_name": "Eastbound 5th Ave at Tabor", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920544, 
+        "stop_code": 105062, 
+        "stop_lon": -122.801708, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Voyageur", 
+        "arrival_time": [
+            "08:05:00", 
+            "08:35:00", 
+            "09:05:00", 
+            "09:35:00", 
+            "10:05:00", 
+            "14:35:00", 
+            "15:05:00", 
+            "15:35:00", 
+            "16:05:00", 
+            "16:35:00", 
+            "17:05:00", 
+            "17:35:00"
+        ], 
+        "stop_sequence": [
+            10
+        ], 
+        "stop_id": 105062, 
+        "stop_name": "Eastbound 5th Ave at Voyageur", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.918698, 
+        "stop_code": 105015, 
+        "stop_lon": -122.782284, 
+        "parent_station": "", 
+        "stop_short_name": "Spruceland Exchange Bay A", 
+        "arrival_time": [
+            "08:09:00", 
+            "08:39:00", 
+            "09:09:00", 
+            "09:39:00", 
+            "10:09:00", 
+            "14:39:00", 
+            "15:09:00", 
+            "15:39:00", 
+            "16:09:00", 
+            "16:39:00", 
+            "17:09:00", 
+            "17:39:00"
+        ], 
+        "stop_sequence": [
+            15
+        ], 
+        "stop_id": 105015, 
+        "stop_name": "Spruceland Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920287, 
+        "stop_code": 105041, 
+        "stop_lon": -122.810769, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Pilot at 5th Ave", 
+        "arrival_time": [
+            "08:04:00", 
+            "08:34:00", 
+            "09:04:00", 
+            "09:34:00", 
+            "10:04:00", 
+            "14:34:00", 
+            "15:04:00", 
+            "15:34:00", 
+            "16:04:00", 
+            "16:34:00", 
+            "17:04:00", 
+            "17:34:00"
+        ], 
+        "stop_sequence": [
+            7
+        ], 
+        "stop_id": 105041, 
+        "stop_name": "Northbound Pilot at 5th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.917705, 
+        "stop_code": 105042, 
+        "stop_lon": -122.811688, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Pilot at Eaglenest", 
+        "arrival_time": [
+            "08:03:00", 
+            "08:33:00", 
+            "09:03:00", 
+            "09:33:00", 
+            "10:03:00", 
+            "14:33:00", 
+            "15:03:00", 
+            "15:33:00", 
+            "16:03:00", 
+            "16:33:00", 
+            "17:03:00", 
+            "17:33:00"
+        ], 
+        "stop_sequence": [
+            6
+        ], 
+        "stop_id": 105042, 
+        "stop_name": "Northbound Pilot at Eaglenest", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920495, 
+        "stop_code": 105246, 
+        "stop_lon": -122.790454, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Patterson", 
+        "arrival_time": [
+            "08:07:00", 
+            "08:37:00", 
+            "09:07:00", 
+            "09:37:00", 
+            "10:07:00", 
+            "14:37:00", 
+            "15:07:00", 
+            "15:37:00", 
+            "16:07:00", 
+            "16:37:00", 
+            "17:07:00", 
+            "17:37:00"
+        ], 
+        "stop_sequence": [
+            13
+        ], 
+        "stop_id": 105246, 
+        "stop_name": "Eastbound 5th Ave at Patterson", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920538, 
+        "stop_code": 105081, 
+        "stop_lon": -122.798711, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Kerry", 
+        "arrival_time": [
+            "08:06:00", 
+            "08:36:00", 
+            "09:06:00", 
+            "09:36:00", 
+            "10:06:00", 
+            "14:36:00", 
+            "15:06:00", 
+            "15:36:00", 
+            "16:06:00", 
+            "16:36:00", 
+            "17:06:00", 
+            "17:36:00"
+        ], 
+        "stop_sequence": [
+            11
+        ], 
+        "stop_id": 105081, 
+        "stop_name": "Eastbound 5th Ave at Kerry", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.891281, 
+        "stop_code": 105017, 
+        "stop_lon": -122.813641, 
+        "parent_station": "", 
+        "stop_short_name": "UNBC Exchange Bay A", 
+        "arrival_time": [
+            "07:56:00", 
+            "08:26:00", 
+            "08:56:00", 
+            "09:26:00", 
+            "09:56:00", 
+            "14:26:00", 
+            "14:56:00", 
+            "15:26:00", 
+            "15:56:00", 
+            "16:26:00", 
+            "16:56:00", 
+            "17:26:00"
+        ], 
+        "stop_sequence": [
+            1
+        ], 
+        "stop_id": 105017, 
+        "stop_name": "UNBC Exchange Bay A", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920492, 
+        "stop_code": 105082, 
+        "stop_lon": -122.792736, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Ruggles", 
+        "arrival_time": [
+            "08:07:00", 
+            "08:37:00", 
+            "09:07:00", 
+            "09:37:00", 
+            "10:07:00", 
+            "14:37:00", 
+            "15:07:00", 
+            "15:37:00", 
+            "16:07:00", 
+            "16:37:00", 
+            "17:07:00", 
+            "17:37:00"
+        ], 
+        "stop_sequence": [
+            12
+        ], 
+        "stop_id": 105082, 
+        "stop_name": "Eastbound 5th Ave at Ruggles", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.910908, 
+        "stop_code": 105115, 
+        "stop_lon": -122.811364, 
+        "parent_station": "", 
+        "stop_short_name": "Northbound Foothills at 15th Ave", 
+        "arrival_time": [
+            "08:00:00", 
+            "08:30:00", 
+            "09:00:00", 
+            "09:30:00", 
+            "10:00:00", 
+            "14:30:00", 
+            "15:00:00", 
+            "15:30:00", 
+            "16:00:00", 
+            "16:30:00", 
+            "17:00:00", 
+            "17:30:00"
+        ], 
+        "stop_sequence": [
+            2
+        ], 
+        "stop_id": 105115, 
+        "stop_name": "Northbound Foothills at 15th Ave", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.913247, 
+        "stop_code": 105116, 
+        "stop_lon": -122.813407, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Foothills at Cascade", 
+        "arrival_time": [
+            "08:01:00", 
+            "08:31:00", 
+            "09:01:00", 
+            "09:31:00", 
+            "10:01:00", 
+            "14:31:00", 
+            "15:01:00", 
+            "15:31:00", 
+            "16:01:00", 
+            "16:31:00", 
+            "17:01:00", 
+            "17:31:00"
+        ], 
+        "stop_sequence": [
+            3
+        ], 
+        "stop_id": 105116, 
+        "stop_name": "Westbound Foothills at Cascade", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.914509, 
+        "stop_code": 105117, 
+        "stop_lon": -122.815602, 
+        "parent_station": "", 
+        "stop_short_name": "Westbound Foothills at Ochakwin", 
+        "arrival_time": [
+            "08:01:00", 
+            "08:31:00", 
+            "09:01:00", 
+            "09:31:00", 
+            "10:01:00", 
+            "14:31:00", 
+            "15:01:00", 
+            "15:31:00", 
+            "16:01:00", 
+            "16:31:00", 
+            "17:01:00", 
+            "17:31:00"
+        ], 
+        "stop_sequence": [
+            4
+        ], 
+        "stop_id": 105117, 
+        "stop_name": "Westbound Foothills at Ochakwin", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.916616, 
+        "stop_code": 105118, 
+        "stop_lon": -122.814866, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound Pilot at Ochakwin", 
+        "arrival_time": [
+            "08:02:00", 
+            "08:32:00", 
+            "09:02:00", 
+            "09:32:00", 
+            "10:02:00", 
+            "14:32:00", 
+            "15:02:00", 
+            "15:32:00", 
+            "16:02:00", 
+            "16:32:00", 
+            "17:02:00", 
+            "17:32:00"
+        ], 
+        "stop_sequence": [
+            5
+        ], 
+        "stop_id": 105118, 
+        "stop_name": "Eastbound Pilot at Ochakwin", 
+        "location_type": 0
+    }, 
+    {
+        "stop_lat": 53.920502, 
+        "stop_code": 105247, 
+        "stop_lon": -122.786687, 
+        "parent_station": "", 
+        "stop_short_name": "Eastbound 5th Ave at Nicholson", 
+        "arrival_time": [
+            "08:08:00", 
+            "08:38:00", 
+            "09:08:00", 
+            "09:38:00", 
+            "10:08:00", 
+            "14:38:00", 
+            "15:08:00", 
+            "15:38:00", 
+            "16:08:00", 
+            "16:38:00", 
+            "17:08:00", 
+            "17:38:00"
+        ], 
+        "stop_sequence": [
+            14
+        ], 
+        "stop_id": 105247, 
+        "stop_name": "Eastbound 5th Ave at Nicholson", 
+        "location_type": 0
+    }
+]

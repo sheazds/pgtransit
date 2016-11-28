@@ -1,6 +1,6 @@
-angular.module('starter.controllers').controller('NearMeLoadCtrl', function($scope, $state, $cordovaGeolocation, $ionicPlatform, $ionicHistory, $ionicLoading, locationService)
-	{
-		$ionicLoading.show();
+angular.module('starter.controllers').controller('NearMeLoadCtrl', function ($scope, $state, $cordovaGeolocation, $ionicPlatform, $ionicHistory, $ionicLoading, locationService)
+{
+  $ionicLoading.show();
 
 		$ionicPlatform.ready(function()
 		{
@@ -16,24 +16,24 @@ angular.module('starter.controllers').controller('NearMeLoadCtrl', function($sco
           $ionicLoading.hide();
           $state.go('app.nearMe');
         },
-        function(err)
+        function (err)
         {
           $ionicLoading.hide();
           $ionicLoading.show(
-          {
-          template: 'Could not find location. Please try again later.',
-          duration: 2000
-          });
+            {
+              template: 'Could not find location. Please try again later.',
+              duration: 2000
+            });
           $ionicHistory.nextViewOptions({disableBack: true});
           $state.go('app.route');
         });
-		  }
-		  else
-		  {
-        console.log("Location allready set, redirecting");
-        $ionicLoading.hide();
-        $ionicHistory.nextViewOptions({disableBack: true});
-        $state.go('app.nearMe');
-		  }
-	  });
-	});
+    }
+    else
+    {
+      console.log("Location allready set, redirecting");
+      $ionicLoading.hide();
+      $ionicHistory.nextViewOptions({disableBack: true});
+      $state.go('app.nearMe');
+    }
+  });
+});

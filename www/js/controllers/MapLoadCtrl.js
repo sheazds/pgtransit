@@ -1,11 +1,11 @@
-angular.module('starter.controllers').controller('MapLoadCtrl', function($scope, $state, $cordovaGeolocation, $ionicPlatform, $ionicHistory, $ionicLoading, locationService)
-  {
-    $ionicLoading.show();
+angular.module('starter.controllers').controller('MapLoadCtrl', function ($scope, $state, $cordovaGeolocation, $ionicPlatform, $ionicHistory, $ionicLoading, locationService)
+{
+  $ionicLoading.show();
 
-    $ionicPlatform.ready(function()
+  $ionicPlatform.ready(function ()
+  {
+    if (locationService.getLat() == null)
     {
-      if(locationService.getLat() == null)
-      {
       console.log("Location Null, Getting Location");
         var posOptions = {timeout: 15000, enableHighAccuracy: true};
         $cordovaGeolocation.getCurrentPosition(posOptions).then(function(position)
@@ -16,24 +16,24 @@ angular.module('starter.controllers').controller('MapLoadCtrl', function($scope,
           $ionicLoading.hide();
           $state.go('app.map');
         },
-        function(err)
+        function (err)
         {
           $ionicLoading.hide();
           $ionicLoading.show(
-          {
-            template: 'Could not find location. Please try again later.',
-            duration: 2000
-          });
+            {
+              template: 'Could not find location. Please try again later.',
+              duration: 2000
+            });
           $ionicHistory.nextViewOptions({disableBack: true});
           $state.go('app.route');
         });
-      }
-      else
-      {
-        console.log("Location allready set, redirecting");
-        $ionicLoading.hide();
-        $ionicHistory.nextViewOptions({disableBack: true});
-        $state.go('app.map');
-      }
-    });
+    }
+    else
+    {
+      console.log("Location allready set, redirecting");
+      $ionicLoading.hide();
+      $ionicHistory.nextViewOptions({disableBack: true});
+      $state.go('app.map');
+    }
   });
+});
