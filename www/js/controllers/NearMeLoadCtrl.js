@@ -7,7 +7,7 @@ angular.module('starter.controllers').controller('NearMeLoadCtrl', function($sco
 		  if(locationService.getLat() == null)
 		  {
         console.log("Location Null, Getting Location");
-        var posOptions = {timeout: 10000, enableHighAccuracy: true};
+        var posOptions = {timeout: 15000, enableHighAccuracy: true};
         $cordovaGeolocation.getCurrentPosition(posOptions).then(function(position)
         {
           locationService.setLat(position.coords.latitude)
