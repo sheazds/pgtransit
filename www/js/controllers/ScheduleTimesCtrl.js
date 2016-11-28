@@ -185,29 +185,25 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   {
     if (!time.includes('--')) //Make sure we received a valid time.
     {
-        var hms = time.split(/:| |F|U|V/); //5 Deliminators, : & " " & F & U & V.
+        var hms = time.split(/:| |F|U|V/); //5 Deliminators, : & " " & F & U & V:: Look at P??.
 
         //This filters out empty strings from our time.
         function checkArray(value) {
             if (value != "")
             return value;
         }
-
+        //Filter the array.
         hms = hms.filter(checkArray);
 
         var timePrompt = hms.join(":"); //This is just to make the time appear without commas or any of the deliminators in the following popup.
-        var reminderTime;
-        //if (JSON.parse(localStorage.getItem("notifyReminder")) == null)
-        reminderTime = 15;
-        //else
-            //reminderTime = JSON.parse(localStorage.getItem("notifyReminder"));
 
         var popUp = $ionicPopup.confirm({
 
               title: 'Add a notification',
-              //HTML Template for buttons on popup.
-              //Consequently we must write a function to handle button clicks.
-              template: '<center>Would you like to be reminded about the arrival of the<BR/>' + $scope.routeName + '<BR/>' + reminderTime + ' minutes before: ' + timePrompt + '<BR/><BR/>You can edit notification properties in the settings.</center>',
+              //HTML Template for notification popup.
+              template: '<center>Would you like to be reminded about the arrival of the<BR/>'
+               + $scope.routeName + '<BR/> <select id="notifyReminder"><option>5</option><option>10</option><option selected>15</option><option>20</option><option>25</option><option>30</option></select>'
+               + ' minutes before: ' + timePrompt + '<BR/><BR/>You can edit notification properties in the settings.</center>',
             })
 
         popUp.then(function (result) {
@@ -215,6 +211,8 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
             {
                 if (notificationService.checkNotifications())
                 {
+                    var reminderTime = document.getElementById("notifyReminder").value;
+
                     //Convert to 24 hour format.
                     if (hms[hms.length -1] == "PM" && hms[0] != 12)
                         hms[0] = parseInt(hms[0]) + 12; //Add 12 to turn into 24 hour format.

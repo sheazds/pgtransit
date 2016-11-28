@@ -4,7 +4,7 @@ angular.module('starter.controllers').controller('settingsCtrl', function ($scop
 
   //Loads the saved state of the notification toggle.
   if (JSON.parse(localStorage.getItem("Notifications")) === null)
-    $scope.pushNotification = {checked: true};
+    $scope.pushNotification = {checked: false};
   else
     $scope.pushNotification = {checked: JSON.parse(localStorage.getItem("Notifications"))};
 

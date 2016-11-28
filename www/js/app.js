@@ -243,7 +243,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     //Test to see if notifications are enabled.
     notificationService.checkNotifications = function()
     {
-        if (JSON.parse(localStorage.getItem("Notifications")) == true || JSON.parse(localStorage.getItem("Notifications")) == null) //Has the user disabled notifications in the settings?
+        if (JSON.parse(localStorage.getItem("Notifications")) == true) //Has the user enabled notifications in the settings?
         {
             return true;
         }
@@ -252,52 +252,51 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
             return false;
         }
     }
-
         //Instant notification.
-        notificationService.scheduleNotificationNow = function(header, message)
+    notificationService.scheduleNotificationNow = function(header, message)
+    {
+        $ionicPlatform.ready(function ()
         {
-                $ionicPlatform.ready(function ()
-                {
-                    $cordovaLocalNotification.schedule(
-                    {
-                        id: 1, //ID doesn't matter because we won't be cancelling an instant notification.
-                        title: header,
-                        text: message,
-                        icon: notificationService.notifyIcon
-                    }).then(function (result) {
-                        console.log('Notification triggered');
-                    })
-                })
-        }
-
-        //Timed notification.
-        notificationService.scheduleNotificationLater = function(header, message, time, id)
-        {
-                $ionicPlatform.ready(function ()
-                {
-                    $cordovaLocalNotification.schedule(
-                    {
-                        id: id, //ID is important to remember so that we can reschedule if needed.
-                        title: header,
-                        text: message,
-                        at: time,
-                        every: 'day', //Repeat daily unless disabled.
-                        icon: notificationService.notifyIcon
-                    }).then(function (result) {
-                        console.log('Timed notification set for: ' + time);
-                    })
-                })
-        }
-
-        //Cancel all queued notifications
-        notificationService.cancelNotifications = function(id)
-        {
-            $cordovaLocalNotification.cancelAll(function () {
-                alert("done");
+            $cordovaLocalNotification.schedule(
+            {
+                id: 1, //ID doesn't matter because we won't be cancelling an instant notification.
+                title: header,
+                text: message,
+                icon: notificationService.notifyIcon
             }).then(function (result) {
-                console.log("Active notifications canceled.");
+                console.log('Notification triggered');
             })
-        }
+        })
+    }
+
+    //Timed notification.
+    notificationService.scheduleNotificationLater = function(header, message, time, id)
+    {
+        $ionicPlatform.ready(function ()
+        {
+            $cordovaLocalNotification.schedule(
+            {
+                id: id, //ID is important to remember so that we can reschedule if needed.
+                title: header,
+                text: message,
+                at: time,
+                every: 'day', //Repeat daily unless disabled.
+                icon: notificationService.notifyIcon
+            }).then(function (result) {
+                console.log('Timed notification set for: ' + time);
+            })
+        })
+    }
+
+    //Cancel all queued notifications
+    notificationService.cancelNotifications = function(id)
+    {
+        $cordovaLocalNotification.cancelAll(function () {
+            alert("done");
+        }).then(function (result) {
+            console.log("Active notifications canceled.");
+        })
+    }
 
     notificationService.saveNotifications = function()
     {
@@ -314,17 +313,18 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
             notificationService.notifyIcon = "notifyicon.png";
 
         //Loads existing notification data into the app.
-        if(localStorage.getItem("notifications")!==null)
-        {
-            notificationService.routes = JSON.parse(localStorage.getItem("notifications"));
-        }
+        //Currently not used.
+        //if(localStorage.getItem("notifications")!==null)
+        //{
+        //    notificationService.routes = JSON.parse(localStorage.getItem("notifications"));
+        //}
     }
 
     notificationService.getNotifyIcon = function()
     {
         return notificationService.notifyIcon;
     }
-
+    //The remainder functions are implemented for a master notification list should we add a display tab.
     notificationService.removeItem = function(value)
     {
         for (i= 0; i < notificationService.routes.length; i++)
