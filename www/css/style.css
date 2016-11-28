@@ -1,89 +1,226 @@
 /* Empty. Add your own CSS if you like */
-.scroll {
-    height: 100%;
+.scroll
+{
+  height: 100%;
 }
 
-#map {
-    width: 100%;
-    height: 100%;
+#map
+{
+  width: 100%;
+  height: 100%;
 }
 
-.routeNumberCircle {
-    border-radius: 50%;
-    display: inline-block;
-    width: 36px;
-    height: 36px;
-    padding: 9px;
-    background: #387ef5;
-    color: #FFFFFF;
-    text-align: center;
-    vertical-align: middle;
-    line-height: 50px;
-    word-spacing: 20px;
-    font-weight: bold;
-    font: 18px Arial, sans-serif;
+.routeNumberCircle
+{
+  border-radius: 50%;
+  display: inline-block;
+  width: 36px;
+  height: 36px;
+  background: #387ef5;
+  text-align: center;
+  vertical-align: middle;
 }
 
-.routeEntry {
-    color: #666;
-    vertical-align: middle;
-    line-height: 40px;
-    display: inline-block;
-    word-spacing: 5px;
-
-    font: 20px Arial, sans-serif;
+.routeNumberText
+{
+  display: table-cell;
+  width: 36px;
+  height: 36px;
+  color: #FFFFFF;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;
+  font: 18px Arial, sans-serif;
 }
+
+
+.routeEntry
+{
+  color: #666;
+  vertical-align: middle;
+  line-height: 40px;
+  display: inline-block;
+  word-spacing: 5px;
+  font: 20px Arial, sans-serif;
+}
+
 .favourites
 {
-    margin-top: 5px;
-    background: #515078;
+  margin-top: 5px;
+  background: #515078;
 }
+
 .favourites .header
 {
-    background: #f8ba24;
-    color: #fff;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 150%;
-    text-shadow:
-                    -1px -1px 0 #000,
-                     1px -1px 0 #000,
-                     1px  1px 0 #000,
-                    -1px  1px 0 #000;
+  background: #f8ba24;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 150%;
+  text-shadow:
+          -1px -1px 0 #000,
+           1px -1px 0 #000,
+           1px  1px 0 #000,
+          -1px  1px 0 #000;
 }
+
 .favourites .item
 {
-    background: #515078;
-    color: #fff;
-    font-size: 125%;
+  background: #515078;
+  color: #fff;
+  font-size: 125%;
 }
 
 .nearMe
 {
-    margin-top: 5px;
-    background: #515078;
+  margin-top: 5px;
+  background: #515078;
 }
+
 .nearMe .header
 {
-    background: #3b9cf6;
-    color: #fff;
-    padding: 10px;
-    font-weight: bold;
-    font-size: 150%;
-    text-shadow:
-                -1px -1px 0 #000,
-                 1px -1px 0 #000,
-                 1px  1px 0 #000,
-                -1px  1px 0 #000;
+  background: #3b9cf6;
+  color: #fff;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 150%;
+  text-shadow:
+        -1px -1px 0 #000,
+         1px -1px 0 #000,
+         1px  1px 0 #000,
+        -1px  1px 0 #000;
 }
+
 .nearMe .item
 {
-    background: #515078;
-    color: #fff;
-    font-size: 125%;
+  background: #515078;
+  color: #fff;
+  font-size: 125%;
 }
+
+.routeList
+{
+  white-space: nowrap;
+  height: 60%;
+  width: 100%;
+}
+
+.schedRow
+{
+  padding: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.schedStop
+{
+  border: 1px solid gray;
+  background: #525173;
+  color: #fff;
+  margin-right: 0px;
+  padding: 5px;
+  -webkit-box-flex: none;
+  -webkit-flex: none;
+  -moz-box-flex: none;
+  -moz-flex: none;
+  -ms-flex: none;
+  flex: none;
+  display: block;
+  width: 125px;
+  white-space: normal;
+  word-wrap: break-word;
+  text-align: center;
+}
+
+.schedTimeOdd
+{
+  border: 1px solid white;
+  background: #e7e7e7;
+  color: #525173;
+  margin-right: 0px;
+  -webkit-box-flex: none;
+  -webkit-flex: none;
+  -moz-box-flex: none;
+  -moz-flex: none;
+  -ms-flex: none;
+  flex: none;
+  display: block;
+  padding: 5px;
+  width: 75px;
+  height: 100%;
+}
+
+.schedTimeEven
+{
+  border: 1px solid white;
+  background: #b9b9b9;
+  color: #525173;
+  margin-right: 0px;
+  -webkit-box-flex: none;
+  -webkit-flex: none;
+  -moz-box-flex: none;
+  -moz-flex: none;
+  -ms-flex: none;
+  flex: none;
+  display: block;
+  padding: 5px;
+  width: 75px;
+  height: 100%;
+}
+
+.scroll-view.scroll-xy {
+  overflow: hidden;  /* default value is 'scroll' */
+}
+
+.scroll-view.scroll-y {
+  overflow: hidden;  /* default value is 'scroll' */
+}
+
+.homeWeather {
+  height:15%;
+  background-size:  100% 100%;
+  background-repeat: no-repeat;
+}
+
+.weatherItem {
+  background-color:transparent;
+  color:white;
+  text-shadow:
+          -1px -1px 0 #000,
+           1px -1px 0 #000,
+           1px  1px 0 #000,
+          -1px  1px 0 #000;
+}
+
+.weatherItem h1 {
+  color:white;
+  text-shadow:
+          -1px -1px 0 #000,
+           1px -1px 0 #000,
+           1px  1px 0 #000,
+          -1px  1px 0 #000;
+}
+
+.weatherItem h4 {
+  color:white;
+  text-shadow:
+          -1px -1px 0 #000,
+           1px -1px 0 #000,
+           1px  1px 0 #000,
+          -1px  1px 0 #000;
+}
+
+.right
+{
+  float: right;
+}
+
 .contactFont
 {
-    font: 28px Arial, sans-serif;
-    font-weight: bold;
+  font: 28px Arial, sans-serif;
+  font-weight: bold;
 }

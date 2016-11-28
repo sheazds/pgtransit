@@ -1,39 +1,62 @@
-angular.module('starter.controllers').controller('RouteMapCtrl', function ($scope, routeService, stopService, shareService)
+angular.module('starter.controllers').controller('RouteMapCtrl', function($scope, $state, $ionicHistory, $ionicSideMenuDelegate, routeService, stopService, shareService, shapeService)
 {
-  $scope.newStopList = [];
-  $scope.newStopList = [];
+  $ionicSideMenuDelegate.canDragContent(false);
 
-  $scope.routeName = shareService.getRouteName();
-
-  var promise = routeService.getRoutes();
-  promise.then(function (data1)
+  $scope.gotoRoute = function()
   {
-    $scope.routes = data1.data;
-  });
-
-  var newStop = stopService.getNewstop();
-  newStop.then(function (data2)
+    $ionicHistory.nextViewOptions({disableBack: true});
+    $state.go('app.routeStops');
+  }
+  $scope.gotoSchedule = function()
   {
-    $scope.newStop = data2.data;
-    for (var i = 0; i < $scope.newStop.length; i++)
+    $ionicHistory.nextViewOptions({disableBack: true});
+    $state.go('app.scheduleTimes');
+  }
+
+  $scope.stops = [];
+	$scope.routeName = shareService.getRouteName();
+	$scope.routeShort = shareService.getRouteShort();
+	$scope.routeLong = shareService.getRouteLong();
+
+	//If page is blank go home
+  if($scope.routeName == null)
+  {
+    $ionicHistory.nextViewOptions({disableBack: true});
+    $state.go('app.home');
+  }
+
+	var promise = stopService.getNewstop($scope.routeShort);
+    promise.then(function (data1)
     {
-      if ($scope.newStop[i].route_id == $scope.routeName)
-      {
-        $scope.newStopList.push($scope.newStop[i]);
-      }
-    }
-    createMap();
-  });
-  var createMap = function ()
-  {
-    $scope.lat = $scope.newStopList[(Math.floor($scope.newStopList.length / 2))].lat;
-    $scope.long = $scope.newStopList[(Math.floor($scope.newStopList.length / 2))].lng;
+      $scope.stops = data1.data;
+      createMap();
+    });
 
-    var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+    var promise2 = shapeService.getShapes($scope.routeShort);
+    promise2.then(function (data2)
+    {
+      $scope.shapes = data2.data;
+      createMap();
+    })
+
+
+	var createMap = function()
+	{
+		$scope.lat = 0;
+		$scope.lon = 0;
+		for (i=0; i < $scope.stops.length; i++)
+    {
+      $scope.lat = $scope.lat + $scope.stops[i].stop_lat;
+      $scope.lon = $scope.lon + $scope.stops[i].stop_lon;
+    }
+    $scope.lat = $scope.lat / $scope.stops.length;
+    $scope.lon = $scope.lon / $scope.stops.length;
+
+		var latLon = new google.maps.LatLng($scope.lat, $scope.lon);
 
     var mapOptions =
     {
-      center: latLng,
+      center: latLon,
       zoom: 12,
       mapTypeId: google.maps.MapTypeId.ROADMAP
     };
@@ -46,25 +69,33 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function ($scop
     var createMarker = function (info)
     {
       var marker = new google.maps.Marker(
-        {
-          position: new google.maps.LatLng(info.lat, info.lng),
-          map: map,
-          animation: google.maps.Animation.DROP,
-          title: info.name,
-          icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
-          optimized: false
-        });
-      google.maps.event.addListener(marker, 'click', function ()
+      {
+        position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
+        map: map,
+        animation: google.maps.Animation.DROP,
+        title: info.stop_name + " " + info.stop_code,
+        //title: info.stop_name,
+        icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
+        optimized: false
+      });
+      google.maps.event.addListener(marker, 'click', function()
       {
         infoWindow.setContent(marker.title);
         infoWindow.open($scope.map, marker)
       });
     }
-
     //Get stops from Json
-    for (i = 0; i < $scope.newStopList.length; i++)
+    for (i=0; i < $scope.stops.length; i++)
     {
-      createMarker($scope.newStopList[i]);
+      createMarker($scope.stops[i]);
     }
-  }
+
+		var poly = new google.maps.Polyline(
+		{
+      path: $scope.shapes,
+      strokeColor: '#387ef5',
+      strokeOpacity: 0.6,
+      strokeWeight: 2
+		}).setMap(map)
+    }
 });
