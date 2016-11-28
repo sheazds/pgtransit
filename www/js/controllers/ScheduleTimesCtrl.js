@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, shareService, favouritesService, stopService, timeService, shapeService, scheduleService)
+angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, shareService, favouritesService, stopService, timeService, shapeService, scheduleService, notificationService, $ionicPopup)
 {
   $ionicSideMenuDelegate.canDragContent(false);
 
@@ -180,4 +180,70 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
       });
     }
   };
+
+  $scope.addNotification = function(time)
+  {
+    if (!time.includes('--')) //Make sure we received a valid time.
+    {
+        var hms = time.split(/:| |F|U|V/); //5 Deliminators, : & " " & F & U & V.
+
+        //This filters out empty strings from our time.
+        function checkArray(value) {
+            if (value != "")
+            return value;
+        }
+
+        hms = hms.filter(checkArray);
+
+        var timePrompt = hms.join(":"); //This is just to make the time appear without commas or any of the deliminators in the following popup.
+        var reminderTime;
+        //if (JSON.parse(localStorage.getItem("notifyReminder")) == null)
+        reminderTime = 15;
+        //else
+            //reminderTime = JSON.parse(localStorage.getItem("notifyReminder"));
+
+        var popUp = $ionicPopup.confirm({
+
+              title: 'Add a notification',
+              //HTML Template for buttons on popup.
+              //Consequently we must write a function to handle button clicks.
+              template: '<center>Would you like to be reminded about the arrival of the<BR/>' + $scope.routeName + '<BR/>' + reminderTime + ' minutes before: ' + timePrompt + '<BR/><BR/>You can edit notification properties in the settings.</center>',
+            })
+
+        popUp.then(function (result) {
+            if (result) //Add notification
+            {
+                if (notificationService.checkNotifications())
+                {
+                    //Convert to 24 hour format.
+                    if (hms[hms.length -1] == "PM" && hms[0] != 12)
+                        hms[0] = parseInt(hms[0]) + 12; //Add 12 to turn into 24 hour format.
+                    else if (hms[hms.length -1] == "AM" && hms[0] == 12)
+                        hms[0] = parseInt(hms[0]) - 12; //Subtract 12 to turn into 24 hour format.
+
+                    //Create a new Date object for our notification.
+                    var notifyDate = new Date();
+                    notifyDate.setHours(hms[0]);
+                    notifyDate.setMinutes(hms[1] - reminderTime);
+                    notifyDate.setSeconds(0); //Reset seconds to correct notification timer.
+                    console.log(notifyDate);
+
+                    notificationService.scheduleNotificationLater('PG Buses', $scope.routeName + ' is due to arrive soon!', notifyDate, 1);
+                }
+                else //Cancels prompt.
+                {
+                    var alertPopup = $ionicPopup.alert({
+                        title: 'Notifications are disabled',
+                        template: '<center>Notifications have been disabled in the application settings. Please enable them to add a notification.</center>'
+                    });
+
+                    alertPopup.then(function(res) {
+                        console.log("Notifications are not enabled.");
+                        $state.go('app.settings');
+                    });
+                }
+            }
+        })
+    }
+  }
 });

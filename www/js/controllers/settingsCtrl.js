@@ -3,7 +3,11 @@ angular.module('starter.controllers').controller('settingsCtrl', function ($scop
   mixpanel.track("Setting", {"setting": 'settingsCtrl'});
 
   //Loads the saved state of the notification toggle.
-  $scope.pushNotification = {checked: JSON.parse(localStorage.getItem("Notifications"))};
+  if (JSON.parse(localStorage.getItem("Notifications")) === null)
+    $scope.pushNotification = {checked: true};
+  else
+    $scope.pushNotification = {checked: JSON.parse(localStorage.getItem("Notifications"))};
+
   //Enable notifications for the app.
   $scope.pushNotificationChange = function ()
   {
@@ -12,9 +16,12 @@ angular.module('starter.controllers').controller('settingsCtrl', function ($scop
     if ($scope.pushNotification.checked)
     {
       notificationService.scheduleNotificationNow('PG Transit', 'You have enabled notifications');
-      console.log('Notifications enabled taking action');
+      console.log('Notifications reloading taking action');
     }
+    else
+        notificationService.cancelNotifications();
   }
+
   //Request location access from the user.
   $scope.requestLocationAccess = function ()
   {
