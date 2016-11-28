@@ -16,6 +16,8 @@ angular.module('starter.controllers').controller("NearMeCtrl", function ($scope,
     console.log("Location set")
     $scope.lat = locationService.getLat();
     $scope.long = locationService.getLong();
+    $ionicHistory.nextViewOptions({disableBack: true});
+    $state.go('app.nearMeMap');
   }
   var promise = stopNearMeService.getCo();
   promise.then(function (data)

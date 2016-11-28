@@ -1,5 +1,5 @@
 <ion-view view-title="Home" ng-init="checkWeather()" cache-view="false">
-  <ion-content style=background-image:url('img/w/00.jpg'); background-size:100% 100%;>
+  <ion-content style="background-repeat:no-repeat; background-image:url('img/w/00.jpg'); background-size:100% 100%;">
     <div class="homeWeather"
          style="background-image:url({{getBackground(weather.weather[0].icon)}});">
       <div class="row weatherItem">
@@ -19,23 +19,25 @@
 
 
     <div class="favourites" ng-controller='favouritesCtrl'>
-      <div ng-if="favs.length > 0">
-        <div class="header">Favourites</div>
+        <div class="header">
+          Favourites
+          
+        </div>
         <ion-list ng-repeat='item in favs'>
           <ion-item ng-click="goToFav(item);">
             {{item.route_short_name + '-' + item.route_long_name}}
           </ion-item>
         </ion-list>
-      </div>
     </div>
 
-    <!--
     <div class="nearMe">
-      <div class="header">Near Me</div>
+      <div class="header">
+        Near Me
+
+      </div>
       <ion-item>Example</ion-item>
       <ion-item>Example</ion-item>
     </div>
-    -->
 
   </ion-content>
 </ion-view>

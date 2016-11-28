@@ -25,7 +25,7 @@ angular.module('starter.controllers').controller('NearMeLoadCtrl', function ($sc
               duration: 2000
             });
           $ionicHistory.nextViewOptions({disableBack: true});
-          $state.go('app.route');
+          $state.go('app.home');
         });
     }
     else
@@ -33,7 +33,7 @@ angular.module('starter.controllers').controller('NearMeLoadCtrl', function ($sc
       console.log("Location allready set, redirecting");
       $ionicLoading.hide();
       $ionicHistory.nextViewOptions({disableBack: true});
-      $state.go('app.nearMe');
+      $state.go('app.nearMeMap');
     }
   });
 });

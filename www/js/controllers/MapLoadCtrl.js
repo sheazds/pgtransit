@@ -25,7 +25,7 @@ angular.module('starter.controllers').controller('MapLoadCtrl', function ($scope
               duration: 2000
             });
           $ionicHistory.nextViewOptions({disableBack: true});
-          $state.go('app.route');
+          $state.go('app.home');
         });
     }
     else
