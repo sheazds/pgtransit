@@ -69,7 +69,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   promise1.then(function (data1)
   {
     $scope.fullStops = data1.data;
-    for (i=0; i < $scope.fullStops.length; i++)
+    for (var i=0; i < $scope.fullStops.length; i++)
     {
       if($scope.fullStops[i].location_type == 1)
       {
@@ -101,7 +101,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   {
     $scope.lat = 0;
     $scope.lon = 0;
-    for (i=0; i < $scope.stops.length; i++)
+    for (var i=0; i < $scope.stops.length; i++)
     {
       $scope.lat = $scope.lat + $scope.stops[i].stop_lat;
       $scope.lon = $scope.lon + $scope.stops[i].stop_lon;
@@ -143,7 +143,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
       });
     }
     //Get stops from Json
-    for (i=0; i < $scope.stops.length; i++)
+    for (var i=0; i < $scope.stops.length; i++)
     {
       createMarker($scope.stops[i]);
     }

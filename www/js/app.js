@@ -496,7 +496,19 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         controller: 'favouritesCtrl'
       }
     }
-  });
+  })
+
+  .state('app.credits',
+    {
+      url: '/credits',
+      views:
+      {
+        'menuContent':
+        {
+          templateUrl: 'templates/credits.html'
+        }
+      }
+    });
 
 
   // if none of the above states are matched, use this as the fallback
