@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller('HomeCtrl', function($scope, $state, $http, $ionicLoading, $ionicHistory, favouritesService, notificationService)
+angular.module('starter.controllers').controller('HomeCtrl', function($scope, $state, $http, $ionicLoading, $ionicHistory, $cordovaGeolocation, favouritesService, notificationService, locationService, stopNearMeService)
 {
   mixpanel.track("Home", {"home": 'HomeCtrl'});
 
@@ -101,4 +101,78 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
     var index = Math.floor((degree + 22) / 45);
     return directions[index];
   };
+
+  //Home Page NearMe Code
+  var lat = 0
+  var long = 0
+
+  var showNear = false;
+  $scope.toggleNear = function()
+  {
+    showNear = !showNear;
+    if (showNear == true)
+    {
+      if (locationService.getLat() == null)
+      {
+        $ionicLoading.show();
+        console.log("Location Null, Getting Location");
+        var posOptions = {timeout: 10000, enableHighAccuracy: true};
+        $cordovaGeolocation.getCurrentPosition(posOptions).then(function (position)
+        {
+          lat = position.coords.latitude
+          locationService.setLat(lat)
+          long = position.coords.longitude
+          locationService.setLong(long)
+          $ionicLoading.hide();
+          getNear()
+        }, function (err)
+        {
+          $ionicLoading.hide();
+          $ionicLoading.show(
+            {
+              template: 'Could not find location. Please try again later.',
+              duration: 2000
+            });
+            toggleNear();
+        });
+      }
+      else
+      {
+        console.log("Location allready set, loading")
+        lat = locationService.getLat();
+        long = locationService.getLong();
+        getNear();
+      }
+    }
+  };
+
+  $scope.isNearShown = function()
+  {
+    return showNear;
+  };
+
+  $scope.nearBy = [];
+  var getNear = function()
+  {
+    var promise = stopNearMeService.getCo();
+    promise.then(function (data)
+    {
+      var co = data.data;
+      for (var i = 0; i < co.length; i++)
+      {
+        if (co[i].stop_lat < lat + 0.010 &&
+            co[i].stop_lat > lat - 0.010 &&
+            co[i].stop_lon < long + 0.010 &&
+            co[i].stop_lon > long - 0.010)
+        {
+          $scope.nearBy.push(co[i])
+        }
+      }
+    });
+  }
+
+  $scope.goToNear = function()
+  {
+    $state.go('app.nearMeLoad');
+  }
 });

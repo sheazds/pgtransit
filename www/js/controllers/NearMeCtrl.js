@@ -19,9 +19,4 @@ angular.module('starter.controllers').controller("NearMeCtrl", function ($scope,
     $ionicHistory.nextViewOptions({disableBack: true});
     $state.go('app.nearMeMap');
   }
-  var promise = stopNearMeService.getCo();
-  promise.then(function (data)
-  {
-    $scope.co = data.data;
-  });
 });
