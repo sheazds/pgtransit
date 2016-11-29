@@ -1,6 +1,9 @@
-angular.module('starter.controllers').controller('MapCtrl', function($scope, $state, $ionicHistory, $ionicPlatform, locationService)
+angular.module('starter.controllers').controller('MapCtrl', function($scope, $state, $ionicHistory, $ionicPlatform, $ionicSideMenuDelegate, locationService)
 {
-mixpanel.track("Map", {"map": 'MapCtrl'});
+  mixpanel.track("Map", {"map": 'MapCtrl'});
+
+  $ionicSideMenuDelegate.canDragContent(false);
+
   //Check if location is set, if not redirect to get it
   if(locationService.getLat() == null)
   {

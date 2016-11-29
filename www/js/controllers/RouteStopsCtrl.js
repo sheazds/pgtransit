@@ -21,10 +21,10 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
       favouritesService.removeItem(c);
       favouritesService.saveFavs();
       $ionicLoading.show(
-        {
-          template: c.name + ' removed from favourites.',
-          duration: 1000
-        })
+      {
+        template: c.name + ' removed from favourites.',
+        duration: 1000
+      })
     }
     else
     {

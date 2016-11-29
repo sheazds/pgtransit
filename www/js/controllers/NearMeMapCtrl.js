@@ -1,5 +1,7 @@
-angular.module('starter.controllers').controller("NearMeMapCtrl", function ($scope, $state, $ionicHistory, $ionicPlatform, stopNearMeService, locationService)
+angular.module('starter.controllers').controller("NearMeMapCtrl", function ($scope, $state, $ionicHistory, $ionicPlatform, $ionicSideMenuDelegate, stopNearMeService, locationService)
 {
+  $ionicSideMenuDelegate.canDragContent(false);
+
   //Check if location is set, if not redirect to get it
   if (locationService.getLat() == null)
   {

@@ -9,24 +9,24 @@ angular.module('starter.controllers').controller('NearMeLoadCtrl', function ($sc
       console.log("Location Null, Getting Location");
       var posOptions = {timeout: 10000, enableHighAccuracy: true};
       $cordovaGeolocation.getCurrentPosition(posOptions).then(function (position)
-        {
-          locationService.setLat(position.coords.latitude)
-          locationService.setLong(position.coords.longitude)
-          $ionicHistory.nextViewOptions({disableBack: true});
-          $ionicLoading.hide();
-          $state.go('app.nearMeMap');
-        },
-        function (err)
-        {
-          $ionicLoading.hide();
-          $ionicLoading.show(
-            {
-              template: 'Could not find location. Please try again later.',
-              duration: 2000
-            });
-          $ionicHistory.nextViewOptions({disableBack: true});
-          $state.go('app.home');
-        });
+      {
+        locationService.setLat(position.coords.latitude)
+        locationService.setLong(position.coords.longitude)
+        $ionicHistory.nextViewOptions({disableBack: true});
+        $ionicLoading.hide();
+        $state.go('app.nearMeMap');
+      },
+      function (err)
+      {
+        $ionicLoading.hide();
+        $ionicLoading.show(
+          {
+            template: 'Could not find location. Please try again later.',
+            duration: 2000
+          });
+        $ionicHistory.nextViewOptions({disableBack: true});
+        $state.go('app.home');
+      });
     }
     else
     {
