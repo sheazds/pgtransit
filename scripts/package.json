@@ -1,0 +1,26 @@
+{
+  "name": "cordova-plugin-local-notifications-drawable-creator",
+  "version": "1.0.0",
+  "description": "cordova-plugin-local-notifications hook",
+  "main": "createDrawableAfterBuild.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rienk-git/cordova-plugin-local-notifications-drawable-creator.git"
+  },
+  "keywords": [
+    "hook",
+    "cordova-plugin-local-notifications"
+  ],
+  "author": "Rienk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rienk-git/cordova-plugin-local-notifications-drawable-creator/issues"
+  },
+  "homepage": "https://github.com/rienk-git/cordova-plugin-local-notifications-drawable-creator",
+  "dependencies": {
+    "fs-extra": "^0.26.5"
+  }
+}

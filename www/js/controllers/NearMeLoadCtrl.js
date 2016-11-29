@@ -36,5 +36,4 @@ angular.module('starter.controllers').controller('NearMeLoadCtrl', function ($sc
       $state.go('app.nearMeMap');
     }
   });
-
 });

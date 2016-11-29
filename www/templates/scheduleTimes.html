@@ -29,8 +29,8 @@
       <div class="schedRow" ng-repeat="array in schedule">
         <div ng-repeat="entry in array track by $index">
           <div class="schedStop" ng-if="$index == 0">{{entry}}</div>
-          <div class="schedTimeOdd"  ng-if="$index > 0 && $index % 2 == 1">{{entry}}</div>
-          <div class="schedTimeEven" ng-if="$index > 0 && $index % 2 == 0">{{entry}}</div>
+          <div class="schedTimeOdd"  ng-if="$index > 0 && $index % 2 == 1" on-hold="addNotification(entry)">{{entry}}</div>
+          <div class="schedTimeEven" ng-if="$index > 0 && $index % 2 == 0" on-hold="addNotification(entry)">{{entry}}</div>
         </div>
       </div>
       <div>
