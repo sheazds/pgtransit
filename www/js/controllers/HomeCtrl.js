@@ -100,4 +100,15 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
     var index = Math.floor((degree + 22) / 45);
     return directions[index];
   };
+
+  //Home Page Favourites Code
+      var showNear = false;
+      $scope.toggleNear = function()
+      {
+        showNear = !showNear;
+      };
+      $scope.isNearShown = function()
+      {
+        return showNear;
+      };
 });

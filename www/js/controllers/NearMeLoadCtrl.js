@@ -14,7 +14,7 @@ angular.module('starter.controllers').controller('NearMeLoadCtrl', function ($sc
           locationService.setLong(position.coords.longitude)
           $ionicHistory.nextViewOptions({disableBack: true});
           $ionicLoading.hide();
-          $state.go('app.nearMe');
+          $state.go('app.nearMeMap');
         },
         function (err)
         {
@@ -36,4 +36,5 @@ angular.module('starter.controllers').controller('NearMeLoadCtrl', function ($sc
       $state.go('app.nearMeMap');
     }
   });
+
 });

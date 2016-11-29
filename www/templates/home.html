@@ -18,26 +18,39 @@
     </div>
 
 
-    <div class="favourites" ng-controller='favouritesCtrl'>
+    <div ng-controller="favouritesCtrl">
+      <ion-list class="favourites">
         <div class="header">
-          Favourites
-          
+          <ion-item class="item-icon-right" style="background: #f8ba24;" ng-click="toggleFavs()" ng-class="{active: isFavsShown()}">
+            Favourites
+            <i class="icon" ng-class="!isFavsShown() ? 'ion-minus' : 'ion-plus'"></i>
+          </ion-item>
         </div>
-        <ion-list ng-repeat='item in favs'>
-          <ion-item ng-click="goToFav(item);">
+        <!--  -->
+        <ion-item class="item-accordion" ng-repeat="item in favs" ng-click="goToFav(item)" ng-show="isFavsShown()">
             {{item.route_short_name + '-' + item.route_long_name}}
           </ion-item>
+
         </ion-list>
+      </ion-list>
     </div>
 
-    <div class="nearMe">
-      <div class="header">
-        Near Me
+    <!--
+    <div ng-controller="NearMeLoadCtrl">
+      <ion-list class="nearMe">
+        <div class="header">
+          <ion-item class="item-icon-right" style="background: #f8ba24;" ng-click="toggleNear()" ng-class="{active: isNearShown()}">
+            Near Me
+            <i class="icon" ng-class="!isNearShown() ? 'ion-minus' : 'ion-plus'"></i>
+          </ion-item>
+        </div>
 
-      </div>
-      <ion-item>Example</ion-item>
+        <ion-item class="item-accordion" ng-click="goToFav(item)" ng-show="isNearShown()">
+          {{item.route_short_name + '-' + item.route_long_name}}
+        </ion-item>
       <ion-item>Example</ion-item>
     </div>
+  -->
 
   </ion-content>
 </ion-view>
