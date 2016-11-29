@@ -73,10 +73,11 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
   promise2.then(function (data2)
   {
     shapes = data2.data;
-    createMap();
   })
 
-	var createMap = function()
+  //$ionicLoading.show({duration:3000})
+
+  .then(function()
 	{
 		var lat = 0;
 		var lon = 0;
@@ -129,5 +130,5 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
       strokeOpacity: 0.6,
       strokeWeight: 2
 		}).setMap(map)
-	}
+	})
 });

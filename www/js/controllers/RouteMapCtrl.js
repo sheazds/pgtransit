@@ -29,18 +29,16 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function($scope
     promise.then(function (data1)
     {
       $scope.stops = data1.data;
-      createMap();
     });
 
     var promise2 = shapeService.getShapes($scope.routeShort);
     promise2.then(function (data2)
     {
       $scope.shapes = data2.data;
-      createMap();
     })
 
 
-	var createMap = function()
+	.then(function()
 	{
 		lat = 0;
 		lon = 0;
@@ -97,5 +95,5 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function($scope
       strokeOpacity: 0.6,
       strokeWeight: 2
 		}).setMap(map)
-    }
+  })
 });
