@@ -80,7 +80,7 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
 	{
 		var lat = 0;
 		var lon = 0;
-		for (i=0; i < $scope.stops.length; i++)
+		for (var i=0; i < $scope.stops.length; i++)
     {
       lat = lat + $scope.stops[i].stop_lat;
       lon = lon + $scope.stops[i].stop_lon;

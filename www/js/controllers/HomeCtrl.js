@@ -159,10 +159,10 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
       var co = data.data;
       for (var i = 0; i < co.length; i++)
       {
-        if (co[i].stop_lat < lat + 0.10 &&
-            co[i].stop_lat > lat - 0.10 &&
-            co[i].stop_lon < long + 0.10 &&
-            co[i].stop_lon > long - 0.10)
+        if (co[i].stop_lat < lat + 0.010 &&
+            co[i].stop_lat > lat - 0.010 &&
+            co[i].stop_lon < long + 0.010 &&
+            co[i].stop_lon > long - 0.010)
         {
           $scope.nearBy.push(co[i])
         }

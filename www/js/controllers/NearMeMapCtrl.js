@@ -14,10 +14,10 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
   {
     $ionicPlatform.ready(function ()
     {
-      $scope.lat = locationService.getLat();
-      $scope.long = locationService.getLong();
+      lat = locationService.getLat();
+      long = locationService.getLong();
 
-      var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+      var latLng = new google.maps.LatLng(lat, long);
 
       var mapOptions =
       {
@@ -31,7 +31,7 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
       //add users current location as a marker
       var myLocation = new google.maps.Marker(
         {
-          position: new google.maps.LatLng($scope.lat, $scope.long),
+          position: new google.maps.LatLng(lat, long),
           map: map,
           animation: google.maps.Animation.DROP,
           title: "My Location",
@@ -64,16 +64,16 @@ angular.module('starter.controllers').controller("NearMeMapCtrl", function ($sco
       var promise = stopNearMeService.getCo();
       promise.then(function (data)
       {
-        $scope.co = data.data;
+        co = data.data;
         //Check if nearby
-        for (i = 0; i < $scope.co.length; i++)
+        for (var i = 0; i < co.length; i++)
         {
-          if ($scope.co[i].stop_lat < $scope.lat + 0.010 &&
-            $scope.co[i].stop_lat > $scope.lat - 0.010 &&
-            $scope.co[i].stop_lon < $scope.long + 0.010 &&
-            $scope.co[i].stop_lon > $scope.long - 0.010)
+          if (co[i].stop_lat < lat + 0.010 &&
+              co[i].stop_lat > lat - 0.010 &&
+              co[i].stop_lon < long + 0.010 &&
+              co[i].stop_lon > long - 0.010)
           {
-            createMarker($scope.co[i]);
+            createMarker(co[i]);
           }
         }
       });

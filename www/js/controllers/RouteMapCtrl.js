@@ -42,17 +42,17 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function($scope
 
 	var createMap = function()
 	{
-		$scope.lat = 0;
-		$scope.lon = 0;
-		for (i=0; i < $scope.stops.length; i++)
+		lat = 0;
+		lon = 0;
+		for (var i=0; i < $scope.stops.length; i++)
     {
-      $scope.lat = $scope.lat + $scope.stops[i].stop_lat;
-      $scope.lon = $scope.lon + $scope.stops[i].stop_lon;
+      lat = lat + $scope.stops[i].stop_lat;
+      lon = lon + $scope.stops[i].stop_lon;
     }
-    $scope.lat = $scope.lat / $scope.stops.length;
-    $scope.lon = $scope.lon / $scope.stops.length;
+    lat = lat / $scope.stops.length;
+    lon = lon / $scope.stops.length;
 
-		var latLon = new google.maps.LatLng($scope.lat, $scope.lon);
+		var latLon = new google.maps.LatLng(lat, lon);
 
     var mapOptions =
     {
@@ -85,7 +85,7 @@ angular.module('starter.controllers').controller('RouteMapCtrl', function($scope
       });
     }
     //Get stops from Json
-    for (i=0; i < $scope.stops.length; i++)
+    for (var i=0; i < $scope.stops.length; i++)
     {
       createMarker($scope.stops[i]);
     }

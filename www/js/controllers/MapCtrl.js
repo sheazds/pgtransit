@@ -16,10 +16,10 @@ angular.module('starter.controllers').controller('MapCtrl', function($scope, $st
   {
     $ionicPlatform.ready(function()
     {
-      $scope.lat = locationService.getLat();
-      $scope.long = locationService.getLong();
+      var lat = locationService.getLat();
+      var long = locationService.getLong();
 
-      var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+      var latLng = new google.maps.LatLng(lat, long);
 
       var mapOptions =
       {
