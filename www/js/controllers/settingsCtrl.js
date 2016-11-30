@@ -15,7 +15,7 @@ angular.module('starter.controllers').controller('settingsCtrl', function ($scop
     localStorage.setItem("Notifications", JSON.stringify($scope.pushNotification.checked)); //Saves toggle.
     if ($scope.pushNotification.checked)
     {
-      notificationService.scheduleNotificationNow('PG Transit', 'You have enabled notifications');
+      notificationService.scheduleNotificationNow('PG Buses', 'You have enabled notifications');
       console.log('Notifications reloading taking action');
     }
     else
