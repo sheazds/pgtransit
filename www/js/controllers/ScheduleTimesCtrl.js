@@ -185,25 +185,31 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   {
     if (!time.includes('--')) //Make sure we received a valid time.
     {
-        var hms = time.split(/:| |F|U|V/); //5 Deliminators, : & " " & F & U & V:: Look at P??.
+        //The argument passed comes in the format x12:34 ZZ. We need to remove the x in front of the time to make use of it.
+        var hms = time.split(/:| |F|U|V/); //6 Deliminators, : & " " & F & U & V & P. P is a weird edge case due to the PM passed as ZZ.
 
         //This filters out empty strings from our time.
         function checkArray(value) {
             if (value != "")
-            return value;
+                return value;
         }
         //Filter the array.
         hms = hms.filter(checkArray);
 
-        var timePrompt = hms.join(":"); //This is just to make the time appear without commas or any of the deliminators in the following popup.
+        //Check the P edge case in our new array
+        if (hms[0].includes('P'))
+            hms[0] = hms[0].substring(1);
+
+        var timePrompt = hms.join(":"); //This is just to make the time appear without commas or any of the deliminators in the following popups.
 
         var popUp = $ionicPopup.confirm({
 
-              title: 'Add a notification',
+              title: 'Set a reminder',
               //HTML Template for notification popup.
-              template: '<center>Would you like to be reminded about the arrival of the<BR/>'
-               + $scope.routeName + '<BR/> <select id="notifyReminder"><option>5</option><option>10</option><option selected>15</option><option>20</option><option>25</option><option>30</option></select>'
-               + ' minutes before: ' + timePrompt + '<BR/><BR/>You can edit notification properties in the settings.</center>',
+              template: '<center>Set a reminder for the arrival of the<BR/>'
+               + $scope.routeName + '?<BR/><BR/> <select id="notifyReminder" style="width: 100px;"><option>5</option><option>10</option><option selected>15</option><option>20</option><option>25</option><option>30</option></select>'
+               + ' minutes before:<BR/>' + timePrompt +
+               '<BR/><input type="checkbox" id="dailyCheck" style="width: 20px; height:20px;" /> Repeat reminder daily<BR/><BR/>You can disable notifications at anytime in the settings.</center>',
             })
 
         popUp.then(function (result) {
@@ -212,6 +218,7 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
                 if (notificationService.checkNotifications())
                 {
                     var reminderTime = document.getElementById("notifyReminder").value;
+                    var dailyCheck = document.getElementById("dailyCheck").checked;
 
                     //Convert to 24 hour format.
                     if (hms[hms.length -1] == "PM" && hms[0] != 12)
@@ -224,9 +231,15 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
                     notifyDate.setHours(hms[0]);
                     notifyDate.setMinutes(hms[1] - reminderTime);
                     notifyDate.setSeconds(0); //Reset seconds to correct notification timer.
-                    console.log(notifyDate);
+                    console.log(notifyDate + " Repeating = " + dailyCheck);
 
-                    notificationService.scheduleNotificationLater('PG Buses', $scope.routeName + ' is due to arrive soon!', notifyDate, 1);
+                    notificationService.scheduleNotificationLater('PG Buses', $scope.routeName + ' is due to arrive soon!', notifyDate, 1, dailyCheck);
+
+                    $ionicLoading.show(
+                    {
+                        template: 'Reminder set for ' + notifyDate.toLocaleTimeString(),
+                        duration: 750
+                    });
                 }
                 else //Cancels prompt.
                 {

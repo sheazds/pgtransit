@@ -270,20 +270,26 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     }
 
     //Timed notification.
-    notificationService.scheduleNotificationLater = function(header, message, time, id)
+    notificationService.scheduleNotificationLater = function(header, message, time, id, repeating)
     {
+        var repeat;
+        if (repeating)
+            repeat = 'day';
+        else
+            repeat = 0; //System triggers notification only once.
+
         $ionicPlatform.ready(function ()
         {
             $cordovaLocalNotification.schedule(
             {
-                id: id, //ID is important to remember so that we can reschedule if needed.
+                id: id, //Important for unique, rescheduling notifications.
                 title: header,
                 text: message,
                 at: time,
-                every: 'day', //Repeat daily unless disabled.
+                every: repeat, //Repeat daily unless disabled.
                 icon: notificationService.notifyIcon
             }).then(function (result) {
-                console.log('Timed notification set for: ' + time);
+                console.log('Timed notification set for: ' + time + " Repeating daily = " + repeating);
             })
         })
     }
@@ -324,7 +330,9 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     {
         return notificationService.notifyIcon;
     }
-    //The remainder functions are implemented for a master notification list should we add a display tab.
+
+    //The remainder functions are implemented for a master notification list should we add a display tab similar to favourites.
+    /*
     notificationService.removeItem = function(value)
     {
         for (i= 0; i < notificationService.routes.length; i++)
@@ -354,6 +362,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
     {
        notificationService.routes.push(value);
     }
+    */
+
   })
 
   .run(function ($ionicPlatform, $cordovaSQLite)
