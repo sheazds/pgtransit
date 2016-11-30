@@ -40,12 +40,16 @@ angular.module('starter.controllers')
     $state.go('app.scheduleTimes');
   };
 
-  //Home Page Favourites Code
   var showFavs = true;
+  //Home Page Favourites Code
+  if(localStorage.getItem('favState')=='false') showFavs = false;
+
   $scope.toggleFavs = function()
   {
     showFavs = !showFavs;
+    localStorage['favState'] = showFavs;
   };
+
   $scope.isFavsShown = function()
   {
     return showFavs;
