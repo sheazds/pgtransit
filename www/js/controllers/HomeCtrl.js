@@ -168,6 +168,9 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
           $scope.nearBy.push(co[i])
         }
       }
+      //Message if no stops found.
+      //Using nearBy array to avoid displaying the message while stops are populating
+      if ($scope.nearBy.length == 0) $scope.nearBy.push({"stop_name": "No Nearby Stops Found"})
     });
   }
 
