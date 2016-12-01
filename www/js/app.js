@@ -237,8 +237,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
   .service("notificationService", function($cordovaLocalNotification, $ionicPlatform, $state) {
 
     var notificationService = this;
-    notificationService.routes = []; //For keeping track of timed notifications should the user temporarily disable notifications.
-    notificationService.notifyIcon = "";
+    notificationService.notifyIcon = "notifyicon.png";
+    //notificationService.routes = []; //For keeping track of timed notifications should the user temporarily disable notifications.
 
     //Test to see if notifications are enabled.
     notificationService.checkNotifications = function()
@@ -252,7 +252,8 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
             return false;
         }
     }
-        //Instant notification.
+
+    //Instant notification.
     notificationService.scheduleNotificationNow = function(header, message)
     {
         $ionicPlatform.ready(function ()
@@ -304,35 +305,23 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         })
     }
 
+    //The remainder functions are implemented for a master notification list should we add a display tab similar to favourites.
+    /*
+    notificationService.Initialize = function()
+    {
+        //Loads existing notification data into the app.
+        Currently not used.
+        if(localStorage.getItem("notifications")!==null)
+        {
+            notificationService.routes = JSON.parse(localStorage.getItem("notifications"));
+        }
+    }
+
     notificationService.saveNotifications = function()
     {
         localStorage.setItem("notifications", JSON.stringify(notificationService.routes));
     }
 
-    notificationService.Initialize = function()
-    {
-        //First set the notification icon the app will use. Based on android OS version.
-        console.log("Running android version: " + ionic.Platform.version());
-        if (ionic.Platform.version() < 5)
-            notificationService.notifyIcon = "notifyicon_4x.png";
-        else
-            notificationService.notifyIcon = "notifyicon.png";
-
-        //Loads existing notification data into the app.
-        //Currently not used.
-        //if(localStorage.getItem("notifications")!==null)
-        //{
-        //    notificationService.routes = JSON.parse(localStorage.getItem("notifications"));
-        //}
-    }
-
-    notificationService.getNotifyIcon = function()
-    {
-        return notificationService.notifyIcon;
-    }
-
-    //The remainder functions are implemented for a master notification list should we add a display tab similar to favourites.
-    /*
     notificationService.removeItem = function(value)
     {
         for (i= 0; i < notificationService.routes.length; i++)
