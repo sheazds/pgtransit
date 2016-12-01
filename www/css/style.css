@@ -223,3 +223,22 @@
   font: 28px Arial, sans-serif;
   font-weight: bold;
 }
+
+.list .item.item-accordion
+{
+  line-height: 38px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  transition: 0.09s all linear;
+}
+
+.list .item.item-accordion.ng-hide
+{
+  line-height: 0px;
+}
+
+.list .item.item-accordion.ng-hide-add,
+.list .item.item-accordion.ng-hide-remove
+{
+  display: block !important;
+}
