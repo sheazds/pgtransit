@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, routeService, shareService, favouritesService, shapeService, stopService)
+angular.module('starter.controllers').controller("RouteStopsCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, $ionicPlatform, routeService, shareService, favouritesService, shapeService, stopService)
 {
   $ionicSideMenuDelegate.canDragContent(false);
 
@@ -63,72 +63,72 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
     $state.go('app.home');
   }
 
-  var promise1 = stopService.getNewstop($scope.routeShort);
-  promise1.then(function (data1)
-  {
-    $scope.stops = data1.data;
-  })
-
-  var promise2 = shapeService.getShapes($scope.routeShort);
-  promise2.then(function (data2)
-  {
-    shapes = data2.data;
-  })
-
-  //$ionicLoading.show({duration:3000})
-
-  .then(function()
-	{
-		var lat = 0;
-		var lon = 0;
-		for (var i=0; i < $scope.stops.length; i++)
+  $ionicPlatform.ready(function () {
+    var promise1 = stopService.getNewstop($scope.routeShort);
+    promise1.then(function (data1)
     {
-      lat = lat + $scope.stops[i].stop_lat;
-      lon = lon + $scope.stops[i].stop_lon;
-    }
-    lat = lat / $scope.stops.length;
-    lon = lon / $scope.stops.length;
+      $scope.stops = data1.data;
+    })
 
-		var latLon = new google.maps.LatLng(lat, lon);
+    var promise2 = shapeService.getShapes($scope.routeShort);
+    promise2.then(function (data2)
+    {
+      shapes = data2.data;
+    })
 
-		var mapOptions =
-		{
-			center: latLon,
-			zoom: 12,
-			mapTypeId: google.maps.MapTypeId.ROADMAP,
-			liteMode: true,
-			disableDefaultUI: true
-		}
+    .then(function()
+    {
+      var lat = 0;
+      var lon = 0;
+      for (var i=0; i < $scope.stops.length; i++)
+      {
+        lat = lat + $scope.stops[i].stop_lat;
+        lon = lon + $scope.stops[i].stop_lon;
+      }
+      lat = lat / $scope.stops.length;
+      lon = lon / $scope.stops.length;
 
-		var map = new google.maps.Map(document.getElementById("routemap"), mapOptions);
+      var latLon = new google.maps.LatLng(lat, lon);
 
-		//Add other Bus Stop Markers
-		var infoWindow = new google.maps.InfoWindow();
+      var mapOptions =
+      {
+        center: latLon,
+        zoom: 12,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        liteMode: true,
+        disableDefaultUI: true
+      }
 
-		$scope.createMarker = function (info)
-		{
-			var marker = new google.maps.Marker(
-			{
-				position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
-				map: map,
-				animation: google.maps.Animation.DROP,
-				title: info.stop_name,
-				icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
-				optimized: false
-			});
-			google.maps.event.addListener(marker, 'click', function()
-			{
-				infoWindow.setContent(marker.title);
-				infoWindow.open($scope.map, marker)
-			});
-		}
+      var map = new google.maps.Map(document.getElementById("routemap"), mapOptions);
 
-		var poly = new google.maps.Polyline(
-		{
-      path: shapes,
-      strokeColor: '#387ef5',
-      strokeOpacity: 0.6,
-      strokeWeight: 2
-		}).setMap(map)
+      //Add other Bus Stop Markers
+      var infoWindow = new google.maps.InfoWindow();
+
+      $scope.createMarker = function (info)
+      {
+        var marker = new google.maps.Marker(
+        {
+          position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
+          map: map,
+          animation: google.maps.Animation.DROP,
+          title: info.stop_name,
+          icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
+          optimized: false
+        });
+        google.maps.event.addListener(marker, 'click', function()
+        {
+          infoWindow.setContent(marker.title);
+          infoWindow.open($scope.map, marker)
+        });
+      }
+
+      var poly = new google.maps.Polyline(
+      {
+        path: shapes,
+        strokeColor: '#387ef5',
+        strokeOpacity: 0.6,
+        strokeWeight: 2
+      }).setMap(map)
+    })
 	})
 });

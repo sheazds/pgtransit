@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, shareService, favouritesService, stopService, timeService, shapeService, scheduleService, notificationService, $ionicPopup)
+angular.module('starter.controllers').controller("ScheduleTimesCtrl", function ($scope, $state, $ionicHistory, $ionicLoading, $ionicSideMenuDelegate, $ionicPlatform, shareService, favouritesService, stopService, timeService, shapeService, scheduleService, notificationService, $ionicPopup)
 {
   $ionicSideMenuDelegate.canDragContent(false);
 
@@ -65,97 +65,98 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
     $state.go('app.home');
   }
 
-  var promise1 = stopService.getNewstop($scope.routeShort);
-  promise1.then(function (data1)
-  {
-    $scope.fullStops = data1.data;
-    for (var i=0; i < $scope.fullStops.length; i++)
+  $ionicPlatform.ready(function () {
+    var promise1 = stopService.getNewstop($scope.routeShort);
+    promise1.then(function (data1)
     {
-      if($scope.fullStops[i].location_type == 1)
+      $scope.fullStops = data1.data;
+      for (var i=0; i < $scope.fullStops.length; i++)
       {
-        $scope.stops.push($scope.fullStops[i]);
+        if($scope.fullStops[i].location_type == 1)
+        {
+          $scope.stops.push($scope.fullStops[i]);
+        }
       }
-    }
-  });
+    });
 
-  var promise2 = timeService.getNewstop($scope.routeShort);
-  promise2.then(function (data2)
-  {
-    $scope.times = data2.data;
-  });
-
-  var promise4 = scheduleService.getSchedule($scope.routeType);
-  promise4.then(function (data4)
-  {
-    $scope.schedule = data4.data;
-  })
-
-  var promise3 = shapeService.getShapes($scope.routeShort);
-  promise3.then(function (data3)
-  {
-    $scope.shapes = data3.data;
-  })
-
-
-  .then(function()
-  {
-    var lat = 0;
-    var lon = 0;
-    for (var i=0; i < $scope.stops.length; i++)
+    var promise2 = timeService.getNewstop($scope.routeShort);
+    promise2.then(function (data2)
     {
-      lat = lat + $scope.stops[i].stop_lat;
-      lon = lon + $scope.stops[i].stop_lon;
-    }
-    lat = lat / $scope.stops.length;
-    lon = lon / $scope.stops.length;
-  
-    var latLon = new google.maps.LatLng(lat, lon);
-  
-    var mapOptions =
-    {
-      center: latLon,
-      zoom: 12,
-      mapTypeId: google.maps.MapTypeId.ROADMAP,
-      liteMode: true,
-      disableDefaultUI: true
-    }
+      $scope.times = data2.data;
+    });
 
-    var map = new google.maps.Map(document.getElementById("schedulemap"), mapOptions);
-  
-    //Add other Bus Stop Markers
-    var infoWindow = new google.maps.InfoWindow();
-  
-    var createMarker = function (info)
+    var promise4 = scheduleService.getSchedule($scope.routeType);
+    promise4.then(function (data4)
     {
-      var marker = new google.maps.Marker(
+      $scope.schedule = data4.data;
+    })
+
+    var promise3 = shapeService.getShapes($scope.routeShort);
+    promise3.then(function (data3)
+    {
+      $scope.shapes = data3.data;
+    })
+
+    .then(function()
+    {
+      var lat = 0;
+      var lon = 0;
+      for (var i=0; i < $scope.stops.length; i++)
       {
-        position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
-        map: map,
-        animation: google.maps.Animation.DROP,
-        title: info.stop_name + " " + info.stop_code,
-        //title: info.stop_name,
-        icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
-        optimized: false
-      });
-      google.maps.event.addListener(marker, 'click', function()
+        lat = lat + $scope.stops[i].stop_lat;
+        lon = lon + $scope.stops[i].stop_lon;
+      }
+      lat = lat / $scope.stops.length;
+      lon = lon / $scope.stops.length;
+
+      var latLon = new google.maps.LatLng(lat, lon);
+
+      var mapOptions =
       {
-        infoWindow.setContent(marker.title);
-        infoWindow.open($scope.map, marker)
-      });
-    }
-    //Get stops from Json
-    for (var i=0; i < $scope.stops.length; i++)
-    {
-      createMarker($scope.stops[i]);
-    }
-  
-    var poly = new google.maps.Polyline(
-    {
-      path: $scope.shapes,
-      strokeColor: '#387ef5',
-      strokeOpacity: 0.6,
-      strokeWeight: 2
-    }).setMap(map)
+        center: latLon,
+        zoom: 12,
+        mapTypeId: google.maps.MapTypeId.ROADMAP,
+        liteMode: true,
+        disableDefaultUI: true
+      }
+
+      var map = new google.maps.Map(document.getElementById("schedulemap"), mapOptions);
+
+      //Add other Bus Stop Markers
+      var infoWindow = new google.maps.InfoWindow();
+
+      var createMarker = function (info)
+      {
+        var marker = new google.maps.Marker(
+        {
+          position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
+          map: map,
+          animation: google.maps.Animation.DROP,
+          title: info.stop_name + " " + info.stop_code,
+          //title: info.stop_name,
+          icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
+          optimized: false
+        });
+        google.maps.event.addListener(marker, 'click', function()
+        {
+          infoWindow.setContent(marker.title);
+          infoWindow.open($scope.map, marker)
+        });
+      }
+      //Get stops from Json
+      for (var i=0; i < $scope.stops.length; i++)
+      {
+        createMarker($scope.stops[i]);
+      }
+
+      var poly = new google.maps.Polyline(
+      {
+        path: $scope.shapes,
+        strokeColor: '#387ef5',
+        strokeOpacity: 0.6,
+        strokeWeight: 2
+      }).setMap(map)
+    })
   })
 
   $scope.editFavourite = function(stop)//Adds/removes favourite route.
