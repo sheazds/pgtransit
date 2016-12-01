@@ -1,6 +1,9 @@
-angular.module('starter.controllers').controller('MapCtrl', function($scope, $state, $ionicHistory, $ionicPlatform, locationService)
+angular.module('starter.controllers').controller('MapCtrl', function($scope, $state, $ionicHistory, $ionicPlatform, $ionicSideMenuDelegate, locationService)
 {
-mixpanel.track("Map", {"map": 'MapCtrl'});
+  mixpanel.track("Map", {"map": 'MapCtrl'});
+
+  $ionicSideMenuDelegate.canDragContent(false);
+
   //Check if location is set, if not redirect to get it
   if(locationService.getLat() == null)
   {
@@ -13,10 +16,10 @@ mixpanel.track("Map", {"map": 'MapCtrl'});
   {
     $ionicPlatform.ready(function()
     {
-      $scope.lat = locationService.getLat();
-      $scope.long = locationService.getLong();
+      var lat = locationService.getLat();
+      var long = locationService.getLong();
 
-      var latLng = new google.maps.LatLng($scope.lat, $scope.long);
+      var latLng = new google.maps.LatLng(lat, long);
 
       var mapOptions =
       {

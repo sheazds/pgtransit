@@ -5,9 +5,10 @@
 
         <div class="routeEntry">
           <div class="routeNumberCircle">
-            <div class="routeNumberText">{{item.route_short_name}}</div>
+            <div class="routeNumberText" ng-if="item.route_short_name>0">{{item.route_short_name}}</div>
+            <div class="routeNumberText" ng-if="item.route_short_name.length>0">{{item.route_short_name.substring(0,4)}}</div>
           </div>
-            {{item.route_long_name}}
+          {{item.route_long_name}}
         </div>
 
         <div class="icon" ng-click="removeItem(item); $event.stopPropagation();">

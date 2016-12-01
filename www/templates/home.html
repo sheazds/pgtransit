@@ -1,5 +1,5 @@
 <ion-view view-title="Home" ng-init="checkWeather()" cache-view="false">
-  <ion-content style=background-image:url('img/w/00.jpg'); background-size:100% 100%;>
+  <ion-content style="background-repeat:no-repeat; background-image:url('img/w/00.jpg'); background-size:100% 100%;">
     <div class="homeWeather"
          style="background-image:url({{getBackground(weather.weather[0].icon)}});">
       <div class="row weatherItem">
@@ -18,24 +18,41 @@
     </div>
 
 
-    <div class="favourites" ng-controller='favouritesCtrl'>
-      <div ng-if="favs.length > 0">
-        <div class="header">Favourites</div>
-        <ion-list ng-repeat='item in favs'>
-          <ion-item ng-click="goToFav(item);">
+    <div ng-controller="favouritesCtrl">
+      <ion-list class="favourites">
+        <div class="header">
+          <ion-item class="item-icon-right" style="background: #f8ba24;" ng-click="toggleFavs()" ng-class="{active: isFavsShown()}">
+            Favourites
+            <i class="icon" ng-class="!isFavsShown() ? 'ion-plus' : 'ion-minus'"></i>
+          </ion-item>
+        </div>
+
+        <ion-item class="item-accordion" ng-repeat="item in favs" ng-click="goToFav(item)" ng-show="isFavsShown()">
             {{item.route_short_name + '-' + item.route_long_name}}
           </ion-item>
+
+        <!-- Empty Favourites -->
+        <ion-item class="item-accordion" ng-if="favs.length==0" ng-show="isFavsShown()">
+          No Favourited Routes Yet
+        </ion-item>
+
         </ion-list>
-      </div>
+      </ion-list>
     </div>
 
-    <!--
-    <div class="nearMe">
-      <div class="header">Near Me</div>
-      <ion-item>Example</ion-item>
-      <ion-item>Example</ion-item>
-    </div>
-    -->
+    <ion-list class="nearMe">
+      <div class="header">
+        <ion-item class="item-icon-right" style="background:#f8ba24;" ng-click="toggleNear()" ng-class="{active: isNearShown()}">
+          Stops Near Me
+          <i class="icon" ng-class="!isNearShown() ? 'ion-plus' : 'ion-minus'"></i>
+        </ion-item>
+      </div>
+
+      <ion-item class="item-accordion" ng-repeat="stop in nearBy" ng-click="goToNear()" ng-show="isNearShown()">
+        {{stop.stop_name}}
+      </ion-item>
+
+    </ion-list>
 
   </ion-content>
 </ion-view>

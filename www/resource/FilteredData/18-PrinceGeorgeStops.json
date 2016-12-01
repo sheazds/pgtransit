@@ -105,7 +105,7 @@
         ], 
         "stop_id": 105015, 
         "stop_name": "Spruceland Exchange Bay A", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.920287, 
@@ -132,7 +132,7 @@
         ], 
         "stop_id": 105041, 
         "stop_name": "Northbound Pilot at 5th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.917705, 
@@ -240,7 +240,7 @@
         ], 
         "stop_id": 105017, 
         "stop_name": "UNBC Exchange Bay A", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.920492, 
@@ -294,7 +294,7 @@
         ], 
         "stop_id": 105115, 
         "stop_name": "Northbound Foothills at 15th Ave", 
-        "location_type": 0
+        "location_type": 1
     }, 
     {
         "stop_lat": 53.913247, 

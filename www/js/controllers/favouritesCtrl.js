@@ -39,4 +39,19 @@ angular.module('starter.controllers')
     shareService.setRouteLong(id.route_long_name);
     $state.go('app.scheduleTimes');
   };
+
+  var showFavs = true;
+  //Home Page Favourites Code
+  if(localStorage.getItem('favState')=='false') showFavs = false;
+
+  $scope.toggleFavs = function()
+  {
+    showFavs = !showFavs;
+    localStorage['favState'] = showFavs;
+  };
+
+  $scope.isFavsShown = function()
+  {
+    return showFavs;
+  };
 });
