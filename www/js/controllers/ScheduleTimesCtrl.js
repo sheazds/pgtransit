@@ -132,7 +132,8 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
         position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
         map: map,
         animation: google.maps.Animation.DROP,
-        title: info.stop_name,
+        title: info.stop_name + " " + info.stop_code,
+        //title: info.stop_name,
         icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
         optimized: false
       });
