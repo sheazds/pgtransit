@@ -26,10 +26,15 @@
             <i class="icon" ng-class="!isFavsShown() ? 'ion-plus' : 'ion-minus'"></i>
           </ion-item>
         </div>
-        <!--  -->
+
         <ion-item class="item-accordion" ng-repeat="item in favs" ng-click="goToFav(item)" ng-show="isFavsShown()">
             {{item.route_short_name + '-' + item.route_long_name}}
           </ion-item>
+
+        <!-- Empty Favourites -->
+        <ion-item class="item-accordion" ng-if="favs.length==0" ng-show="isFavsShown()">
+          No Favourited Routes Yet
+        </ion-item>
 
         </ion-list>
       </ion-list>
@@ -46,6 +51,7 @@
       <ion-item class="item-accordion" ng-repeat="stop in nearBy" ng-click="goToNear()" ng-show="isNearShown()">
         {{stop.stop_name}}
       </ion-item>
+
     </ion-list>
 
   </ion-content>
