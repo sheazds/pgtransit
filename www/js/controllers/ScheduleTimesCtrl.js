@@ -51,10 +51,10 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   //Indicates which route has what types of stops
   var routeTypesIndex = [1, 5, 11, 15, "15-rev", 16, 17, 18, 46, 47, 55, 88, 89, 91, "91-rev", 96, 97];
   $scope.routeTypes = [/*1*/[11,"rv","sa","su"], /*5*/[55,"rv","sa"], /*11*/[1,"rv","sa","su"],
-                      /*15*/["15-rev","rv","sa","su"], /*15-rev*/[15,"rv","sa","su"], /*16*/["sa","su"], /*17*/[18,"rv"],
-                      /*18*/[17,"rv"], /*46*/[47,"rv","sa","su"], /*47*/[46,"rv"],
-                      /*55*/[5,"rv","sa","su"], /*88*/[89,"rv","sa","su"], /*89*/[88,"rv","sa","su"],
-                       /*91*/["91-rev","rv","sa","su"], /*91-rev*/[91,"rv","sa","su"], /*96*/[], /*97*/[]];
+    /*15*/["15-rev","rv","sa","su"], /*15-rev*/[15,"rv","sa","su"], /*16*/["sa","su"], /*17*/[18,"rv"],
+    /*18*/[17,"rv"], /*46*/[47,"rv","sa","su"], /*47*/[46,"rv"],
+    /*55*/[5,"rv","sa","su"], /*88*/[89,"rv","sa","su"], /*89*/[88,"rv","sa","su"],
+    /*91*/["91-rev","rv","sa","su"], /*91-rev*/[91,"rv","sa","su"], /*96*/[], /*97*/[]];
 
   $scope.ri = routeTypesIndex.indexOf($scope.routeShort);
 
@@ -97,66 +97,66 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
       $scope.shapes = data3.data;
     })
 
-    .then(function()
-    {
-      var lat = 0;
-      var lon = 0;
-      for (var i=0; i < $scope.stops.length; i++)
+      .then(function()
       {
-        lat = lat + $scope.stops[i].stop_lat;
-        lon = lon + $scope.stops[i].stop_lon;
-      }
-      lat = lat / $scope.stops.length;
-      lon = lon / $scope.stops.length;
-
-      var latLon = new google.maps.LatLng(lat, lon);
-
-      var mapOptions =
-      {
-        center: latLon,
-        zoom: 12,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        liteMode: true,
-        disableDefaultUI: true
-      }
-
-      var map = new google.maps.Map(document.getElementById("schedulemap"), mapOptions);
-
-      //Add other Bus Stop Markers
-      var infoWindow = new google.maps.InfoWindow();
-
-      var createMarker = function (info)
-      {
-        var marker = new google.maps.Marker(
+        var lat = 0;
+        var lon = 0;
+        for (var i=0; i < $scope.stops.length; i++)
         {
-          position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
-          map: map,
-          animation: google.maps.Animation.DROP,
-          title: info.stop_name + " " + info.stop_code,
-          //title: info.stop_name,
-          icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
-          optimized: false
-        });
-        google.maps.event.addListener(marker, 'click', function()
-        {
-          infoWindow.setContent(marker.title);
-          infoWindow.open($scope.map, marker)
-        });
-      }
-      //Get stops from Json
-      for (var i=0; i < $scope.stops.length; i++)
-      {
-        createMarker($scope.stops[i]);
-      }
+          lat = lat + $scope.stops[i].stop_lat;
+          lon = lon + $scope.stops[i].stop_lon;
+        }
+        lat = lat / $scope.stops.length;
+        lon = lon / $scope.stops.length;
 
-      var poly = new google.maps.Polyline(
-      {
-        path: $scope.shapes,
-        strokeColor: '#387ef5',
-        strokeOpacity: 0.6,
-        strokeWeight: 2
-      }).setMap(map)
-    })
+        var latLon = new google.maps.LatLng(lat, lon);
+
+        var mapOptions =
+        {
+          center: latLon,
+          zoom: 12,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          liteMode: true,
+          disableDefaultUI: true
+        }
+
+        var map = new google.maps.Map(document.getElementById("schedulemap"), mapOptions);
+
+        //Add other Bus Stop Markers
+        var infoWindow = new google.maps.InfoWindow();
+
+        var createMarker = function (info)
+        {
+          var marker = new google.maps.Marker(
+            {
+              position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
+              map: map,
+              animation: google.maps.Animation.DROP,
+              title: info.stop_name + " " + info.stop_code,
+              //title: info.stop_name,
+              icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
+              optimized: false
+            });
+          google.maps.event.addListener(marker, 'click', function()
+          {
+            infoWindow.setContent(marker.title);
+            infoWindow.open($scope.map, marker)
+          });
+        }
+        //Get stops from Json
+        for (var i=0; i < $scope.stops.length; i++)
+        {
+          createMarker($scope.stops[i]);
+        }
+
+        var poly = new google.maps.Polyline(
+          {
+            path: $scope.shapes,
+            strokeColor: '#387ef5',
+            strokeOpacity: 0.6,
+            strokeWeight: 2
+          }).setMap(map)
+      })
   })
 
   $scope.editFavourite = function(stop)//Adds/removes favourite route.
@@ -166,20 +166,20 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
       favouritesService.removeItem(stop);
       favouritesService.saveFavs();
       $ionicLoading.show(
-      {
-        template: stop.stop_name + ' removed from favourites.',
-        duration: 1000
-      })
+        {
+          template: stop.stop_name + ' removed from favourites.',
+          duration: 1000
+        })
     }
     else
     {
       favouritesService.setFavourite(stop);
       favouritesService.saveFavs();
       $ionicLoading.show(
-      {
-        template: stop.stop_name + ' added to favourites.',
-        duration: 1000
-      });
+        {
+          template: stop.stop_name + ' added to favourites.',
+          duration: 1000
+        });
     }
   };
 
@@ -187,76 +187,76 @@ angular.module('starter.controllers').controller("ScheduleTimesCtrl", function (
   {
     if (!time.includes('--')) //Make sure we received a valid time.
     {
-        //The argument passed comes in the format x12:34 ZZ. We need to remove the x in front of the time to make use of it.
-        var hms = time.split(/:| |F|U|V/); //6 Deliminators, : & " " & F & U & V & P. P is a weird edge case due to the PM passed as ZZ.
+      //The argument passed comes in the format x12:34 ZZ. We need to remove the x in front of the time to make use of it.
+      var hms = time.split(/:| |F|U|V/); //6 Deliminators, : & " " & F & U & V & P. P is a weird edge case due to the PM passed as ZZ.
 
-        //This filters out empty strings from our time.
-        function checkArray(value) {
-            if (value != "")
-                return value;
+      //This filters out empty strings from our time.
+      function checkArray(value) {
+        if (value != "")
+          return value;
+      }
+      //Filter the array.
+      hms = hms.filter(checkArray);
+
+      //Check the P edge case in our new array
+      if (hms[0].includes('P'))
+        hms[0] = hms[0].substring(1);
+
+      var timePrompt = hms.join(":"); //This is just to make the time appear without commas or any of the deliminators in the following popups.
+
+      var popUp = $ionicPopup.confirm({
+
+        title: 'Set a reminder',
+        //HTML Template for notification popup.
+        template: '<center>Set a reminder for the arrival of the<BR/>'
+        + $scope.routeName + '?<BR/><BR/> <select id="notifyReminder" style="width: 100px;"><option>5</option><option>10</option><option selected>15</option><option>20</option><option>25</option><option>30</option></select>'
+        + ' minutes before:<BR/>' + timePrompt +
+        '<BR/><input type="checkbox" id="dailyCheck" style="width: 20px; height:20px;" /> Repeat reminder daily<BR/><BR/>You can disable notifications at anytime in the settings.</center>',
+      })
+
+      popUp.then(function (result) {
+        if (result) //Add notification
+        {
+          if (notificationService.checkNotifications())
+          {
+            var reminderTime = document.getElementById("notifyReminder").value;
+            var dailyCheck = document.getElementById("dailyCheck").checked;
+
+            //Convert to 24 hour format.
+            if (hms[hms.length -1] == "PM" && hms[0] != 12)
+              hms[0] = parseInt(hms[0]) + 12; //Add 12 to turn into 24 hour format.
+            else if (hms[hms.length -1] == "AM" && hms[0] == 12)
+              hms[0] = parseInt(hms[0]) - 12; //Subtract 12 to turn into 24 hour format.
+
+            //Create a new Date object for our notification.
+            var notifyDate = new Date();
+            notifyDate.setHours(hms[0]);
+            notifyDate.setMinutes(hms[1] - reminderTime);
+            notifyDate.setSeconds(0); //Reset seconds to correct notification timer.
+            console.log(notifyDate + " Repeating = " + dailyCheck);
+
+            notificationService.scheduleNotificationLater('PG Buses', $scope.routeName + ' is due to arrive soon!', notifyDate, 1, dailyCheck);
+
+            $ionicLoading.show(
+              {
+                template: 'Reminder set for ' + notifyDate.toLocaleTimeString(),
+                duration: 750
+              });
+          }
+          else //Cancels prompt.
+          {
+            var alertPopup = $ionicPopup.alert({
+              title: 'Notifications are disabled',
+              template: '<center>Notifications have been disabled in the application settings. Please enable them to add a notification.</center>'
+            });
+
+            alertPopup.then(function(res) {
+              console.log("Notifications are not enabled.");
+              $state.go('app.settings');
+            });
+          }
         }
-        //Filter the array.
-        hms = hms.filter(checkArray);
-
-        //Check the P edge case in our new array
-        if (hms[0].includes('P'))
-            hms[0] = hms[0].substring(1);
-
-        var timePrompt = hms.join(":"); //This is just to make the time appear without commas or any of the deliminators in the following popups.
-
-        var popUp = $ionicPopup.confirm({
-
-              title: 'Set a reminder',
-              //HTML Template for notification popup.
-              template: '<center>Set a reminder for the arrival of the<BR/>'
-               + $scope.routeName + '?<BR/><BR/> <select id="notifyReminder" style="width: 100px;"><option>5</option><option>10</option><option selected>15</option><option>20</option><option>25</option><option>30</option></select>'
-               + ' minutes before:<BR/>' + timePrompt +
-               '<BR/><input type="checkbox" id="dailyCheck" style="width: 20px; height:20px;" /> Repeat reminder daily<BR/><BR/>You can disable notifications at anytime in the settings.</center>',
-            })
-
-        popUp.then(function (result) {
-            if (result) //Add notification
-            {
-                if (notificationService.checkNotifications())
-                {
-                    var reminderTime = document.getElementById("notifyReminder").value;
-                    var dailyCheck = document.getElementById("dailyCheck").checked;
-
-                    //Convert to 24 hour format.
-                    if (hms[hms.length -1] == "PM" && hms[0] != 12)
-                        hms[0] = parseInt(hms[0]) + 12; //Add 12 to turn into 24 hour format.
-                    else if (hms[hms.length -1] == "AM" && hms[0] == 12)
-                        hms[0] = parseInt(hms[0]) - 12; //Subtract 12 to turn into 24 hour format.
-
-                    //Create a new Date object for our notification.
-                    var notifyDate = new Date();
-                    notifyDate.setHours(hms[0]);
-                    notifyDate.setMinutes(hms[1] - reminderTime);
-                    notifyDate.setSeconds(0); //Reset seconds to correct notification timer.
-                    console.log(notifyDate + " Repeating = " + dailyCheck);
-
-                    notificationService.scheduleNotificationLater('PG Buses', $scope.routeName + ' is due to arrive soon!', notifyDate, 1, dailyCheck);
-
-                    $ionicLoading.show(
-                    {
-                        template: 'Reminder set for ' + notifyDate.toLocaleTimeString(),
-                        duration: 750
-                    });
-                }
-                else //Cancels prompt.
-                {
-                    var alertPopup = $ionicPopup.alert({
-                        title: 'Notifications are disabled',
-                        template: '<center>Notifications have been disabled in the application settings. Please enable them to add a notification.</center>'
-                    });
-
-                    alertPopup.then(function(res) {
-                        console.log("Notifications are not enabled.");
-                        $state.go('app.settings');
-                    });
-                }
-            }
-        })
+      })
     }
   }
 });

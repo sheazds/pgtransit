@@ -21,10 +21,10 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
       favouritesService.removeItem(c);
       favouritesService.saveFavs();
       $ionicLoading.show(
-      {
-        template: c.name + ' removed from favourites.',
-        duration: 1000
-      })
+        {
+          template: c.name + ' removed from favourites.',
+          duration: 1000
+        })
     }
     else
     {
@@ -50,13 +50,13 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
   }
 
 
-	$scope.stops = [];
-	var shapes = [];
-	$scope.routeName = shareService.getRouteName();
-	$scope.routeShort = shareService.getRouteShort();
-	$scope.routeLong = shareService.getRouteLong();
+  $scope.stops = [];
+  var shapes = [];
+  $scope.routeName = shareService.getRouteName();
+  $scope.routeShort = shareService.getRouteShort();
+  $scope.routeLong = shareService.getRouteLong();
 
-	//If page is blank go home
+  //If page is blank go home
   if($scope.routeName == null)
   {
     $ionicHistory.nextViewOptions({disableBack: true});
@@ -76,59 +76,59 @@ angular.module('starter.controllers').controller("RouteStopsCtrl", function ($sc
       shapes = data2.data;
     })
 
-    .then(function()
-    {
-      var lat = 0;
-      var lon = 0;
-      for (var i=0; i < $scope.stops.length; i++)
+      .then(function()
       {
-        lat = lat + $scope.stops[i].stop_lat;
-        lon = lon + $scope.stops[i].stop_lon;
-      }
-      lat = lat / $scope.stops.length;
-      lon = lon / $scope.stops.length;
-
-      var latLon = new google.maps.LatLng(lat, lon);
-
-      var mapOptions =
-      {
-        center: latLon,
-        zoom: 12,
-        mapTypeId: google.maps.MapTypeId.ROADMAP,
-        liteMode: true,
-        disableDefaultUI: true
-      }
-
-      var map = new google.maps.Map(document.getElementById("routemap"), mapOptions);
-
-      //Add other Bus Stop Markers
-      var infoWindow = new google.maps.InfoWindow();
-
-      $scope.createMarker = function (info)
-      {
-        var marker = new google.maps.Marker(
+        var lat = 0;
+        var lon = 0;
+        for (var i=0; i < $scope.stops.length; i++)
         {
-          position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
-          map: map,
-          animation: google.maps.Animation.DROP,
-          title: info.stop_name,
-          icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
-          optimized: false
-        });
-        google.maps.event.addListener(marker, 'click', function()
-        {
-          infoWindow.setContent(marker.title);
-          infoWindow.open($scope.map, marker)
-        });
-      }
+          lat = lat + $scope.stops[i].stop_lat;
+          lon = lon + $scope.stops[i].stop_lon;
+        }
+        lat = lat / $scope.stops.length;
+        lon = lon / $scope.stops.length;
 
-      var poly = new google.maps.Polyline(
-      {
-        path: shapes,
-        strokeColor: '#387ef5',
-        strokeOpacity: 0.6,
-        strokeWeight: 2
-      }).setMap(map)
-    })
-	})
+        var latLon = new google.maps.LatLng(lat, lon);
+
+        var mapOptions =
+        {
+          center: latLon,
+          zoom: 12,
+          mapTypeId: google.maps.MapTypeId.ROADMAP,
+          liteMode: true,
+          disableDefaultUI: true
+        }
+
+        var map = new google.maps.Map(document.getElementById("routemap"), mapOptions);
+
+        //Add other Bus Stop Markers
+        var infoWindow = new google.maps.InfoWindow();
+
+        $scope.createMarker = function (info)
+        {
+          var marker = new google.maps.Marker(
+            {
+              position: new google.maps.LatLng(info.stop_lat, info.stop_lon),
+              map: map,
+              animation: google.maps.Animation.DROP,
+              title: info.stop_name,
+              icon: 'http://maps.google.com/mapfiles/ms/micons/bus.png',
+              optimized: false
+            });
+          google.maps.event.addListener(marker, 'click', function()
+          {
+            infoWindow.setContent(marker.title);
+            infoWindow.open($scope.map, marker)
+          });
+        }
+
+        var poly = new google.maps.Polyline(
+          {
+            path: shapes,
+            strokeColor: '#387ef5',
+            strokeOpacity: 0.6,
+            strokeWeight: 2
+          }).setMap(map)
+      })
+  })
 });

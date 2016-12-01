@@ -54,4 +54,10 @@ angular.module('starter.controllers').controller('settingsCtrl', function ($scop
     $state.go('app.about')
   }
 
+  //Loads credits page
+  $scope.goToCredits = function ()
+  {
+    $state.go('app.credits')
+  }
+
 });
