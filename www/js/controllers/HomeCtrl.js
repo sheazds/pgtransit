@@ -1,4 +1,4 @@
-angular.module('starter.controllers').controller('HomeCtrl', function($scope, $state, $http, $ionicLoading, $ionicHistory, $cordovaGeolocation, favouritesService, locationService, stopNearMeService)
+angular.module('starter.controllers').controller('HomeCtrl', function($scope, $state, $http, $ionicLoading, $ionicHistory, $cordovaGeolocation, favouritesService, locationService, stopNearMeService, notificationService)
 {
   mixpanel.track("Home", {"home": 'HomeCtrl'});
 
@@ -41,6 +41,7 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
     $scope.time = new Date();
 
     favouritesService.loadFavs();
+    notificationService.Initialize();
 
     if(localStorage.getItem('loadToken')==null)
     {

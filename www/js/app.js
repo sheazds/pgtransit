@@ -237,7 +237,7 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
   .service("notificationService", function($cordovaLocalNotification, $ionicPlatform, $state) {
 
     var notificationService = this;
-    notificationService.notifyIcon = "notifyicon.png";
+    notificationService.notifyIcon = "";
     //notificationService.routes = []; //For keeping track of timed notifications should the user temporarily disable notifications.
 
     //Test to see if notifications are enabled.
@@ -305,18 +305,25 @@ angular.module('starter', ['ionic', 'starter.controllers','ngCordova'])
         })
     }
 
-    //The remainder functions are implemented for a master notification list should we add a display tab similar to favourites.
-    /*
     notificationService.Initialize = function()
     {
+        //First set the notification icon the app will use. Based on android OS version. (5+ turns icons into white only, so we need a fully transparent icon.
+        console.log("Running android version: " + ionic.Platform.version());
+        if (ionic.Platform.version() < 5)
+            notificationService.notifyIcon = "notifyicon_4x.png";
+        else
+            notificationService.notifyIcon = "notifyicon.png";
+
         //Loads existing notification data into the app.
-        Currently not used.
-        if(localStorage.getItem("notifications")!==null)
-        {
-            notificationService.routes = JSON.parse(localStorage.getItem("notifications"));
-        }
+        //Currently not used.
+        //if(localStorage.getItem("notifications")!==null)
+        //{
+        //    notificationService.routes = JSON.parse(localStorage.getItem("notifications"));
+        //}
     }
 
+    //The remainder functions are implemented for a master notification list should we add a display tab similar to favourites.
+    /*
     notificationService.saveNotifications = function()
     {
         localStorage.setItem("notifications", JSON.stringify(notificationService.routes));
