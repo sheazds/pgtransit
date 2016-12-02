@@ -5,7 +5,7 @@ angular.module('starter.controllers').controller('HomeCtrl', function($scope, $s
   var directions = ['N', 'NE', 'E', 'SE', 'S', 'SW', 'W', 'NW'];
 
   $scope.time = new Date();
-  $scope.day = ["Mon", "Tues", "Wed", "Thur", "Fri", "Sat", "Sun"];
+  $scope.day = ["Sun", "Mon", "Tues", "Wed", "Thur", "Fri", "Sat"];
   $scope.month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
   $scope.hour = [12,1,2,3,4,5,6,7,8,9,10,11,12,1,2,3,4,5,6,7,8,9,10,11];
   $scope.ampm = function()
