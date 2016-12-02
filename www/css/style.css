@@ -242,3 +242,7 @@
 {
   display: block !important;
 }
+.b{
+    font: 20px Arial, sans-serif;
+        font-weight: bold;
+}
